@@ -2,8 +2,9 @@
 \setlength {\cftchapterindent }{0em}
 \contentsline {chapter}{List of Tables}{xi}{section*.4}
 \contentsline {chapter}{List of Figures}{xiii}{section*.5}
+\contentsline {chapter}{Glossary}{xxi}{section*.6}
 \setlength {\cftchapterindent }{\levelindentincrement }
-\contentsline {part}{Chapter}{xx}{section*.7}
+\contentsline {part}{Chapter}{xxiii}{section*.9}
 \markboth {CHAPTER}{Page}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Submillimeter and Millimeter Wave Astronomy}{2}{section.1.1}
@@ -134,6 +135,6 @@
 \contentsline {section}{\numberline {7.8}Data downlinking}{294}{section.7.8}
 \contentsline {chapter}{\chapternumberline {8}Conclusion}{297}{chapter.8}
 \contentsline {section}{\numberline {8.1}Science-Driven Technological Development}{297}{section.8.1}
-\contentsline {chapter}{\hspace {-\cftchapterindent }References}{302}{section*.10}
+\contentsline {chapter}{\hspace {-\cftchapterindent }References}{302}{section*.12}
 \setcounter {tocdepth}{0}
-\contentsline {part}{Appendix}{316}{section*.11}
+\contentsline {part}{Appendix}{316}{section*.13}
