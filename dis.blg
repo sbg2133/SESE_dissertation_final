@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2016/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dis.aux
+A level-1 auxiliary file: intro.aux
+A level-1 auxiliary file: kid_model.aux
+A level-1 auxiliary file: readout.aux
+A level-1 auxiliary file: blast_data.aux
+A level-1 auxiliary file: carina.aux
+A level-1 auxiliary file: galaxies.aux
+A level-1 auxiliary file: software.aux
+A level-1 auxiliary file: conclusion.aux
+The style file: apa.bst
+Database file #1: dis.bib.bib
+Warning--empty school in benton2015mapping
+Warning--empty journal in planck2014planck
+Warning--there's a number but no series in duffing1918erzwungene
+Warning--empty institution in mazin2005microwave
+Warning--empty journal in stalling1995fast
+You've used 175 entries,
+            1940 wiz_defined-function locations,
+            1491 strings with 40548 characters,
+and the built_in function-call counts, 84476 in all, are:
+= -- 7668
+> -- 5312
+< -- 98
++ -- 2007
+- -- 1930
+* -- 8237
+:= -- 15013
+add.period$ -- 537
+call.type$ -- 175
+change.case$ -- 1762
+chr.to.int$ -- 172
+cite$ -- 180
+duplicate$ -- 2654
+empty$ -- 4773
+format.name$ -- 2156
+if$ -- 15845
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 174
+newline$ -- 874
+num.names$ -- 525
+pop$ -- 1498
+preamble$ -- 1
+purify$ -- 1773
+quote$ -- 0
+skip$ -- 2101
+stack$ -- 0
+substring$ -- 4574
+swap$ -- 538
+text.length$ -- 28
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1034
+warning$ -- 5
+while$ -- 553
+width$ -- 0
+write$ -- 2275
+(There were 5 warnings)
