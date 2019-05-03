@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  2 MAY 2019 15:43
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  3 MAY 2019 03:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1823,9 +1823,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--985
 
 
 
-]) [2] [3
+]) [2] (./dedication.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--1008
 
-] [4
+ []
+
+[3
+
+] (./ack.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1--1013
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1013
+
+ []
+
+[4
 
 ] (./dis.toc
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/bx/n' will be
@@ -2548,13 +2563,13 @@ Package atenddvi Info: Last page = 341.
 \tf@lof=\write8
 \openout8 = `dis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1187.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1188.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1188.
  (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux)
 (./blast_data.aux) (./carina.aux) (./galaxies.aux) (./software.aux)
 (./conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1187.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1187.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1188.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1188.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2565,10 +2580,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### simple group (level 1) entered at line 81 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41083 strings out of 493591
- 727205 string characters out of 6145590
+ 41093 strings out of 493591
+ 727314 string characters out of 6145590
  987036 words of memory out of 5000000
- 43721 multiletter control sequences out of 15000+600000
+ 43725 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  46i,22n,105p,10384b,34274s stack positions out of 5000i,500n,10000p,200000b,80000s
