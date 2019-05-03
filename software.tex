@@ -1,6 +1,22 @@
 \chapter{BLAST-TNG LEKID Readout Operator's Manual}\label{mcp}
 
-\section{Glossary of Terms}
+The following sections constitute a manual for the BLAST-TNG readout flight software, which is part of the Master Control Program (MCP). This software was completed in the run-up to the 2018/2019 Antarctic flight attempts, and will be used during the 2019/2020 flight.
+
+The BLAST-TNG readout consists of five identical electronics slices. With firmware, software and hardware developed by members of the collaboration between 2014--2018, these slices perform all of the digital and analog signal processing which is required to readout large arrays (large, at the time of writing, being $\mathcal{O}(1000)$ pixels) of KID detectors per slice.
+
+The information contained in this operator’s manual is intended to make the in-flight (or ground-based) operation of the readout system a relatively painless experience for first-time, as well as for more experienced users.
+
+It is organized as follows:
+\begin{itemize}[nosep]
+  \item Section~\ref{gloss} is a glossary of terms.
+  \item Section~\ref{data_paths} provides essential system paths and hardware addresses on the flight computers and groundstation.
+  \item Section~\ref{normal_mode} describes the normal modes of readout operation during the flight.
+  \item Section~\ref{multiloops} describes the sequences of actions that can be triggered, both manually and automatically.
+  \item Section~\ref{commands} describes the available set of readout commands, and how and when they should be used.
+  \item Section~\ref{owl} describes the OWL graphical user interface (created by Javier Romualdez), which will be used to interface with the software during ground-based testing as well as during the flight.
+\end{itemize}
+
+\section{Glossary of Terms}\label{gloss}
 
 \noindent
 \textbf{1GbE}: One-gigabit-per-second ethernet interface. Maximum bitrate is significantly less than 1 Gbps.\\
@@ -150,14 +166,13 @@ Inputs:
 \textbf{VNA sweep}: A frequency sweep of the entire RF bandwidth covered by the ROACH frequency comb (512 MHz). Used as the preliminary step in ``finding the KIDS".
 \textbf{UDP}: User Datagram Protocol.
 
-\section{Data Paths}
+\section{Data Paths and Hardware Addresses}\label{data_paths}
 On FC1/FC2:
 ROACH root directory: \texttt{/home/fc1user/roach\_flight}
 On BLAST Groundstation 1:
 Python analysis scripts are here: \texttt{/home/blast/detectors}
 Downlinked tarballs go here: \texttt{/data/etc/downloaded\_files}
-
-\section{Hardware Addresses}
+\newline\newline
 Hardware addresses:
 See: \texttt{/etc/hosts} and \texttt{/etc/ethers} on FC1 or FC2
 PowerPC addresses:
@@ -223,7 +238,7 @@ b8:27:eb:f7:16:a5 pi5
 \section{Normal Operation}
 The detector readout has two primary functions: readout and housekeeping. In this context, readout means to probe each LEKID resonance with a unique carrier tone, demodulate the phase and amplitude modulation which each pixel imprints onto it, and record a continuous timestream of that demodulated signal. Housekeeping means to monitor, as autonomously as possible, the envelope of the changes in resonator responsivity which are due to a combination of optical loading and temperature drift in the cryostat, and to either automatically correct for these changes, or indicate to the user that significant changes have occurred. The readout and housekeeping modes, as well as the user responsibilities pertaining to each, are described below.
 
-\subsection{Readout Mode}
+\subsection{Readout Mode}\label{normal_mode}
 The readout function of the system is performed by the FPGA firmware and ROACH electronics. Therefore, it’s mostly autonomous. When MCP starts, its goal is to get the ROACHs into their idle state as quickly as possible. The idle state is called streaming. To get to the streaming state, the firmware and electronics must progress through a series of initialization states (see: Owl Fields-STATE). In streaming state, the ROACHs continuously probe, demodulate, and save signal to disk.
 
 On start-up, the sequence of events for each ROACH slice is:
@@ -247,7 +262,7 @@ Azimuth turnarounds: At azimuth turnarounds, the pointing code triggers a three-
 Manual
 There are several sequences of commands which can be used to manually perform housekeeping functions. During normal operation, the multi-command loops (some of which are triggered automatically) should suffice.
 
-\section{Multi-command loops}
+\section{Multi-command loops}\label{multiloops}
 \begin{itemize}[leftmargin=*,label={}]
 
 \item \textbf{Full loop}: See: \texttt{full\_loop}, \texttt{full\_loop\_all}, \texttt{full\_loop\_default}. The full loop is the most complete of all of the loops. It starts with writing the VNA comb, and ends with a set of target tones, in the final streaming state. The full-loop is executed automatically on system-start. It is also done when the telescope moves to a new observation target (according to the schedule files), or when the fridge has completed a new cycle. The sequence of events in the full-loop are:
@@ -295,7 +310,7 @@ There are several sequences of commands which can be used to manually perform ho
 If the operator would like to write the target frequencies, see: \texttt{load\_freqs}, \texttt{load\_freqs\_all}.
 \end{itemize}
 
-\section{Owl Frontend}
+\section{Owl Frontend}\label{owl}
 During regular operation of the readout, real-time system status and health information is displayed in the fields of the roach.owl file. The information in these fields should provide the operator with all they need to successfully navigate through the various normal modes of operation, as well as to perform basic debugging and sanity checks. The content of the fields is sampled at multiple rates, as indicated in the following list:
 
 \begin{itemize}[leftmargin=*,label={}]
@@ -467,25 +482,25 @@ See: \texttt{set\_noutofrange\_thresh}.
 
 \end{itemize}
 
-\begin{figure}[hbtp]
-\includegraphics[angle=90, width=\linewidth,height=\textheight,keepaspectratio]{./figures/software/roaches_off}
-\caption{\texttt{Owl} screen when the ROACHs are powered down.}
+\begin{sidewaysfigure}[!p]
+\includegraphics[width=\linewidth,keepaspectratio]{./figures/software/roaches_off}
+\caption[~OWL screen when the ROACHs are powered down.]{~\texttt{Owl} screen when the ROACHs are powered down.}
 \label{fig:roaches off screen}
-\end{figure}
+\end{sidewaysfigure}
 
-\begin{figure}[hbtp]
-\includegraphics[angle=90, width=\linewidth,height=\textheight,keepaspectratio]{./figures/software/full_loop}
-\caption{\texttt{Owl} screen when the ROACHs are performing a full loop.}
+\begin{sidewaysfigure}[!p]
+\includegraphics[width=\linewidth,keepaspectratio]{./figures/software/full_loop}
+\caption[~OWL screen when the ROACHs are performing a full loop.]{~\texttt{Owl} screen when the ROACHs are performing a full loop.}
 \label{fig:doing full loop screen}
-\end{figure}
+\end{sidewaysfigure}
 
-\begin{figure}[hbtp]
-\includegraphics[angle=90, width=\linewidth,height=\textheight,keepaspectratio]{./figures/software/has_targ_tones}
-\caption{\texttt{Owl} screen when the ROACHs are streaming, with target tones.}
+\begin{sidewaysfigure}[!p]
+\includegraphics[width=\linewidth,keepaspectratio]{./figures/software/has_targ_tones}
+\caption[~OWL screen when the ROACHs are streaming, with target tones.]{\texttt{Owl} screen when the ROACHs are streaming, with target tones.}
 \label{fig:has targ tones screen}
-\end{figure}
+\end{sidewaysfigure}
 
-\section{Commands}
+\section{Commands}\label{commands}
 The following is a description of the core set of commands which can be used to control the readout during normal lab, or flight operation. Syntax is given for manually inputting them into \texttt{blastcmd}, although during flight they will most likely be executed using \texttt{Cow}.
 $^{*}$CAUTION--- don’t execute these commands unless you have a plan in mind.
 $^{**}$EXTRA CAUTION- improper use of these commands will lead to a decrease in the number of future BLAST-TNG science publications. If you think you might need to use one, first try to contact SG or AS.

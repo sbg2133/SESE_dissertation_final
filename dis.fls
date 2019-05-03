@@ -406,8 +406,6 @@ INPUT dis.lot
 INPUT dis.lot
 INPUT dis.lof
 INPUT dis.lof
-INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 INPUT dis.gls
 INPUT dis.gls
 INPUT dis.gls
@@ -481,6 +479,8 @@ INPUT figures/readout/hardware/installing_roaches.jpeg
 INPUT figures/readout/hardware/roach_slice_annotated.pdf
 INPUT figures/readout/hardware/roach_motel_open.jpeg
 INPUT figures/readout/schematics/readoutDSPdiagram.pdf
+INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
 INPUT figures/readout/sim/dac_comp.pdf
 INPUT figures/readout/sim/adc.pdf
 INPUT figures/readout/sim/pfb_fft_comp.pdf
