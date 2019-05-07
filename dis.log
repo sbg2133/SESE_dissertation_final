@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  3 MAY 2019 10:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  7 MAY 2019 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1453,6 +1453,7 @@ File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 4322.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4322.
 Package hyperref Info: Hyper figures OFF on input line 4446.
 Package hyperref Info: Link nesting OFF on input line 4451.
 Package hyperref Info: Hyper index ON on input line 4454.
@@ -1475,7 +1476,7 @@ Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
 Package hyperref Info: backreferencing OFF on input line 6313.
-Package hyperref Info: Link coloring OFF on input line 6318.
+Package hyperref Info: Link coloring ON on input line 6316.
 Package hyperref Info: Link coloring with OCG OFF on input line 6323.
 Package hyperref Info: PDF/A mode OFF on input line 6328.
 LaTeX Info: Redefining \ref on input line 6368.
@@ -1756,9 +1757,9 @@ File: se-pdfdoc.def 2016/05/16 v1.11 stringenc: PDFDocEncoding
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-utf32be.def
 File: se-utf32be.def 2016/05/16 v1.11 stringenc: UTF-32BE
 )
+(./dis.glsdefs)
 \c__siunitx_mathsf_int=\count344
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+ (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -1823,17 +1824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--985
 
 
 
-]) [2] (./dedication.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1--1008
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1--1008
-
- []
-
-[3
+]) [2] (./dedication.tex) [3
 
 ] (./ack.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 1--1013
@@ -1851,23 +1842,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1013
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/bx/n' will be
 (Font)              scaled to size 12.90161pt on input line 3.
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
-(Font)              scaled to size 16.1099pt on input line 7.
+(Font)              scaled to size 16.1099pt on input line 6.
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/bx/n' will be
-(Font)              scaled to size 15.48192pt on input line 7.
+(Font)              scaled to size 15.48192pt on input line 6.
 
-Underfull \hbox (badness 2393) in paragraph at lines 21--21
+Underfull \hbox (badness 2393) in paragraph at lines 20--20
  [][] [][]\EU1/Garamond(0)/m/n/12 Considerations on Sub-mm/mm-wave and O/NIR 
  []
 
 [5
 
-] [6] [7] [8]
-Underfull \hbox (badness 2671) in paragraph at lines 107--107
- [][] [][]\EU1/Garamond(0)/m/n/12 BLAST-TNG TARGET SELECTION: B-FIELD MORPHOL- 
-
- []
-
-[9]) [10] (./dis.lot [11
+] [6] [7] [8] [9]) [10] (./dis.lot [11
 
 ]
 Underfull \hbox (badness 1675) in paragraph at lines 31--31
@@ -1877,7 +1862,8 @@ Underfull \hbox (badness 1675) in paragraph at lines 31--31
 
 ) [12] (./dis.lof [13
 
-] [14] [15] [16] [17] [18] [19]) (./dis.gls [20] [21
+] [14] [15] [16] [17] [18] [19]) [20] (./dis.gls [21
+
 
 
 ]
@@ -2566,13 +2552,13 @@ Package atenddvi Info: Last page = 342.
 \tf@lof=\write8
 \openout8 = `dis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1189.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1189.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1196.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1196.
  (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux)
 (./blast_data.aux) (./carina.aux) (./galaxies.aux) (./software.aux)
 (./conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1189.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1189.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1196.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1196.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2583,12 +2569,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### simple group (level 1) entered at line 81 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41102 strings out of 493591
- 727388 string characters out of 6145590
- 987461 words of memory out of 5000000
- 43734 multiletter control sequences out of 15000+600000
+ 41105 strings out of 493591
+ 727440 string characters out of 6145590
+ 989997 words of memory out of 5000000
+ 43735 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 46i,22n,105p,10384b,34274s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,22n,105p,10384b,34272s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on dis.pdf (342 pages).

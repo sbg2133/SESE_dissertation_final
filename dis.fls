@@ -338,6 +338,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-pdfdoc.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-utf32be.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-utf32be.def
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/se-utf32be.def
+INPUT dis.glsdefs
+INPUT dis.glsdefs
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm

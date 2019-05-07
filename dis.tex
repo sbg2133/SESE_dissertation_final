@@ -97,7 +97,7 @@
 \listadd{\committeemember}{Christopher Groppi}
 \listadd{\committeemember}{Daniel Jacobs}
 \listadd{\committeemember}{Paul Scowen} %   additional names
-\newcommand*{\gradmonth}{May}         %<Enter the graduation date; month can only be:
+\newcommand*{\gradmonth}{August}         %<Enter the graduation date; month can only be:
                                         %  May, August, or December
 \newcommand*{\gradyear}{2019}           %<Enter the graduation year, e.g. 2014
 
@@ -811,7 +811,7 @@
 
 %%% URL Settings %%%
 \PassOptionsToPackage{hyphens}{url}
-\usepackage[breaklinks=true]{hyperref}  % 'hyperref' should be loaded at the end of the
+\usepackage[breaklinks=true,colorlinks=true]{hyperref}  % 'hyperref' should be loaded at the end of the
                                         %   preamble; Note: the uppercasing commands used
                                         %   throughout the preamble can conflict with it,
                                         %   especially when non-standard fonts or
@@ -1024,16 +1024,23 @@
     {0em}%
   }
 
+\glsunsetall
 \clearpage
 \pagestyle{ASUlot}
-\listoftables                           % List of Tables should appear in TOC, so use
+\listoftables
+\glsresetall                          % List of Tables should appear in TOC, so use
                                         %   unstarred version of \listoftables
 \clearpage
 \pagestyle{ASUlof}
-\listoffigures                          % List of Figures should appear in TOC, so use
+\glsunsetall
+\listoffigures
+\glsresetall                         % List of Figures should appear in TOC, so use
                                         %   unstarred version of \listoffigures
-\phantomsection
+\clearpage
+
+\pagestyle{empty}
 \printglossary
+%\clearpage
 
 %\chapter{Definitions}                  %~OTHER LISTS (optional)
 %\input{definitions}                    %<Enter the name of the .tex file or omit this
@@ -1042,10 +1049,10 @@
 %\chapter{Preface}                      %~PREFACE (optional, less than 10 pages)
 %\input{preface}                        %<Enter the name of the .tex file or omit this
 
-\phantomsection                         % \phantomsection is needed before using
+%\phantomsection                         % \phantomsection is needed before using
                                         %   \addtocontents when it contains certain macros
                                         %   when also using 'hyperref' package
-\addtocontents{toc}%                    % Undo manual override above for chapter indent,
+%\addtocontents{toc}%                    % Undo manual override above for chapter indent,
   {\setlength{\cftchapterindent}%       %   so actual chapters in the TOC are indented
     {\levelindentincrement}%            %   correctly
   }
@@ -1130,7 +1137,7 @@
   \bibliography{\bibfilename}
 }
 
-\appendix                               % Indicate start of appendices
+%\appendix                               % Indicate start of appendices
                                         % Appendices are considered 'mainmatter' in this
                                         %   documentclass
 \tolerance \defaulttolerance            % Set tolerance back to default
@@ -1151,7 +1158,7 @@
 
 \phantomsection                         % Need '\phantomsection' to place hyperref
                                         %   bookmark more accurately
-\addcontentsline{toc}{part}{Appendix}   %~Add "Appendix" to TOC here; comment out this
+%\addcontentsline{toc}{part}{Appendix}   %~Add "Appendix" to TOC here; comment out this
                                         %   line if you're not including appendices
 
 %\phantomsection                        %!This is the one part of the template that I

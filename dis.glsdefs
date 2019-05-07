@@ -1,0 +1,1770 @@
+\ifglsentryexists{Tc}{}%
+{%
+\gls@defglossaryentry{Tc}%
+{%
+name={\ensuremath {T_{c}}},%
+sort={\ensuremath {T_{c}}},%
+type={main},%
+first={\protect \ensuremath  {T_{c}}},%
+firstplural={\protect \ensuremath  {T_{c}}s},%
+text={\protect \ensuremath  {T_{c}}},%
+plural={\protect \ensuremath  {T_{c}}s},%
+description={Critical temperature},%
+descriptionplural={Critical temperature},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sig_d}{}%
+{%
+\gls@defglossaryentry{sig_d}%
+{%
+name={\ensuremath {\sigma _{d}}},%
+sort={\ensuremath {\sigma _{d}}},%
+type={main},%
+first={\protect \ensuremath  {\sigma _{d}}},%
+firstplural={\protect \ensuremath  {\sigma _{d}}s},%
+text={\protect \ensuremath  {\sigma _{d}}},%
+plural={\protect \ensuremath  {\sigma _{d}}s},%
+description={Drude conductivity},%
+descriptionplural={Drude conductivity},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sig1}{}%
+{%
+\gls@defglossaryentry{sig1}%
+{%
+name={\ensuremath {\sigma _{1}}},%
+sort={\ensuremath {\sigma _{1}}},%
+type={main},%
+first={\protect \ensuremath  {\sigma _{1}}},%
+firstplural={\protect \ensuremath  {\sigma _{1}}s},%
+text={\protect \ensuremath  {\sigma _{1}}},%
+plural={\protect \ensuremath  {\sigma _{1}}s},%
+description={Conductivity of the quasiparticle fluid},%
+descriptionplural={Conductivity of the quasiparticle fluid},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sig2}{}%
+{%
+\gls@defglossaryentry{sig2}%
+{%
+name={\ensuremath {\sigma _{2}}},%
+sort={\ensuremath {\sigma _{2}}},%
+type={main},%
+first={\protect \ensuremath  {\sigma _{2}}},%
+firstplural={\protect \ensuremath  {\sigma _{2}}s},%
+text={\protect \ensuremath  {\sigma _{2}}},%
+plural={\protect \ensuremath  {\sigma _{2}}s},%
+description={Conductivity of the superfluid},%
+descriptionplural={Conductivity of the superfluid},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sig_n}{}%
+{%
+\gls@defglossaryentry{sig_n}%
+{%
+name={\ensuremath {\sigma _{n}}},%
+sort={\ensuremath {\sigma _{n}}},%
+type={main},%
+first={\protect \ensuremath  {\sigma _{n}}},%
+firstplural={\protect \ensuremath  {\sigma _{n}}s},%
+text={\protect \ensuremath  {\sigma _{n}}},%
+plural={\protect \ensuremath  {\sigma _{n}}s},%
+description={Normal state conductivity},%
+descriptionplural={Normal state conductivity},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Rsq}{}%
+{%
+\gls@defglossaryentry{Rsq}%
+{%
+name={\ensuremath {R_{sq}}},%
+sort={\ensuremath {R_{sq}}},%
+type={main},%
+first={\protect \ensuremath  {R_{sq}}},%
+firstplural={\protect \ensuremath  {R_{sq}}s},%
+text={\protect \ensuremath  {R_{sq}}},%
+plural={\protect \ensuremath  {R_{sq}}s},%
+description={Sheet resistance in the normal state},%
+descriptionplural={Sheet resistance in the normal state},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Lm}{}%
+{%
+\gls@defglossaryentry{Lm}%
+{%
+name={\ensuremath {L_{m}}},%
+sort={\ensuremath {L_{m}}},%
+type={main},%
+first={\protect \ensuremath  {L_{m}}},%
+firstplural={\protect \ensuremath  {L_{m}}s},%
+text={\protect \ensuremath  {L_{m}}},%
+plural={\protect \ensuremath  {L_{m}}s},%
+description={Magnetic inductance},%
+descriptionplural={Magnetic inductance},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Lk_per_l}{}%
+{%
+\gls@defglossaryentry{Lk_per_l}%
+{%
+name={\ensuremath {\mathcal {L}_{k}}},%
+sort={\ensuremath {\mathcal {L}_{k}}},%
+type={main},%
+first={\protect \ensuremath  {\protect \mathcal  {L}_{k}}},%
+firstplural={\protect \ensuremath  {\protect \mathcal  {L}_{k}}s},%
+text={\protect \ensuremath  {\protect \mathcal  {L}_{k}}},%
+plural={\protect \ensuremath  {\protect \mathcal  {L}_{k}}s},%
+description={Kinetic inductance per unit length},%
+descriptionplural={Kinetic inductance per unit length},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Lk_per_sq}{}%
+{%
+\gls@defglossaryentry{Lk_per_sq}%
+{%
+name={\ensuremath {\mathscr {L}_{k,sq}}},%
+sort={\ensuremath {\mathscr {L}_{k,sq}}},%
+type={main},%
+first={\protect \ensuremath  {\protect \mathscr  {L}_{k,sq}}},%
+firstplural={\protect \ensuremath  {\protect \mathscr  {L}_{k,sq}}s},%
+text={\protect \ensuremath  {\protect \mathscr  {L}_{k,sq}}},%
+plural={\protect \ensuremath  {\protect \mathscr  {L}_{k,sq}}s},%
+description={Kinetic inductance per square},%
+descriptionplural={Kinetic inductance per square},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{K0}{}%
+{%
+\gls@defglossaryentry{K0}%
+{%
+name={\ensuremath {K_{0}}},%
+sort={\ensuremath {K_{0}}},%
+type={main},%
+first={\protect \ensuremath  {K_{0}}},%
+firstplural={\protect \ensuremath  {K_{0}}s},%
+text={\protect \ensuremath  {K_{0}}},%
+plural={\protect \ensuremath  {K_{0}}s},%
+description={Modified Bessel function of the second kind of order zero},%
+descriptionplural={Modified Bessel function of the second kind of order zero},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{I0}{}%
+{%
+\gls@defglossaryentry{I0}%
+{%
+name={\ensuremath {I_{0}}},%
+sort={\ensuremath {I_{0}}},%
+type={main},%
+first={\protect \ensuremath  {I_{0}}},%
+firstplural={\protect \ensuremath  {I_{0}}s},%
+text={\protect \ensuremath  {I_{0}}},%
+plural={\protect \ensuremath  {I_{0}}s},%
+description={Modified Bessel function of order zero},%
+descriptionplural={Modified Bessel function of order zero},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Delta}{}%
+{%
+\gls@defglossaryentry{Delta}%
+{%
+name={\ensuremath {\Delta _{0}}},%
+sort={\ensuremath {\Delta _{0}}},%
+type={main},%
+first={\protect \ensuremath  {\Delta _{0}}},%
+firstplural={\protect \ensuremath  {\Delta _{0}}s},%
+text={\protect \ensuremath  {\Delta _{0}}},%
+plural={\protect \ensuremath  {\Delta _{0}}s},%
+description={One half of the zero-temperature superconducting band gap energy},%
+descriptionplural={One half of the zero-temperature superconducting band gap energy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nqp}{}%
+{%
+\gls@defglossaryentry{nqp}%
+{%
+name={\ensuremath {n_{qp}}},%
+sort={\ensuremath {n_{qp}}},%
+type={main},%
+first={\protect \ensuremath  {n_{qp}}},%
+firstplural={\protect \ensuremath  {n_{qp}}s},%
+text={\protect \ensuremath  {n_{qp}}},%
+plural={\protect \ensuremath  {n_{qp}}s},%
+description={Quasiparticle number density},%
+descriptionplural={Quasiparticle number density},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Nqp}{}%
+{%
+\gls@defglossaryentry{Nqp}%
+{%
+name={\ensuremath {N_{qp}}},%
+sort={\ensuremath {N_{qp}}},%
+type={main},%
+first={\protect \ensuremath  {N_{qp}}},%
+firstplural={\protect \ensuremath  {N_{qp}}s},%
+text={\protect \ensuremath  {N_{qp}}},%
+plural={\protect \ensuremath  {N_{qp}}s},%
+description={Total number of quasiparticles},%
+descriptionplural={Total number of quasiparticles},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{N0}{}%
+{%
+\gls@defglossaryentry{N0}%
+{%
+name={\ensuremath {N_{0}}},%
+sort={\ensuremath {N_{0}}},%
+type={main},%
+first={\protect \ensuremath  {N_{0}}},%
+firstplural={\protect \ensuremath  {N_{0}}s},%
+text={\protect \ensuremath  {N_{0}}},%
+plural={\protect \ensuremath  {N_{0}}s},%
+description={Single-spin density of states at the Fermi Energy},%
+descriptionplural={Single-spin density of states at the Fermi Energy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tau_qp}{}%
+{%
+\gls@defglossaryentry{tau_qp}%
+{%
+name={\ensuremath {\tau _{qp}}},%
+sort={\ensuremath {\tau _{qp}}},%
+type={main},%
+first={\protect \ensuremath  {\tau _{qp}}},%
+firstplural={\protect \ensuremath  {\tau _{qp}}s},%
+text={\protect \ensuremath  {\tau _{qp}}},%
+plural={\protect \ensuremath  {\tau _{qp}}s},%
+description={Quasiparticle recombination time},%
+descriptionplural={Quasiparticle recombination time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tau_s}{}%
+{%
+\gls@defglossaryentry{tau_s}%
+{%
+name={\ensuremath {\tau _{s}}},%
+sort={\ensuremath {\tau _{s}}},%
+type={main},%
+first={\protect \ensuremath  {\tau _{s}}},%
+firstplural={\protect \ensuremath  {\tau _{s}}s},%
+text={\protect \ensuremath  {\tau _{s}}},%
+plural={\protect \ensuremath  {\tau _{s}}s},%
+description={Scattering time},%
+descriptionplural={Scattering time},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Qc}{}%
+{%
+\gls@defglossaryentry{Qc}%
+{%
+name={\ensuremath {Q_{c}}},%
+sort={\ensuremath {Q_{c}}},%
+type={main},%
+first={\protect \ensuremath  {Q_{c}}},%
+firstplural={\protect \ensuremath  {Q_{c}}s},%
+text={\protect \ensuremath  {Q_{c}}},%
+plural={\protect \ensuremath  {Q_{c}}s},%
+description={Couping quality factor},%
+descriptionplural={Couping quality factor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Qi}{}%
+{%
+\gls@defglossaryentry{Qi}%
+{%
+name={\ensuremath {Q_{i}}},%
+sort={\ensuremath {Q_{i}}},%
+type={main},%
+first={\protect \ensuremath  {Q_{i}}},%
+firstplural={\protect \ensuremath  {Q_{i}}s},%
+text={\protect \ensuremath  {Q_{i}}},%
+plural={\protect \ensuremath  {Q_{i}}s},%
+description={Internal quality factor},%
+descriptionplural={Internal quality factor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Qr}{}%
+{%
+\gls@defglossaryentry{Qr}%
+{%
+name={\ensuremath {Q_{r}}},%
+sort={\ensuremath {Q_{r}}},%
+type={main},%
+first={\protect \ensuremath  {Q_{r}}},%
+firstplural={\protect \ensuremath  {Q_{r}}s},%
+text={\protect \ensuremath  {Q_{r}}},%
+plural={\protect \ensuremath  {Q_{r}}s},%
+description={Resonator quality factor},%
+descriptionplural={Resonator quality factor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gen_rate}{}%
+{%
+\gls@defglossaryentry{gen_rate}%
+{%
+name={\ensuremath {\Gamma _{gen}}},%
+sort={\ensuremath {\Gamma _{gen}}},%
+type={main},%
+first={\protect \ensuremath  {\Gamma _{gen}}},%
+firstplural={\protect \ensuremath  {\Gamma _{gen}}s},%
+text={\protect \ensuremath  {\Gamma _{gen}}},%
+plural={\protect \ensuremath  {\Gamma _{gen}}s},%
+description={Quasiparticle generation rate},%
+descriptionplural={Quasiparticle generation rate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rec_rate}{}%
+{%
+\gls@defglossaryentry{rec_rate}%
+{%
+name={\ensuremath {\Gamma _{rec}}},%
+sort={\ensuremath {\Gamma _{rec}}},%
+type={main},%
+first={\protect \ensuremath  {\Gamma _{rec}}},%
+firstplural={\protect \ensuremath  {\Gamma _{rec}}s},%
+text={\protect \ensuremath  {\Gamma _{rec}}},%
+plural={\protect \ensuremath  {\Gamma _{rec}}s},%
+description={Cooper pair recombination rate},%
+descriptionplural={Cooper pair recombination rate},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{opt_eff}{}%
+{%
+\gls@defglossaryentry{opt_eff}%
+{%
+name={\ensuremath {\epsilon _{\mathrm {opt}}}},%
+sort={\ensuremath {\epsilon _{\mathrm {opt}}}},%
+type={main},%
+first={\protect \ensuremath  {\epsilon _{\protect \mathrm  {opt}}}},%
+firstplural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {opt}}}s},%
+text={\protect \ensuremath  {\epsilon _{\protect \mathrm  {opt}}}},%
+plural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {opt}}}s},%
+description={Optical efficiency},%
+descriptionplural={Optical efficiency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{det_eff}{}%
+{%
+\gls@defglossaryentry{det_eff}%
+{%
+name={\ensuremath {\eta _{\mathrm {det}}}},%
+sort={\ensuremath {\eta _{\mathrm {det}}}},%
+type={main},%
+first={\protect \ensuremath  {\eta _{\protect \mathrm  {det}}}},%
+firstplural={\protect \ensuremath  {\eta _{\protect \mathrm  {det}}}s},%
+text={\protect \ensuremath  {\eta _{\protect \mathrm  {det}}}},%
+plural={\protect \ensuremath  {\eta _{\protect \mathrm  {det}}}s},%
+description={Detector efficiency},%
+descriptionplural={Detector efficiency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{n_occ}{}%
+{%
+\gls@defglossaryentry{n_occ}%
+{%
+name={\ensuremath {n_{\mathrm {occ}}}},%
+sort={\ensuremath {n_{\mathrm {occ}}}},%
+type={main},%
+first={\protect \ensuremath  {n_{\protect \mathrm  {occ}}}},%
+firstplural={\protect \ensuremath  {n_{\protect \mathrm  {occ}}}s},%
+text={\protect \ensuremath  {n_{\protect \mathrm  {occ}}}},%
+plural={\protect \ensuremath  {n_{\protect \mathrm  {occ}}}s},%
+description={The photon occupation number},%
+descriptionplural={The photon occupation number},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Bpos}{}%
+{%
+\gls@defglossaryentry{Bpos}%
+{%
+name={\ensuremath {B_{\mathrm {POS}}}},%
+sort={\ensuremath {B_{\mathrm {POS}}}},%
+type={main},%
+first={\protect \ensuremath  {B_{\protect \mathrm  {POS}}}},%
+firstplural={\protect \ensuremath  {B_{\protect \mathrm  {POS}}}s},%
+text={\protect \ensuremath  {B_{\protect \mathrm  {POS}}}},%
+plural={\protect \ensuremath  {B_{\protect \mathrm  {POS}}}s},%
+description={B-field in the plane-of-the-sky},%
+descriptionplural={B-field in the plane-of-the-sky},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Blos}{}%
+{%
+\gls@defglossaryentry{Blos}%
+{%
+name={\ensuremath {B_{\mathrm {LOS}}}},%
+sort={\ensuremath {B_{\mathrm {LOS}}}},%
+type={main},%
+first={\protect \ensuremath  {B_{\protect \mathrm  {LOS}}}},%
+firstplural={\protect \ensuremath  {B_{\protect \mathrm  {LOS}}}s},%
+text={\protect \ensuremath  {B_{\protect \mathrm  {LOS}}}},%
+plural={\protect \ensuremath  {B_{\protect \mathrm  {LOS}}}s},%
+description={B-field along the line-of-sight},%
+descriptionplural={B-field along the line-of-sight},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{vA}{}%
+{%
+\gls@defglossaryentry{vA}%
+{%
+name={\ensuremath {v_{A}}},%
+sort={\ensuremath {v_{A}}},%
+type={main},%
+first={\protect \ensuremath  {v_{A}}},%
+firstplural={\protect \ensuremath  {v_{A}}s},%
+text={\protect \ensuremath  {v_{A}}},%
+plural={\protect \ensuremath  {v_{A}}s},%
+description={Alfv$\acute {e}$n velocity},%
+descriptionplural={Alfv$\acute {e}$n velocity},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sigV}{}%
+{%
+\gls@defglossaryentry{sigV}%
+{%
+name={\ensuremath {\sigma _{v}}},%
+sort={\ensuremath {\sigma _{v}}},%
+type={main},%
+first={\protect \ensuremath  {\sigma _{v}}},%
+firstplural={\protect \ensuremath  {\sigma _{v}}s},%
+text={\protect \ensuremath  {\sigma _{v}}},%
+plural={\protect \ensuremath  {\sigma _{v}}s},%
+description={Line-of-sight velocity dispersion},%
+descriptionplural={Line-of-sight velocity dispersion},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sphi}{}%
+{%
+\gls@defglossaryentry{Sphi}%
+{%
+name={\ensuremath {S_{\Phi }}},%
+sort={\ensuremath {S_{\Phi }}},%
+type={main},%
+first={\protect \ensuremath  {S_{\Phi }}},%
+firstplural={\protect \ensuremath  {S_{\Phi }}s},%
+text={\protect \ensuremath  {S_{\Phi }}},%
+plural={\protect \ensuremath  {S_{\Phi }}s},%
+description={Polarization-angle disperion},%
+descriptionplural={Polarization-angle disperion},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Phi}{}%
+{%
+\gls@defglossaryentry{Phi}%
+{%
+name={\ensuremath {\Phi }},%
+sort={\ensuremath {\Phi }},%
+type={main},%
+first={\protect \ensuremath  {\Phi }},%
+firstplural={\protect \ensuremath  {\Phi }s},%
+text={\protect \ensuremath  {\Phi }},%
+plural={\protect \ensuremath  {\Phi }s},%
+description={Inferred angle of B$_{\mathrm {pos}}$ ($\Psi $ $\pm $ 90$^{\degree }$)},%
+descriptionplural={Inferred angle of B$_{\mathrm {pos}}$ ($\Psi $ $\pm $ 90$^{\degree }$)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Psi}{}%
+{%
+\gls@defglossaryentry{Psi}%
+{%
+name={\ensuremath {\Psi }},%
+sort={\ensuremath {\Psi }},%
+type={main},%
+first={\protect \ensuremath  {\Psi }},%
+firstplural={\protect \ensuremath  {\Psi }s},%
+text={\protect \ensuremath  {\Psi }},%
+plural={\protect \ensuremath  {\Psi }s},%
+description={Polarization-angle of the dust emission},%
+descriptionplural={Polarization-angle of the dust emission},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nH2}{}%
+{%
+\gls@defglossaryentry{nH2}%
+{%
+name={\ensuremath {n(H_{2})}},%
+sort={\ensuremath {n(H_{2})}},%
+type={main},%
+first={\protect \ensuremath  {n(H_{2})}},%
+firstplural={\protect \ensuremath  {n(H_{2})}s},%
+text={\protect \ensuremath  {n(H_{2})}},%
+plural={\protect \ensuremath  {n(H_{2})}s},%
+description={Number density of molecular hydrogen},%
+descriptionplural={Number density of molecular hydrogen},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NH2}{}%
+{%
+\gls@defglossaryentry{NH2}%
+{%
+name={\ensuremath {N(H_{2})}},%
+sort={\ensuremath {N(H_{2})}},%
+type={main},%
+first={\protect \ensuremath  {N(H_{2})}},%
+firstplural={\protect \ensuremath  {N(H_{2})}s},%
+text={\protect \ensuremath  {N(H_{2})}},%
+plural={\protect \ensuremath  {N(H_{2})}s},%
+description={Column density of molecular hydrogen},%
+descriptionplural={Column density of molecular hydrogen},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AV}{}%
+{%
+\gls@defglossaryentry{AV}%
+{%
+name={\ensuremath {A_{V}}},%
+sort={\ensuremath {A_{V}}},%
+type={main},%
+first={\protect \ensuremath  {A_{V}}},%
+firstplural={\protect \ensuremath  {A_{V}}s},%
+text={\protect \ensuremath  {A_{V}}},%
+plural={\protect \ensuremath  {A_{V}}s},%
+description={Total visual extinction [$\mathrm {mag}$]},%
+descriptionplural={Total visual extinction [$\mathrm {mag}$]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{kappa}{}%
+{%
+\gls@defglossaryentry{kappa}%
+{%
+name={\ensuremath {\kappa _{\nu }}},%
+sort={\ensuremath {\kappa _{\nu }}},%
+type={main},%
+first={\protect \ensuremath  {\kappa _{\nu }}},%
+firstplural={\protect \ensuremath  {\kappa _{\nu }}s},%
+text={\protect \ensuremath  {\kappa _{\nu }}},%
+plural={\protect \ensuremath  {\kappa _{\nu }}s},%
+description={Dust opacity, cm$^{2}$/g},%
+descriptionplural={Dust opacity, cm$^{2}$/g},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{vpol}{}%
+{%
+\gls@defglossaryentry{vpol}%
+{%
+name={\ensuremath {\boldsymbol {v}_{i}}},%
+sort={\ensuremath {\boldsymbol {v}_{i}}},%
+type={main},%
+first={\protect \ensuremath  {\protect \bm  {v}_{i}}},%
+firstplural={\protect \ensuremath  {\protect \bm  {v}_{i}}s},%
+text={\protect \ensuremath  {\protect \bm  {v}_{i}}},%
+plural={\protect \ensuremath  {\protect \bm  {v}_{i}}s},%
+description={A polarization vector for the \textit {ith} pixel},%
+descriptionplural={A polarization vector for the \textit {ith} pixel},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Spol}{}%
+{%
+\gls@defglossaryentry{Spol}%
+{%
+name={\ensuremath {\mathbf {S}(\theta )}},%
+sort={\ensuremath {\mathbf {S}(\theta )}},%
+type={main},%
+first={\protect \ensuremath  {\protect \mathbf  {S}(\theta )}},%
+firstplural={\protect \ensuremath  {\protect \mathbf  {S}(\theta )}s},%
+text={\protect \ensuremath  {\protect \mathbf  {S}(\theta )}},%
+plural={\protect \ensuremath  {\protect \mathbf  {S}(\theta )}s},%
+description={Polarization response as function of grid rotation angle $\theta $},%
+descriptionplural={Polarization response as function of grid rotation angle $\theta $},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pol_eff}{}%
+{%
+\gls@defglossaryentry{pol_eff}%
+{%
+name={\ensuremath {\epsilon _{\mathrm {pol}}}},%
+sort={\ensuremath {\epsilon _{\mathrm {pol}}}},%
+type={main},%
+first={\protect \ensuremath  {\epsilon _{\protect \mathrm  {pol}}}},%
+firstplural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {pol}}}s},%
+text={\protect \ensuremath  {\epsilon _{\protect \mathrm  {pol}}}},%
+plural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {pol}}}s},%
+description={Polarization efficiency},%
+descriptionplural={Polarization efficiency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{xpol_eff}{}%
+{%
+\gls@defglossaryentry{xpol_eff}%
+{%
+name={\ensuremath {\epsilon _{\mathrm {Xpol}}}},%
+sort={\ensuremath {\epsilon _{\mathrm {Xpol}}}},%
+type={main},%
+first={\protect \ensuremath  {\epsilon _{\protect \mathrm  {Xpol}}}},%
+firstplural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {Xpol}}}s},%
+text={\protect \ensuremath  {\epsilon _{\protect \mathrm  {Xpol}}}},%
+plural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {Xpol}}}s},%
+description={Cross-polarization efficiency},%
+descriptionplural={Cross-polarization efficiency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{df}{}%
+{%
+\gls@defglossaryentry{df}%
+{%
+name={\ensuremath {\Delta f}},%
+sort={\ensuremath {\Delta f}},%
+type={main},%
+first={\protect \ensuremath  {\Delta f}},%
+firstplural={\protect \ensuremath  {\Delta f}s},%
+text={\protect \ensuremath  {\Delta f}},%
+plural={\protect \ensuremath  {\Delta f}s},%
+description={Frequency shift relative to a channel's resonant frequency},%
+descriptionplural={Frequency shift relative to a channel's resonant frequency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{gradIQ}{}%
+{%
+\gls@defglossaryentry{gradIQ}%
+{%
+name={\ensuremath {\nabla _{I,Q}}},%
+sort={\ensuremath {\nabla _{I,Q}}},%
+type={main},%
+first={\protect \ensuremath  {\nabla _{I,Q}}},%
+firstplural={\protect \ensuremath  {\nabla _{I,Q}}s},%
+text={\protect \ensuremath  {\nabla _{I,Q}}},%
+plural={\protect \ensuremath  {\nabla _{I,Q}}s},%
+description={The $I/Q$ gradient: $(dI/df, dQ/df$)},%
+descriptionplural={The $I/Q$ gradient: $(dI/df, dQ/df$)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{S21}{}%
+{%
+\gls@defglossaryentry{S21}%
+{%
+name={\ensuremath {S_{21}}},%
+sort={\ensuremath {S_{21}}},%
+type={main},%
+first={\protect \ensuremath  {S_{21}}},%
+firstplural={\protect \ensuremath  {S_{21}}s},%
+text={\protect \ensuremath  {S_{21}}},%
+plural={\protect \ensuremath  {S_{21}}s},%
+description={The forward-transmission scattering parameter},%
+descriptionplural={The forward-transmission scattering parameter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Ropt}{}%
+{%
+\gls@defglossaryentry{Ropt}%
+{%
+name={\ensuremath {R_{P}}},%
+sort={\ensuremath {R_{P}}},%
+type={main},%
+first={\protect \ensuremath  {R_{P}}},%
+firstplural={\protect \ensuremath  {R_{P}}s},%
+text={\protect \ensuremath  {R_{P}}},%
+plural={\protect \ensuremath  {R_{P}}s},%
+description={Fractional frequency responsivity to absorbed optical power ($(df/f_{0})/pW$)},%
+descriptionplural={Fractional frequency responsivity to absorbed optical power ($(df/f_{0})/pW$)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Rtemp}{}%
+{%
+\gls@defglossaryentry{Rtemp}%
+{%
+name={\ensuremath {R_{T}}},%
+sort={\ensuremath {R_{T}}},%
+type={main},%
+first={\protect \ensuremath  {R_{T}}},%
+firstplural={\protect \ensuremath  {R_{T}}s},%
+text={\protect \ensuremath  {R_{T}}},%
+plural={\protect \ensuremath  {R_{T}}s},%
+description={Fractional frequency responsivity to changes in base temperature ($(df/f_{0})/mK$)},%
+descriptionplural={Fractional frequency responsivity to changes in base temperature ($(df/f_{0})/mK$)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{phiIQ}{}%
+{%
+\gls@defglossaryentry{phiIQ}%
+{%
+name={\ensuremath {\phi _{I/Q}}},%
+sort={\ensuremath {\phi _{I/Q}}},%
+type={main},%
+first={\protect \ensuremath  {\phi _{I/Q}}},%
+firstplural={\protect \ensuremath  {\phi _{I/Q}}s},%
+text={\protect \ensuremath  {\phi _{I/Q}}},%
+plural={\protect \ensuremath  {\phi _{I/Q}}s},%
+description={The phase of $S_{21}$},%
+descriptionplural={The phase of $S_{21}$},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sphase}{}%
+{%
+\gls@defglossaryentry{Sphase}%
+{%
+name={\ensuremath {S_{\phi }}},%
+sort={\ensuremath {S_{\phi }}},%
+type={main},%
+first={\protect \ensuremath  {S_{\phi }}},%
+firstplural={\protect \ensuremath  {S_{\phi }}s},%
+text={\protect \ensuremath  {S_{\phi }}},%
+plural={\protect \ensuremath  {S_{\phi }}s},%
+description={Power spectral density of phase fluctuations between I and Q. Expressed in units of rad$^{2}$ or dBc/Hz},%
+descriptionplural={Power spectral density of phase fluctuations between I and Q. Expressed in units of rad$^{2}$ or dBc/Hz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sff}{}%
+{%
+\gls@defglossaryentry{Sff}%
+{%
+name={\ensuremath {S_{\delta f / f}}},%
+sort={\ensuremath {S_{\delta f / f}}},%
+type={main},%
+first={\protect \ensuremath  {S_{\delta f / f}}},%
+firstplural={\protect \ensuremath  {S_{\delta f / f}}s},%
+text={\protect \ensuremath  {S_{\delta f / f}}},%
+plural={\protect \ensuremath  {S_{\delta f / f}}s},%
+description={Power spectral density of fractional frequency flucuations. Expressed in units of Hz$^{-1}$ or dB/Hz},%
+descriptionplural={Power spectral density of fractional frequency flucuations. Expressed in units of Hz$^{-1}$ or dB/Hz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fc}{}%
+{%
+\gls@defglossaryentry{fc}%
+{%
+name={\ensuremath {f_{c}}},%
+sort={\ensuremath {f_{c}}},%
+type={main},%
+first={\protect \ensuremath  {f_{c}}},%
+firstplural={\protect \ensuremath  {f_{c}}s},%
+text={\protect \ensuremath  {f_{c}}},%
+plural={\protect \ensuremath  {f_{c}}s},%
+description={The 1/f corner-frequency},%
+descriptionplural={The 1/f corner-frequency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Sxx}{}%
+{%
+\gls@defglossaryentry{Sxx}%
+{%
+name={\ensuremath {S_{xx}}},%
+sort={\ensuremath {S_{xx}}},%
+type={main},%
+first={\protect \ensuremath  {S_{xx}}},%
+firstplural={\protect \ensuremath  {S_{xx}}s},%
+text={\protect \ensuremath  {S_{xx}}},%
+plural={\protect \ensuremath  {S_{xx}}s},%
+description={Power spectral density of fractional frequency fluctuations, in the phase direction [Hz$^{-1}$]},%
+descriptionplural={Power spectral density of fractional frequency fluctuations, in the phase direction [Hz$^{-1}$]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Syy}{}%
+{%
+\gls@defglossaryentry{Syy}%
+{%
+name={\ensuremath {S_{yy}}},%
+sort={\ensuremath {S_{yy}}},%
+type={main},%
+first={\protect \ensuremath  {S_{yy}}},%
+firstplural={\protect \ensuremath  {S_{yy}}s},%
+text={\protect \ensuremath  {S_{yy}}},%
+plural={\protect \ensuremath  {S_{yy}}s},%
+description={Power spectral density of fractional frequency fluctuations, in the dissipation direction [Hz$^{-1}$]},%
+descriptionplural={Power spectral density of fractional frequency fluctuations, in the dissipation direction [Hz$^{-1}$]},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Popt}{}%
+{%
+\gls@defglossaryentry{Popt}%
+{%
+name={\ensuremath {P_{\mathrm {opt}}}},%
+sort={\ensuremath {P_{\mathrm {opt}}}},%
+type={main},%
+first={\protect \ensuremath  {P_{\protect \mathrm  {opt}}}},%
+firstplural={\protect \ensuremath  {P_{\protect \mathrm  {opt}}}s},%
+text={\protect \ensuremath  {P_{\protect \mathrm  {opt}}}},%
+plural={\protect \ensuremath  {P_{\protect \mathrm  {opt}}}s},%
+description={Optical power which in incident on the telescope optics or cryostat window},%
+descriptionplural={Optical power which in incident on the telescope optics or cryostat window},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Pabs}{}%
+{%
+\gls@defglossaryentry{Pabs}%
+{%
+name={\ensuremath {P_{\mathrm {abs}}}},%
+sort={\ensuremath {P_{\mathrm {abs}}}},%
+type={main},%
+first={\protect \ensuremath  {P_{\protect \mathrm  {abs}}}},%
+firstplural={\protect \ensuremath  {P_{\protect \mathrm  {abs}}}s},%
+text={\protect \ensuremath  {P_{\protect \mathrm  {abs}}}},%
+plural={\protect \ensuremath  {P_{\protect \mathrm  {abs}}}s},%
+description={Total power which is absorbed by the detectors, accounting for the system optical and detector efficiencies},%
+descriptionplural={Total power which is absorbed by the detectors, accounting for the system optical and detector efficiencies},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Tbase}{}%
+{%
+\gls@defglossaryentry{Tbase}%
+{%
+name={\ensuremath {T_{\mathrm {base}}}},%
+sort={\ensuremath {T_{\mathrm {base}}}},%
+type={main},%
+first={\protect \ensuremath  {T_{\protect \mathrm  {base}}}},%
+firstplural={\protect \ensuremath  {T_{\protect \mathrm  {base}}}s},%
+text={\protect \ensuremath  {T_{\protect \mathrm  {base}}}},%
+plural={\protect \ensuremath  {T_{\protect \mathrm  {base}}}s},%
+description={The base temperature of the focal-plane-array},%
+descriptionplural={The base temperature of the focal-plane-array},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Ic}{}%
+{%
+\gls@defglossaryentry{Ic}%
+{%
+name={\ensuremath {I_{c}}},%
+sort={\ensuremath {I_{c}}},%
+type={main},%
+first={\protect \ensuremath  {I_{c}}},%
+firstplural={\protect \ensuremath  {I_{c}}s},%
+text={\protect \ensuremath  {I_{c}}},%
+plural={\protect \ensuremath  {I_{c}}s},%
+description={The critical current of a superconductor},%
+descriptionplural={The critical current of a superconductor},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{m_e}{}%
+{%
+\gls@defglossaryentry{m_e}%
+{%
+name={\ensuremath {m_{e}}},%
+sort={\ensuremath {m_{e}}},%
+type={main},%
+first={\protect \ensuremath  {m_{e}}},%
+firstplural={\protect \ensuremath  {m_{e}}s},%
+text={\protect \ensuremath  {m_{e}}},%
+plural={\protect \ensuremath  {m_{e}}s},%
+description={The rest mass of an electron},%
+descriptionplural={The rest mass of an electron},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mstar}{}%
+{%
+\gls@defglossaryentry{mstar}%
+{%
+name={\ensuremath {m^{\star }}},%
+sort={\ensuremath {m^{\star }}},%
+type={main},%
+first={\protect \ensuremath  {m^{\star }}},%
+firstplural={\protect \ensuremath  {m^{\star }}s},%
+text={\protect \ensuremath  {m^{\star }}},%
+plural={\protect \ensuremath  {m^{\star }}s},%
+description={The effective electron mass},%
+descriptionplural={The effective electron mass},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{alphaKI}{}%
+{%
+\gls@defglossaryentry{alphaKI}%
+{%
+name={\ensuremath {\alpha }},%
+sort={\ensuremath {\alpha }},%
+type={main},%
+first={\protect \ensuremath  {\alpha }},%
+firstplural={\protect \ensuremath  {\alpha }s},%
+text={\protect \ensuremath  {\alpha }},%
+plural={\protect \ensuremath  {\alpha }s},%
+description={The kinetic inductance fraction},%
+descriptionplural={The kinetic inductance fraction},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{asym}{}%
+{%
+\gls@defglossaryentry{asym}%
+{%
+name={\ensuremath {\epsilon _{\mathrm {a}}}},%
+sort={\ensuremath {\epsilon _{\mathrm {a}}}},%
+type={main},%
+first={\protect \ensuremath  {\epsilon _{\protect \mathrm  {a}}}},%
+firstplural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {a}}}s},%
+text={\protect \ensuremath  {\epsilon _{\protect \mathrm  {a}}}},%
+plural={\protect \ensuremath  {\epsilon _{\protect \mathrm  {a}}}s},%
+description={The resonator asymmetry parameter},%
+descriptionplural={The resonator asymmetry parameter},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
