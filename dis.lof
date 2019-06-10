@@ -126,9 +126,9 @@
 \contentsline {figure}{\numberline {120}{\ignorespaces \nobreakspace {}M83 required mapping time.}}{256}{figure.6.120}
 \contentsline {figure}{\numberline {121}{\ignorespaces \nobreakspace {}NGC 1808 required mapping time.}}{257}{figure.6.121}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{282}{figure.7.122}
-\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{283}{figure.7.123}
-\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{284}{figure.7.124}
+\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{261}{figure.7.122}
+\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{262}{figure.7.123}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{301}{figure.8.125}
-\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{302}{figure.8.126}
+\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{294}{figure.A.124}
+\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{295}{figure.A.125}
+\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{296}{figure.A.126}

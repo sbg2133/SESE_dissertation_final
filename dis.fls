@@ -315,10 +315,10 @@ INPUT carina.aux
 INPUT carina.aux
 INPUT galaxies.aux
 INPUT galaxies.aux
-INPUT software.aux
-INPUT software.aux
 INPUT conclusion.aux
 INPUT conclusion.aux
+INPUT appendix.aux
+INPUT appendix.aux
 OUTPUT dis.aux
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
@@ -398,8 +398,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt8.tfm
 OUTPUT dis.ist
 INPUT abstract.tex
 INPUT abstract.tex
-INPUT dedication.tex
-INPUT dedication.tex
 INPUT ack.tex
 INPUT ack.tex
 INPUT dis.toc
@@ -475,7 +473,7 @@ INPUT figures/kid_model/NEP.pdf
 OUTPUT readout.aux
 INPUT readout.tex
 INPUT readout.tex
-INPUT figures/readout/schematics/readoutHardwareDiagram2.pdf
+INPUT figures/readout/schematics/readoutHardwareDefense.pdf
 INPUT figures/readout/hardware/roach_sunset.JPG
 INPUT figures/readout/hardware/installing_roaches.jpeg
 INPUT figures/readout/hardware/roach_slice_annotated.pdf
@@ -602,12 +600,6 @@ INPUT figures/galaxies/eso9713.pdf
 INPUT figures/galaxies/ngc3621.pdf
 INPUT figures/galaxies/m83.pdf
 INPUT figures/galaxies/ngc1808.pdf
-OUTPUT software.aux
-INPUT software.tex
-INPUT software.tex
-INPUT ./figures/software/roaches_off.png
-INPUT ./figures/software/full_loop.png
-INPUT ./figures/software/has_targ_tones.png
 OUTPUT conclusion.aux
 INPUT conclusion.tex
 INPUT conclusion.tex
@@ -615,6 +607,12 @@ INPUT figures/conclusion/toltec_slice_2.jpg
 INPUT figures/conclusion/single_board.jpg
 INPUT dis.bbl
 INPUT dis.bbl
+OUTPUT appendix.aux
+INPUT appendix.tex
+INPUT appendix.tex
+INPUT ./figures/software/roaches_off.png
+INPUT ./figures/software/full_loop.png
+INPUT ./figures/software/has_targ_tones.png
 OUTPUT dis.toc
 OUTPUT dis.lot
 OUTPUT dis.lof
@@ -631,7 +629,7 @@ INPUT carina.aux
 INPUT carina.aux
 INPUT galaxies.aux
 INPUT galaxies.aux
-INPUT software.aux
-INPUT software.aux
 INPUT conclusion.aux
 INPUT conclusion.aux
+INPUT appendix.aux
+INPUT appendix.aux

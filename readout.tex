@@ -120,19 +120,19 @@ The WN floor for a single probe tone is set by the bit-width of the analog-to-di
 For an ENOB of 10-bits and $f_{s} = 512$~MHz (see Section~\ref{hardware and elec}), this noise floor is $\approx$-144~dBc/Hz. For a multitone comb of $N$ tones, the WN level of each tone can be estimated as:
 
 \begin{equation}\label{eq:whitenoise}
--144 \textrm{ dBc/Hz} + 10\log_{10}(N) + \mathrm{CF}
+-144 \textrm{ dBc/Hz} + 10\log_{10}(N) + CF
 \end{equation}
 
 where CF is the crest factor of the waveform:
 
 \begin{equation}
-  \mathrm{CF} = 20\log_{10}{|V_{\mathrm{peak} }| \over V_{\mathrm {\mathrm{RMS}} }} \qquad [\mathrm{dB}]
+  CF = 20\log_{10}\frac{ |V_{\mathrm{peak}}|}{V_{RMS}} \qquad [\mathrm{dB}]
 \end{equation}
 
 Adding the contribution of the warm IF electronics to Equation \ref{eq:whitenoise}, the total WN contribution from the readout system is:
 
 \begin{equation}\label{eq:readout_noise}
-  -144 \textrm{ dBc/Hz} + 10\log_{10}(N) + \mathrm{CF} + \textrm{WN}_{IF}
+  WN_{\mathrm{read}} = -144 \textrm{ dBc/Hz} + 10\log_{10}(N) + CF + WN_{IF}
 \end{equation}
 
 \subsection{Flicker Noise: Readout Rate and Map Size}\label{flicker noise}
@@ -245,7 +245,7 @@ RASPBERRY PI 3 & 1 & 2.5 \\ \dbottomrule
 
 \begin{sidewaysfigure}[!p]
 \centering
-\includegraphics[width=\textwidth]{figures/readout/schematics/readoutHardwareDiagram2}
+\includegraphics[width=\textwidth]{figures/readout/schematics/readoutHardwareDefense}
 \caption{A schematic of the BLAST-TNG readout electronics.}
 \label{fig:hw schematic}
 \end{sidewaysfigure}

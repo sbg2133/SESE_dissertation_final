@@ -1,9 +1,9 @@
 \changetocdepth {5}
 \setlength {\cftchapterindent }{0em}
-\contentsline {chapter}{List of Tables}{xi}{section*.4}
-\contentsline {chapter}{List of Figures}{xiii}{section*.5}
-\contentsline {chapter}{Glossary}{xxi}{section*.6}
-\contentsline {part}{Chapter}{xxiii}{section*.8}
+\contentsline {chapter}{List of Tables}{x}{section*.3}
+\contentsline {chapter}{List of Figures}{xii}{section*.4}
+\contentsline {chapter}{Glossary}{xx}{section*.5}
+\contentsline {part}{Chapter}{xxii}{section*.7}
 \markboth {CHAPTER}{Page}
 \contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Submillimeter and Millimeter Wave Astronomy}{2}{section.1.1}
@@ -111,27 +111,28 @@
 \contentsline {section}{\numberline {6.2}BLAST-TNG External Galaxy Targets}{249}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Target List}{249}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Required Observing Times}{251}{subsection.6.2.2}
-\contentsline {chapter}{\chapternumberline {7}BLAST-TNG LEKID Readout Operator's Manual}{258}{chapter.7}
-\contentsline {section}{\numberline {7.1}Glossary of Terms}{259}{section.7.1}
-\contentsline {section}{\numberline {7.2}Data Paths and Hardware Addresses}{266}{section.7.2}
-\contentsline {section}{\numberline {7.3}Normal Operation}{268}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Readout Mode}{269}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Housekeeping Mode}{270}{subsection.7.3.2}
-\contentsline {section}{\numberline {7.4}Multi-command loops}{271}{section.7.4}
-\contentsline {section}{\numberline {7.5}Owl Frontend}{273}{section.7.5}
-\contentsline {section}{\numberline {7.6}Commands}{285}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Commands which are useful for data visualization (KST)}{287}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Commands that enable triggering of periodic events}{287}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Tone writing commands}{288}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}LO commands}{288}{subsection.7.6.4}
-\contentsline {subsection}{\numberline {7.6.5}Tone power/attenuator commands}{290}{subsection.7.6.5}
-\contentsline {subsection}{\numberline {7.6.6}Pi commands}{291}{subsection.7.6.6}
-\contentsline {subsection}{\numberline {7.6.7}Power state commands}{293}{subsection.7.6.7}
-\contentsline {subsection}{\numberline {7.6.8}Cal lamp commands}{293}{subsection.7.6.8}
-\contentsline {subsection}{\numberline {7.6.9}Commands that set global parameters}{293}{subsection.7.6.9}
-\contentsline {subsection}{\numberline {7.6.10}Data handling commands}{295}{subsection.7.6.10}
-\contentsline {section}{\numberline {7.7}Data downlinking}{295}{section.7.7}
-\contentsline {chapter}{\chapternumberline {8}Conclusion}{298}{chapter.8}
-\contentsline {section}{\numberline {8.1}Science-Driven Technological Development}{298}{section.8.1}
-\contentsline {chapter}{\hspace {-\cftchapterindent }References}{303}{section*.11}
+\contentsline {chapter}{\chapternumberline {7}Conclusion}{258}{chapter.7}
+\contentsline {section}{\numberline {7.1}Science-Driven Technological Development}{258}{section.7.1}
+\contentsline {chapter}{\hspace {-\cftchapterindent }References}{263}{section*.10}
 \setcounter {tocdepth}{0}
+\contentsline {part}{Appendix}{277}{section*.11}
+\contentsline {appendix}{\chapternumberline {A}BLAST-TNG LEKID Readout Operator's Manual}{278}{appendix.A}
+\contentsline {section}{\numberline {A.1}Glossary of Terms}{279}{section.A.1}
+\contentsline {section}{\numberline {A.2}Data Paths and Hardware Addresses}{284}{section.A.2}
+\contentsline {section}{\numberline {A.3}Normal Operation}{285}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Readout Mode}{285}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Housekeeping Mode}{286}{subsection.A.3.2}
+\contentsline {section}{\numberline {A.4}Multi-command loops}{287}{section.A.4}
+\contentsline {section}{\numberline {A.5}Owl Frontend}{288}{section.A.5}
+\contentsline {section}{\numberline {A.6}Commands}{297}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Commands which are useful for data visualization (KST)}{298}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Commands that enable triggering of periodic events}{298}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.3}Tone writing commands}{299}{subsection.A.6.3}
+\contentsline {subsection}{\numberline {A.6.4}LO commands}{299}{subsection.A.6.4}
+\contentsline {subsection}{\numberline {A.6.5}Tone power/attenuator commands}{300}{subsection.A.6.5}
+\contentsline {subsection}{\numberline {A.6.6}Pi commands}{301}{subsection.A.6.6}
+\contentsline {subsection}{\numberline {A.6.7}Power state commands}{302}{subsection.A.6.7}
+\contentsline {subsection}{\numberline {A.6.8}Cal lamp commands}{302}{subsection.A.6.8}
+\contentsline {subsection}{\numberline {A.6.9}Commands that set global parameters}{302}{subsection.A.6.9}
+\contentsline {subsection}{\numberline {A.6.10}Data handling commands}{303}{subsection.A.6.10}
+\contentsline {section}{\numberline {A.7}Data downlinking}{304}{section.A.7}

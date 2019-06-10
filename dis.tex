@@ -997,9 +997,9 @@
                                         %   your abstract or omit this line and type in
                                         %   your abstract here.
 
-\chapter*{Dedication}
-\input{dedication}                   %~Dedication is optional
-%\clearpage                             %~If you don't wish to display the heading
+%\chapter*{Dedication}
+%\input{dedication}                   %~Dedication is optional
+\clearpage                             %~If you don't wish to display the heading
                                         %   'Dedication', comment out the previous line
                                         %   and use this one instead.
 %\input{sample_dedication}               %<Enter the name of the .tex file containing your
@@ -1086,7 +1086,7 @@
 \include{blast_data}
 \include{carina}
 \include{galaxies}
-\include{software}
+%\include{software}
 \include{conclusion}
 %\glsresetall
                                         % Heading commands (in descending order):
@@ -1137,7 +1137,7 @@
   \bibliography{\bibfilename}
 }
 
-%\appendix                               % Indicate start of appendices
+\appendix                               % Indicate start of appendices
                                         % Appendices are considered 'mainmatter' in this
                                         %   documentclass
 \tolerance \defaulttolerance            % Set tolerance back to default
@@ -1158,7 +1158,7 @@
 
 \phantomsection                         % Need '\phantomsection' to place hyperref
                                         %   bookmark more accurately
-%\addcontentsline{toc}{part}{Appendix}   %~Add "Appendix" to TOC here; comment out this
+\addcontentsline{toc}{part}{Appendix}   %~Add "Appendix" to TOC here; comment out this
                                         %   line if you're not including appendices
 
 %\phantomsection                        %!This is the one part of the template that I
@@ -1175,7 +1175,7 @@
                                         %   lines down and checking the output until
                                         %   the TOC headers appear correctly
 
-%\include{appendix1}                     %~Insert your appendices here; I recommend to use
+\include{appendix}                     %~Insert your appendices here; I recommend to use
 %\include{appendix2}                     %   \include rather than \input for appendices.
 %\include{appendix3}% etc.               %   All heading commands are the same as above,
                                          %   e.g., \chapter, \section, etc.
@@ -1192,5 +1192,7 @@
 %\input{biography}                       %<Enter the name of the .tex file containing your
                                         %   biography or omit this line and type in
                                         %   your biography here (1 paragraph)
+
+
 
 \end{document}

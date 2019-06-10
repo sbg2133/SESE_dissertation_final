@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  7 MAY 2019 12:22
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  10 JUN 2019 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1668,7 +1668,7 @@ Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count342
 ) (./dis.aux
 (./intro.aux) (./kid_model.aux) (./readout.aux) (./blast_data.aux)
-(./carina.aux) (./galaxies.aux) (./software.aux) (./conclusion.aux))
+(./carina.aux) (./galaxies.aux) (./conclusion.aux) (./appendix.aux))
 \openout1 = `dis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 957.
@@ -1824,9 +1824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 985--985
 
 
 
-]) [2] (./dedication.tex) [3
-
-] (./ack.tex)
+]) [2] (./ack.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 1--1013
 
  []
@@ -1836,7 +1834,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--1013
 
  []
 
-[4
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--1013
+
+ []
+
+[3
+
 
 ] (./dis.toc
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/bx/n' will be
@@ -1850,9 +1854,9 @@ Underfull \hbox (badness 2393) in paragraph at lines 20--20
  [][] [][]\EU1/Garamond(0)/m/n/12 Considerations on Sub-mm/mm-wave and O/NIR 
  []
 
-[5
+[4
 
-] [6] [7] [8] [9]) [10] (./dis.lot [11
+] [5] [6] [7]) [8] [9] (./dis.lot [10
 
 ]
 Underfull \hbox (badness 1675) in paragraph at lines 31--31
@@ -1860,17 +1864,17 @@ Underfull \hbox (badness 1675) in paragraph at lines 31--31
 , for 8-Sightlines 
  []
 
-) [12] (./dis.lof [13
+) [11] (./dis.lof [12
 
-] [14] [15] [16] [17] [18] [19]) [20] (./dis.gls [21
+] [13] [14] [15] [16] [17] [18]) [19] (./dis.gls [20
 
 
 
 ]
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/it' will be
-(Font)              scaled to size 12.99664pt on input line 216.
+(Font)              scaled to size 12.99664pt on input line 215.
 
-[22]) [23]
+[21]) [22]
 \openout2 = `intro.aux'.
 
  (./intro.tex [1
@@ -1985,17 +1989,11 @@ Underfull \hbox (badness 4328) in paragraph at lines 60--61
 nd, am-
  []
 
-[70] [71] [72]
+[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]
+File: figures/readout/schematics/readoutHardwareDefense.pdf Graphic file (type 
+QTm)
 
-Package amsmath Warning: Foreign command \over;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 129.
-
-[73] [74] [75] [76] [77] [78] [79] [80]
-File: figures/readout/schematics/readoutHardwareDiagram2.pdf Graphic file (type
- QTm)
-
-<use  "figures/readout/schematics/readoutHardwareDiagram2.pdf" > [81] [82]
+<use  "figures/readout/schematics/readoutHardwareDefense.pdf" > [81] [82]
 [83] [84]
 File: figures/readout/hardware/roach_sunset.JPG Graphic file (type QTm)
  <use  "figures/readout/hardware/roach_sunset.JPG" > [85] [86]
@@ -2443,65 +2441,94 @@ File: figures/galaxies/m83.pdf Graphic file (type QTm)
 File: figures/galaxies/ngc1808.pdf Graphic file (type QTm)
 
 <use  "figures/galaxies/ngc1808.pdf" > [252] [253]) [254] [255] [256] [257]
-\openout2 = `software.aux'.
+\openout2 = `conclusion.aux'.
 
 
-(./software.tex [258
+(./conclusion.tex [258
 
 
 
 ] [259]
-Underfull \hbox (badness 7256) in paragraph at lines 42--56
+File: figures/conclusion/toltec_slice_2.jpg Graphic file (type QTm)
+ <use  "figures/conclusion/toltec_slice_2.jpg" >
+File: figures/conclusion/single_board.jpg Graphic file (type QTm)
+
+<use  "figures/conclusion/single_board.jpg" >) [260] [261] [262] (./dis.bbl
+[263
+
+
+] [264] [265] [266] [267] [268]
+Underfull \hbox (badness 1342) in paragraph at lines 462--465
+[]\EU1/Garamond(0)/m/n/12 Hall, J. S. (1949).  Observations of the polarized li
+ght from stars.  \EU1/Garamond(0)/m/it/12 Science\EU1/Garamond(0)/m/n/12 ,
+ []
+
+[269] [270] [271] [272] [273] [274]
+Underfull \hbox (badness 512) in paragraph at lines 926--930
+[]\EU1/Garamond(0)/m/n/12 Smith, N., Egan, M. P., Carey, S., Price, S. D., Mors
+e, J. A., and Price, P. A.
+ []
+
+[275] [276]) [277]
+\openout2 = `appendix.aux'.
+
+ (./appendix.tex [278
+
+
+] [279
+
+]
+Underfull \hbox (badness 7256) in paragraph at lines 43--57
 \EU1/Garamond(0)/bx/n/12 LO\EU1/Garamond(0)/m/n/12 : A variable tone produced b
 y the Valon Synthesizer, and used to
  []
 
-[260] [261] [262] [263]
-Underfull \hbox (badness 2478) in paragraph at lines 111--118
+[280] [281]
+Underfull \hbox (badness 2478) in paragraph at lines 112--119
 \EU1/Garamond(0)/bx/n/12 ROACH-2\EU1/Garamond(0)/m/n/12 : Reconfigurable Open A
 rchitecture Computing Hardware. The
  []
 
-[264] [265]
-Underfull \hbox (badness 10000) in paragraph at lines 170--179
+[282] [283]
+Underfull \hbox (badness 10000) in paragraph at lines 171--180
 
  []
 
-[266] [267] [268] [269]
-Overfull \hbox (1.04128pt too wide) in paragraph at lines 257--264
+[284] [285]
+Overfull \hbox (1.04128pt too wide) in paragraph at lines 258--265
 \EU1/Garamond(0)/m/n/12 events are triggered during an observation. Automatic t
 riggering is enabled by default,
  []
 
-[270] [271]
-Underfull \hbox (badness 4846) in paragraph at lines 296--298
+[286] [287]
+Underfull \hbox (badness 4846) in paragraph at lines 297--299
 []\EU1/Garamond(0)/bx/n/12 Turnaround loop\EU1/Garamond(0)/m/n/12 : See: \EU1/l
 mtt/m/n/12 turnaround_-loop\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 turnaroun
 d_-loop_-all\EU1/Garamond(0)/m/n/12 . The
  []
 
-[272]
-Underfull \hbox (badness 1681) in paragraph at lines 320--321
+
+Underfull \hbox (badness 1681) in paragraph at lines 321--322
 []\EU1/Garamond(0)/bx/n/12 STATE\EU1/Garamond(0)/m/n/12 : One of the following:
  \EU1/lmtt/m/n/12 BOOT\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 CONNECTED\EU1/
 Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 PROGRAMMED\EU1/Garamond(0)/m/n/12 , \EU1/
 lmtt/m/n/12 CONFIGURED\EU1/Garamond(0)/m/n/12 ,
  []
 
-[273] [274] [275] [276] [277] [278] [279]
-Underfull \hbox (badness 5893) in paragraph at lines 449--450
+[288] [289] [290] [291]
+Underfull \hbox (badness 5893) in paragraph at lines 450--451
 []\EU1/Garamond(0)/bx/n/12 QDR_-CAL_-FAIL\EU1/Garamond(0)/m/n/12 : Indicates th
 at the QDR calibration has failed. See:
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 460--461
+Underfull \hbox (badness 2653) in paragraph at lines 461--462
 []\EU1/Garamond(0)/bx/n/12 LAST_-DF_-RESPONSE\EU1/Garamond(0)/m/n/12 : See: \EU
 1/lmtt/m/n/12 check_-lamp_-retune\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 che
 ck_-lamp_-retune_-all\EU1/Garamond(0)/m/n/12 .
  []
 
-[280]
+[292]
 File: ./figures/software/roaches_off.png Graphic file (type QTm)
  <use  "./figures/software/roaches_off.png" >
 File: ./figures/software/full_loop.png Graphic file (type QTm)
@@ -2509,40 +2536,10 @@ File: ./figures/software/full_loop.png Graphic file (type QTm)
 <use  "./figures/software/full_loop.png" >
 File: ./figures/software/has_targ_tones.png Graphic file (type QTm)
 
-<use  "./figures/software/has_targ_tones.png" > [281] [282] [283] [284]
-[285] [286] [287] [288] [289] [290] [291] [292] [293] [294] [295] [296])
-[297]
-\openout2 = `conclusion.aux'.
-
- (./conclusion.tex [298
-
-
-
-] [299]
-File: figures/conclusion/toltec_slice_2.jpg Graphic file (type QTm)
-
-<use  "figures/conclusion/toltec_slice_2.jpg" >
-File: figures/conclusion/single_board.jpg Graphic file (type QTm)
-
-<use  "figures/conclusion/single_board.jpg" >) [300] [301] [302] (./dis.bbl
-[303
-
-
-] [304] [305] [306] [307] [308]
-Underfull \hbox (badness 1342) in paragraph at lines 462--465
-[]\EU1/Garamond(0)/m/n/12 Hall, J. S. (1949).  Observations of the polarized li
-ght from stars.  \EU1/Garamond(0)/m/it/12 Science\EU1/Garamond(0)/m/n/12 ,
- []
-
-[309] [310] [311] [312] [313] [314]
-Underfull \hbox (badness 512) in paragraph at lines 926--930
-[]\EU1/Garamond(0)/m/n/12 Smith, N., Egan, M. P., Carey, S., Price, S. D., Mors
-e, J. A., and Price, P. A.
- []
-
-[315] [316])
-Package atenddvi Info: Last page = 342.
- [317]
+<use  "./figures/software/has_targ_tones.png" > [293] [294] [295] [296]
+[297] [298] [299] [300] [301] [302] [303] [304])
+Package atenddvi Info: Last page = 329.
+ [305]
 \tf@toc=\write6
 \openout6 = `dis.toc'.
 
@@ -2552,13 +2549,13 @@ Package atenddvi Info: Last page = 342.
 \tf@lof=\write8
 \openout8 = `dis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1196.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1196.
- (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux)
-(./blast_data.aux) (./carina.aux) (./galaxies.aux) (./software.aux)
-(./conclusion.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1196.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1198.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1198.
+ (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux) (./blast_data.aux) 
+(./carina.aux)
+(./galaxies.aux) (./conclusion.aux) (./appendix.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1198.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1198.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2569,12 +2566,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### simple group (level 1) entered at line 81 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 41105 strings out of 493591
- 727440 string characters out of 6145590
- 989997 words of memory out of 5000000
- 43735 multiletter control sequences out of 15000+600000
+ 41100 strings out of 493591
+ 727364 string characters out of 6145590
+ 989902 words of memory out of 5000000
+ 43734 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 46i,22n,105p,10384b,34272s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,22n,105p,10384b,34274s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dis.pdf (342 pages).
+Output written on dis.pdf (329 pages).
