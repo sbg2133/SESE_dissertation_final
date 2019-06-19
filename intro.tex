@@ -1,8 +1,8 @@
 \chapter{Introduction}\label{intro}
 
-This dissertation describes the development and preliminary implementation of an FPGA-based (field-programmable gate array) readout system for a novel detector technology known as the microwave kinetic inductance detector (MKID, or KID) \citep{day2003broadband, mazin2005microwave}. MKIDs are superconducting resonators which change their resonant frequency in response to the absorption of incident photons that have enough energy to break apart superconducting Cooper pairs. The change in resonant frequency is proportional to the amount of optical power which has been absorbed by the inductor.
+This dissertation describes the development and preliminary implementation of a readout system for a novel detector technology known as the microwave kinetic inductance detector (MKID, or KID) \citep{day2003broadband, mazin2005microwave}. MKIDs are superconducting resonators which change their resonant frequency in response to the absorption of incident photons that have enough energy to break apart superconducting Cooper pairs. The change in resonant frequency is proportional to the amount of optical power which has been absorbed by the inductor.
 
-The combination of the detector arrays and readout system form the core of a very powerful astronomical camera. Although many MKID archictures exist, the one which is primarily discussed in this document is the lumped-element kinetic inductance detector (LEKID) \citep{doyle2008lumped}. The tunable resonant frequencies of MKIDs allow them to be frequency domain multiplexed (FDM) on a single feedline. Current multiplexing factors are in the kilopixel regime. However, the demands of next generation submillimeter (sub-mm) and millimeter-wave (mm-wave) observatories (e.g., CMB-S4 \cite{abitbol2017cmb}) are rapidly pushing the requirements into the megapixel regime. Recent advances in FPGA-based electronics have enabled the use of high speed digital signal processing (DSP) algorithms which are required to match the high multiplexing factors of the detector arrays.
+The combination of the detector arrays and readout system form the core of a powerful astronomical camera. Although many MKID archictures exist, the one which is primarily discussed in this document is the lumped-element kinetic inductance detector (LEKID) \citep{doyle2008lumped}. The tunable resonant frequencies of MKIDs allow them to be frequency domain multiplexed (FDM) on a single feedline. Current multiplexing factors are in the kilopixel regime. However, the demands of next generation submillimeter (sub-mm) and millimeter-wave (mm-wave) observatories (e.g., CMB-S4 \cite{abitbol2017cmb}) are rapidly pushing the requirements into the megapixel regime. Recent advances in FPGA-based electronics have enabled the use of high speed digital signal processing (DSP) algorithms which are required to match the high multiplexing factors of the detector arrays.
 
 The ASU LEKID readout incorporates firmware, software and electronics which are specifically designed to work with astronomical MKID instruments observing in the sub-mm/mm-wave and far-infrared (FIR) (see Section~\ref{submillimeter}). These instruments are installed at ground-based and stratospheric-balloon-based sub-mm/mm-wave observatories. Although the ASU detector readout has been integrated into several current and planned instruments, it was primarily designed for NASA's Next Generation Balloon-Borne Large Aperture Submillimeter Telescope (BLAST-TNG) \citep{dober}. It's design architecture and initial performance are described in \citet{gordon2016}.
 
@@ -30,25 +30,50 @@ The sub-mm/FIR/mm-wave radiation which is detected from space is the heat which 
 
 The first factor is that the photons emitted by the dust, which is mostly at temperatures $\leq$100~K, are at very low energy. They therefore require extremely low backgrounds, along with the use of very sensitive devices, such as superconductors, to be detected. The second factor, which is out of the control of humans, is that the troposphere is mostly opaque to the dust emission, due to absorption by water vapor, oxygen and carbon dioxide. Observations of the sub-mm emission from space must therefore be conducted from sites that are as high in altitude and as dry (in terms of precipitable water vapor) as possible. At present, the two best sites in the world are the Atacama desert in Chile, and Antarctica.
 
-\subsection{Cosmic Dust}
+\section{Cosmic Dust}
 
-In the 19th century, the question of why, given a presumably infinite number of stars, the night sky is mostly dark, came to be known as Olbers' Paradox. The commonly known solutions, which have become more nuanced over the course of time, usually cite the confluence of the vastness of space and the finite sped of light\footnote{The speed limit applies to all forms information transfer.}. While these solutions to Olbers' paradox are sufficient explanations, they usually omit an important contributor to the darkness of the night sky, which is cosmic dust.
+In the 19th century, the question of why, given a presumably infinite number of stars, the night sky is mostly dark, came to be known as Olbers' Paradox. The commonly known solutions, which have become more nuanced over the course of time, usually cite the confluence of the vastness of space and the finite speed of light\footnote{This speed limit applies to all forms of information transfer.}. While these solutions to Olbers' paradox are sufficient, they typically leave out an often overlooked contributor to the darkness of the night sky. This is cosmic dust.
 
-Cosmic dust consists of particles ranging from the size of individual molecules (e.g., polycyclic aromatic hydrocarbons (PAHs)) to grains of sizes on the order of $\sim$100~$\upmu$m. These particles permeate the interstellar medium (ISM) of galaxies. Their size distribution, composition and material properties are the subject of ongoing study (see, e.g., \citet{andersson2015interstellar,draine2003interstellar}).
+Cosmic dust fills the spiral arms of the Milky Way and other galaxies which contain active star formation. On a very dark night, the dust lanes of the Milky Way are noticeably darker than surrounding starlit regions of the sky (Figure~\ref{fig:MW}).
 
-Depending on their size, dust grains scatter high energy photons, and absorb optical and near-infrared (O/NIR) photons. The energy they absorb is reemitted in the sub-mm/mm-wave/FIR. As a result, large swathes of the night sky that would otherwise appear bright to our eyes due to high levels of nearby active star formation (e.g., much of the area encompassed by the constellation of Orion) are enshrouded in darkness due to the presence of insterstellar dust.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/intro/Milky_Way_Arch}
+\caption[~The dust lane of the Milky Way galaxy.]{The Milky Way galaxy, from Cerro Paranal, Chile. The dust, which is mostly confined inside the spiral arms, obscures the glow of billions of background stars. Image from Bruno Gilli/ESO: \url{https://www.eso.org}}
+\label{fig:MW}
+\end{figure}
 
-When the spectral energy distribution of the observable universe is measured, it appears that roughly the same amount of energy is contained in the sub-mm/far-infrared part of the spectrum as is contained in the O/NIR (peaks at $\sim$1 and $\sim$100~$\upmu$m). By comparing measurements of the GOODS-S region of the sky taken by BLAST 2006 at 250, 350 and 500~$\upmu$m with those taken in other wavebands, it was discovered that approximately half of the sub-mm background light can be associated with individual sub-mm galaxies (SMGs) at cosmological redshifts of $1 \leq z \leq 4$ (\citet{devlin2009over,marsden2009blast,pascale2009blast}). This redshift range corresponds to a period in the universe's history when star formation occurred at rates which are many times higher that which is observed in the present day universe.
-
-\subsection{The Lifecycle of Cosmic Dust}
-
-Conceptually, dust may be thought of as smoke. In \textit{Dust in the Galactic Environment} \citep{whittet2002dust}, the author writes:
+It has been almost a century since astronomers first became interested in interstellar dust and began to study its properties in earnest. These earlier astronomers thought of dust as being somewhat akin to smoke. In \textit{Dust in the Galactic Environment} \citep{whittet2002dust}, the author writes:
 
 \say{The term \textit{smoke} was often used to describe these particles in the early literature. \textit{Smoke} implies the product of combustion, whereas \textit{dust} implies finely powdered matter resulting from the abrasion of solids... The former is arguably more appropriate as a description of the particles condensing in a stellar atmosphere, now regarded as an important source of interstellar grains.}\footnote{Italics added.}
 
-Since its discovery, astronomers have learned that interstellar dust is an important thermodynamic and dynamical catalyst in both small and large scale processes related to star formation in galaxies. In MCs, the dust is collisionally coupled to the gas (the gas-to-dust mass ratio is commonly assumed to be $\sim$100.). The grains are also charged, and their surfaces serve as the hosts of molecular hydrogen formation.
+\subsection{Key Observational Inferences}
 
-The dust is perpetually recycled in the ISM of galaxies. Some of it is produced in stars, condensing into solid form in the cool  photospheres of AGB stars and planetary nebulae. More dust is produced by supernovae. The dust is spread throughout the ISM by the stellar winds produced by OB and AGB stars, and supernovae. Once in the diffuse ISM, it becomes incorporated into molecular clouds (MCs), the birth places of stars, where it cools to temperatures of 10--100~K. The cold dust then finds its way into the protostellar disks that eventually form into planetary systems. The parent star of the planetary system both destroys and creates new dust, and the cycle repeats itself.
+Several key observational inferences about the dust point to its role as an important catalyst in both small and large-scale processes related to star formation in galaxies. The grains exhibit differential, or wavelength-dependent extinction, absorbing photons in the optical and near-infrared (O/NIR) while scattering higher energy photons. The absorbed radiation is reemitted as heat, in the sub-mm/FIR/mm-wave bands. This thermal emission is linearly polarized.
+
+The extinction curve of the interstellar dust indicates a size distribution of $\sim$0.05--0.5~$\upmu$m, where the smallest grains are individual molecules (e.g., polycyclic aromatic hydrocarbons (PAHs)). The exact composition and material properties of the grains are the subject of ongoing study (see, e.g., \citet{andersson2015interstellar,draine2003interstellar}). The O/NIR dust SED indicates the continuum emission is due to a population of silicate grains, while narrow emission features correspond to PAHs and other carbonaceous grains. The sub-mm/FIR polarization spectrum of the dust, as measured in nearby molecular clouds (MCs), contains a minimum at $\sim$350~$\upmu$m (Figure~\ref{fig:polspec}). This feature points to the presence of two distinct dust populations.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/intro/polspec}
+\caption[~The measured polarization spectrum of interstellar dust in several nearby MCs.]{The sub-mm polarization spectrum (normalized to the polarized emission at $\sim$350~$\upmu$m) for several nearby MCs \citep{andersson2015interstellar}. The minimum in the spectrum at $\sim$350~$\upmu$m points to a two-component dust population.}
+\label{fig:polspec}
+\end{figure}
+
+The energy which is absorbed in the O/NIR is reemitted in the sub-mm/mm-wave/FIR bands. Measurements of the spectral energy distribution (SED) of the extragalactic background light (EBL) show that roughly the same amount of energy is contained in the sub-mm/FIR part of the spectrum as in the O/NIR (see Figure \ref{fig:EBL}). These two distinct regions of the SED are known as the cosmic-optical-background (COB) and cosmic-infrared-background (CIB). they peak at $\sim$1~$\upmu$m and $\sim$100~$\upmu$m. By comparing measurements of the GOODS-S region of the sky taken by BLAST 2006 at 250, 350 and 500~$\upmu$m with those taken in other wavebands, it was discovered that approximately half of the CIB can be associated with individual sub-mm galaxies (SMGs) at cosmological redshifts of $1 \leq z \leq 4$ (\citet{devlin2009over,marsden2009blast,pascale2009blast}). This redshift range corresponds to a period in the universe's history when star formation occurred at rates which are many times higher that which is observed in the present day universe.
+
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=\textwidth]{figures/intro/cob_cib}
+\caption[~The SED of extragalactic background light.]{The SED of the EBL, produced from Spitzer observations \citep{dole2006cosmic}. The amount of energy contained in the COB (blue) and CIB (red) is roughly equal.}
+\label{fig:EBL}
+\end{figure}
+
+\subsection{The Lifecycle of Cosmic Dust}
+
+In MCs, the dust is collisionally coupled to the gas (the gas-to-dust mass ratio is commonly assumed to be $\sim$100.). The grains are also charged, and their surfaces serve as the hosts of molecular hydrogen formation.
+
+The dust is perpetually recycled in the ISM of galaxies. Some of it is produced in stars, condensing into solid form in the cool  photospheres of AGB stars and planetary nebulae. More dust is produced by supernovae. The dust is spread throughout the ISM by the stellar winds produced by OB and AGB stars, and supernovae. Once in the diffuse ISM, it becomes incorporated into MCs, the birth places of stars, where it cools to temperatures of 10--100~K. The cold dust then finds its way into the protostellar disks that eventually form into planetary systems. The parent star of the planetary system both destroys and creates new dust, and the cycle repeats itself.
 
 \subsection{The Role of Dust as a Tracer of Cosmic Magnetic Fields}
 

@@ -16,45 +16,45 @@ Warning--empty journal in planck2014planck
 Warning--there's a number but no series in duffing1918erzwungene
 Warning--empty institution in mazin2005microwave
 Warning--empty journal in stalling1995fast
-You've used 175 entries,
+You've used 176 entries,
             1940 wiz_defined-function locations,
-            1491 strings with 40548 characters,
-and the built_in function-call counts, 84476 in all, are:
-= -- 7668
-> -- 5312
+            1496 strings with 40902 characters,
+and the built_in function-call counts, 85129 in all, are:
+= -- 7725
+> -- 5365
 < -- 98
-+ -- 2007
-- -- 1930
-* -- 8237
-:= -- 15013
-add.period$ -- 537
-call.type$ -- 175
-change.case$ -- 1762
-chr.to.int$ -- 172
-cite$ -- 180
-duplicate$ -- 2654
-empty$ -- 4773
-format.name$ -- 2156
-if$ -- 15845
++ -- 2029
+- -- 1950
+* -- 8308
+:= -- 15129
+add.period$ -- 540
+call.type$ -- 176
+change.case$ -- 1777
+chr.to.int$ -- 173
+cite$ -- 181
+duplicate$ -- 2668
+empty$ -- 4803
+format.name$ -- 2177
+if$ -- 15962
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 174
-newline$ -- 874
-num.names$ -- 525
-pop$ -- 1498
+missing$ -- 175
+newline$ -- 879
+num.names$ -- 528
+pop$ -- 1511
 preamble$ -- 1
-purify$ -- 1773
+purify$ -- 1788
 quote$ -- 0
-skip$ -- 2101
+skip$ -- 2111
 stack$ -- 0
-substring$ -- 4574
-swap$ -- 538
+substring$ -- 4613
+swap$ -- 540
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1034
+type$ -- 1040
 warning$ -- 5
-while$ -- 553
+while$ -- 557
 width$ -- 0
-write$ -- 2275
+write$ -- 2288
 (There were 5 warnings)

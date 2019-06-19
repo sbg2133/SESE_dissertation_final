@@ -444,6 +444,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm0500.tfm
+INPUT figures/intro/Milky_Way_Arch.jpg
+INPUT figures/intro/polspec.png
+INPUT figures/intro/cob_cib.png
 INPUT figures/intro/olimpo_cal_lamp.png
 INPUT figures/intro/superspec_noisecomp.png
 OUTPUT kid_model.aux

@@ -283,6 +283,14 @@ Dodkins, R., Mahashabde, S., O’Brien, K., Thatte, N., Fruitwala, N., Walter,
 \newblock Mkid digital readout tuning with deep learning.
 \newblock {\em Astronomy and computing}, 23:60--71.
 
+\bibitem[\protect\astroncite{Dole et~al.}{2006}]{dole2006cosmic}
+Dole, H., Lagache, G., Puget, J.-L., Caputi, K.~I., Fernandez-Conde, N.,
+  Le~Floc'h, E., Papovich, C., P{\'e}rez-Gonz{\'a}lez, P.~G., Rieke, G.~H., and
+  Blaylock, M. (2006).
+\newblock The cosmic infrared background resolved by spitzer-contributions of
+  mid-infrared galaxies to the far-infrared background.
+\newblock {\em Astronomy \& Astrophysics}, 451(2):417--429.
+
 \bibitem[\protect\astroncite{Doyle et~al.}{2008}]{doyle2008lumped}
 Doyle, S., Mauskopf, P., Naylon, J., Porch, A., and Duncombe, C. (2008).
 \newblock Lumped element kinetic inductance detectors.
