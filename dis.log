@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  29 JUN 2019 23:10
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  30 JUN 2019 18:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1882,19 +1882,19 @@ LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/it' will be
 
 
 
-]
+] [2]
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
-(Font)              scaled to size 8.94995pt on input line 9.
+(Font)              scaled to size 8.94995pt on input line 31.
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
-(Font)              scaled to size 11.18744pt on input line 9.
+(Font)              scaled to size 11.18744pt on input line 31.
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
-(Font)              scaled to size 7.8312pt on input line 9.
- [2] [3]
+(Font)              scaled to size 7.8312pt on input line 31.
+ [3]
 File: figures/intro/Milky_Way_Arch.jpg Graphic file (type QTm)
  <use  "figures/intro/Milky_Way_Arch.jpg" >
-[4] [5]
+[4]
 File: figures/intro/polspec.png Graphic file (type QTm)
- <use  "figures/intro/polspec.png" >
+ <use  "figures/intro/polspec.png" > [5]
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -1905,11 +1905,16 @@ File: figures/intro/cob_cib.png Graphic file (type QTm)
 <use  "figures/intro/cob_cib.png" > [7] [8] [9]
 File: figures/intro/velac_lic.jpg Graphic file (type QTm)
 
-<use  "figures/intro/velac_lic.jpg" > [10] [11] [12] [13] [14] [15] [16]
-[17] [18] [19] [20] [21]
+<use  "figures/intro/velac_lic.jpg" > [10] [11] [12] [13] [14] [15]
+Underfull \hbox (badness 1424) in paragraph at lines 163--164
+\EU1/Garamond(0)/m/n/12 experiment to feature large-format (kilopixel scale) ar
+rays of LEKIDs, along
+ []
+
+[16] [17] [18] [19] [20] [21]
 File: figures/intro/olimpo_cal_lamp.png Graphic file (type QTm)
- <use  "figures/intro/olimpo_cal_lamp.png" > [22]
-[23]
+ <use  "figures/intro/olimpo_cal_lamp.png" >
+[22] [23]
 File: figures/intro/superspec_noisecomp.png Graphic file (type QTm)
  <use  "figures/intro/superspec_noisecomp.png" > [24] [25]) [26]
 \openout2 = `kid_model.aux'.
@@ -2575,7 +2580,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  41119 strings out of 493591
  727700 string characters out of 6145590
- 989227 words of memory out of 5000000
+ 989647 words of memory out of 5000000
  43749 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191

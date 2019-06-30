@@ -10,10 +10,10 @@
 \contentsline {subsection}{\numberline {1.1.1}Atmospheric Transmission}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Cosmic Dust}{4}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Observational Inferences}{5}{subsection.1.2.1}
-\contentsline {subsection}{\numberline {1.2.2}The Lifecycle of Cosmic Dust}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}The Role of Dust as a Tracer of Cosmic Magnetic Fields}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.2}The Lifecycle of Cosmic Dust}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}The Role of Dust as a Tracer of Cosmic Magnetic Fields}{8}{subsection.1.2.3}
 \contentsline {subsection}{\numberline {1.2.4}Combining Total Intensity and Polarization Measurements}{10}{subsection.1.2.4}
-\contentsline {subsection}{\numberline {1.2.5}The Role of Cosmic Dust as a CMB Foreground}{11}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.5}The Role of Cosmic Dust as a CMB Foreground}{10}{subsection.1.2.5}
 \contentsline {section}{\numberline {1.3}Technologies for Submillimeter and Millimeter-Wave Astronomy}{12}{section.1.3}
 \contentsline {subsection}{\numberline {1.3.1}KIDs and TESs}{13}{subsection.1.3.1}
 \contentsline {section}{\numberline {1.4}BLAST-TNG}{14}{section.1.4}
