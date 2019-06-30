@@ -9,131 +9,132 @@
 \contentsline {section}{\numberline {1.1}Submillimeter and Millimeter Wave Astronomy}{2}{section.1.1}
 \contentsline {subsection}{\numberline {1.1.1}Atmospheric Transmission}{3}{subsection.1.1.1}
 \contentsline {section}{\numberline {1.2}Cosmic Dust}{4}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}Key Observational Inferences}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}Observational Inferences}{5}{subsection.1.2.1}
 \contentsline {subsection}{\numberline {1.2.2}The Lifecycle of Cosmic Dust}{8}{subsection.1.2.2}
-\contentsline {subsection}{\numberline {1.2.3}The Role of Dust as a Tracer of Cosmic Magnetic Fields}{8}{subsection.1.2.3}
-\contentsline {subsection}{\numberline {1.2.4}The Role of Cosmic Dust as a CMB Foreground}{10}{subsection.1.2.4}
-\contentsline {section}{\numberline {1.3}Technologies for Submillimeter and Millimeter-Wave Astronomy}{10}{section.1.3}
-\contentsline {subsection}{\numberline {1.3.1}KIDs and TESs}{11}{subsection.1.3.1}
-\contentsline {section}{\numberline {1.4}BLAST-TNG}{13}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}Science with BLAST-TNG}{15}{subsection.1.4.1}
-\contentsline {section}{\numberline {1.5}Current KID-based Instruments}{17}{section.1.5}
-\contentsline {subsection}{\numberline {1.5.1}Considerations on Sub-mm/mm-wave and O/NIR MKID Readout Systems}{17}{subsection.1.5.1}
-\contentsline {subsection}{\numberline {1.5.2}KID Instruments which Incorporate Elements of the ASU LEKID Readout}{18}{subsection.1.5.2}
-\contentsline {section}{\numberline {1.6}Dissertation Outline}{24}{section.1.6}
-\contentsline {chapter}{\chapternumberline {2}Parametric model of a LEKID}{26}{chapter.2}
-\contentsline {section}{\numberline {2.1}Cooper Pairs and Quasiparticles}{27}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Quasiparticle Generation and Recombination}{29}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}The Two-Fluid Model}{31}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}Kinetic Inductance}{37}{section.2.2}
-\contentsline {section}{\numberline {2.3}Principle LEKID Parameters}{41}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Intrinsic and Empirical Parameters}{41}{subsection.2.3.1}
-\contentsline {section}{\numberline {2.4}Responsivities}{48}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}Temperature Responsivity}{48}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Optical Responsivity}{49}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}The Nonlinear Kinetic Inductance}{53}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Bifurcation}{56}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Sensitivity}{56}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Instrumental Noise Hierarchy}{57}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Generation-Recombination Noise}{58}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Two-Level System Noise}{59}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Amplifier Noise}{61}{subsection.2.5.4}
-\contentsline {subsection}{\numberline {2.5.5}Photon Noise}{64}{subsection.2.5.5}
-\contentsline {subsection}{\numberline {2.5.6}Total NEP}{66}{subsection.2.5.6}
-\contentsline {chapter}{\chapternumberline {3}Design of an FPGA-based LEKID spectrometer}{70}{chapter.3}
-\contentsline {section}{\numberline {3.1}System Requirements}{71}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}System Overview}{72}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}White Noise}{74}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Flicker Noise: Readout Rate and Map Size}{76}{subsection.3.1.3}
-\contentsline {subsection}{\numberline {3.1.4}Multiplexing Factor}{79}{subsection.3.1.4}
-\contentsline {subsection}{\numberline {3.1.5}Data Rate}{79}{subsection.3.1.5}
-\contentsline {subsection}{\numberline {3.1.6}Timing and Packet Synchronization}{80}{subsection.3.1.6}
-\contentsline {subsection}{\numberline {3.1.7}Power}{81}{subsection.3.1.7}
-\contentsline {section}{\numberline {3.2}Readout Electronics}{81}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Digital Electronics}{82}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Intermediate Frequency Electronics}{84}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Readout Electronics for the Balloon Platform: The BLAST-TNG ROACH2 Motel}{88}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}ROACH2 Firmware Overview}{94}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Tone Comb Synthesis}{95}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Digitization}{99}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}Coarse Channelization: The PFB-FFT}{101}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}FFT Bin Selection}{103}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}Fine Channelization: Digital Down Conversion}{105}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}Accumulation and Downsampling}{108}{subsection.3.3.6}
-\contentsline {subsubsection}{\numberline {3.3.6.1}UDP Packetization and Time Stamping}{110}{subsubsection.3.3.6.1}
-\contentsline {section}{\numberline {3.4}Noise Verification}{113}{section.3.4}
-\contentsline {section}{\numberline {3.5}Readout Software}{119}{section.3.5}
-\contentsline {chapter}{\chapternumberline {4}Instrumental Characterization of BLAST-TNG}{120}{chapter.4}
-\contentsline {section}{\numberline {4.1}Detector Sweeps}{122}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}The Wide-sweep Frequency Response}{123}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Transfer function Correction}{126}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}Channel Identification}{131}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Detector Yields}{133}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Target Sweeps}{135}{subsection.4.1.5}
-\contentsline {subsection}{\numberline {4.1.6}Readout Power Optimization}{141}{subsection.4.1.6}
-\contentsline {section}{\numberline {4.2}Detector Timestreams}{146}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Converting {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } to {\bgroup \bgroup {{\gls {df}}}\egroup \egroup }}{146}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Phase and Dissipation Quadratures}{148}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Palestine Integration Detector Histograms}{152}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Responsivities}{164}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Optical Responsivity}{164}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Base Temperature Responsivity}{167}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}Estimating Sensitivity}{169}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}NET and NEP}{169}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}NEFD and Mapping Speed}{171}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5}Applying the LEKID Model to Measured Data}{173}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Optical Response}{174}{subsection.4.5.1}
-\contentsline {subsection}{\numberline {4.5.2}Temperature Response}{179}{subsection.4.5.2}
-\contentsline {section}{\numberline {4.6}Optical Tests}{180}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Passband Mapping}{180}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}Polarization Efficiency}{188}{subsection.4.6.2}
-\contentsline {subsection}{\numberline {4.6.3}Additional Optical Tests}{193}{subsection.4.6.3}
-\contentsline {chapter}{\chapternumberline {5}Magnetic field Morphology of the Carina Nebula Complex}{196}{chapter.5}
-\contentsline {section}{\numberline {5.1}BLASTPol Observations of Carina}{197}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Data parameterization}{198}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Data Calibration}{200}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Line-Integral-Convolution}{201}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}LIC Algorithm}{203}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Visualizing Magnetic Fields with LIC}{206}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Multiwavelength Observations of the CNC}{213}{section.5.3}
-\contentsline {section}{\numberline {5.4}Estimating {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } using the DCFM}{221}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Description of the DCFM}{221}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Determining {\bgroup \bgroup {{$S_{\Phi }$}}\egroup \egroup }}{223}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Determining {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup }}{225}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Determining {\bgroup \bgroup {{$\sigma _{v}$}}\egroup \egroup }}{230}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Uncertainties Associated with the DCFM}{232}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Results of DCFM Applied to the CNC}{235}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}Interpretation of {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup }}{237}{subsection.5.4.7}
-\contentsline {chapter}{\chapternumberline {6}BLAST-TNG Target selection: B-field Morphology in Nearby External Galaxies}{244}{chapter.6}
-\contentsline {section}{\numberline {6.1}Summary of Previous Observations}{245}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Radio Measurements of External Galaxies}{246}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}The Modal Structure of Large-Scale Magnetic Fields}{247}{subsection.6.1.2}
-\contentsline {subsection}{\numberline {6.1.3}Measurements of Polarized Submillimeter Emission in External Galaxies}{250}{subsection.6.1.3}
-\contentsline {section}{\numberline {6.2}BLAST-TNG External Galaxy Targets}{252}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Target List}{252}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}Required Observing Times}{254}{subsection.6.2.2}
-\contentsline {chapter}{\chapternumberline {7}Conclusion}{261}{chapter.7}
-\contentsline {section}{\numberline {7.1}Science-Driven Technological Development}{261}{section.7.1}
-\contentsline {chapter}{\hspace {-\cftchapterindent }References}{266}{section*.10}
+\contentsline {subsection}{\numberline {1.2.3}The Role of Dust as a Tracer of Cosmic Magnetic Fields}{9}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Combining Total Intensity and Polarization Measurements}{10}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}The Role of Cosmic Dust as a CMB Foreground}{11}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Technologies for Submillimeter and Millimeter-Wave Astronomy}{12}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}KIDs and TESs}{13}{subsection.1.3.1}
+\contentsline {section}{\numberline {1.4}BLAST-TNG}{14}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Science with BLAST-TNG}{17}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Current KID-based Instruments}{19}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Considerations on Sub-mm/mm-wave and O/NIR MKID Readout Systems}{19}{subsection.1.5.1}
+\contentsline {subsection}{\numberline {1.5.2}KID Instruments which Incorporate Elements of the ASU LEKID Readout}{20}{subsection.1.5.2}
+\contentsline {section}{\numberline {1.6}Dissertation Outline}{25}{section.1.6}
+\contentsline {chapter}{\chapternumberline {2}Parametric model of a LEKID}{27}{chapter.2}
+\contentsline {section}{\numberline {2.1}Cooper Pairs and Quasiparticles}{28}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Quasiparticle Generation and Recombination}{30}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}The Two-Fluid Model}{32}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Kinetic Inductance}{38}{section.2.2}
+\contentsline {section}{\numberline {2.3}Principle LEKID Parameters}{42}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Intrinsic and Empirical Parameters}{42}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Responsivities}{49}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Temperature Responsivity}{49}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Optical Responsivity}{50}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}The Nonlinear Kinetic Inductance}{54}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Bifurcation}{57}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Sensitivity}{57}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Instrumental Noise Hierarchy}{58}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Generation-Recombination Noise}{59}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Two-Level System Noise}{60}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Amplifier Noise}{62}{subsection.2.5.4}
+\contentsline {subsection}{\numberline {2.5.5}Photon Noise}{65}{subsection.2.5.5}
+\contentsline {subsection}{\numberline {2.5.6}Total NEP}{67}{subsection.2.5.6}
+\contentsline {chapter}{\chapternumberline {3}Design of an FPGA-based LEKID spectrometer}{71}{chapter.3}
+\contentsline {section}{\numberline {3.1}System Requirements}{72}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}System Overview}{73}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}White Noise}{75}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Flicker Noise: Readout Rate and Map Size}{77}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Multiplexing Factor}{80}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Data Rate}{80}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Timing and Packet Synchronization}{81}{subsection.3.1.6}
+\contentsline {subsection}{\numberline {3.1.7}Power}{82}{subsection.3.1.7}
+\contentsline {section}{\numberline {3.2}Readout Electronics}{82}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Digital Electronics}{83}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Intermediate Frequency Electronics}{85}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Readout Electronics for the Balloon Platform: The BLAST-TNG ROACH2 Motel}{89}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}ROACH2 Firmware Overview}{95}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Tone Comb Synthesis}{96}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Digitization}{100}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Coarse Channelization: The PFB-FFT}{102}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}FFT Bin Selection}{104}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Fine Channelization: Digital Down Conversion}{106}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Accumulation and Downsampling}{109}{subsection.3.3.6}
+\contentsline {subsubsection}{\numberline {3.3.6.1}UDP Packetization and Time Stamping}{111}{subsubsection.3.3.6.1}
+\contentsline {section}{\numberline {3.4}Noise Verification}{114}{section.3.4}
+\contentsline {section}{\numberline {3.5}Readout Software}{120}{section.3.5}
+\contentsline {chapter}{\chapternumberline {4}Instrumental Characterization of BLAST-TNG}{121}{chapter.4}
+\contentsline {section}{\numberline {4.1}Detector Sweeps}{123}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}The Wide-sweep Frequency Response}{124}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Transfer function Correction}{127}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Channel Identification}{132}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Detector Yields}{134}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Target Sweeps}{136}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Readout Power Optimization}{142}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Detector Timestreams}{147}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Converting {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } to {\bgroup \bgroup {{\gls {df}}}\egroup \egroup }}{147}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Phase and Dissipation Quadratures}{149}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Palestine Integration Detector Histograms}{153}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Responsivities}{165}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Optical Responsivity}{165}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Base Temperature Responsivity}{168}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}Estimating Sensitivity}{170}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}NET and NEP}{170}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}NEFD and Mapping Speed}{172}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Applying the LEKID Model to Measured Data}{174}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Optical Response}{175}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Temperature Response}{180}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Optical Tests}{181}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Passband Mapping}{181}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Polarization Efficiency}{189}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Additional Optical Tests}{194}{subsection.4.6.3}
+\contentsline {chapter}{\chapternumberline {5}Magnetic field Morphology of the Carina Nebula Complex}{197}{chapter.5}
+\contentsline {section}{\numberline {5.1}BLASTPol Observations of Carina}{198}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Data parameterization}{199}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Data Calibration}{201}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Line-Integral-Convolution}{202}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}LIC Algorithm}{204}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Visualizing Magnetic Fields with LIC}{207}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Multiwavelength Observations of the CNC}{214}{section.5.3}
+\contentsline {section}{\numberline {5.4}Estimating {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } using the DCFM}{222}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Description of the DCFM}{222}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Determining {\bgroup \bgroup {{$S_{\Phi }$}}\egroup \egroup }}{224}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Determining {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup }}{226}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Determining {\bgroup \bgroup {{$\sigma _{v}$}}\egroup \egroup }}{231}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}Uncertainties Associated with the DCFM}{233}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Results of DCFM Applied to the CNC}{236}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Interpretation of {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup }}{238}{subsection.5.4.7}
+\contentsline {chapter}{\chapternumberline {6}BLAST-TNG Target selection: B-field Morphology in Nearby External Galaxies}{245}{chapter.6}
+\contentsline {section}{\numberline {6.1}Summary of Previous Observations}{246}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Radio Measurements of External Galaxies}{247}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}The Modal Structure of Large-Scale Magnetic Fields}{248}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Measurements of Polarized Submillimeter Emission in External Galaxies}{251}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}BLAST-TNG External Galaxy Targets}{253}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Target List}{253}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Required Observing Times}{255}{subsection.6.2.2}
+\contentsline {chapter}{\chapternumberline {7}Conclusion}{262}{chapter.7}
+\contentsline {section}{\numberline {7.1}Science-Driven Technological Development}{262}{section.7.1}
+\contentsline {chapter}{\hspace {-\cftchapterindent }References}{267}{section*.10}
 \setcounter {tocdepth}{0}
-\contentsline {part}{Appendix}{281}{section*.11}
-\contentsline {appendix}{\chapternumberline {A}BLAST-TNG LEKID Readout Operator's Manual}{282}{appendix.A}
-\contentsline {section}{\numberline {A.1}Glossary of Terms}{283}{section.A.1}
-\contentsline {section}{\numberline {A.2}Data Paths and Hardware Addresses}{288}{section.A.2}
-\contentsline {section}{\numberline {A.3}Normal Operation}{289}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Readout Mode}{289}{subsection.A.3.1}
-\contentsline {subsection}{\numberline {A.3.2}Housekeeping Mode}{290}{subsection.A.3.2}
-\contentsline {section}{\numberline {A.4}Multi-command loops}{291}{section.A.4}
-\contentsline {section}{\numberline {A.5}Owl Frontend}{292}{section.A.5}
-\contentsline {section}{\numberline {A.6}Commands}{301}{section.A.6}
-\contentsline {subsection}{\numberline {A.6.1}Commands which are useful for data visualization (KST)}{302}{subsection.A.6.1}
-\contentsline {subsection}{\numberline {A.6.2}Commands that enable triggering of periodic events}{302}{subsection.A.6.2}
-\contentsline {subsection}{\numberline {A.6.3}Tone writing commands}{303}{subsection.A.6.3}
-\contentsline {subsection}{\numberline {A.6.4}LO commands}{303}{subsection.A.6.4}
-\contentsline {subsection}{\numberline {A.6.5}Tone power/attenuator commands}{304}{subsection.A.6.5}
-\contentsline {subsection}{\numberline {A.6.6}Pi commands}{305}{subsection.A.6.6}
-\contentsline {subsection}{\numberline {A.6.7}Power state commands}{306}{subsection.A.6.7}
-\contentsline {subsection}{\numberline {A.6.8}Cal lamp commands}{306}{subsection.A.6.8}
-\contentsline {subsection}{\numberline {A.6.9}Commands that set global parameters}{306}{subsection.A.6.9}
-\contentsline {subsection}{\numberline {A.6.10}Data handling commands}{307}{subsection.A.6.10}
-\contentsline {section}{\numberline {A.7}Data downlinking}{308}{section.A.7}
+\contentsline {part}{Appendix}{282}{section*.11}
+\contentsline {appendix}{\chapternumberline {A}BLAST-TNG LEKID Readout Operator's Manual}{283}{appendix.A}
+\contentsline {section}{\numberline {A.1}Glossary of Terms}{284}{section.A.1}
+\contentsline {section}{\numberline {A.2}Data Paths and Hardware Addresses}{289}{section.A.2}
+\contentsline {section}{\numberline {A.3}Normal Operation}{290}{section.A.3}
+\contentsline {subsection}{\numberline {A.3.1}Readout Mode}{290}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.2}Housekeeping Mode}{291}{subsection.A.3.2}
+\contentsline {section}{\numberline {A.4}Multi-command loops}{292}{section.A.4}
+\contentsline {section}{\numberline {A.5}Owl Frontend}{293}{section.A.5}
+\contentsline {section}{\numberline {A.6}Commands}{302}{section.A.6}
+\contentsline {subsection}{\numberline {A.6.1}Commands which are useful for data visualization (KST)}{303}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Commands that enable triggering of periodic events}{303}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.3}Tone writing commands}{304}{subsection.A.6.3}
+\contentsline {subsection}{\numberline {A.6.4}LO commands}{304}{subsection.A.6.4}
+\contentsline {subsection}{\numberline {A.6.5}Tone power/attenuator commands}{305}{subsection.A.6.5}
+\contentsline {subsection}{\numberline {A.6.6}Pi commands}{306}{subsection.A.6.6}
+\contentsline {subsection}{\numberline {A.6.7}Power state commands}{307}{subsection.A.6.7}
+\contentsline {subsection}{\numberline {A.6.8}Cal lamp commands}{307}{subsection.A.6.8}
+\contentsline {subsection}{\numberline {A.6.9}Commands that set global parameters}{307}{subsection.A.6.9}
+\contentsline {subsection}{\numberline {A.6.10}Data handling commands}{308}{subsection.A.6.10}
+\contentsline {section}{\numberline {A.7}Data downlinking}{309}{section.A.7}
