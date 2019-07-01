@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  30 JUN 2019 22:36
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1872,7 +1872,7 @@ Underfull \hbox (badness 1675) in paragraph at lines 31--31
 
 ]
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/it' will be
-(Font)              scaled to size 12.99664pt on input line 225.
+(Font)              scaled to size 12.99664pt on input line 235.
 
 [21]) [22]
 \openout2 = `intro.aux'.
@@ -2105,13 +2105,13 @@ File: figures/blast_data/sweeps/500_VNA_overplot.pdf Graphic file (type QTm)
 <use  "figures/blast_data/sweeps/500_VNA_overplot.pdf" >
 File: figures/blast_data/sweeps/trf_slopes.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/sweeps/trf_slopes.pdf" > [130] [131] [132] [133]
+<use  "figures/blast_data/sweeps/trf_slopes.pdf" > [130] [131]
 File: figures/blast_data/sweeps/350FK_HPF_PAL.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/sweeps/350FK_HPF_PAL.pdf" > [134] [135] [136]
+<use  "figures/blast_data/sweeps/350FK_HPF_PAL.pdf" > [132] [133] [134]
+[135] [136] [137]
 File: figures/blast_data/sweeps/350_May2018VNA_FK.pdf Graphic file (type QTm)
-
-<use  "figures/blast_data/sweeps/350_May2018VNA_FK.pdf" >
+ <use  "figures/blast_data/sweeps/350_May2018VNA_FK.pdf" >
 File: figures/blast_data/sweeps/350_PAL_FK.pdf Graphic file (type QTm)
 
 <use  "figures/blast_data/sweeps/350_PAL_FK.pdf" >
@@ -2121,9 +2121,8 @@ File: figures/blast_data/sweeps/350_ICE_FK.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 27.61148pt on input line 221.
 
-[137]
 File: figures/blast_data/sweeps/250W_May2018VNA_FK.pdf Graphic file (type QTm)
- <use  "figures/blast_data/sweeps/250W_May2018VNA_FK.pdf" >
+<use  "figures/blast_data/sweeps/250W_May2018VNA_FK.pdf" >
 File: figures/blast_data/sweeps/250W_PAL_FK.pdf Graphic file (type QTm)
 
 <use  "figures/blast_data/sweeps/250W_PAL_FK.pdf" >
@@ -2161,13 +2160,15 @@ File: figures/blast_data/sweeps/500_ICE_FK.pdf Graphic file (type QTm)
 
 LaTeX Warning: Float too large for page by 34.51474pt on input line 263.
 
+[138] [139] [140] [141] [142] [143]
 File: figures/blast_data/sweeps/350_targ_fts.pdf Graphic file (type QTm)
-<use  "figures/blast_data/sweeps/350_targ_fts.pdf" > [138] [139] [140] [141]
-[142] [143]
+
+<use  "figures/blast_data/sweeps/350_targ_fts.pdf" >
 File: figures/blast_data/sweeps/350_targ_ice_overplot.pdf Graphic file (type QT
 m)
- <use  "figures/blast_data/sweeps/350_targ_ice_overplot.pdf" >
-[144] [145]
+
+<use  "figures/blast_data/sweeps/350_targ_ice_overplot.pdf" > [144] [145]
+[146]
 File: figures/blast_data/sweeps/mag_tone_power_may.pdf Graphic file (type QTm)
  <use  "figures/blast_data/sweeps/mag_tone_power_may.pdf" >
 File: figures/blast_data/sweeps/phase_tone_power_may.pdf Graphic file (type QTm
@@ -2194,10 +2195,10 @@ File: figures/blast_data/sweeps/IQ_tone_power_bifurc.pdf Graphic file (type QTm
 
 LaTeX Warning: Float too large for page by 26.79115pt on input line 311.
 
-[146] [147] [148] [149] [150]
+[147] [148] [149] [150] [151]
 File: figures/blast_data/timestreams/ice_lo_chops.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/timestreams/ice_lo_chops.pdf" > [151] [152]
+<use  "figures/blast_data/timestreams/ice_lo_chops.pdf" > [152] [153]
 File: figures/blast_data/timestreams/350_pal_IQgradExample_448.pdf Graphic file
  (type QTm)
 
@@ -2222,19 +2223,19 @@ pe QTm)
 LaTeX Warning: Float too large for page by 35.00082pt on input line 388.
 
 
-Overfull \hbox (62.56317pt too wide) in paragraph at lines 392--398
+Overfull \hbox (65.9194pt too wide) in paragraph at lines 392--398
  [][] 
  []
 
-[153] [154]
+[154] [155]
 File: figures/blast_data/timestreams/350_448_freq_diss_psd.pdf Graphic file (ty
 pe QTm)
  <use  "figures/blast_data/timestreams/350_448_freq_diss_psd.pdf" >
 File: figures/blast_data/timestreams/350_pal_Sxx_hist_448.pdf Graphic file (typ
 e QTm)
 
-<use  "figures/blast_data/timestreams/350_pal_Sxx_hist_448.pdf" > [155]
-[156]
+<use  "figures/blast_data/timestreams/350_pal_Sxx_hist_448.pdf" > [156]
+[157]
 Overfull \hbox (16.97348pt too wide) in paragraph at lines 453--464
  [][] 
  []
@@ -2258,11 +2259,11 @@ File: figures/blast_data/hist/PAL_NEP_hist_R4.pdf Graphic file (type QTm)
 <use  "figures/blast_data/hist/PAL_NEP_hist_R4.pdf" >
 File: figures/blast_data/hist/PAL_NEP_hist_R2.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/hist/PAL_NEP_hist_R2.pdf" > [157] [158]
+<use  "figures/blast_data/hist/PAL_NEP_hist_R2.pdf" > [158] [159]
 File: figures/blast_data/hist/PAL_NEP_hist_R5.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/hist/PAL_NEP_hist_R5.pdf" > [159] [160] [161]
-[162] [163] [164] [165] [166] [167
+<use  "figures/blast_data/hist/PAL_NEP_hist_R5.pdf" > [160] [161] [162]
+[163] [164] [165] [166] [167] [168
 
 ]
 File: figures/blast_data/timestreams/cal_lamp_chops.pdf Graphic file (type QTm)
@@ -2275,66 +2276,58 @@ File: figures/blast_data/timestreams/ice_lamps.pdf Graphic file (type QTm)
 File: figures/blast_data/timestreams/may_15K_chop_c374.pdf Graphic file (type Q
 Tm)
 
-<use  "figures/blast_data/timestreams/may_15K_chop_c374.pdf" > [168] [169]
+<use  "figures/blast_data/timestreams/may_15K_chop_c374.pdf" > [169] [170]
+[171]
 File: figures/blast_data/sweeps/temp_sweep_pal.pdf Graphic file (type QTm)
-
-<use  "figures/blast_data/sweeps/temp_sweep_pal.pdf" >
+ <use  "figures/blast_data/sweeps/temp_sweep_pal.pdf" >
 File: figures/blast_data/sweeps/temp_response.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/sweeps/temp_response.pdf" > [170] [171] [172]
-[173] [174] [175] [176]
-Overfull \hbox (7.35104pt too wide) in paragraph at lines 723--755
+<use  "figures/blast_data/sweeps/temp_response.pdf" > [172] [173] [174]
+[175] [176] [177] [178]
+Overfull \hbox (5.11356pt too wide) in paragraph at lines 723--751
 []  
  []
 
-[177] [178] [179]
+[179] [180]
 File: figures/blast_data/sweeps/350_S21model_ice_final.pdf Graphic file (type Q
 Tm)
-
-<use  "figures/blast_data/sweeps/350_S21model_ice_final.pdf" >
+ <use  "figures/blast_data/sweeps/350_S21model_ice_final.pdf" >
 File: figures/blast_data/sweeps/350_NEPphotNEPamp.pdf Graphic file (type QTm)
 
 <use  "figures/blast_data/sweeps/350_NEPphotNEPamp.pdf" >
 File: figures/blast_data/sweeps/350_model_psds.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/sweeps/350_model_psds.pdf" > [180] [181]
-Overfull \hbox (53.6067pt too wide) in paragraph at lines 802--807
+<use  "figures/blast_data/sweeps/350_model_psds.pdf" > [181]
+Overfull \hbox (53.6067pt too wide) in paragraph at lines 800--805
  [][] 
  []
 
 File: figures/blast_data/sweeps/350_S21modelT_ice.pdf Graphic file (type QTm)
-<use  "figures/blast_data/sweeps/350_S21modelT_ice.pdf" > [182] [183]
-File: figures/blast_data/fts/fts_setup.jpg Graphic file (type QTm)
-
-<use  "figures/blast_data/fts/fts_setup.jpg" > [184]
-Underfull \hbox (badness 10000) in paragraph at lines 869--871
-[]\EU1/Garamond(0)/m/n/12 Cut-off frequency of
- []
-
-
-Underfull \hbox (badness 3838) in paragraph at lines 869--871
-\EU1/Garamond(0)/m/n/12 process interferograms.
- []
-
+<use  "figures/blast_data/sweeps/350_S21modelT_ice.pdf" > [182] [183] [184]
 [185]
+File: figures/blast_data/fts/fts_setup.jpg Graphic file (type QTm)
+ <use  "figures/blast_data/fts/fts_setup.jpg" > [186
+
+] [187] [188]
 File: figures/blast_data/fts/fts_long_raw.pdf Graphic file (type QTm)
- <use  "figures/blast_data/fts/fts_long_raw.pdf" > [186] [187]
+
+<use  "figures/blast_data/fts/fts_long_raw.pdf" > [189]
 File: figures/blast_data/fts/two_interf_zoom_2.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/fts/two_interf_zoom_2.pdf" > [188]
+<use  "figures/blast_data/fts/two_interf_zoom_2.pdf" > [190]
 File: figures/blast_data/fts/interfs_350_lpf.pdf Graphic file (type QTm)
 
 <use  "figures/blast_data/fts/interfs_350_lpf.pdf" >
 File: figures/blast_data/fts/fts_avg_interfs_raw.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/fts/fts_avg_interfs_raw.pdf" > [189]
+<use  "figures/blast_data/fts/fts_avg_interfs_raw.pdf" > [191] [192]
 File: figures/blast_data/fts/passbands_raw.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/fts/passbands_raw.pdf" > [190] [191] [192]
+<use  "figures/blast_data/fts/passbands_raw.pdf" > [193] [194]
 File: figures/blast_data/polarization/pol_meas_crop.JPG Graphic file (type QTm)
 
 
-<use  "figures/blast_data/polarization/pol_meas_crop.JPG" > [193] [194]
+<use  "figures/blast_data/polarization/pol_meas_crop.JPG" > [195] [196]
 File: figures/blast_data/polarization/250U_poleff.pdf Graphic file (type QTm)
 
 <use  "figures/blast_data/polarization/250U_poleff.pdf" >
@@ -2343,39 +2336,39 @@ File: figures/blast_data/polarization/250W_poleff.pdf Graphic file (type QTm)
 <use  "figures/blast_data/polarization/250W_poleff.pdf" >
 File: figures/blast_data/polarization/350_poleff.pdf Graphic file (type QTm)
 
-<use  "figures/blast_data/polarization/350_poleff.pdf" > [195]) [196] [197]
-[198]
+<use  "figures/blast_data/polarization/350_poleff.pdf" > [197] [198] [199]
+[200]) [201]
 \openout2 = `carina.aux'.
 
- (./carina.tex [199
+ (./carina.tex [202
 
 
 
 ]
 
-Package natbib Warning: Multiple citation on page 200: same authors and year
+Package natbib Warning: Multiple citation on page 203: same authors and year
 (natbib)                without distinguishing extra letter,
 (natbib)                appears as question mark.
 
-[200] [201] [202] [203]
+[203] [204] [205] [206]
 File: figures/carina/carina_I250.pdf Graphic file (type QTm)
- <use  "figures/carina/carina_I250.pdf" > [204]
+ <use  "figures/carina/carina_I250.pdf" > [207]
 
 LaTeX Font Warning: Font shape `TS1/Garamond(0)/bx/n' undefined
 (Font)              using `TS1/Garamond(0)/m/n' instead on input line 88.
 
-[205] [206] [207] [208]
+[208] [209] [210] [211]
 File: figures/carina/vectors_5.pdf Graphic file (type QTm)
  <use  "figures/carina/vectors_5.pdf" >
 File: figures/carina/vectors_10.pdf Graphic file (type QTm)
 
-<use  "figures/carina/vectors_10.pdf" > [209]
+<use  "figures/carina/vectors_10.pdf" > [212]
 File: figures/carina/vector_sl_21_ds10.pdf Graphic file (type QTm)
 
 <use  "figures/carina/vector_sl_21_ds10.pdf" >
 File: figures/carina/vector_sl_zoom.pdf Graphic file (type QTm)
 
-<use  "figures/carina/vector_sl_zoom.pdf" > [210]
+<use  "figures/carina/vector_sl_zoom.pdf" > [213]
 File: figures/carina/lic_han_51.pdf Graphic file (type QTm)
 
 <use  "figures/carina/lic_han_51.pdf" >
@@ -2384,35 +2377,35 @@ File: figures/carina/lic2_han51.pdf Graphic file (type QTm)
 <use  "figures/carina/lic2_han51.pdf" >
 File: figures/carina/lic_mult.pdf Graphic file (type QTm)
  <use  "figures/carina/lic_mult.pdf" >
-[211] [212] [213] [214] [215] [216
+[214] [215] [216] [217] [218] [219
 
 ]
 File: figures/carina/lic_sparo_overlay.png Graphic file (type QTm)
 
-<use  "figures/carina/lic_sparo_overlay.png" > [217] [218] [219]
+<use  "figures/carina/lic_sparo_overlay.png" > [220] [221] [222]
 File: figures/carina/msx2_sl.pdf Graphic file (type QTm)
 
-<use  "figures/carina/msx2_sl.pdf" > [220]
+<use  "figures/carina/msx2_sl.pdf" > [223]
 File: figures/carina/hstgsc2_250_sl.pdf Graphic file (type QTm)
 
 <use  "figures/carina/hstgsc2_250_sl.pdf" >
 File: figures/carina/chandra_soft_sl.pdf Graphic file (type QTm)
 
-<use  "figures/carina/chandra_soft_sl.pdf" > [221] [222] [223] [224
+<use  "figures/carina/chandra_soft_sl.pdf" > [224] [225] [226] [227
 
-] [225]
-[226] [227]
+] [228]
+[229] [230]
 File: figures/carina/S_hist.pdf Graphic file (type QTm)
  <use  "figures/carina/S_hist.pdf" >
 File: figures/carina/Phi_hist.pdf Graphic file (type QTm)
 
-<use  "figures/carina/Phi_hist.pdf" > [228] [229]
+<use  "figures/carina/Phi_hist.pdf" > [231] [232]
 File: figures/carina/NH2_hist_500.pdf Graphic file (type QTm)
 
 <use  "figures/carina/NH2_hist_500.pdf" >
 File: figures/carina/nH2_hist_500.pdf Graphic file (type QTm)
 
-<use  "figures/carina/nH2_hist_500.pdf" > [230] [231] [232] [233]
+<use  "figures/carina/nH2_hist_500.pdf" > [233] [234] [235] [236]
 File: figures/carina/HI_vselect.png Graphic file (type QTm)
 
 <use  "figures/carina/HI_vselect.png" >
@@ -2420,7 +2413,7 @@ File: figures/carina/VLOS_hist.pdf Graphic file (type QTm)
  <use  "figures/carina/VLOS_hist.pdf" >
 File: figures/carina/VFWHM_vectors.pdf Graphic file (type QTm)
 
-<use  "figures/carina/VFWHM_vectors.pdf" > [234] [235] [236] [237] [238]
+<use  "figures/carina/VFWHM_vectors.pdf" > [237] [238] [239] [240] [241]
 File: figures/carina/cftHI_5arcmin_500_5p0pc.pdf Graphic file (type QTm)
 
 <use  "figures/carina/cftHI_5arcmin_500_5p0pc.pdf" >
@@ -2432,21 +2425,21 @@ File: figures/carina/B_lic_500_5p0pc.pdf Graphic file (type QTm)
 <use  "figures/carina/B_lic_500_5p0pc.pdf" >
 File: figures/carina/B_hist_500.pdf Graphic file (type QTm)
 
-<use  "figures/carina/B_hist_500.pdf" > [239] [240] [241] [242] [243] [244]
-[245]) [246]
+<use  "figures/carina/B_hist_500.pdf" > [242] [243] [244] [245] [246] [247]
+[248]) [249]
 \openout2 = `galaxies.aux'.
 
- (./galaxies.tex [247
+ (./galaxies.tex [250
 
 
 
-] [248] [249]
+] [251] [252]
 File: figures/galaxies/m51.png Graphic file (type QTm)
 
-<use  "figures/galaxies/m51.png" > [250] [251] [252] [253]
+<use  "figures/galaxies/m51.png" > [253] [254] [255] [256]
 File: figures/galaxies/m82_lic_cropped.jpg Graphic file (type QTm)
 
-<use  "figures/galaxies/m82_lic_cropped.jpg" > [254] [255] [256] [257]
+<use  "figures/galaxies/m82_lic_cropped.jpg" > [257] [258] [259] [260]
 File: figures/galaxies/ngc4945.pdf Graphic file (type QTm)
 
 <use  "figures/galaxies/ngc4945.pdf" >
@@ -2459,42 +2452,42 @@ File: figures/galaxies/m83.pdf Graphic file (type QTm)
  <use  "figures/galaxies/m83.pdf" >
 File: figures/galaxies/ngc1808.pdf Graphic file (type QTm)
 
-<use  "figures/galaxies/ngc1808.pdf" > [258] [259]) [260] [261] [262] [263]
+<use  "figures/galaxies/ngc1808.pdf" > [261] [262]) [263] [264] [265] [266]
 \openout2 = `conclusion.aux'.
 
 
-(./conclusion.tex [264
+(./conclusion.tex [267
 
 
 
-] [265]
+] [268]
 File: figures/conclusion/toltec_slice_2.jpg Graphic file (type QTm)
  <use  "figures/conclusion/toltec_slice_2.jpg" >
 File: figures/conclusion/single_board.jpg Graphic file (type QTm)
 
-<use  "figures/conclusion/single_board.jpg" >) [266] [267] [268] (./dis.bbl
-[269
+<use  "figures/conclusion/single_board.jpg" >) [269] [270] [271] (./dis.bbl
+[272
 
 
-] [270] [271] [272] [273] [274]
+] [273] [274] [275] [276] [277]
 Underfull \hbox (badness 1342) in paragraph at lines 477--480
 []\EU1/Garamond(0)/m/n/12 Hall, J. S. (1949).  Observations of the polarized li
 ght from stars.  \EU1/Garamond(0)/m/it/12 Science\EU1/Garamond(0)/m/n/12 ,
  []
 
-[275] [276] [277] [278] [279] [280]
+[278] [279] [280] [281] [282] [283]
 Underfull \hbox (badness 512) in paragraph at lines 941--945
 []\EU1/Garamond(0)/m/n/12 Smith, N., Egan, M. P., Carey, S., Price, S. D., Mors
 e, J. A., and Price, P. A.
  []
 
-[281] [282] [283]) [284]
+[284] [285] [286]) [287]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [285
+ (./appendix.tex [288
 
 
-] [286
+] [289
 
 ]
 Underfull \hbox (badness 7256) in paragraph at lines 43--57
@@ -2502,24 +2495,24 @@ Underfull \hbox (badness 7256) in paragraph at lines 43--57
 y the Valon Synthesizer, and used to
  []
 
-[287] [288]
+[290] [291]
 Underfull \hbox (badness 2478) in paragraph at lines 112--119
 \EU1/Garamond(0)/bx/n/12 ROACH-2\EU1/Garamond(0)/m/n/12 : Reconfigurable Open A
 rchitecture Computing Hardware. The
  []
 
-[289] [290]
+[292] [293]
 Underfull \hbox (badness 10000) in paragraph at lines 171--180
 
  []
 
-[291] [292]
+[294] [295]
 Overfull \hbox (1.04128pt too wide) in paragraph at lines 258--265
 \EU1/Garamond(0)/m/n/12 events are triggered during an observation. Automatic t
 riggering is enabled by default,
  []
 
-[293] [294]
+[296] [297]
 Underfull \hbox (badness 4846) in paragraph at lines 297--299
 []\EU1/Garamond(0)/bx/n/12 Turnaround loop\EU1/Garamond(0)/m/n/12 : See: \EU1/l
 mtt/m/n/12 turnaround_-loop\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 turnaroun
@@ -2534,7 +2527,7 @@ Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 PROGRAMMED\EU1/Garamond(0)/m/n/12 , \EU1/
 lmtt/m/n/12 CONFIGURED\EU1/Garamond(0)/m/n/12 ,
  []
 
-[295] [296] [297] [298]
+[298] [299] [300] [301]
 Underfull \hbox (badness 5893) in paragraph at lines 450--451
 []\EU1/Garamond(0)/bx/n/12 QDR_-CAL_-FAIL\EU1/Garamond(0)/m/n/12 : Indicates th
 at the QDR calibration has failed. See:
@@ -2547,7 +2540,7 @@ Underfull \hbox (badness 2653) in paragraph at lines 461--462
 ck_-lamp_-retune_-all\EU1/Garamond(0)/m/n/12 .
  []
 
-[299]
+[302]
 File: ./figures/software/roaches_off.png Graphic file (type QTm)
  <use  "./figures/software/roaches_off.png" >
 File: ./figures/software/full_loop.png Graphic file (type QTm)
@@ -2555,10 +2548,10 @@ File: ./figures/software/full_loop.png Graphic file (type QTm)
 <use  "./figures/software/full_loop.png" >
 File: ./figures/software/has_targ_tones.png Graphic file (type QTm)
 
-<use  "./figures/software/has_targ_tones.png" > [300] [301] [302] [303]
-[304] [305] [306] [307] [308] [309] [310] [311])
-Package atenddvi Info: Last page = 336.
- [312]
+<use  "./figures/software/has_targ_tones.png" > [303] [304] [305] [306]
+[307] [308] [309] [310] [311] [312] [313] [314])
+Package atenddvi Info: Last page = 339.
+ [315]
 \tf@toc=\write6
 \openout6 = `dis.toc'.
 
@@ -2581,12 +2574,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41120 strings out of 493591
- 727714 string characters out of 6145590
- 991186 words of memory out of 5000000
- 43750 multiletter control sequences out of 15000+600000
+ 41150 strings out of 493591
+ 728142 string characters out of 6145590
+ 991508 words of memory out of 5000000
+ 43780 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  46i,22n,105p,10384b,33387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dis.pdf (336 pages).
+Output written on dis.pdf (339 pages).

@@ -22,7 +22,7 @@ The data used in the following analysis was mostly acquired in May, 2018 (Philad
 
 The BLAST-TNG detectors are distributed between five LEKID arrays, with one for the 350 and 500~$\upmu$m bands, and three for the 250~$\upmu$m. The three 250~$\upmu$m arrays (hereafter referred to as the 250U, 250V and 250W) reside on the same chip, but are read out independently. The 250V RF-chain malfunctioned during the pre-flight instrument integration at LDB, and we therefore do not present results for this channel from the Antarctic (`ice') campaign.
 
-Every test of the detectors begins with a frequency sweep of the full 512~MHz RF-bandwidth occupied by each detector array. If the resonator frequencies are not known ahead of time, or have drifted by more than $\sim$1 resonator linewidth, the wide sweep is used to identify the channel frequencies (see Section~\ref{KID-finding}). A wide sweep (sometimes referred to as a `VNA' sweep) is performed by sweeping the 1000 tone evenly-spaced search-comb over the 500~kHz gap between tones. The multitone comb is swept by stepping the local oscillator (LO) from one end of the 500~kHz gap to the other in frequency steps of $\approx$ 1~kHz. At each step, $I/Q$ data is saved to disk and co-added, with the number of data points taken at each frequency typically being $\sim$20. The wide-sweeps take $\sim$30 seconds to complete. Plotted as a function of RF-frequency, the data shows $\gls{S21}V_{\mathrm{in}}$ of the detector readout chain (hereafter simply referred to as \gls{S21}), where $V_{\mathrm{in}}$ is the amplitude of the probe-tone comb at the output of the ROACH2 digital-to-analog converters (DACs).
+Every test of the detectors begins with a frequency sweep of the full 512~MHz RF-bandwidth occupied by each detector array. If the resonator frequencies are not known ahead of time, or have drifted by more than $\sim$1 resonator linewidth, the wide sweep is used to identify the channel frequencies (see Section~\ref{KID-finding}). A wide sweep (sometimes referred to as a `VNA' sweep) is performed by sweeping the 1,000 tone evenly-spaced search-comb over the 500~kHz gap between tones. The multitone comb is swept by stepping the local oscillator (LO) from one end of the 500~kHz gap to the other in frequency steps of $\approx$ 1~kHz. At each step, $I/Q$ data is saved to disk and co-added, with the number of data points taken at each frequency typically being $\sim$20. The wide-sweeps take $\sim$30 seconds to complete. Plotted as a function of RF-frequency, the data shows $\gls{S21}V_{\mathrm{in}}$ of the detector readout chain (hereafter simply referred to as \gls{S21}), where $V_{\mathrm{in}}$ is the amplitude of the probe-tone comb at the output of the ROACH2 digital-to-analog converters (DACs).
 
 \subsection{The Wide-sweep Frequency Response}\label{freq response}
 
@@ -49,7 +49,7 @@ The envelope of the uncorrected \gls{S21} sweep contains several notable feature
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/sweeps/350_wide_sweep_zoom}
-\caption[~A zoomed-in region of an unprocessed and processed wide-sweep of the \macrocapwrap{350~$\upmu$m} array.]{A zoomed-in region of an unprocessed and processed wide-sweep of the 350~$\upmu$m array.}
+\caption[~A zoomed-in region of an unprocessed and processed wide-sweep of the \macrocapwrap{350~$\upmu$m} array.]{A zoomed-in region of an unprocessed (blue) and processed (orange) wide-sweep of the 350~$\upmu$m array.}
 \label{fig:350 zoom}
 \end{figure}
 
@@ -61,55 +61,55 @@ The remaining features in the \gls{S21} trace shown in Figure~\ref{fig:350 wide 
 
 As discussed in Section~\ref{freq response}, the uncorrected \gls{S21} frequency response revealed by the ROACH2 wide sweeps contain large scale features that may contribute to uneven detector performance across the band. Some of these features can be compensated for by applying an inverse transfer function to the amplitudes of the DAC probe comb. The goal of applying this correction is to correct for, as much as possible, any transfer function contributions from the input side of the detector chain (relative to the cryostat). All output side transfer functions (after and including the detectors) are left untouched. The components whose transfer functions will be corrected include the ROACH2 output-side electronics (both digital and analog) and any coaxial cables between the ROACH2 electronics and the detector arrays.
 
-The output side system transfer function is measured by connecting the RF output of the ROACH2 IF electronics to a spectrum analyzer. The spectrum is then saved to disk, and interpolated in frequency as needed. Examples of the intermediate products used in the transfer function calculation are shown in Figure~\ref{fig:350 TRF}. The blue trace is the raw output of the RF modulator. A $\sim$10~dB roll-off is present between the center of the band and either edge. In addition to correcting for the envelope of the ROACH2 comb, a power ramp (shown as a green line) is added to the correction to compensate for frequency dependent loss in the cryostat cables. The inverse transfer function which is then applied to the DAC comb amplitudes is shown in orange.
+The output side system transfer function is measured by connecting the RF output of the ROACH2 IF electronics to a spectrum analyzer. The spectrum is then saved to disk, and interpolated in frequency as needed. Examples of the intermediate products used in the transfer function calculation are shown in Figure~\ref{fig:350 TRF}. The blue trace is the raw output of the RF modulator. A $\sim$10~dB roll-off is present between the center of the band and either band-edge. In addition to correcting for the envelope of the ROACH2 comb, a power ramp (shown as a green line) is added to the correction to compensate for frequency dependent loss in the cryostat cables. The inverse transfer function which is then applied to the DAC comb amplitudes is shown in orange.
 
 The frequency-dependent cable loss which occurs inside the cryostat is visible in Figures~\ref{fig:VNA comp 350} to~\ref{fig:VNA comp 500}, which show \gls{S21} sweeps taken with a VNA (purple) compared to corrected ROACH2 \gls{S21} sweeps (orange) for each BLAST-TNG array. The cable loss is $\sim$10 dB across the readout-band. With the application of the inverse transfer function, much of the roll-off in the envelope of the frequency response is compensated for. For each array, a slightly different slope for the power ramp is used. An illustration of the effect of using different slope corrections for the 350~$\upmu$m array is shown in Figure~\ref{fig:trf slopes}, for slopes of 5, 8 and 10~dB (across the entire readout band).
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/r3_transfunc}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/r3_transfunc}
 \caption[~Intermediate products used in the transfer function calculation for the \macrocapwrap{350~$\upmu$m} array.]{Intermediate products used in the transfer function calculation for the 350~$\upmu$m array.}
 \label{fig:350 TRF}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/350_VNA_overplot}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/350_VNA_overplot}
 \caption[~A \macrocapwrap{350~$\upmu$m} ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.]{A 350~$\upmu$m ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:VNA comp 350}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/250W_VNA_overplot}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/250W_VNA_overplot}
 \caption[~A 250W ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.]{A 250W ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:VNA comp 250W}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/250U_VNA_overplot}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/250U_VNA_overplot}
 \caption[~A 250U ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.]{A 250U ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:VNA comp 250U}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/250V_VNA_overplot}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/250V_VNA_overplot}
 \caption[~A 250V ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.]{A 250V ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:VNA comp 250V}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/500_VNA_overplot}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/500_VNA_overplot}
 \caption[~A 500~\macrocapwrap{$\upmu$m} ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.]{A 500~$\upmu$m ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:VNA comp 500}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/trf_slopes}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/trf_slopes}
 \caption[~350~\macrocapwrap{$\upmu$m} output transfer function corrections with slopes of 5, 8 and 10~dB.]{350~$\upmu$m output transfer function corrections with 5, 8 and 10~dB slopes accounting for frequency dependent cable loss in the croystat. A VNA trace is shown for comparison.}
 \label{fig:trf slopes}
 \end{figure}
@@ -124,12 +124,12 @@ The channel frequencies for each array can be determined from a wide ROACH2 swee
 \begin{enumerate}[nosep]
   \item Despike the \gls{S21} trace in linear-space.
   \item Apply a high-pass filter (HPF) to flatten the trace.
-  \item Put the trace into log-space, and apply a second HPF.
+  \item Put the trace into log-space, and apply a second HPF\@.
   \item Apply a low-pass filter (LPF) to remove any remaining spurs.
   \item Identify all points in trace below the dip-depth threshold.
   \item Step through points and enforce frequency spacing condition.
   \item Eliminate frequencies in masked regions.
-  \item Calculate channel amplitudes from interpolated output TRF.
+  \item Calculate channel amplitudes from interpolated output TRF\@.
   \item Save channel frequencies and amplitudes to disk.
 \end{enumerate}
 
@@ -137,7 +137,7 @@ The channel frequencies for each array can be determined from a wide ROACH2 swee
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/350FK_HPF_PAL}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/350FK_HPF_PAL}
 \caption[~The channel alignment and HPF step of the KID-finding algorithm.]{The channel alignment and HPF step of the KID-finding algorithm. The LPF (red) is subtracted from the \gls{S21} trace (blue) prior to frequency identification.}
 \label{fig:350FK_HPF}
 \end{figure}
@@ -155,7 +155,7 @@ During channel identification, a frequency spacing threshold of 80--100~kHz is e
   \begin{threeparttable}
     \caption{Parameters used in KID-finding process for each BLAST-TNG detector array.}
 \begin{tabular}{@{}llllll@{}}
-\dtoprule
+\dtoprule{}
  & 250U~$\upmu$m & 250V~$\upmu$m & 250W~$\upmu$m & 350~$\upmu$m & 500~$\upmu$m \\ \midrule
 LPF f$_{c}$ (MHz) & 10 & 5 & 5 & 10 & 10 \\
 Dip-depth thresh. (dB) & -1 & -1 & -1 & -1 & -0.5 \\
@@ -164,7 +164,7 @@ f$_\mathrm{LO}$ (MHz)\tnote{1} & 827 & 829 & 828 & 850 & 540 \\
 f$_{\mathrm{low-cut}}$ (MHz) & 590 & 590 & 590 & 604.5 & 326 \\
 f$_{\mathrm{high-cut}}$ (MHz) & 1060 & 1060 & 1060 & 1089 & 762 \\
 f$_{\mathrm{mask,low}}$ (MHz)\tnote{2} &  & 820 & 751, 818 & 845 & 450.8, 535 \\
-f$_{\mathrm{mask,high}}$ (MHz)\tnote{3} &  & 835 & 770, 838 & 855 & 451.8, 545 \\ \dbottomrule
+f$_{\mathrm{mask,high}}$ (MHz)\tnote{3} &  & 835 & 770, 838 & 855 & 451.8, 545 \\ \dbottomrule{}
 \\
 \end{tabular}
 \begin{tablenotes}
@@ -177,28 +177,28 @@ f$_{\mathrm{mask,high}}$ (MHz)\tnote{3} &  & 835 & 770, 838 & 855 & 451.8, 545 \
 \end{threeparttable}
 \end{table}
 
-Detector yields for each BLAST-TNG array determined using the ROACH2 readout during the Palestine and Antarctica integrations are listed in Table~\ref{table:det yields}. In the table, N$_{\mathrm{design}}$ refers to the number of channels on each array which were reported by NIST. With the exception of the 350~$\upmu$m array, this value is not necessarily the actual number of channels within the 512~MHz ROACH2 readout bandwidth. As a baseline channel count, we adopt the number of channels which were found by applying the KID-finding algorithm to dark VNA \gls{S21} sweeps taken during May, 2018 (N$_{\mathrm{May18,VNA}}$). The yields are then calculated by comparing the channel counts found during the Palestine and Antarctica integrations to N$_{\mathrm{May18,VNA}}$. The Palestine yields (Y$_{\mathrm{PAL/VNA}}$) are around 85\% for each array. During the Palestine integration, a $\sim$4\% neutral-density filter (NDF) was installed in the array. The NDF was not present during the Antarctica integration, and the increased optical loading on the arrays made it challenging to identify all of the channels (particularly in the case of the 500~$\upmu$m array). The 250V array was not used during ice testing due to a damaged component in the cold RF-chain.
+Detector yields for each BLAST-TNG array determined using the ROACH2 readout during the Palestine and Antarctica integrations are listed in Table~\ref{table:det yields}. In the table, N$_{\mathrm{design}}$ refers to the number of channels on each array which were reported by NIST\@. With the exception of the 350~$\upmu$m array, this value is not necessarily the actual number of channels within the 512~MHz ROACH2 readout bandwidth. As a baseline channel count, we adopt the number of channels which were found by applying the KID-finding algorithm to dark VNA \gls{S21} sweeps taken during May, 2018 (N$_{\mathrm{May18,VNA}}$). The yields are then calculated by comparing the channel counts found during the Palestine and Antarctica integrations to N$_{\mathrm{May18,VNA}}$. The Palestine yields (Y$_{\mathrm{PAL/VNA}}$) are around 85\% for each array. During the Palestine integration, a $\sim$4\% neutral-density filter (NDF) was installed in the array. The NDF was not present during the Antarctica integration, and the increased optical loading on the arrays made it challenging to identify all of the channels (particularly in the case of the 500~$\upmu$m array). The 250V array was not used during ice testing due to a damaged component in the cold RF-chain.
 
 \begin{table}[!htbp]
   \centering
   \begin{threeparttable}
     \caption[~Detector yields for each BLAST-TNG detector array.]{Detector yields for each BLAST-TNG detector array.}
 \begin{tabular}{@{}llllll@{}}
-\dtoprule
+\dtoprule{}
                         & 250U       & 250V \tnote{1} & 250W    &350~$\upmu$m       & 500~$\upmu$m \\ \midrule
 N$_{\mathrm{design}}$\tnote{3}   & 612        & 612         & 612        & 775\tnote{2}     & 468     \\
 N$_{\mathrm{May18,VNA}}$\tnote{4}& 500        & 521         & 495        & 683              & 381     \\
-N$_{PAL}$ \tnote{5}     & 390        & 237         & 412        & 626              & 326     \\
+N$_{\mathrm{PAL}}$ \tnote{5}     & 390        & 237         & 412        & 626              & 326     \\
 N$_{\mathrm{ICE}}$ \tnote{6}     & 508        &             & 466        & 619              & 260     \\
 Y$_{\mathrm{VNA/design}}$\tnote{7} & 0.82     & 0.85        & 0.81       & 0.88             & 0.81    \\
 Y$_{\mathrm{PAL/VNA}}$           & 0.78       & 0.45        & 0.83       & 0.92             & 0.86    \\
-Y$_{\mathrm{ICE/VNA}}$           & 1.01       &             & 0.94       & 0.91             & 0.68    \\ \dbottomrule
+Y$_{\mathrm{ICE/VNA}}$           & 1.01       &             & 0.94       & 0.91             & 0.68    \\ \dbottomrule{}
 \\
 \end{tabular}
 \begin{tablenotes}
 \item [1] The 250V cold RF chain was damaged on the ice, and the array was not used during testing.
 \item [2] Number of detectors within the readout band of 512 MHz.
-\item [3] Number of detectors on each array, reported by NIST.
+\item [3] Number of detectors on each array, reported by NIST\@.
 \item [4] Number of detectors identified in a May, 2018 VNA sweep.
 \item [5] Number of detectors identified in ROACH sweeps during Palestine integration.
 \item [6] Number of detectors identified in ROACH sweeps during preflight ice integration.
@@ -284,13 +284,13 @@ An example of a 350~$\upmu$m target sweep, taken at CSBF, is shown in Figure~\re
 
 \subsection{Readout Power Optimization}\label{readout power}
 
-The readout probe tones have an effect on resonator frequencies and quality factors. These effects, and their relation to the nonlinear kinetic inductance, are discussed in Chapter~\ref{kid_model}. Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} show the effects of varying the readout power for two different resonators on one of the 250~$\upmu$m arrays. In this example, the readout power was increased in 6 increments of 3~dB by decreasing the output attenuation in the ROACH2 IF electronics, producing a range of $\sim$ -90 to -72 dBm. The output attenuator settings, in dB, are listed in the figure legends.
+The readout probe tones have an effect on resonator frequencies and quality factors. These effects, and their relation to the nonlinear kinetic inductance, are discussed in Chapter~\ref{kid_model}. Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} show the effects of varying the readout power for two different resonators on one of the 250~$\upmu$m arrays. In this example, the readout power was increased in six increments of 3~dB by decreasing the output attenuation in the ROACH2 IF electronics, producing a range of $\sim$ -90 to -72 dBm. The output attenuator settings, in dB, are listed in the figure legends.
 
 The data shown in Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} are overlays of target sweeps taken at each readout power. In each figure, the top panel shows $\left| \gls{S21} \right|^{2}$, the middle panel shows the phase of \gls{S21}, \gls{phiIQ}, and the bottom panel shows the $I/Q$ circle in the complex plane, in scaled raw units. It can be seen in both figures that above a certain readout power, the resonator frequency detuning and Q degradation becomes nonlinear (due to the nonlinear kinetic inductance). For both channels, the resonator detuning reaches $\sim$1 linewidth before the nonlinearity sets in. For the resonator in Figure~\ref{fig:may out atten bifurc}, bifurcation sets in before the last 6~dB of tone power stepping. The bifurcation is visible as a sharp discontinuity in each panel.
 
 At lower readout powers, the effects seen in $\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and in the $I/Q$ circle are similar to what would be observed from either optical or thermal loading. As tone power increases, the slope of the phase decreases, and the $I/Q$ circles become more elliptical.
 
-In practice, the optical responsivity of each resonator is maximized at a slightly different readout power. As a rule of thumb, the optimal tone power can be set for each channel by first identifying that channel's bifurcation power, and then backing it off by $\sim$6~dB. The tone powers can also be optimized in a global sense, by adjusting the ROACH2 output attenuator while measuring the frequency noise on and off-resonance ($f_{0} + \sim$100~kHz). The on-resonance noise level is the sum of the LNA, detector and photon-noise, whereas the off-resonance noise level reflects the LNA noise. Therefore, if the noise level on-resonance is greater than the off-resonance noise for a given channel, then the channel is assumed to be at least detector-noise limited. Above some attenuator setting, the vast majority of resonators should be biased in the detector-noise limited regime.
+In practice, the optical responsivity of each resonator is maximized at a slightly different readout power. As a rule of thumb, the optimal tone power can be set for each channel by first identifying that channel's bifurcation power, and then backing it off by $\sim$6~dB. The tone powers can also be optimized in a global sense, by adjusting the ROACH2 output attenuator while measuring the frequency noise on and off-resonance ($f_{0} + \sim$100~kHz). The on-resonance noise level is the sum of the LNA, detector and photon noise, whereas the off-resonance noise level reflects the LNA noise. Therefore, if the noise level on-resonance is greater than the off-resonance noise for a given channel, then the channel is assumed to be at least detector-noise limited. Above some attenuator setting, the vast majority of resonators should be biased in the detector-noise limited regime.
 
 \begin{figure}[!ptbh]
 \centering
@@ -316,7 +316,7 @@ The readout outputs two 32-bit samples, $I[n]$ and $Q[n]$, for each channel at a
 
 \subsection{Converting \macrocapwrap{$I/Q$} to \macrocapwrap{\gls{df}}}\label{df calc}
 
-In the following, we describe the steps of the data reduction which are taken to convert the $I/Q$ timestreams to units of frequency shift, \gls{df}, relative to the resonant frequency of each channel. If the frequency responsivity is known, the system NEP can be calculated by measuring the frequency noise $(e_{f}/f_{0})^{2}) = \gls{Sxx} = \gls{Sff}$ $[\mathrm{Hz}^{-1}]$ (see Section~\ref{sensitivity}).
+In the following, we describe the steps of the data reduction which are taken to convert the $I/Q$ timestreams to units of frequency shift, \gls{df}, relative to the resonant frequency of each channel. If the frequency responsivity is known, the system NEP can be calculated by measuring the frequency noise $(e_{f}/f_{0})^{2} = \gls{Sxx} = \gls{Sff}$ $[\mathrm{Hz}^{-1}]$ (see Section~\ref{sensitivity}).
 
 To convert $I/Q$ to units of frequency requires either a recent target (or wide) sweep of the resonator. Hereafter, this sweep is referred to as the reference sweep. Two methods of converting \gls{S21} to frequency units are commonly used. These are the $I/Q$ gradient (\gls{gradIQ}) and the phase-fitting method. The relative advantages of each method are described in detail in \citet{barry2014development}. Choosing between the two methods entails a trade-off between computational efficiency and accurate representation of the frequency shift. The gradient method is more computationally efficient than the phase method at the expense of not accounting for the change in the shape of the resonant circle when $f_{0}$ is shifted far from resonance (more below). Ultimately, the gradient method underestimates the frequency noise by a factor of $\sim$1.5 \citep{barry2014development}.
 
@@ -339,7 +339,7 @@ In practice, SNR variations in the target sweeps translate into errors in the \g
 
 If the probe tone is known to be on or very near resonance, the LO chop provides a good indicator of the accuracy of the \gls{gradIQ} values. During the BLAST-TNG flight the LO chop will performed during each azimuth turnaround (the data acquired during these turnaround will not be used to make science maps). The \gls{df} chops which are imprinted into each channel's timestream can be used to calibrate the $I/Q$ data post-flight.
 
-Figure~\ref{fig:lo chops} shows an example LO chop for one channel from the 250U, 350 and 500~$\upmu$m arrays, taken during pre-flight preparations at LDB. The frequency step-size is 2.5~kHz for the 250 and 350~$\upmu$m arrays, and 10~kHz for the 500~$\upmu$. At the time when these LO chops were recorded, the probe tones were very close to $f_{0}$, and the channel \gls{df} values match the LO chop. The spikes in the data located around the frequency jumps are due to drop-outs in the LO signal when the synthesizer is stepped.
+Figure~\ref{fig:lo chops} shows an example LO chop for one channel from the 250U, 350 and 500~$\upmu$m arrays, taken during pre-flight preparations at LDB\@. The frequency step-size is 2.5~kHz for the 250 and 350~$\upmu$m arrays, and 10~kHz for the 500~$\upmu$m. At the time when these LO chops were recorded, the probe tones were very close to $f_{0}$, and the channel \gls{df} values match the LO chop. The spikes in the data located around the frequency jumps are due to drop-outs in the LO signal when the synthesizer is stepped.
 
 % LO chops ICE
 \begin{figure}[!htbp]
@@ -351,9 +351,9 @@ Figure~\ref{fig:lo chops} shows an example LO chop for one channel from the 250U
 
 \subsection{Phase and Dissipation Quadratures}
 
-In Equation~\ref{eq:df2}, the real part of \gls{df}, $\Re(\gls{df})$, represents the total frequency fluctuation in the phase quadrature (tangent to the $I/Q$ circle in the complex-plane), and the imaginary part of \gls{df}, $\Im(\gls{df})$, represents the fluctuation in the dissipation quadrature (orthogonal to the $I/Q$ circle). The noise in the dissipation quadrature is primarily from the LNA (($e_{f,diss}/f_{0})^{2} = \gls{Syy}$). The noise in the phase quadrature which is not due to the amplifiers can be estimated as $\gls{Sxx} - \gls{Syy}$. If the detectors are photon-noise limited, then $S_{\mathrm{phot}} \simeq \gls{Sxx} - \gls{Syy}$. In the photon-noise limited regime, \gls{Sxx} should be greater than \gls{Syy}.
+In Equation~\ref{eq:df2}, the real part of \gls{df}, $\Re(\gls{df})$, represents the total frequency fluctuation in the phase quadrature (tangent to the $I/Q$ circle in the complex-plane), and the imaginary part of \gls{df}, $\Im(\gls{df})$, represents the fluctuation in the dissipation quadrature (orthogonal to the $I/Q$ circle). The noise in the dissipation quadrature is primarily from the LNA (($e_{f,\mathrm{diss}}/f_{0})^{2} = \gls{Syy}$). The noise in the phase quadrature which is not due to the amplifiers can be estimated as $\gls{Sxx} - \gls{Syy}$. If the detectors are photon noise limited, then $S_{\mathrm{phot}} \simeq \gls{Sxx} - \gls{Syy}$. In the photon noise limited regime, \gls{Sxx} should be greater than \gls{Syy}.
 
-Figure~\ref{fig:timestreams} shows a 10~s timestream for channel 448 of the 350~$\upmu$m array, recorded at CSBF. The timestream is shown as $I$ (top, raw units), $Q$ (second from top, raw units), $\Re(\gls{df})$ (second from bottom, Hz) and $\Im(\gls{df})$ (bottom, Hz). Figure~\ref{fig:example chan} shows $\left| \gls{S21} \right|^{2}$ (top), \gls{phiIQ} (middle) and the $I/Q$ circle for the example channel. The dashed red line in $\left| \gls{S21} \right|^{2}$ is a fit to the data which has been used to estimate the resonator parameters listed in Table~\ref{table:350 example chan}. The estimated parameters are: $f_{0}$, dip-depth, \gls{Qr}, \gls{Qc}, \gls{Qi}, \gls{asym} and \gls{Sff}. 10 seconds of timestream values are shown as a scatter ball (orange) in the phase and $I/Q$ circle panels. To plot \gls{phiIQ} and the $I/Q$ circle, the $I/Q$ values have been rotated so that the minimum value of $I$ coincides with the resonance point. This rotation prevents phase wrapping when plotting \gls{phiIQ}, and is achieved by multiplying \gls{S21} by a complex exponential, where
+Figure~\ref{fig:timestreams} shows a 10~s timestream for channel 448 of the 350~$\upmu$m array, recorded at CSBF\@. The timestream is shown as $I$ (top, raw units), $Q$ (second from top, raw units), $\Re(\gls{df})$ (second from bottom, Hz) and $\Im(\gls{df})$ (bottom, Hz). Figure~\ref{fig:example chan} shows $\left| \gls{S21} \right|^{2}$ (top), \gls{phiIQ} (middle) and the $I/Q$ circle for the example channel. The dashed red line in $\left| \gls{S21} \right|^{2}$ is a fit to the data which has been used to estimate the resonator parameters listed in Table~\ref{table:350 example chan}. The estimated parameters are: $f_{0}$, dip-depth, \gls{Qr}, \gls{Qc}, \gls{Qi}, \gls{asym} and \gls{Sff}. 10 seconds of timestream values are shown as a scatter ball (orange) in the phase and $I/Q$ circle panels. To plot \gls{phiIQ} and the $I/Q$ circle, the $I/Q$ values have been rotated so that the minimum value of $I$ coincides with the resonance point. This rotation prevents phase wrapping when plotting \gls{phiIQ}, and is achieved by multiplying \gls{S21} by a complex exponential, where
 
 % Rotating I and Q
 \begin{equation}
@@ -374,13 +374,13 @@ and $\phi_{rot} = \arctan2(\left< Q(t) \right>, \left< I(t) \right>)$.
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/timestreams/350_pal_ts_and_df_448}
-\caption[~10 second timestreams for the Palestine 350~\macrocapwrap{$\upmu$m} example channel.]{10 second timestreams for the Palestine 350~$\upmu$m example channel. The quantities shown are (top to bottom) I (raw units), Q (raw units), $\Re(\Delta f_{\mathrm{res}})$ [Hz] and $\Im(\Delta f_{\mathrm{res}})$ [Hz].}
+\caption[~10 second timestreams for the Palestine 350~\macrocapwrap{$\upmu$m} example channel.]{10 second timestreams for the Palestine 350~$\upmu$m example channel. The quantities shown are (top to bottom) $I$ (raw units), $Q$ (raw units), $\Re(\Delta f_{\mathrm{res}})$ [Hz] and $\Im(\Delta f_{\mathrm{res}})$ [Hz].}
 \label{fig:timestreams}
 \end{figure}
 
 \begin{figure}[ptbh]
 \centering
-\caption[~\macrocapwrap{$\left| \gls{S21} \right|^{2}$}, \macrocapwrap{\gls{phiIQ}} and the \macrocapwrap{$I/Q$} loop for the 350~\macrocapwrap{$\upmu$m} example channel.]{$\left| \gls{S21} \right|^{2}$ (top), \gls{phiIQ} (middle) and the $I/Q$ loop (bottom) for channel 448 of the 350~$\upmu$m array, measured at CSBF. 10 seconds of timestream values are shown as a scatter ball (orange) in the phase and $I/Q$ circle panels.}
+\caption[~\macrocapwrap{$\left| \gls{S21} \right|^{2}$}, \macrocapwrap{\gls{phiIQ}} and the \macrocapwrap{$I/Q$} loop for the 350~\macrocapwrap{$\upmu$m} example channel.]{$\left| \gls{S21} \right|^{2}$ (top), \gls{phiIQ} (middle) and the $I/Q$ loop (bottom) for channel 448 of the 350~$\upmu$m array, measured at CSBF\@. 10 seconds of timestream values are shown as a scatter ball (orange) in the phase and $I/Q$ circle panels.}
 \includegraphics[scale=0.3]{figures/blast_data/timestreams/350_pal_S21_fit_448}
 \includegraphics[scale=0.3]{figures/blast_data/timestreams/350_pal_freqNoiseBall_448}
 \includegraphics[scale=0.3]{figures/blast_data/timestreams/350_pal_noiseball_448}
@@ -390,9 +390,9 @@ and $\phi_{rot} = \arctan2(\left< Q(t) \right>, \left< I(t) \right>)$.
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}llllllll@{}}
-\dtoprule
+\dtoprule{}
 $f_{0}$ (MHz)   & Depth (dB) & \gls{Qr} & \gls{Qc} & \gls{Qi} & \gls{asym} & $(dI/df, dQ/df)$ (raw)  & \gls{Sff} (Hz$^{-1}$) \\ \midrule
-718.90         & -8.04      & 32,826   & 54,460    & 83,3325   & 0.17  & -2.28, 127.68      & 2.78 $\times$ 10$^{-18}$    \\ \dbottomrule
+718.90         & -8.04      & 32,826   & 54,460    & 83,3325   & 0.17  & -2.28, 127.68      & 2.78 $\times$ 10$^{-18}$    \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption[~Resonator parameters for channel 448 of the \macrocapwrap{350~$\upmu$m} array.]{Resonator parameters for channel 448 of the 350~$\upmu$m array.}
@@ -429,14 +429,14 @@ Using the example channel values for $f_{0}$, \gls{Qr} and \gls{Qc} from Table~\
 \begin{comment}
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/blast_data/timestreams/350_pal_freqNoiseBall_30}
+\includegraphics[width=\textwidth]{figures/blast_data/timestreams/350_pal_freqNoiseBall_30}
 \caption[~A 250U ROACH2 sweep from Palestine, with a VNA sweep from May, 2018]{A 250U ROACH2 sweep (orange) from the Palestine integration, with a VNA sweep from May, 2018 (purple).}
 \label{fig:freq noise ball}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=.7\textwidth]{figures/blast_data/timestreams/350_pal_noiseball_30}
+\includegraphics[width=\textwidth]{figures/blast_data/timestreams/350_pal_noiseball_30}
 \caption[~Rotated and centered IQ circle for the Palestine 350~\macrocapwrap{$\upmu$m} example channel.]{Rotated and centered IQ circle for the Palestine 350~$\upmu$m example channel.}
 \label{fig:IQ noise ball}
 \end{figure}
@@ -444,21 +444,21 @@ Using the example channel values for $f_{0}$, \gls{Qr} and \gls{Qc} from Table~\
 
 \subsection{Palestine Integration Detector Histograms}\label{histograms}
 
-Because there are over 2,500 BLAST-TNG detectors, it would be impractical to present results for each one. Figures~\ref{fig:pal depth hist} to~\ref{fig:pal nep 250W} show histograms for the measured dip-depths, \gls{Qr}, \gls{Qr}/\gls{Qc}, and electrical NEP. The $I/Q$ timestreams used to produce these estimates was acquired during passband mapping, while the FTS was radiating into the cryostat window (see Section~\ref{fts}). No data containing interferograms was used in this analysis, although the level of optical loading on the detectors is assumed to be slightly higher than the ambient 290~K of the CSBF highbay. Throughout the measurement, A 4\% cryogenic NDF was present in the optical chain. The median values for each of the measured quantities is listed in Table~\ref{table:palestine hists}. The values for the electrical NEP will be used to convert to Noise-equivalent flux density in Section~\ref{nefd}.
+Because there are over 2,500 BLAST-TNG detectors, it would be impractical to present results for each one. Figures~\ref{fig:pal depth hist} to~\ref{fig:pal nep 250W} show histograms for the measured dip-depths, \gls{Qr}, \gls{Qr}/\gls{Qc}, and electrical NEP\@. The $I/Q$ timestreams used to produce these estimates was acquired during passband mapping, while the FTS was radiating into the cryostat window (see Section~\ref{fts}). No data containing interferograms was used in this analysis, although the level of optical loading on the detectors is assumed to be slightly higher than the ambient 290~K of the CSBF highbay. Throughout the measurement, A 4\% cryogenic NDF was present in the optical chain. The median values for each of the measured quantities is listed in Table~\ref{table:palestine hists}. The values for the electrical NEP will be used to convert to noise-equivalent flux density in Section~\ref{nefd}.
 
 \begin{table}[!htbp]
 \centering
 \caption[~Median values of important detector parameters for all five BLAST-TNG arrays, measured at CSBF.]{Median values of important detector parameters for all five BLAST-TNG arrays, measured at CSBF.}
 \label{table:palestine hists}
 \begin{tabular}{@{}llllll@{}}
-\dtoprule
+\dtoprule{}
  & 500~$\upmu$m & 250V & 350~$\upmu$m & 250U & 250W \\ \midrule
 \gls{Qr} & 5361 & 12,759 & 12,759 & 17,301 & 16,942 \\
 \gls{Qr}/\gls{Qc} & 0.073 & 0.28 & 0.56 & 0.24 & 0.22 \\
 Depth (dB) & -0.74 & -3.22 & -7.81 & -2.52 & -2.28 \\
 \gls{Sxx} (1/Hz) & 28 $\times$ 10$^{-17}$ & 30 $\times$ 10$^{-17}$ & 0.34 $\times$ 10$^{-17}$ & 3.5 $\times$ 10$^{-17}$ & 4 $\times$ 10$^{-17}$ \\
 \gls{Syy} (1/Hz) & 25 $\times$ 10$^{-17}$ & 27 $\times$ 10$^{-17}$ & 0.21 $\times$ 10$^{-17}$ & 2.4 $\times$ 10$^{-17}$ & 25 $\times$ 10$^{-17}$ \\
-NEP$_{\mathrm{freq}}$ W/$\sqrt{\mathrm{Hz}}$ & 10 $\times$ 10$^{-17}$ & 100 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 37 $\times$ 10$^{-17}$ \\ \dbottomrule
+NEP$_{\mathrm{freq}}$ W/$\sqrt{\mathrm{Hz}}$ & 10 $\times$ 10$^{-17}$ & 100 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 37 $\times$ 10$^{-17}$ \\ \dbottomrule{}
 \\
 \end{tabular}
 \end{table}
@@ -525,7 +525,7 @@ Average responsivities to absorbed optical power, $\gls{Ropt} = (df/f_{0})/\math
 
 \subsection{Optical Responsivity}
 
-In this work, we assume average values of \gls{Ropt} for each BLAST-TNG detector which were measured at NIST (shared in a communication with collaboration members). In Section~\ref{applying model}, we compare these values to those produced by the parametric LEKID model presented in Chapter 2. The BLAST-TNG receiver contains a calibration lamp which is of a similar design to the one which was used in Herschel SPIRE \citep{hargrave2006performance}. Because the the absolute power output from the lamp is unknown, it is used primarily as a relative response calibrator. Examples of 1 second calibration lamp chops from CSBF and LDB are shown in Figures~\ref{fig:cal lamp pal} and Figure~\ref{fig:cal lamp ice}. The CSBF chops are shown in units of normalized \gls{phiIQ}, and represent an average over many channels. The rising edge of the pulse is visible. The chops shown in Figure~\ref{fig:cal lamp ice} are for single channels, and have been converted to \gls{df}. A low-pass filtered trace for each chop is overlayed on the raw data. Due to the lower SNR, the rising edge of the lamp pulse is not as visible.
+In this work, we assume average values of \gls{Ropt} for each BLAST-TNG detector which were measured at NIST (shared in a communication with collaboration members). In Section~\ref{applying model}, we compare these values to those produced by the parametric LEKID model presented in Chapter 2. The BLAST-TNG receiver contains a calibration lamp which is of a similar design to the one which was used in Herschel SPIRE \citep{hargrave2006performance}. Because the absolute power output from the lamp is unknown, it is used primarily as a relative response calibrator. Examples of 1 second calibration lamp chops from CSBF and LDB are shown in Figures~\ref{fig:cal lamp pal} and Figure~\ref{fig:cal lamp ice}. The CSBF chops are shown in units of normalized \gls{phiIQ}, and represent an average over many channels. The rising edge of the pulse is visible. The chops shown in Figure~\ref{fig:cal lamp ice} are for single channels, and have been converted to \gls{df}. A low-pass filtered trace for each chop is overlayed on the raw data. Due to the lower SNR, the rising edge of the lamp pulse is not as visible.
 
 % Cal lamp Palestine
 \begin{figure}[!htbp]
@@ -548,7 +548,7 @@ Figure~\ref{fig:T chop} shows a chop for a single channel of the 350~$\upmu$m ar
 % May Temperature Chop
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/timestreams/may_15K_chop_c374}
+\includegraphics[width=\textwidth]{figures/blast_data/timestreams/may_15K_chop_c374}
 \caption[~Chops made using a \macrocapwrap{$\sim$}15~K thermal source for a single channel of the 350~\macrocapwrap{$\upmu$m} array.]{Chops made using a $\sim$15~K thermal source for a single channel of the 350~$\upmu$m array.}
 \label{fig:T chop}
 \end{figure}
@@ -561,11 +561,11 @@ At CSBF, \gls{Rtemp} was measured by taking VNA sweeps of \gls{S21} at different
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}lll@{}}
-\dtoprule
+\dtoprule{}
 Band & \gls{Ropt} $(df/f_{0})/\mathrm{pW}$     & \gls{Rtemp} $(df/f_{0})/\mathrm{mK}$ \\ \midrule
 250~$\upmu$m & 1.7 $\times$ 10$^{-5}$ & 9.15 $\times$ 10$^{-7}$ \\
 350~$\upmu$m & 5.2 $\times$ 10$^{-6}$ & 1.51 $\times$ 10$^{-6}$ \\
-500~$\upmu$m & 1.6 $\times$ 10$^{-4}$ & 3.91 $\times$ 10$^{-6}$ \\ \dbottomrule
+500~$\upmu$m & 1.6 $\times$ 10$^{-4}$ & 3.91 $\times$ 10$^{-6}$ \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption[~BLAST-TNG optical and temperature responsivities.]{BLAST-TNG optical and temperature responsivities (optical responsivities provided by NIST).}
@@ -574,22 +574,22 @@ Band & \gls{Ropt} $(df/f_{0})/\mathrm{pW}$     & \gls{Rtemp} $(df/f_{0})/\mathrm
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/temp_sweep_pal}
-\caption[~350 \macrocapwrap{$\upmu$m} VNA sweeps at different FPA temperatures.]{350~$\upmu$m VNA $|\gls{S21}|$ sweeps at different FPA temperatures. The red trace is low-pass filtered data (Figure from Adrian Sinclair)}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/temp_sweep_pal}
+\caption[~350 \macrocapwrap{$\upmu$m} VNA sweeps at different FPA temperatures.]{350~$\upmu$m VNA $|\gls{S21}|$ sweeps at different FPA temperatures. The red trace is low-pass filtered data (Figure courtesy of Adrian Sinclair)}
 \label{fig:temp sweeps}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/blast_data/sweeps/temp_response}
-\caption[~Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500 \macrocapwrap{$\upmu$m} arrays.]{Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500~$\upmu$m arrays (Figure from Adrian Sinclair).}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/temp_response}
+\caption[~Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500 \macrocapwrap{$\upmu$m} arrays.]{Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500~$\upmu$m arrays (Figure courtesy of Adrian Sinclair).}
 \label{fig:temp response}
 \end{figure}
 
 \begin{comment}
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/timestreams/May_dff0_hist}
+\includegraphics[width=\textwidth]{figures/blast_data/timestreams/May_dff0_hist}
 \caption[~Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500 \macrocapwrap{$\upmu$m} arrays.]{sdfsfdsf}
 \label{fig:may noist hist}
 \end{figure}
@@ -639,7 +639,7 @@ If the optical responsivity is known or assumed, the NEP can be calculated as:
 
 Because $e_{f}$ is complex, Equations~\ref{eq:NET freq} and~\ref{eq:NEP} allow for the NET and NEP in both the phase and dissipation quadratures to be calculated.
 
-The thermal source chop in Figure~\ref{fig:T chop} was produced with $\Delta T \simeq 15$~K. At the time of the measurement there was a 2.85\% NDF inside the cryostat. Using Equation~\ref{eq:NET freq}, and multiplying by the loss from the NDF gives $NET_{\mathrm{tot}} = 825$~$\upmu$K/$\sqrt{\mathrm{Hz}}$. Assuming a 30\% passband width, this value corresponds to $NEP_{\mathrm{freq,tot}} = 5.55 \times 10^{-16}$~W/$\sqrt{\mathrm{Hz}}$. Assuming the \gls{Ropt} value for the 350~$\upmu$m array in Table~\ref{table:responsivities}, the optical efficiency for this channel is found to $\sim$20\%. For this particular channel, the frequency noise in the dissipation quadrature was found to be slightly less than half of the noise in the phase quadrature. This indicates that the channel is close to being photon-noise limited ($NEP_{\mathrm{phot}} > NEP_{\mathrm{diss}}$). Values for the NET and NEP in the two quadratures are listed in Table~\ref{table:NET NEP example}.
+The thermal source chop in Figure~\ref{fig:T chop} was produced with $\Delta T \simeq 15$~K. At the time of the measurement there was a 2.85\% NDF inside the cryostat. Using Equation~\ref{eq:NET freq}, and multiplying by the loss from the NDF gives $NET_{\mathrm{tot}} = 825$~$\upmu$K/$\sqrt{\mathrm{Hz}}$. Assuming a 30\% passband width, this value corresponds to $NEP_{\mathrm{freq,tot}} = 5.55 \times 10^{-16}$~W/$\sqrt{\mathrm{Hz}}$. Assuming the \gls{Ropt} value for the 350~$\upmu$m array in Table~\ref{table:responsivities}, the optical efficiency for this channel is found to $\sim$20\%. For this particular channel, the frequency noise in the dissipation quadrature was found to be slightly less than half of the noise in the phase quadrature. This indicates that the channel is close to being photon noise limited ($NEP_{\mathrm{phot}} > NEP_{\mathrm{diss}}$). Values for the NET and NEP in the two quadratures are listed in Table~\ref{table:NET NEP example}.
 
 % NEP, thermal source chops
 
@@ -648,7 +648,7 @@ The thermal source chop in Figure~\ref{fig:T chop} was produced with $\Delta T \
 \caption[~Single detector NET and NEP estimated from a thermal chop.]{Estimates of NET and NEP for a single 350~\macrocapwrap{$\upmu$m} channel. This data was recorded in May, 2018. There was a 2.85\% NDF in the optical path.}
 \label{table:NET NEP example}
 \begin{tabular}{@{}ll@{}}
-\dtoprule
+\dtoprule{}
  & Channel 618 \\ \midrule
 $f_{0}$ MHz & 668.44 \\
 \gls{Sxx} Hz$^{-1}$ & 8.34 $\times$ 10$^{-18}$ \\
@@ -658,7 +658,7 @@ NEP$_{\mathrm{diss}}$ W/$\sqrt{\mathrm{Hz}}$ & 3.84 $\times$ 10$^{-16}$ \\
 NET$_{\mathrm{freq}}$ $\upmu$K/$\sqrt{\mathrm{Hz}}$ & 825 \\
 NET$_{\mathrm{diss}}$ $\upmu$K/$\sqrt{\mathrm{Hz}}$ & 571 \\
 NDF & 0.0285 \\
-\gls{opt_eff} (estimated) & 0.19 \\ \dbottomrule
+\gls{opt_eff} (estimated) & 0.19 \\ \dbottomrule{}
 \\
 \end{tabular}
 \end{table}
@@ -680,15 +680,15 @@ where the factor of $\sqrt{0.5}$ accounts for the conversion from 1/$\sqrt{\math
 \caption{NEP and NEFD estimates estimated from Palestine tests, compared to proposal values.}
 \label{table:NEP comparison}
 \begin{tabular}{@{}llll@{}}
-\dtoprule
+\dtoprule{}
  & 250~$\upmu$m & 350~$\upmu$m & 500~$\upmu$m \\ \midrule
-NEP$_{freq,prop}$\tnote{1} W/$\sqrt{\mathrm{Hz}}$ & 6.5 $\times$ 10$^{-17}$ & 5.5 $\times$ 10$^{-17}$ & 4.7 $\times$ 10$^{-17}$ \\
-NEP$_{phot,prop}$ W/$\sqrt{\mathrm{Hz}}$ & 17 $\times$ 10$^{-17}$ & 12 $\times$ 10$^{-17}$ & 8.7 $\times$ 10$^{-17}$ \\
-NEP$_{freq,Pal}$ W/$\sqrt{\mathrm{Hz}}$ & 35 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 10.0 $\times$ 10$^{-17}$ \\
-NEFD$_{Pal}$ $\frac{MJy\sqrt{s}}{sr}$ & 0.13 & 0.12 & 0.034 \\
+NEP$_{\mathrm{freq,prop}}$\tnote{1} W/$\sqrt{\mathrm{Hz}}$ & 6.5 $\times$ 10$^{-17}$ & 5.5 $\times$ 10$^{-17}$ & 4.7 $\times$ 10$^{-17}$ \\
+NEP$_{\mathrm{phot,prop}}$ W/$\sqrt{\mathrm{Hz}}$ & 17 $\times$ 10$^{-17}$ & 12 $\times$ 10$^{-17}$ & 8.7 $\times$ 10$^{-17}$ \\
+NEP$_{\mathrm{freq,Pal}}$ W/$\sqrt{\mathrm{Hz}}$ & 35 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 10.0 $\times$ 10$^{-17}$ \\
+NEFD$_{\mathrm{PAL}}$ $\frac{MJy\sqrt{s}}{sr}$ & 0.13 & 0.12 & 0.034 \\
 $\sigma_{\mathrm{map}}$ mJy/beam per detector & 68.75 & 96.25 & 39.28 \\
 $\sigma_{\mathrm{map}}$ mJy/beam & 2.17 & 3.77 & 2.27 \\
-$I_{\mathrm{min}}$ MJy/sr & 78.16 & 49.46 & 10.19 \\ \dbottomrule
+$I_{\mathrm{min}}$ MJy/sr & 78.16 & 49.46 & 10.19 \\ \dbottomrule{}
 \\
 \end{tabular}
 \begin{tablenotes}
@@ -698,9 +698,9 @@ $I_{\mathrm{min}}$ MJy/sr & 78.16 & 49.46 & 10.19 \\ \dbottomrule
 \end{threeparttable}
 \end{table}
 
-The measured electrical NEP values from Palestine are slightly higher than the estimated values in the proposal, but comparable to those given for the photon NEP in the proposal. During the measurement when the electrical NEPs were calculated, it is possible that many of the detectors were photon-noise limited. However, they were not optimally biased in terms of readout power, which causes the NEP in the dissipation direction to contribute more to the total NEP. The values for NEP$_{\mathrm{freq}}$ given in the proposal assume that the dissipation quadrature contributes $\sim$33\% to the total. In the Palestine measurements, the dissipation quadrature constitutes $\sim$65\% of the total.
+The measured electrical NEP values from Palestine are slightly higher than the estimated values in the proposal, but comparable to those given for the photon noise NEPs in the proposal. During the measurement when the electrical NEPs were calculated, it is possible that many of the detectors were photon noise limited. However, they were not optimally biased in terms of readout power, which causes the NEP in the dissipation direction to contribute more to the total NEP\@. The values for NEP$_{\mathrm{freq}}$ given in the proposal assume that the dissipation quadrature contributes $\sim$33\% to the total. In the Palestine measurements, the dissipation quadrature constitutes $\sim$65\% of the total.
 
-Despite the slightly higher NEPs, the estimated NEFDs and map noise are almost an order of magnitude higher than those reported for BLAST 2006 \citep{marsden2009blast}. This bodes well for the planned 2019/2020 flight of BLAST-TNG.
+Despite the slightly higher NEPs, the estimated NEFDs and map noise are almost an order of magnitude higher than those reported for BLAST 2006 \citep{marsden2009blast}. This bodes well for the planned 2019/2020 flight of BLAST-TNG\@.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Model fitting
@@ -708,15 +708,15 @@ Despite the slightly higher NEPs, the estimated NEFDs and map noise are almost a
 
 In this section we apply the parametric LEKID model which was developed in Chapter 2 to measured data from the 2018--2019 Antarctic campaign to determine whether or not it can provide reasonable estimates of absorbed optical power and optical efficiency for a single resonator. During pre-flight preparations at LDB, no NDF was installed inside the receiver, and the detectors were exposed to the ambient $\sim$290~K loading from the highbay. Despite their being heavily loaded, the majority of the detectors still responded to calibration lamp pulses.
 
-At the end of the ice campaign, data was taken with the aluminum camera shutter in the open and closed states. The shutter blocks the optical path between the primary mirror and the cryostat window, and is used during ascent when there is a risk of exposing the detectors to direct sunlight due to uncontrolled pointing. The wifi and star-camera video transmitter were powered down during this test, since they had been previously been discovered to interfere with the detector timestreams.
+At the end of the ice campaign, data was taken with the aluminum camera shutter in the open and closed states. The shutter blocks the optical path between the primary mirror and the cryostat window, and is used during ascent when there is a risk of exposing the detectors to direct sunlight due to uncontrolled pointing. The WiFi and star-camera video transmitter were powered down during this test, since they had been previously been discovered to interfere with the detector timestreams.
 
-As a test of the model, we choose a single channel from the 350~$\upmu$m array. The model takes readout power, base temperature, optical loading, $f_{0}$, \gls{Qc}, $Q_{\mathrm{loss}}$ and $\epsilon_{assym}$ as inputs. To simulate the test channel, we begin by estimating these and other resonator parameters using the target sweep and $I/Q$ timestreams taken in the shutter-closed and shutter-open states. The estimated parameters, listed in Table~\ref{table:350 model}, include: $f_{0}$, \gls{Qr}, \gls{Qc}, dip-depth, \gls{asym}, $\gls{Sxx}$, $NEP_{\mathrm{freq}}$ and $NEP_{\mathrm{diss}}$. For base temperature we assume 287~mK, which was the temperature of the 350~$\upmu$m focal-plane-array at the time that the data was recorded. For optical power we use the range between 1--200~pW, divided into 500 intervals. The readout power is -83~dBm.
+As a test of the model, we choose a single channel from the 350~$\upmu$m array. The model takes \gls{Pro}, \gls{Tbase}, \gls{Popt}, $f_{0}$, \gls{Qc}, $Q_{\mathrm{loss}}$ and $\epsilon_{assym}$ as inputs. To simulate the test channel, we begin by estimating these and other resonator parameters using the target sweep and $I/Q$ timestreams taken in the shutter-closed and shutter-open states. The estimated parameters, listed in Table~\ref{table:350 model}, include: $f_{0}$, \gls{Qr}, \gls{Qc}, dip-depth, \gls{asym}, $\gls{Sxx}$, $NEP_{\mathrm{freq}}$ and $NEP_{\mathrm{diss}}$. For \gls{Tbase} we assume 287~mK, which was the temperature of the 350~$\upmu$m focal-plane-array at the time that the data was recorded. For \gls{Popt} we use the range between 1--200~pW, divided into 500 intervals. The readout power \gls{Pro} is -83~dBm.
 
 \subsection{Optical Response}
 
-Given the inputs listed above, the model returns \gls{S21}(\gls{Popt}) for each optical power in the input range. A fit of \gls{S21} to both the shutter-closed and shutter-open data is shown in Figure~\ref{fig:350 S21 model}. The measured data is shown as blue points, the initial fit is shown as a dashed black line, and the model fit is shown as a dashed red line. To produce the model traces shown in Figure~\ref{fig:350 S21 model}, we select the two \gls{S21}(\gls{Popt}) arrays which correspond to the $f_{0,closed}$ and $f_{0,open}$ values determined from the initial fit. To create a good fit to \gls{S21}, we find that we must add a frequency offset to the value of $f_{0}$ which is input to model. For this test, we find that a frequency offset of 110~kHz produces good results. The resonator quality factors produced by the parametric model (listed in Table~\ref{table:350 model}) match those of the initial fit to within a few percent.
+Given the inputs listed above, the model returns \gls{S21}(\gls{Popt}) for each optical power in the input range. A fit of \gls{S21} to both the shutter-closed and shutter-open data is shown in Figure~\ref{fig:350 S21 model}. The measured data is shown as blue points, the initial fit is shown as a dashed black line, and the model fit is shown as a dashed red line. To produce the model traces shown in Figure~\ref{fig:350 S21 model}, we select the two \gls{S21}(\gls{Popt}) arrays which correspond to the $f_{0,\mathrm{closed}}$ and $f_{0,\mathrm{open}}$ values determined from the initial fit. To create a good fit to \gls{S21}, we find that we must add a frequency offset to the value of $f_{0}$ which is input to the model. For this test, we find that a frequency offset of 110~kHz produces good results. The resonator quality factors produced by the parametric model (listed in Table~\ref{table:350 model}) match those of the initial fit to within a few percent.
 
-The frequency shift between the two resonator states is -95.47~kHz. Using this shift, the model can be used to estimate the optical responsivity \gls{Ropt}. The responsivity is sensitive to the value which is chosen for \gls{N0}, the single-spin density of states at the Fermi Energy. Using $\gls{N0} = 10^{10}$~$eV^{-1}$~$\upmu$m$^{3}$, the model find that \gls{Ropt} = 5.35~pW$^{-1}$. This value is close to the average \gls{Ropt} reported by NIST, which is listed in Table~\ref{table:responsivities}. Given the frequency shift and responsivity, the power absorbed by the resonator between the two states is $\Delta \gls{Pabs} \approx 22$~pW.
+The frequency shift between the two resonator states is -95.47~kHz. Using this shift, the model can be used to estimate the optical responsivity \gls{Ropt}. The responsivity is sensitive to the value which is chosen for \gls{N0}, the single-spin density of states at the Fermi Energy. Using $\gls{N0} = 10^{10}$~$\mathrm{eV}^{-1}$~$\upmu$m$^{3}$, the model reports \gls{Ropt} = 5.35~pW$^{-1}$. This value is close to the average \gls{Ropt} reported by NIST, which is listed in Table~\ref{table:responsivities}. Given the frequency shift and responsivity, the power absorbed by the resonator between the two states is $\Delta \gls{Pabs} \approx 22$~pW.
 
 \begin{table}[!htbp]
   \begin{threeparttable}
@@ -724,8 +724,8 @@ The frequency shift between the two resonator states is -95.47~kHz. Using this s
 \caption{350 \macrocapwrap{$\upmu$m} model parameters.}
 \label{table:350 model}
 \begin{tabular}{@{}lllll@{}}
-\dtoprule
- & \begin{tabular}[c]{@{}l@{}}Shutter closed\\ (est. from data)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter open\\ (est. from data)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter closed\\ (model)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter open\\ (model)\end{tabular} \\ \midrule
+\dtoprule{}
+ & \begin{tabular}[c]{@{}l@{}}Shutter closed\\ (est.\ from data)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter open\\ (est.\ from data)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter closed\\ (model)\end{tabular} & \begin{tabular}[c]{@{}l@{}}Shutter open\\ (model)\end{tabular} \\ \midrule
 $f_{0}$ (MHz) & 813.330 & 813.235 & 813.330 & 813.235 \\
 \gls{Qr} & 15,829 & 12,106 & 15,600 & 11,724 \\
 \gls{Qc} & 25,328 & 24216 &  &  \\
@@ -744,26 +744,22 @@ $\Delta \gls{Pabs}$ (pW) &  & 22 &  & 22 (58) \\
 T$_{\mathrm{shutter}}$ (K) &  &  &  & 250 \\
 \gls{opt_eff} &  &  &  & 0.28 \\
 $Q_{\mathrm{loss}}$  & 3 $\times$ 10$^{7}$ & & & \\
-\gls{N0} $eV^{-1}$~$\upmu$m$^{3}$ & 9.5 $\times$ 10$^{10}$ &  &  &  \\ \dbottomrule
+\gls{N0} $\mathrm{eV}^{-1}$~$\upmu$m$^{3}$ & 9.5 $\times$ 10$^{10}$ &  &  &  \\ \dbottomrule{}
 \\
 \end{tabular}
-\begin{tablenotes}
-  \item sdfs
-\vspace{2mm}
-\end{tablenotes}
 \end{threeparttable}
 \end{table}
 
-Next, we compare the measured values for fractional frequency noise $\gls{Sxx}$, and NEP, to the values produced by the model. Because of the frequency offset which was applied to the $f_{0}$ values in order to obtain a good \gls{S21} fit, we do not use the values for $\gls{Sxx}$ and NEP which correspond to those those traces. Instead, we locate the two \gls{S21}(\gls{Popt}) traces that have a fractional frequency noise $\gls{Sxx}$ (1/Hz) which is closest to the values of $\gls{Sxx}$ which are estimated from the data. The two \gls{S21} traces which are found to match the closed and open states have $f_{0}$ values which are offset by those of the original \gls{S21} traces by -413 and -566~kHz, respectively. At the time of writing, the source of this frequency offset is not understood. Apart from the frequency offset, the frequency noise and NEP values produced by the model are close matches to the measured values.
+Next, we compare the measured values for fractional frequency noise $\gls{Sxx}$, and NEP, to the values produced by the model. Because of the frequency offset which was applied to the $f_{0}$ values in order to obtain a good \gls{S21} fit, we do not use the values for $\gls{Sxx}$ and NEP which correspond to those traces. Instead, we locate the two \gls{S21}(\gls{Popt}) traces that have a fractional frequency noise $\gls{Sxx}$ (1/Hz) which is closest to the values of $\gls{Sxx}$ which are estimated from the data. The two \gls{S21} traces which are found to match the closed and open states have $f_{0}$ values which are offset by those of the original \gls{S21} traces by -413 and -566~kHz, respectively. At the time of writing, the source of this frequency offset is not understood. Apart from the frequency offset, the frequency noise and NEP values produced by the model are close matches to the measured values.
 
 Table~\ref{table:350 model} lists the measured values for $\gls{Sxx}$, $S_{YY}$, NEP$_{\mathrm{freq}}$ and NEP$_{\mathrm{diss}}$ in the shutter-open and shutter-closed states. Figure~\ref{fig:350 chan psd} shows the fractional frequency power spectral density for the measured $\gls{Sxx}$ and $S_{YY}$. The black line indicates the white noise level which corresponds to their difference. Because the measured value for $\gls{Sxx}$ was used to select the appropriate \gls{S21} array, the measured and model values for $\gls{Sxx}$ and NEP$_{\mathrm{freq}}$ values in Table~\ref{table:350 model} agree to within a fraction of a percent.
 
-The model \gls{S21} traces with total frequency noise that matches the measured noise correspond to optical powers of 161 and 103~pW, for the open and closed states. The ratio of these powers is 1.55, which is close to the measured ratio of NEP$_{\mathrm{freq}}$ between the closed and open states (1.50). Figure~\ref{fig:nep ratio} shows the predicted ratio of NEP$_{\mathrm{phot}}$ to NEP$_{\mathrm{amp}}$ as a function of optical power. At the optical powers corresponding to the open and closed states, these ratios equal 1.23 and 1.7, which indicate that the detector is photon-noise limited. However, the value of the optical power given by the model does not necessarily equate to the true optical power (despite being close to what would be expected for an optical efficiency of $\sim$20\%.)
+The model \gls{S21} traces with total frequency noise that matches the measured noise correspond to optical powers of 161 and 103~pW, for the open and closed states. The ratio of these powers is 1.55, which is close to the measured ratio of NEP$_{\mathrm{freq}}$ between the closed and open states (1.50). Figure~\ref{fig:nep ratio} shows the predicted ratio of NEP$_{\mathrm{phot}}$ to NEP$_{\mathrm{amp}}$ as a function of optical power. At the optical powers corresponding to the open and closed states, these ratios equal 1.23 and 1.7, which indicate that the detector is photon noise limited. However, the value of the optical power given by the model does not necessarily equate to the true optical power (despite being close to what would be expected for an optical efficiency of $\sim$20\%.)
 
-To estimate the system optical efficiency \gls{opt_eff}, we start by assuming that with the shutter open and without an NDF inside the cryostat, the detectors see an optical load of $\sim$290~K. Assuming a detector efficiency $\gamma_{det}$ of 80\%, a horn efficiency $\gamma_{horn}$ of 70\% and a 30\% optical passband centered on 350~$\upmu$m, the total power incident on the detectors is:
+To estimate the system optical efficiency \gls{opt_eff}, we start by assuming that with the shutter open and without an NDF inside the cryostat, the detectors see an optical load of $\sim$290~K. Assuming a detector efficiency \gls{det_eff} of 80\%, a horn efficiency $\gamma_{\mathrm{horn}}$ of 70\% and a 30\% optical passband centered on 350~$\upmu$m, the total power incident on the detectors is:
 
 \begin{equation}\label{eq:opt eff}
-  \gls{Popt} \simeq k T B_{\mathrm{opt}} \gamma_{det} \gamma_{horn}
+  \gls{Popt} \simeq k T B_{\mathrm{opt}} \gls{det_eff} \eta_{\mathrm{horn}}
 \end{equation}
 
 Assuming the above values, $\gls{Popt} \simeq 576$~pW. Assuming the model value of $\Delta \gls{Pabs} = 161$~pW which is based on the measured frequency noise, $\gls{opt_eff} \sim 28$\%. Given the design target value of 30\%, this estimate is reasonable. However, there is a discrepancy between the model's prediction of $\Delta \gls{Pabs}\approx 22$~pW and the difference in absorbed power between the shutter-open and closed states of $\sim$58~pW which is based on the measured frequency noise. It is unclear whether this discrepancy originates in the model or in the measured data. Because the model responsivity is very close to the responsivity reported by NIST, for the purposes of this test we assume that the discrepancy originates in the model, and disregard the value it reports for $\gls{Pabs}$ in the closed state. Assuming the model values for $\Delta \gls{Pabs}$ and $\gls{opt_eff}$, the shutter temperature is estimated as $\sim$250~K.
@@ -777,14 +773,14 @@ Assuming the above values, $\gls{Popt} \simeq 576$~pW. Assuming the model value 
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/350_NEPphotNEPamp}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/350_NEPphotNEPamp}
 \caption[~Model ratio of \macrocapwrap{$NEP_{\mathrm{phot}}$} to \macrocapwrap{$NEP_{\mathrm{amp}}$} for a  350~\macrocapwrap{$\upmu$m} channel.]{The ratio of $NEP_{\mathrm{phot}}$ to $NEP_{\mathrm{amp}}$ for a 350~$\upmu$m channel.}
 \label{fig:nep ratio}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/sweeps/350_model_psds}
+\includegraphics[width=\textwidth]{figures/blast_data/sweeps/350_model_psds}
 \caption[~Fractional frequency noise for the camera shutter open and closed.]{The measured fractional frequency noise $\gls{Sxx}$ for the 350~$\upmu$m channel, with the camera shutter open and closed.}
 \label{fig:350 chan psd}
 \end{figure}
@@ -795,14 +791,16 @@ Assuming the above values, $\gls{Popt} \simeq 576$~pW. Assuming the model value 
 
 \subsection{Temperature Response}
 
-The parametric model can also be used to estimate the responsivity to changes in base-temperature, \gls{Rtemp}. After recording data with the shutter open and closed, it was left closed while the base-temperature of the cryostat was raised. Wide and target sweeps were taken at $T_{base} \approx 287$~mK and 316~mK. The model fit to $\gls{S21}(T_{base})$ at both temperatures is shown in Figure~\ref{fig:S21 model T shift ice}. As with the optical responsivity model fit, we use $\gls{Sxx}$ to estimate the base-temperature, and the frequency shift between states to estimate the responsivity. The results of the fit are listed in Table~\ref{table:350 temp model}. The fits to the base-temperatures are within 4~K of the temperatures which were measured using the cryogenic thermometry. The \gls{Rtemp} value measured from the frequency shift of 32~kHz is 1.4 $\times$ 10$^{-7}$. This value is lower than the \gls{Rtemp} of 9.15 $\times$ 10$^{-7}$ which was measured during the Palestine integration, but the difference is to be expected when comparing two different channels under different conditions.
+The parametric model can also be used to estimate the responsivity to changes in base-temperature, \gls{Rtemp}. After recording data with the shutter open and closed, it was left closed while the base-temperature of the cryostat was raised. Wide and target sweeps were taken at $\gls{Tbase} \approx 287$~mK and 316~mK. The model fit to $\gls{S21}(\gls{Tbase})$ at both temperatures is shown in Figure~\ref{fig:S21 model T shift ice}. As with the optical responsivity model fit, we use $\gls{Sxx}$ to estimate the \gls{Tbase}, and the frequency shift between states to estimate the responsivity. The results of the fit are listed in Table~\ref{table:350 temp model}.
+
+The fits to the base-temperatures are within 4~K of the temperatures which were measured using the cryogenic thermometry. The \gls{Rtemp} value measured from the frequency shift of 32~kHz is 1.4 $\times$ 10$^{-7}$. This value is lower than the \gls{Rtemp} of 9.15 $\times$ 10$^{-7}$ which was measured during the Palestine integration, but the difference is reasonable given that we are comparing two different channels under different conditions.
 
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}llllll@{}}
-\dtoprule
+\dtoprule{}
 \begin{tabular}[c]{@{}l@{}}$f_{0,\mathrm{\mathrm{cold}}}$\\ (MHz)\end{tabular} & \begin{tabular}[c]{@{}l@{}}$f_{0,\mathrm{\mathrm{warm}}}$\\ (MHz)\end{tabular} & \begin{tabular}[c]{@{}l@{}}$T_{\mathrm{warm}}$ \\ (meas,mod) mK \end{tabular} & \begin{tabular}[c]{@{}l@{}}$T_{\mathrm{cold}}$ \\ (meas,mod) mK \end{tabular} & \begin{tabular}[c]{@{}l@{}}$(df/f_{0})/dT$ meas.\\ (K$^{-1}$)\end{tabular} & \begin{tabular}[c]{@{}l@{}}$(df/f_{0})/dT$ mod.\\ (K$^{-1}$)\end{tabular} \\ \midrule
-813.328 & 813.298 & 316, 311 & 287, 283 & 1.35 $\times$ 10$^{-7}$ & 1.40 $\times$ 10$^{-7}$ \\ \dbottomrule
+813.328 & 813.298 & 316, 311 & 287, 283 & 1.35 $\times$ 10$^{-7}$ & 1.40 $\times$ 10$^{-7}$ \\ \dbottomrule{}
 \end{tabular}
 \caption[~Model and measured parameters for the 350~\macrocapwrap{$\upmu$m} base temperature response.]{Model and measured parameters for the 350~$\upmu$m base temperature response.}
 \label{table:350 temp model}
@@ -811,19 +809,19 @@ The parametric model can also be used to estimate the responsivity to changes in
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/sweeps/350_S21modelT_ice}
-\caption[~A parametric fit of \macrocapwrap{$\gls{S21}(T_{base})$} for a base-temperature shifted 350~\macrocapwrap{$\upmu$m} channel.]{A fit to $\gls{S21}(T_{base})$ for a temperature shifted 350~$\upmu$m channel using the parametric LEKID model presented in Chapter 2 (red). The blue points are measured data.}
+\caption[~A parametric fit of \macrocapwrap{$\gls{S21}(\gls{Tbase})$} for a base-temperature shifted 350~\macrocapwrap{$\upmu$m} channel.]{A fit to $\gls{S21}(\gls{Tbase})$ for a temperature shifted 350~$\upmu$m channel using the parametric LEKID model presented in Chapter 2 (red). The blue points are measured data.}
 \label{fig:S21 model T shift ice}
 \end{figure}
 
 \section{Optical Tests}\label{optical tests}
 
-The following sections describe the passband mapping and polarization efficiency tests that were performed in the lead-up to the planned 2018/2019 Antarctic flight of BLAST-TNG.
+The following sections describe the passband mapping and polarization efficiency tests that were performed in the lead-up to the planned 2018/2019 Antarctic flight of BLAST-TNG\@.
 
 \subsection{Passband Mapping}\label{fts}
 
 In this section we describe the characterization of the camera's spectral passbands. The low-frequency edge of each BLAST-TNG waveband is defined by the horn array waveguide cutoff frequencies, and the high frequency edges are defined by low-pass edge (LPE) and dichroic filters. Ideally, the passbands should be three boxcar filters centered at 250~$\upmu$m, 350~$\upmu$m and 500~$\upmu$m. Their widths should be $\sim$30\% of each center frequency (360~GHz, 257~GHz and 180~GHz). In practice, the filter shapes will not be rectangular. Their shape will be the product of the filter responses of each component in the optical path of the instrument.
 
-A Fourier-Transform spectrometer (FTS) containing a water-cooled Mercury arc lamp was used to produce in-band emission over the three wavebands. A low-pass filter inside the FTS prevents high frequency photons from exiting the output aperture. During the measurement, the FTS aperture was positioned a few inches in front of the cryostat window, to ensure that the in-band source filled the entire beam. The setup in the CSBF highbay is shown in Figure~\ref{fig:fts setup}.
+A Fourier-transform spectrometer (FTS) containing a water-cooled mercury arc lamp was used to produce in-band emission over the three wavebands. A low-pass filter inside the FTS prevents high frequency photons from exiting the output aperture. During the measurement, the FTS aperture was positioned a few inches in front of the cryostat window, to ensure that the in-band source filled the entire beam. The setup in the CSBF highbay is shown in Figure~\ref{fig:fts setup}.
 
 \begin{figure}[!htbp]
 \centering
@@ -832,21 +830,21 @@ A Fourier-Transform spectrometer (FTS) containing a water-cooled Mercury arc lam
 \label{fig:fts setup}
 \end{figure}
 
-An FTS is a modified Michelson interferometer. A single beam of light is split into two paths by a beamsplitter. The two beams then reflect off of mirrors which send them back through the beamsplitter to recombine. In an FTS, one of the mirrors can be translated back and forth through a distance $\Delta L$ to create a variable optical path-length delay (OPD) between the two optical paths. At the output of the FTS, the intensity at optical frequency $\nu$ for a given OPD is:
+A FTS is a modified Michelson interferometer. A single beam of light is split into two paths by a beamsplitter. The two beams then reflect off of mirrors which send them back through the beamsplitter to recombine. In an FTS, one of the mirrors can be translated back and forth through a distance $\Delta L$ to create a variable optical path-length delay (OPD) between the two optical paths. At the output of the FTS, the intensity at optical frequency $\nu$ for a given OPD is:
 
 % Intensity for single wavenumber and path length difference
 \begin{equation}
   I(\nu, \Delta L) = I(\nu, 0) \left[1 + \cos(2\pi \nu (2 \Delta L))\right]
 \end{equation}
 
-where $I(\nu)_{ZPD}$ is the intensity corresponding to the zero-path length difference (ZPD). Summing the intensities over all frequencies within the waveband gives:
+where $I(\nu)_{\mathrm{ZPD}}$ is the intensity corresponding to the zero-path length difference (ZPD). Summing the intensities over all frequencies within the waveband gives:
 
 % Fourier cosine transform
 \begin{equation}\label{eq:FTS}
   I(\Delta L) = \int_{\nu_{0}}^{\nu_{1}} I(\nu, \Delta L) d\nu
 \end{equation}
 
-Equation~\ref{eq:FTS} is the Fourier cosine transform (real Fourier-transform). As the movable mirror inside the FTS is stepped through $\Delta L$, the recorded timestream for each channel is an interference pattern, called an interferogram. Each point in the interferogram corresponds to Equation~\ref{eq:FTS} for a given path-length difference $\Delta L$, and therefore contains information about the intensity of every optical frequency in the waveband. The desired passband spectrum is produced by taking the inverse Fourier-transform of Equation~\ref{eq:FTS}, $\mathcal{F}^{-1}(I(\Delta L))$, and then shifting the Fourier frequencies into the optical and (see Equation~\ref{eq:fts scale}). The resulting frequency resolution of the spectrum $\nu_{\mathrm{res}}$ depends only on the OPD: $\nu_{\mathrm{res}} = c/2 \Delta L$.
+Equation~\ref{eq:FTS} is the Fourier cosine transform (real Fourier-transform). As the movable mirror inside the FTS is stepped through $\Delta L$, the recorded timestream for each channel is an interference pattern called an interferogram. Each point in the interferogram corresponds to Equation~\ref{eq:FTS} for a given path-length difference $\Delta L$, and therefore contains information about the intensity of every optical frequency in the waveband. The desired passband spectrum is produced by taking the inverse Fourier-transform of Equation~\ref{eq:FTS}, $\mathcal{F}^{-1}(I(\Delta L))$, and then shifting the Fourier frequencies into the optical band (see Equation~\ref{eq:fts scale}). The resulting frequency resolution of the spectrum $\nu_{\mathrm{res}}$ depends only on the OPD\@: $\nu_{\mathrm{res}} = c/2 \Delta L$.
 
 The FTS measurement parameters are shown in Table~\ref{table:fts params}.
 
@@ -855,7 +853,7 @@ The FTS measurement parameters are shown in Table~\ref{table:fts params}.
   \centering
 \begin{threeparttable}
 \begin{tabular}{@{}ll@{}}
-\dtoprule
+\dtoprule{}
 Parameter & Value \\ \midrule
 $\Delta L$ (mm) & 100 \\
 v$_{\mathrm{mirror}}$ (mm/s) & 0.1 \\
@@ -863,17 +861,17 @@ f$_{s}$ (Hz) & 488.28125 \\
 f$_{c}$\tnote{1} (Hz) & 3 \\
 N$_{\mathrm{samp}}$ & 4 $\times$ 10$^{4}$ \\
 $\nu_{\mathrm{res}}$ (GHz) & 1.5 \\
-f$_{\mathrm{scale}}$ (GHz) & 1.22 $\times$ 10$^{14}$ \\ \dbottomrule
+f$_{\mathrm{scale}}$ (GHz) & 1.22 $\times$ 10$^{14}$ \\ \dbottomrule{}
 \end{tabular}
 \begin{tablenotes}
-\item [1] Cut-off frequency of low-pass filter used to process interferograms.
+\item [1] cutoff frequency of the low-pass filter used to process interferograms.
 \vspace{2mm}
 \end{tablenotes}
 \label{table:fts params}
 \end{threeparttable}
 \end{table}
 
-In the following, we describe each step of the FTS data reduction for the 250W, 350~$\upmu$m and 500~$\upmu$m detector arrays. The measurement lasted $\sim$5.5 hours, during which $\sim$40 min of data was recorded for each BLAST-TNG detector with the FTS positioned in five different orientations relative to the cryostat window-- centered, above-center, below-center, right-of-center, and left-of-center. These positions were used to maximize the likelihood that the beam for each detector channel would well illuminated in at least one of the positions. Figure~\ref{fig:fts total meas} shows a phase timestream of the entire measurement for a single channel of the 350~$\upmu$m array. Due to slow drifts in the fridge temperature, the readout tones had to be recalibrated three times during the measurement (visible as large spikes). The features between $\sim$1--1.1 $\times$ 10$^{7}$ samples correspond to the cryogenic pumped-pot running out of He4, and then refilling.
+In the following, we describe each step of the FTS data reduction for the 250W, 350~$\upmu$m and 500~$\upmu$m detector arrays. The measurement lasted $\sim$5.5 hours, during which $\sim$40 min of data was recorded for each BLAST-TNG detector with the FTS positioned in five different orientations relative to the cryostat window-- centered, above-center, below-center, right-of-center and left-of-center. These positions were used to maximize the likelihood that the beam for each detector channel would be well illuminated in at least one of the positions. Figure~\ref{fig:fts total meas} shows a phase timestream of the entire measurement for a single channel of the 350~$\upmu$m array. Due to slow drifts in the fridge temperature, the readout tones had to be recalibrated three times during the measurement (visible as large spikes). The features between $\sim$1--1.1 $\times$ 10$^{7}$ samples correspond to the cryogenic pumped-pot running out of He4, and then refilling.
 
 \begin{figure}[!htbp]
 \centering
@@ -887,7 +885,7 @@ The data reduction steps used to create the passband spectrum spectrum for each 
 \begin{enumerate}[nosep]
   \item For each channel, identify high SNR interferograms $I_{c}$ in the total measurement timestream.
   \item Align the interferograms according to the location of $I_{c}(0)$.
-  \item Normalize each interferogram according to the peak-to-peak amplitude of $I(\nu)_{ZPD}$ and apply a low-pass filter.
+  \item Normalize each interferogram according to the peak-to-peak amplitude of $I(\nu)_{\mathrm{ZPD}}$ and apply a low-pass filter.
   \item Correct each $I_{c}$ for nonlinearities introduced by the detectors.
   \item Co-add each $I_{c}$ to create an interferogram template $I_{T}$.
   \item Take the inverse Fourier-transform of the interferogram template and shift the Fourier frequencies to the optical band.
@@ -902,7 +900,7 @@ To choose the interferograms to be used in the analysis (1), the approximate loc
 \label{fig:interf zoom}
 \end{figure}
 
-Several aligned and low-pass filtered interferograms for a single channel (prior to scaling) are shown in Figure~\ref{fig:interf lpf stack}. The variation in peak-to-peak amplitudes is the result of the different beam-filling factor of each FTS position. After normalzing each $I_{c}$, they must be corrected for nonlinearities (4). The nonlinearities appear as amplitude (or phase or $\Delta f$) assymetries, which are particularly visible in the central portion of each $I_{c}$. If the nonlinearity is left uncorrected, side-lobes are produced in the final passband spectrum. Part of the nonlinearities seen in these interferograms is attributable to imperfect readout calibration during the measurement. When the FTS beam was near peak intensity, it shifted the detectors off resonance, resulting in a loss of response. The nonlinearity is corrected by fitting a second order polynomial to $I_{c}$:
+Several aligned and low-pass filtered interferograms for a single channel (prior to scaling) are shown in Figure~\ref{fig:interf lpf stack}. The variation in peak-to-peak amplitudes is the result of the different beam-filling factor of each FTS position. After normalizing each $I_{c}$, they must be corrected for nonlinearities (4). The nonlinearities appear as amplitude (or phase, or $\Delta f$) asymmetries, which are particularly visible in the central portion of each $I_{c}$. If the nonlinearity is left uncorrected, sidelobes are produced in the final passband spectrum. Part of the nonlinearities seen in these interferograms is attributable to imperfect readout calibration during the measurement. When the FTS beam was near peak intensity, it shifted the detectors off of resonance, resulting in a loss of response. The nonlinearity is corrected by fitting a second order polynomial to $I_{c}$:
 
 \begin{equation}
   I_{c,\mathrm{corr}} = I_{c} \left[ 1 + a(I_{c,\mathrm{norm}}) + b(I_{c,\mathrm{norm}})^{2} \right]
@@ -915,11 +913,11 @@ The coefficients which were used for each of the three detector arrays used in t
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}lll@{}}
-\dtoprule
+\dtoprule{}
 Band & a & b \\ \midrule
 250W~$\upmu$m & 0.01 & 0.01 \\
 350~$\upmu$m & 0.05 & 0.01 \\
-500~$\upmu$m & 0.2 & 0.1 \\ \dbottomrule
+500~$\upmu$m & 0.2 & 0.1 \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption{Coefficients used in nonlinearity correction of interferograms.}
@@ -945,7 +943,7 @@ Band & a & b \\ \midrule
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/fts/fts_avg_interfs_raw}
-\caption{Averaged interferograms for the 250W, 350 and 500~$\upmu$m arrays. The solid blue trace is corrected for nonlinearity, and the red trace is not.}
+\caption{Averaged interferograms for the 250W, 350 and 500~$\upmu$m arrays. The solid blue trace is corrected for nonlinearity, the red trace is uncorrected.}
 \label{fig:avg interfs}
 \end{figure}
 
@@ -958,29 +956,29 @@ The passband spectra are produced by taking the inverse-Fourier transform of eac
   \end{aligned}
 \end{equation}
 
-where $f_{c}$ is the cut-off frequency of the low-pass filter used to process each $I_{c}$. The passbands are shown in Figure~\ref{fig:passbands_corr}, with their amplitudes normalized to the maximum and expressed in dB. The solid and dashed traces correspond to the corrected and uncorrected interferograms. As expected, the frequency response of the measured passbands are far from that of ideal band-pass filters. However, their approximate widths are close to the 30\% design bandwidth, and their isolation is $\sim$ - 15 dB. This result is comparable to that measured for previous BLASTs (e.g., \citet{galitzki}).
+where $f_{c}$ is the cutoff frequency of the low-pass filter used to process each $I_{c}$. The passbands are shown in Figure~\ref{fig:passbands_corr}, with their amplitudes normalized to the maximum and expressed in dB. The solid and dashed traces correspond to the corrected and uncorrected interferograms. As expected, the frequency response of the measured passbands are far from that of ideal band-pass filters. However, their approximate widths are close to the 30\% design bandwidth, and their isolation is $\sim$ - 15 dB. This result is comparable to that measured for previous BLASTs (e.g., \citet{galitzki}).
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/fts/passbands_raw}
-\caption{BLAST-TNG optical passbands for the 250W, 350 and 500~$\upmu$m arrays. The solid traces are corrected for nonlinearity, and the dashed traces are not.}
+\caption{BLAST-TNG optical passbands for the 250W, 350 and 500~$\upmu$m arrays. The solid traces are corrected for nonlinearity, and the dashed traces are uncorrected.}
 \label{fig:passbands_corr}
 \end{figure}
 
 \subsection{Polarization Efficiency}\label{pol eff}
 
-Because BLAST-TNG is a polarimeter, its camera must be able to distinguish signal in one linear polarization from signal in the orthogonal polarization with a high level of certainty. The polarization efficiency \gls{pol_eff} (or cross-polarization efficiency \gls{xpol_eff}) is generally reported as a percentage \gls{pol_eff}. It is a measurement of the extent to which detectors with sensitivity to signal with one linear polarization are isolated from signal in the orthogonal polarization ($X$ or $Y$, here \textit{pol-1} and \textit{pol-2}). The BLAST-TNG LEKID detectors are dual polarization-sensitive, where each detector is comprised of two pixels with sensitivity to orthogonal linear polarizations (Stokes $Q$ and $U$).
+Because BLAST-TNG is a polarimeter, its camera must be able to distinguish signal in one linear polarization from signal in the orthogonal polarization with high accuracy. The polarization efficiency \gls{pol_eff} (or cross-polarization efficiency \gls{xpol_eff}) is generally reported as a percentage \gls{pol_eff}. It is a measurement of the extent to which detectors with sensitivity to signal with one linear polarization are isolated from signal in the orthogonal polarization ($X$ or $Y$, here \textit{pol-1} and \textit{pol-2}). The BLAST-TNG LEKID detectors are dual-polarization sensitive, where each detector is comprised of two pixels with sensitivity to orthogonal linear polarizations (Stokes $Q$ and $U$).
 
 Previous lab measurements of a prototype BLAST-TNG 250~$\upmu$m array showed that \gls{xpol_eff} was at most 0.026 and 0.028 for the $X$ and $Y$ polarizations \citep{dober2016optical}. The instrumental polarization efficiency for the BLASTPol 2012 instrument is reported to be 0.81 (250~$\upmu$m), 0.79 (350~$\upmu$m) and 0.82 (500~$\upmu$m) (\gls{xpol_eff} of 0.19, 0.21, 0.18) \citep{shariff2015polarimetry}.
 
-Here we present initial estimates of the instrumental polarization for three of the BLAST-TNG flight arrays: The 250U, 250W and 350~$\upmu$m. The data for the 250V and 500~$\upmu$m arrays was not available at the time of writing. It is important to note that when these measurements were taken the achromatic half wave plate (AHWP) was not installed in the instrument. Additional measurements will be required to estimate any cross-polarization contribution from the AHWP.
+Here we present initial estimates of the instrumental polarization for three of the BLAST-TNG flight arrays: The 250U, 250W and 350~$\upmu$m. The data for the 250V and 500~$\upmu$m arrays was not available at the time of writing. It is important to note that when these measurements were taken the achromatic half wave plate (AHWP) was not installed in the instrument. Additional measurements will be required to estimate any cross-polarization contribution from the AHWP\@.
 
-A photograph of the measurement setup is shown in Figure~\ref{fig:pol setup}. A rotatable polarizing grid was attached to outside of the cryostat window. The plane of the grid is tilted 45$^{\degree}$ away from the plane of the window to reduce back reflections. A chopper equipped with a heated blackbody source was placed in front of the window. The polarizing grid was then rotated by 360$^{\degree}$ in 10$^{\degree}$ intervals. At each rotation angle, channel timestreams were recorded with the chopper in the \textit{on} ($T \simeq 330$) and \textit{off} ($T \simeq 300$) positions. In the following data reduction, we use data corresponding to 22 consecutive rotation angles.
+A photograph of the measurement setup is shown in Figure~\ref{fig:pol setup}. A rotatable polarizing grid was attached to the outside of the cryostat window. The plane of the grid was tilted 45$^{\degree}$ away from the plane of the window to reduce back reflections. A chopper equipped with a heated blackbody source was placed in front of the window. The polarizing grid was then rotated by 360$^{\degree}$ in 10$^{\degree}$ intervals. At each rotation angle, channel timestreams were recorded with the chopper in the \textit{on} ($T \simeq 330$) and \textit{off} ($T \simeq 300$) positions. In the following data reduction, we use data corresponding to 22 consecutive rotation angles.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/blast_data/polarization/pol_meas_crop}
-\caption[~The polarization measurement setup in the CSBF highbay, July 2018.]{The polarization measurement setup in the CSBF highbay, July 2018.}
+\includegraphics[width=\textwidth]{figures/blast_data/polarization/pol_meas_crop}
+\caption[~The polarization measurement setup in the CSBF highbay, July 2018.]{The polarization measurement setup in the CSBF highbay, July, 2018.}
 \label{fig:pol setup}
 \end{figure}
 
@@ -1020,7 +1018,7 @@ where $\mathbf{I}_{c}$ and $\mathbf{Q}_{c}$ are the I/Q timestreams for channel 
 
 % Correction for systematic DC offset
 \begin{equation}
-  \mathbf{S}_{c}\theta) = \mathbf{R}_{c}(\theta) - \overline{\mathbf{R}_{c}}(\theta) + \frac{1}{2} \left[ \mathrm{max}\left( \mathbf{R}_{c}(\theta) \right) - \mathrm{min}\left( \mathbf{R}_{c}(\theta) \right) \right]
+  \mathbf{S}_{c}(\theta) = \mathbf{R}_{c}(\theta) - \overline{\mathbf{R}_{c}}(\theta) + \frac{1}{2} \left[ \mathrm{max}\left( \mathbf{R}_{c}(\theta) \right) - \mathrm{min}\left( \mathbf{R}_{c}(\theta) \right) \right]
 \end{equation}
 
 Finally, the channel's polarization and cross-polarization efficiency are calculated as:
@@ -1037,11 +1035,11 @@ The values for \gls{pol_eff} and \gls{xpol_eff} calculated for the 250U, 250W an
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}lllll@{}}
-\dtoprule
+\dtoprule{}
  & $\epsilon_{pol-1}$ & $\epsilon_{Xpol-1}$ & $\epsilon_{Xpol-1}$ & $\epsilon_{Xpol-2}$ \\ \midrule
 250U~$\upmu$m & 0.818 & 0.182 & 0.872 & 0.128 \\
 250W~$\upmu$m & 0.884 & 0.116 & 0.869 & 0.131 \\
-350~$\upmu$m & 0.844 & 0.156 & 0.948 & 0.052 \\ \dbottomrule
+350~$\upmu$m & 0.844 & 0.156 & 0.948 & 0.052 \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption{Polarization efficiency \macrocapwrap{\gls{pol_eff}} and cross-pol efficiency \macrocapwrap{\gls{xpol_eff}} for three BLAST-TNG detector arrays: 250U, 250W, and 350~$\upmu$m.}
@@ -1050,21 +1048,21 @@ The values for \gls{pol_eff} and \gls{xpol_eff} calculated for the 250U, 250W an
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/blast_data/polarization/250U_poleff}
+\includegraphics[width=\textwidth]{figures/blast_data/polarization/250U_poleff}
 \caption{Polarization response $\mathbf{S}(\theta)$ for the BLAST-TNG 250U array.}
 \label{fig:250U pol}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/blast_data/polarization/250W_poleff}
+\includegraphics[width=\textwidth]{figures/blast_data/polarization/250W_poleff}
 \caption{Polarization response $\mathbf{S}(\theta)$ for the BLAST-TNG 250W array.}
 \label{fig:250W pol}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/blast_data/polarization/350_poleff}
+\includegraphics[width=\textwidth]{figures/blast_data/polarization/350_poleff}
 \caption{Polarization response $\mathbf{S}(\theta)$ for the BLAST-TNG 350~$\upmu$m array. }
 \label{fig:350 pol}
 \end{figure}
@@ -1073,6 +1071,6 @@ Although these measurements of the instrumental \gls{pol_eff} for BLAST-TNG are 
 
 \subsection{Additional Optical Tests}\label{more testing}
 
-The results presented in the previous two sections are preliminary, and will be expanded upon in the lead-up to the planned 2020 flight. Additional testing that is underway at the time of writing includes beam mapping, spatial pixel identification and characterization of the HWP.
+The results presented in the previous two sections are preliminary, and will be expanded upon in the lead-up to the planned 2020 flight. Additional testing that is underway at the time of writing includes beam mapping, spatial pixel identification and characterization of the HWP\@.
 
 %\subsection{RF Interference}\label{RFI}

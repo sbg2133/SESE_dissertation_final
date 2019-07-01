@@ -49,90 +49,90 @@
 \contentsline {figure}{\numberline {45}{\ignorespaces \nobreakspace {}A zoomed-in region of an unprocessed and processed wide-sweep of the {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } array.}}{128}{figure.4.45}
 \contentsline {figure}{\numberline {46}{\ignorespaces \nobreakspace {}Intermediate products used in the transfer function calculation for the {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } array.}}{130}{figure.4.46}
 \contentsline {figure}{\numberline {47}{\ignorespaces \nobreakspace {}A {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{131}{figure.4.47}
-\contentsline {figure}{\numberline {48}{\ignorespaces \nobreakspace {}A 250W ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{131}{figure.4.48}
-\contentsline {figure}{\numberline {49}{\ignorespaces \nobreakspace {}A 250U ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{132}{figure.4.49}
-\contentsline {figure}{\numberline {50}{\ignorespaces \nobreakspace {}A 250V ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{132}{figure.4.50}
-\contentsline {figure}{\numberline {51}{\ignorespaces \nobreakspace {}A 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{133}{figure.4.51}
-\contentsline {figure}{\numberline {52}{\ignorespaces \nobreakspace {}350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } output transfer function corrections with slopes of 5, 8 and 10\nobreakspace {}dB.}}{133}{figure.4.52}
-\contentsline {figure}{\numberline {53}{\ignorespaces \nobreakspace {}The channel alignment and HPF step of the KID-finding algorithm.}}{135}{figure.4.53}
+\contentsline {figure}{\numberline {48}{\ignorespaces \nobreakspace {}A 250W ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{132}{figure.4.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces \nobreakspace {}A 250U ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{133}{figure.4.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces \nobreakspace {}A 250V ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{134}{figure.4.50}
+\contentsline {figure}{\numberline {51}{\ignorespaces \nobreakspace {}A 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } ROACH2 sweep from the Palestine integration, with a VNA sweep from May, 2018.}}{135}{figure.4.51}
+\contentsline {figure}{\numberline {52}{\ignorespaces \nobreakspace {}350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } output transfer function corrections with slopes of 5, 8 and 10\nobreakspace {}dB.}}{136}{figure.4.52}
+\contentsline {figure}{\numberline {53}{\ignorespaces \nobreakspace {}The channel alignment and HPF step of the KID-finding algorithm.}}{137}{figure.4.53}
 \contentsline {figure}{\numberline {54}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } array KID-finding results.}}{139}{figure.4.54}
 \contentsline {figure}{\numberline {55}{\ignorespaces \nobreakspace {}250W array KID-finding results.}}{140}{figure.4.55}
 \contentsline {figure}{\numberline {56}{\ignorespaces \nobreakspace {}250U array KID-finding results.}}{141}{figure.4.56}
 \contentsline {figure}{\numberline {57}{\ignorespaces \nobreakspace {}250V array KID-finding results.}}{142}{figure.4.57}
 \contentsline {figure}{\numberline {58}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{500\nobreakspace {}$\upmu $m}}\egroup \egroup } array KID-finding results.}}{143}{figure.4.58}
-\contentsline {figure}{\numberline {59}{\ignorespaces \nobreakspace {}An example {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } target sweep.}}{144}{figure.4.59}
-\contentsline {figure}{\numberline {60}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } target sweeps from the ice, with shutter open and closed.}}{145}{figure.4.60}
-\contentsline {figure}{\numberline {61}{\ignorespaces \nobreakspace {}Sweeps at different tone powers for a single resonator.}}{147}{figure.4.61}
-\contentsline {figure}{\numberline {62}{\ignorespaces \nobreakspace {}Sweeps at different tone powers for a single resonator, showing bifurcation.}}{148}{figure.4.62}
-\contentsline {figure}{\numberline {63}{\ignorespaces \nobreakspace {}LO chops for the 250U, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays.}}{152}{figure.4.63}
-\contentsline {figure}{\numberline {64}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{\gls {gradIQ}}}\egroup \egroup } for a single 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{154}{figure.4.64}
-\contentsline {figure}{\numberline {65}{\ignorespaces \nobreakspace {}10 second timestreams for the Palestine 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } example channel.}}{155}{figure.4.65}
-\contentsline {figure}{\numberline {66}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{$\left | \gls {S21} \right |^{2}$}}\egroup \egroup }, {\bgroup \bgroup {{\gls {phiIQ}}}\egroup \egroup } and the {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } loop for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } example channel.}}{156}{figure.4.66}
-\contentsline {figure}{\numberline {67}{\ignorespaces \nobreakspace {}A 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel PSD, showing the phase and dissipation quadratures.}}{157}{figure.4.67}
-\contentsline {figure}{\numberline {68}{\ignorespaces \nobreakspace {}A histogram of frequency and dissipation noise for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, in Palestine.}}{158}{figure.4.68}
-\contentsline {figure}{\numberline {69}{\ignorespaces \nobreakspace {}Histograms of resonator dip-depth for all five BLAST-TNG arrays, measured at CSBF.}}{159}{figure.4.69}
-\contentsline {figure}{\numberline {70}{\ignorespaces \nobreakspace {}Histograms of {\bgroup \bgroup {{\gls {Qr}}}\egroup \egroup } for all five BLAST-TNG arrays, measured at CSBF.}}{160}{figure.4.70}
-\contentsline {figure}{\numberline {71}{\ignorespaces \nobreakspace {}Histograms of {\bgroup \bgroup {{\gls {Qr}/\gls {Qc}}}\egroup \egroup } for all five BLAST-TNG arrays, measured at CSBF.}}{161}{figure.4.71}
-\contentsline {figure}{\numberline {72}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, measured at CSBF.}}{162}{figure.4.72}
-\contentsline {figure}{\numberline {73}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, measured at CSBF.}}{163}{figure.4.73}
-\contentsline {figure}{\numberline {74}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250U array, measured at CSBF.}}{164}{figure.4.74}
-\contentsline {figure}{\numberline {75}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250U array, measured at CSBF.}}{165}{figure.4.75}
-\contentsline {figure}{\numberline {76}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250W array, measured at CSBF.}}{166}{figure.4.76}
-\contentsline {figure}{\numberline {77}{\ignorespaces \nobreakspace {}Calibration lamp chops for the 250U, 250W, 250V, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays, taken at CSBF.}}{168}{figure.4.77}
-\contentsline {figure}{\numberline {78}{\ignorespaces Calibration lamp chops for the 250U, 250W, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays, taken at LDB.}}{169}{figure.4.78}
-\contentsline {figure}{\numberline {79}{\ignorespaces \nobreakspace {}Chops made using a {\bgroup \bgroup {{$\sim $}}\egroup \egroup }15\nobreakspace {}K thermal source for a single channel of the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array.}}{170}{figure.4.79}
-\contentsline {figure}{\numberline {80}{\ignorespaces \nobreakspace {}350 {\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } VNA sweeps at different FPA temperatures.}}{171}{figure.4.80}
-\contentsline {figure}{\numberline {81}{\ignorespaces \nobreakspace {}Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500 {\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays.}}{171}{figure.4.81}
-\contentsline {figure}{\numberline {82}{\ignorespaces \nobreakspace {}A parametric fit of {\bgroup \bgroup {{\gls {S21}}}\egroup \egroup } for an optically shifted 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{180}{figure.4.82}
-\contentsline {figure}{\numberline {83}{\ignorespaces \nobreakspace {}Model ratio of {\bgroup \bgroup {{$NEP_{\mathrm {phot}}$}}\egroup \egroup } to {\bgroup \bgroup {{$NEP_{\mathrm {amp}}$}}\egroup \egroup } for a 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{181}{figure.4.83}
-\contentsline {figure}{\numberline {84}{\ignorespaces \nobreakspace {}Fractional frequency noise for the camera shutter open and closed.}}{181}{figure.4.84}
-\contentsline {figure}{\numberline {85}{\ignorespaces \nobreakspace {}A parametric fit of {\bgroup \bgroup {{$\gls {S21}(T_{base})$}}\egroup \egroup } for a base-temperature shifted 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{183}{figure.4.85}
-\contentsline {figure}{\numberline {86}{\ignorespaces The FTS measurement setup at CSBF.}}{184}{figure.4.86}
-\contentsline {figure}{\numberline {87}{\ignorespaces The timestream of the FTS measurement, for a single channel of the 350\nobreakspace {}$\upmu $m array. The measurement duration is $\sim $5.5\nobreakspace {}hours.}}{187}{figure.4.87}
-\contentsline {figure}{\numberline {88}{\ignorespaces \nobreakspace {}Two interferograms from the raw FTS measurement timestream.}}{188}{figure.4.88}
-\contentsline {figure}{\numberline {89}{\ignorespaces Several aligned interferograms for the same channel, prior to applying weights.}}{190}{figure.4.89}
-\contentsline {figure}{\numberline {90}{\ignorespaces Averaged interferograms for the 250W, 350 and 500\nobreakspace {}$\upmu $m arrays. The solid blue trace is corrected for nonlinearity, and the red trace is not.}}{191}{figure.4.90}
-\contentsline {figure}{\numberline {91}{\ignorespaces BLAST-TNG optical passbands for the 250W, 350 and 500\nobreakspace {}$\upmu $m arrays. The solid traces are corrected for nonlinearity, and the dashed traces are not.}}{192}{figure.4.91}
-\contentsline {figure}{\numberline {92}{\ignorespaces \nobreakspace {}The polarization measurement setup in the CSBF highbay, July 2018.}}{194}{figure.4.92}
-\contentsline {figure}{\numberline {93}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 250U array.}}{196}{figure.4.93}
-\contentsline {figure}{\numberline {94}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 250W array.}}{197}{figure.4.94}
-\contentsline {figure}{\numberline {95}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 350\nobreakspace {}$\upmu $m array. }}{198}{figure.4.95}
+\contentsline {figure}{\numberline {59}{\ignorespaces \nobreakspace {}An example {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } target sweep.}}{145}{figure.4.59}
+\contentsline {figure}{\numberline {60}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } target sweeps from the ice, with shutter open and closed.}}{146}{figure.4.60}
+\contentsline {figure}{\numberline {61}{\ignorespaces \nobreakspace {}Sweeps at different tone powers for a single resonator.}}{148}{figure.4.61}
+\contentsline {figure}{\numberline {62}{\ignorespaces \nobreakspace {}Sweeps at different tone powers for a single resonator, showing bifurcation.}}{149}{figure.4.62}
+\contentsline {figure}{\numberline {63}{\ignorespaces \nobreakspace {}LO chops for the 250U, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays.}}{153}{figure.4.63}
+\contentsline {figure}{\numberline {64}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{\gls {gradIQ}}}\egroup \egroup } for a single 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{155}{figure.4.64}
+\contentsline {figure}{\numberline {65}{\ignorespaces \nobreakspace {}10 second timestreams for the Palestine 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } example channel.}}{156}{figure.4.65}
+\contentsline {figure}{\numberline {66}{\ignorespaces \nobreakspace {}{\bgroup \bgroup {{$\left | \gls {S21} \right |^{2}$}}\egroup \egroup }, {\bgroup \bgroup {{\gls {phiIQ}}}\egroup \egroup } and the {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } loop for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } example channel.}}{157}{figure.4.66}
+\contentsline {figure}{\numberline {67}{\ignorespaces \nobreakspace {}A 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel PSD, showing the phase and dissipation quadratures.}}{158}{figure.4.67}
+\contentsline {figure}{\numberline {68}{\ignorespaces \nobreakspace {}A histogram of frequency and dissipation noise for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, in Palestine.}}{159}{figure.4.68}
+\contentsline {figure}{\numberline {69}{\ignorespaces \nobreakspace {}Histograms of resonator dip-depth for all five BLAST-TNG arrays, measured at CSBF.}}{160}{figure.4.69}
+\contentsline {figure}{\numberline {70}{\ignorespaces \nobreakspace {}Histograms of {\bgroup \bgroup {{\gls {Qr}}}\egroup \egroup } for all five BLAST-TNG arrays, measured at CSBF.}}{161}{figure.4.70}
+\contentsline {figure}{\numberline {71}{\ignorespaces \nobreakspace {}Histograms of {\bgroup \bgroup {{\gls {Qr}/\gls {Qc}}}\egroup \egroup } for all five BLAST-TNG arrays, measured at CSBF.}}{162}{figure.4.71}
+\contentsline {figure}{\numberline {72}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, measured at CSBF.}}{163}{figure.4.72}
+\contentsline {figure}{\numberline {73}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array, measured at CSBF.}}{164}{figure.4.73}
+\contentsline {figure}{\numberline {74}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250U array, measured at CSBF.}}{165}{figure.4.74}
+\contentsline {figure}{\numberline {75}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250U array, measured at CSBF.}}{166}{figure.4.75}
+\contentsline {figure}{\numberline {76}{\ignorespaces \nobreakspace {}Histogram of {\bgroup \bgroup {{NEP$_{\mathrm {freq}}$}}\egroup \egroup } for the 250W array, measured at CSBF.}}{167}{figure.4.76}
+\contentsline {figure}{\numberline {77}{\ignorespaces \nobreakspace {}Calibration lamp chops for the 250U, 250W, 250V, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays, taken at CSBF.}}{169}{figure.4.77}
+\contentsline {figure}{\numberline {78}{\ignorespaces Calibration lamp chops for the 250U, 250W, 350 and 500\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays, taken at LDB.}}{170}{figure.4.78}
+\contentsline {figure}{\numberline {79}{\ignorespaces \nobreakspace {}Chops made using a {\bgroup \bgroup {{$\sim $}}\egroup \egroup }15\nobreakspace {}K thermal source for a single channel of the 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } array.}}{171}{figure.4.79}
+\contentsline {figure}{\numberline {80}{\ignorespaces \nobreakspace {}350 {\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } VNA sweeps at different FPA temperatures.}}{172}{figure.4.80}
+\contentsline {figure}{\numberline {81}{\ignorespaces \nobreakspace {}Mattis-Bardeen temperature responsivity curves for the 250, 350 and 500 {\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } arrays.}}{173}{figure.4.81}
+\contentsline {figure}{\numberline {82}{\ignorespaces \nobreakspace {}A parametric fit of {\bgroup \bgroup {{\gls {S21}}}\egroup \egroup } for an optically shifted 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{182}{figure.4.82}
+\contentsline {figure}{\numberline {83}{\ignorespaces \nobreakspace {}Model ratio of {\bgroup \bgroup {{$NEP_{\mathrm {phot}}$}}\egroup \egroup } to {\bgroup \bgroup {{$NEP_{\mathrm {amp}}$}}\egroup \egroup } for a 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{183}{figure.4.83}
+\contentsline {figure}{\numberline {84}{\ignorespaces \nobreakspace {}Fractional frequency noise for the camera shutter open and closed.}}{184}{figure.4.84}
+\contentsline {figure}{\numberline {85}{\ignorespaces \nobreakspace {}A parametric fit of {\bgroup \bgroup {{$\gls {S21}(\gls {Tbase})$}}\egroup \egroup } for a base-temperature shifted 350\nobreakspace {}{\bgroup \bgroup {{$\upmu $m}}\egroup \egroup } channel.}}{185}{figure.4.85}
+\contentsline {figure}{\numberline {86}{\ignorespaces The FTS measurement setup at CSBF.}}{187}{figure.4.86}
+\contentsline {figure}{\numberline {87}{\ignorespaces The timestream of the FTS measurement, for a single channel of the 350\nobreakspace {}$\upmu $m array. The measurement duration is $\sim $5.5\nobreakspace {}hours.}}{189}{figure.4.87}
+\contentsline {figure}{\numberline {88}{\ignorespaces \nobreakspace {}Two interferograms from the raw FTS measurement timestream.}}{190}{figure.4.88}
+\contentsline {figure}{\numberline {89}{\ignorespaces Several aligned interferograms for the same channel, prior to applying weights.}}{192}{figure.4.89}
+\contentsline {figure}{\numberline {90}{\ignorespaces Averaged interferograms for the 250W, 350 and 500\nobreakspace {}$\upmu $m arrays. The solid blue trace is corrected for nonlinearity, the red trace is uncorrected.}}{193}{figure.4.90}
+\contentsline {figure}{\numberline {91}{\ignorespaces BLAST-TNG optical passbands for the 250W, 350 and 500\nobreakspace {}$\upmu $m arrays. The solid traces are corrected for nonlinearity, and the dashed traces are uncorrected.}}{194}{figure.4.91}
+\contentsline {figure}{\numberline {92}{\ignorespaces \nobreakspace {}The polarization measurement setup in the CSBF highbay, July 2018.}}{196}{figure.4.92}
+\contentsline {figure}{\numberline {93}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 250U array.}}{198}{figure.4.93}
+\contentsline {figure}{\numberline {94}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 250W array.}}{199}{figure.4.94}
+\contentsline {figure}{\numberline {95}{\ignorespaces Polarization response $\mathbf {S}(\theta )$ for the BLAST-TNG 350\nobreakspace {}$\upmu $m array. }}{200}{figure.4.95}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {96}{\ignorespaces \nobreakspace {}The background-subtracted BLASTPol 2012 {\bgroup \bgroup {{$I_{250}$}}\egroup \egroup } map of the CNC.}}{204}{figure.5.96}
-\contentsline {figure}{\numberline {97}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 5x.}}{210}{figure.5.97}
-\contentsline {figure}{\numberline {98}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 10x.}}{210}{figure.5.98}
-\contentsline {figure}{\numberline {99}{\ignorespaces \nobreakspace {}The CNC polarization-streamline map, with streamlines decimated by 10x.}}{211}{figure.5.99}
-\contentsline {figure}{\numberline {100}{\ignorespaces \nobreakspace {}A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}}{212}{figure.5.100}
-\contentsline {figure}{\numberline {101}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed as a transparent overlay on the {\bgroup \bgroup {{$I_{500}$}}\egroup \egroup } map.}}{213}{figure.5.101}
-\contentsline {figure}{\numberline {102}{\ignorespaces \nobreakspace {}An intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed with an aggressive intensity stretch.}}{214}{figure.5.102}
-\contentsline {figure}{\numberline {103}{\ignorespaces \nobreakspace {}A less aggressive stretch of the intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup }.}}{215}{figure.5.103}
-\contentsline {figure}{\numberline {104}{\ignorespaces \nobreakspace {}The CNC intensity map taken by SPARO overlayed on the {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{218}{figure.5.104}
-\contentsline {figure}{\numberline {105}{\ignorespaces \nobreakspace {}An overlay of the MSX {\bgroup \bgroup {{8\nobreakspace {}$\upmu $m}}\egroup \egroup } CNC map (green) with a BLASTPol intensity map (red).}}{221}{figure.5.105}
-\contentsline {figure}{\numberline {106}{\ignorespaces \nobreakspace {}An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).}}{222}{figure.5.106}
-\contentsline {figure}{\numberline {107}{\ignorespaces \nobreakspace {}An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).}}{223}{figure.5.107}
-\contentsline {figure}{\numberline {108}{\ignorespaces \nobreakspace {}A histogram of the dispersion in polarization angle.}}{228}{figure.5.108}
-\contentsline {figure}{\numberline {109}{\ignorespaces \nobreakspace {}A histogram of the polarization angle.}}{229}{figure.5.109}
-\contentsline {figure}{\numberline {110}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {NH2}}}\egroup \egroup } over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{231}{figure.5.110}
-\contentsline {figure}{\numberline {111}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } in the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{232}{figure.5.111}
-\contentsline {figure}{\numberline {112}{\ignorespaces \nobreakspace {}An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.}}{234}{figure.5.112}
-\contentsline {figure}{\numberline {113}{\ignorespaces \nobreakspace {}A histogram of the FWHM velocity line widths computed over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{235}{figure.5.113}
-\contentsline {figure}{\numberline {114}{\ignorespaces \nobreakspace {}A map of the FWHM velocity line widths computed from the ATCA HI data cube.}}{236}{figure.5.114}
-\contentsline {figure}{\numberline {115}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.}}{240}{figure.5.115}
-\contentsline {figure}{\numberline {116}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map for {\bgroup \bgroup {{$L_{CNC} = 5$}}\egroup \egroup }\nobreakspace {}pc with polarization vectors overplotted in white.}}{241}{figure.5.116}
-\contentsline {figure}{\numberline {117}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } weighted LIC of the {\bgroup \bgroup {{500\nobreakspace {}$\upmu $m}}\egroup \egroup } map.}}{242}{figure.5.117}
-\contentsline {figure}{\numberline {118}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } over the inner regions of the CNC.}}{243}{figure.5.118}
+\contentsline {figure}{\numberline {96}{\ignorespaces \nobreakspace {}The background-subtracted BLASTPol 2012 {\bgroup \bgroup {{$I_{250}$}}\egroup \egroup } map of the CNC.}}{207}{figure.5.96}
+\contentsline {figure}{\numberline {97}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 5x.}}{213}{figure.5.97}
+\contentsline {figure}{\numberline {98}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 10x.}}{213}{figure.5.98}
+\contentsline {figure}{\numberline {99}{\ignorespaces \nobreakspace {}The CNC polarization-streamline map, with streamlines decimated by 10x.}}{214}{figure.5.99}
+\contentsline {figure}{\numberline {100}{\ignorespaces \nobreakspace {}A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}}{215}{figure.5.100}
+\contentsline {figure}{\numberline {101}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed as a transparent overlay on the {\bgroup \bgroup {{$I_{500}$}}\egroup \egroup } map.}}{216}{figure.5.101}
+\contentsline {figure}{\numberline {102}{\ignorespaces \nobreakspace {}An intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed with an aggressive intensity stretch.}}{217}{figure.5.102}
+\contentsline {figure}{\numberline {103}{\ignorespaces \nobreakspace {}A less aggressive stretch of the intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup }.}}{218}{figure.5.103}
+\contentsline {figure}{\numberline {104}{\ignorespaces \nobreakspace {}The CNC intensity map taken by SPARO overlayed on the {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{221}{figure.5.104}
+\contentsline {figure}{\numberline {105}{\ignorespaces \nobreakspace {}An overlay of the MSX {\bgroup \bgroup {{8\nobreakspace {}$\upmu $m}}\egroup \egroup } CNC map (green) with a BLASTPol intensity map (red).}}{224}{figure.5.105}
+\contentsline {figure}{\numberline {106}{\ignorespaces \nobreakspace {}An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).}}{225}{figure.5.106}
+\contentsline {figure}{\numberline {107}{\ignorespaces \nobreakspace {}An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).}}{226}{figure.5.107}
+\contentsline {figure}{\numberline {108}{\ignorespaces \nobreakspace {}A histogram of the dispersion in polarization angle.}}{231}{figure.5.108}
+\contentsline {figure}{\numberline {109}{\ignorespaces \nobreakspace {}A histogram of the polarization angle.}}{232}{figure.5.109}
+\contentsline {figure}{\numberline {110}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {NH2}}}\egroup \egroup } over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{234}{figure.5.110}
+\contentsline {figure}{\numberline {111}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } in the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{235}{figure.5.111}
+\contentsline {figure}{\numberline {112}{\ignorespaces \nobreakspace {}An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.}}{237}{figure.5.112}
+\contentsline {figure}{\numberline {113}{\ignorespaces \nobreakspace {}A histogram of the FWHM velocity line widths computed over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{238}{figure.5.113}
+\contentsline {figure}{\numberline {114}{\ignorespaces \nobreakspace {}A map of the FWHM velocity line widths computed from the ATCA HI data cube.}}{239}{figure.5.114}
+\contentsline {figure}{\numberline {115}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.}}{243}{figure.5.115}
+\contentsline {figure}{\numberline {116}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map for {\bgroup \bgroup {{$L_{CNC} = 5$}}\egroup \egroup }\nobreakspace {}pc with polarization vectors overplotted in white.}}{244}{figure.5.116}
+\contentsline {figure}{\numberline {117}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } weighted LIC of the {\bgroup \bgroup {{500\nobreakspace {}$\upmu $m}}\egroup \egroup } map.}}{245}{figure.5.117}
+\contentsline {figure}{\numberline {118}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } over the inner regions of the CNC.}}{246}{figure.5.118}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {119}{\ignorespaces \nobreakspace {}A composite radio image of the large-scale B-field in M51.}}{251}{figure.6.119}
-\contentsline {figure}{\numberline {120}{\ignorespaces \nobreakspace {}A LIC map of M82, taken with the {\bgroup \bgroup {{154\nobreakspace {}$\upmu $m}}\egroup \egroup } channel of the HAWC+ instrument on SOFIA.}}{254}{figure.6.120}
-\contentsline {figure}{\numberline {121}{\ignorespaces \nobreakspace {}NGC 4945.}}{259}{figure.6.121}
-\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}ESO 97-G13 required mapping time.}}{260}{figure.6.122}
-\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}NGC 3621 required mapping time.}}{261}{figure.6.123}
-\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}M83 required mapping time.}}{262}{figure.6.124}
-\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}NGC 1808 required mapping time.}}{263}{figure.6.125}
+\contentsline {figure}{\numberline {119}{\ignorespaces \nobreakspace {}A composite radio image of the large-scale B-field in M51.}}{254}{figure.6.119}
+\contentsline {figure}{\numberline {120}{\ignorespaces \nobreakspace {}A LIC map of M82, taken with the {\bgroup \bgroup {{154\nobreakspace {}$\upmu $m}}\egroup \egroup } channel of the HAWC+ instrument on SOFIA.}}{257}{figure.6.120}
+\contentsline {figure}{\numberline {121}{\ignorespaces \nobreakspace {}NGC 4945.}}{262}{figure.6.121}
+\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}ESO 97-G13 required mapping time.}}{263}{figure.6.122}
+\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}NGC 3621 required mapping time.}}{264}{figure.6.123}
+\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}M83 required mapping time.}}{265}{figure.6.124}
+\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}NGC 1808 required mapping time.}}{266}{figure.6.125}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{267}{figure.7.126}
-\contentsline {figure}{\numberline {127}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{268}{figure.7.127}
+\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{270}{figure.7.126}
+\contentsline {figure}{\numberline {127}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{271}{figure.7.127}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {128}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{301}{figure.A.128}
-\contentsline {figure}{\numberline {129}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{302}{figure.A.129}
-\contentsline {figure}{\numberline {130}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{303}{figure.A.130}
+\contentsline {figure}{\numberline {128}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{304}{figure.A.128}
+\contentsline {figure}{\numberline {129}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{305}{figure.A.129}
+\contentsline {figure}{\numberline {130}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{306}{figure.A.130}
