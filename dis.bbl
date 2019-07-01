@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Abergel et~al.}{2014}]{abergel2014planck}
+Abergel, A., Ade, P.~A., Aghanim, N., Alves, M., Aniano, G., Armitage-Caplan,
+  C., Arnaud, M., Ashdown, M., Atrio-Barandela, F., Aumont, J., et~al. (2014).
+\newblock Planck 2013 results. xi. all-sky model of thermal dust emission.
+\newblock {\em Astronomy \& Astrophysics}, 571:A11.
+
 \bibitem[\protect\astroncite{Abitbol et~al.}{2017}]{abitbol2017cmb}
 Abitbol, M.~H., Ahmed, Z., Barron, D., Thakur, R.~B., Bender, A.~N., Benson,
   B.~A., Bischoff, C.~A., Bryan, S.~A., Carlstrom, J.~E., Chang, C.~L., et~al.
@@ -196,10 +202,6 @@ Churchwell, E., Povich, M., Allen, D., Taylor, M., Meade, M., Babler, B.,
   Indebetouw, R., Watson, C., Whitney, B., Wolfire, M., et~al. (2006).
 \newblock The bubbling galactic disk.
 \newblock {\em The Astrophysical Journal}, 649(2):759.
-
-\bibitem[\protect\astroncite{Collaboration et~al.}{2014}]{planck2014planck}
-Collaboration, P. et~al. (2014).
-\newblock Planck 2013 results. xi. all-sky model of thermal dust emission.
 
 \bibitem[\protect\astroncite{Crutcher et~al.}{2004}]{crutcher2004scuba}
 Crutcher, R.~M., Nutter, D., Ward-Thompson, D., and Kirk, J. (2004).
@@ -980,10 +982,6 @@ Soler, J.~D., Hennebelle, P., Martin, P., Miville-Deschenes, M.-A.,
 Spoon, H., Koornneef, J., Moorwood, A., Lutz, D., and Tielens, A. (2000).
 \newblock Mid-infrared iso spectroscopy of ngc 4945.
 \newblock {\em ASTRONOMY \& ASTROPHYSICS}, 357:898.
-
-\bibitem[\protect\astroncite{Stalling and Hege}{1995}]{stalling1995fast}
-Stalling, D. and Hege, H.-C. (1995).
-\newblock Fast and resolution independent line integral convolution.
 
 \bibitem[\protect\astroncite{Stanchfield
   et~al.}{2016}]{stanchfield2016development}

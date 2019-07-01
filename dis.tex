@@ -529,10 +529,10 @@
 \setlength{\cftsubparagraphnumwidth}%
   {0.85\cftsubparagraphnumwidth}
 \setlength{\cftfigurenumwidth}%         % Figure has the same 'level' as 'chapter' in the
-  {1.5\cftchapternumwidth}                 %   figure list, so make the number spacing the
+  {1.75\cftchapternumwidth}                 %   figure list, so make the number spacing the
                                         %   same as for chapters
 \setlength{\cfttablenumwidth}%          % Table has the same 'level' as 'chapter' in the
-  {1.5\cftchapternumwidth}                 %   table list, so make the number spacing the
+  {1.75\cftchapternumwidth}                 %   table list, so make the number spacing the
                                         %   same as for chapters
 
 
@@ -1143,8 +1143,9 @@
 \tolerance \defaulttolerance            % Set tolerance back to default
 \hbadness \defaulttolerance
 
-\addtocontents{toc}{\protect%           % Only include appendix title in table of contents
-  \setcounter{tocdepth}{0}}%            %   and omit sub-headings
+%\addtocontents{toc}{\protect%           % Only include appendix title in table of contents
+%  \setcounter{tocdepth}{0}}%            %   and omit sub-headings
+\addtocontents{toc}{\protect}
 \renewcommand*{\chapnamefont}%          % Reset font for 'Appendix' in chapter titles
     {\normalfont\MakeTextUppercase}
 \makeatletter                           % Clear page after printing appendix title

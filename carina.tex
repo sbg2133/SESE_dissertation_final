@@ -75,7 +75,7 @@ In the following analysis, all calculations use the debiased polarization fracti
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/carina_I250}
-\caption[~The background-subtracted BLASTPol 2012 \macrocapwrap{$I_{250}$} map of the CNC.]{The background-subtracted BLASTPol 2012 $I_{250}$ map of the CNC\@. The color scale has units of $\mathrm{MJy}/\mathrm{sr}$.}
+\caption[The background-subtracted BLASTPol 2012 \macrocapwrap{$I_{250}$} map of the CNC.]{The background-subtracted BLASTPol 2012 $I_{250}$ map of the CNC\@. The color scale has units of $\mathrm{MJy}/\mathrm{sr}$.}
 \label{fig:I250}
 \end{figure}
 
@@ -83,7 +83,7 @@ In the following analysis, all calculations use the debiased polarization fracti
 
 LIC is a data visualization technique which is useful for representing dense vector fields, in either two or three dimensions \citep{cabral1993imaging}. The visual effect that it produces is akin to that of dropping ink into flowing water. The resulting images provide a visual sense of the direction and uniformity of the vector field, allowing the eye to notice features such as sources, sinks and loops. The LIC does not, however, indicate the magnitude of the vector field.
 
-The LIC technique has previously been applied to maps of \gls{Bpos} (see, e.g., \citet{ade2016planck}). In the following, we present an original software implementation of LIC which has been written in \texttt{C/Python}. Although fast, computationally efficient algorithms for LIC exist (e.g., \citet{stalling1995fast}), the main priorities for this particular implementation were simplicity and flexibility. To that end, the basic skeleton of the code is based on a bare bones LIC algorithm, which is described in \citet{ma1996texture}.
+The LIC technique has previously been applied to maps of \gls{Bpos} (see, e.g., \citet{ade2016planck}). In the following, we present an original software implementation of LIC which has been written in \texttt{C/Python}. Although fast, computationally efficient algorithms for LIC exist, the main priorities for this particular implementation were simplicity and flexibility. To that end, the basic skeleton of the code is based on a bare bones LIC algorithm, which is described in \citet{ma1996texture}.
 
 To create a LIC image requires two basic ingredients: A vector (or pseudovector) field $\boldsymbol{\mathcal{V}}$, and a texture map $\mathcal{T}$, each of size $N \times N$ pixels. In the following example, we use the polarization vector field for Carina, and a texture map consisting of Gaussian white noise. The value of the \textit{ith} pixel in the polarization vector map is a pseudovector whose magnitude is the polarization fraction $p_{i}$:
 
@@ -102,7 +102,7 @@ The method of LIC is to advect a streamline from each pixel which follows the di
 
 \subsection{LIC Algorithm}
 
-The first step in creating an LIC image is to launch, or advect, a streamline $\sigma(s)$ from each pixel in the map image, $\mathcal{M}$. At any point in $\mathcal{M}$, the direction of the streamline is tangent to the vector at that point: $\frac{ d\boldsymbol{\sigma(s)}}{ds} = \boldsymbol{ \frac{ v(\sigma(s)) }{\lvert v(\sigma(s)) \rvert} }$. The entire vector field for the CNC is shown in Figures~\ref{fig:vectors_5} and~\ref{fig:vectors_10}, where the vectors have been rotated by 90$^{\degree}$ to correspond to the direction of \gls{Bpos}, and decimated by a factors of 5x and 10x, respectively. The streamlines extend forwards and backwards along their starting vectors, into each adjacent pixel. This process continues until it is terminated by a break condition.
+The first step in creating an LIC image is to launch, or advect, a streamline $\sigma(s)$ from each pixel in the map image, $\mathcal{M}$. At any point in $\mathcal{M}$, the direction of the streamline is tangent to the vector at that point: $\frac{ d\boldsymbol{\sigma(s)}}{ds} = \boldsymbol{ \frac{ v(\sigma(s)) }{\lvert v(\sigma(s)) \rvert} }$. The entire vector field for the CNC is shown in Figures~\ref{fig:vectors_5} and~\ref{fig:vectors_10}, where the vectors have been rotated by 90$^{\degree}$ to correspond to the direction of \gls{Bpos}, and decimated by a factors of 5$\times$ and 10$\times$, respectively. The streamlines extend forwards and backwards along their starting vectors, into each adjacent pixel. This process continues until it is terminated by a break condition.
 
 One common break condition is when a streamline enters into a pixel containing a null vector. In this case, the streamline may simply be terminated, or some non-zero value may be substituted for the null vector in order to attempt to continue the streamline. Another common break condition is when a streamline encounters the edge of the map. Discontinuities occur when a streamline enters an adjacent pixel whose vector forms an angle with the first one which exceeds some critical value (e.g., in the range of of 120--180$^{\degree}$). There are several ways of dealing with each case, each of which results in a slightly different LIC image.
 
@@ -172,49 +172,49 @@ The structures in \gls{Bpos} which are revealed by the LIC maps are discussed in
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/vectors_5}
-\caption[~The CNC polarization vector map, decimated by 5x.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 5x.}
+\caption[The CNC polarization vector map, decimated by 5\macrocapwrap{$\times$}.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 5$\times$.}
 \label{fig:vectors_5}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/vectors_10}
-\caption[~The CNC polarization vector map, decimated by 10x.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 10x.}
+\caption[The CNC polarization vector map, decimated by 10\macrocapwrap{$\times$}.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 10$\times$.}
 \label{fig:vectors_10}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/vector_sl_21_ds10}
-\caption[~The CNC polarization-streamline map, with streamlines decimated by 10x.]{A CNC polarization streamline map, with the streamlines following \gls{Bpos} and decimated by 10x.}
+\caption[The CNC polarization-streamline map, with streamlines decimated by 10\macrocapwrap{$\times$}.]{A CNC polarization streamline map, with the streamlines following \gls{Bpos} and decimated by 10$\times$.}
 \label{fig:vector_sl_21_ds10}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/vector_sl_zoom}
-\caption[~A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.]{A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}
+\caption[A zoom-in of a uniform region of the vector-streamline map.]{A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}
 \label{fig:vector_sl_zoom}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/lic_han_51}
-\caption[~The \macrocapwrap{LIC$_{500}$} map, displayed as a transparent overlay on the \macrocapwrap{$I_{500}$} map.]{The LIC$_{500}$ map, displayed as a transparent overlay on the $I_{500}$ map.}
+\caption[The \macrocapwrap{LIC$_{500}$} map, displayed as a transparent overlay on the \macrocapwrap{$I_{500}$} map.]{The LIC$_{500}$ map, displayed as a transparent overlay on the $I_{500}$ map.}
 \label{fig:lic_han_51}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/lic2_han51}
-\caption[~An intensity-weighted \macrocapwrap{LIC$_{500}$} map, displayed with an aggressive intensity stretch.]{An intensity-weighted LIC$_{500}$ map, displayed with an aggressive intensity stretch.}
+\caption[An intensity-weighted \macrocapwrap{LIC$_{500}$} map, displayed with an aggressive intensity stretch.]{An intensity-weighted LIC$_{500}$ map, displayed with an aggressive intensity stretch.}
 \label{fig:lic2_han51}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/lic_mult}
-\caption[~A less aggressive stretch of the intensity-weighted \macrocapwrap{LIC$_{500}$}.]{A less aggressive stretch of the intensity-weighted LIC$_{500}$. The numbered regions are listed in Table~\ref{table:regions}, and discussed in Section~\ref{multiband comp}}.
+\caption[A less aggressive stretch of the intensity-weighted \macrocapwrap{LIC$_{500}$}.]{A less aggressive stretch of the intensity-weighted LIC$_{500}$. The numbered regions are listed in Table~\ref{table:regions}, and discussed in Section~\ref{multiband comp}}.
 \label{fig:lic_map}
 \end{figure}
 
@@ -226,13 +226,13 @@ First discovered in 1752, the CNC has been well studied across the electromagnet
 
 Ionizing stellar winds which are driven by large OB associations have carved out several conspicuous bubbles throughout the CNC\@. The most prominent of these is the GUM 31 nebula, to the northwest of Tr~16. Smaller groups of bubbles are visible to the north and south of Tr~16. The variety of high energy processes occurring within the CNC make it an ideal laboratory for the study of stellar feedback and triggered star formation.
 
-The CNC has been observed in the sub-mm/FIR/mm-wave by ground-based (LABOCA, \citep{preibisch2011laboca}, SPARO \citep{li2006results}), balloon-borne (BLASTPol, \citep{shariff2019submillimeter} and space-based telescopes (e.g., Planck, \citep{planck2014planck}, Herschel, (\citet{preibisch2012herschel,gaczkowski2013herschel,roccatagliata2013herschel})). Spectral data in the submillimeter has also been obtained \citep{oberst2006detection}. The authors of \citet{li2006results} presented the first maps of \gls{Bpos} pseudovectors in the inner region of the CNC\@. In their analysis of $\sim$30 pseudovectors within the inner 1~deg$^{2}$ of the CNC, they found that the mean position angle of \gls{Bpos} is within $\approx$ 15~deg of the GP\@. They also observed that the pseudovectors to the north and south of the central region appear to run parallel to a section of the perimeters of two large HII regions. Figure~\ref{fig:lic_sparo_overlay} illustrates the overlap between the SPARO and BLASTPol map coverages.
+The CNC has been observed in the sub-mm/FIR/mm-wave by ground-based (LABOCA, \citep{preibisch2011laboca}, SPARO \citep{li2006results}), balloon-borne (BLASTPol, \citep{shariff2019submillimeter} and space-based telescopes (e.g., Planck, \citep{abergel2014planck}, Herschel, (\citet{preibisch2012herschel,gaczkowski2013herschel,roccatagliata2013herschel})). Spectral data in the submillimeter has also been obtained \citep{oberst2006detection}. The authors of \citet{li2006results} presented the first maps of \gls{Bpos} pseudovectors in the inner region of the CNC\@. In their analysis of $\sim$30 pseudovectors within the inner 1~deg$^{2}$ of the CNC, they found that the mean position angle of \gls{Bpos} is within $\approx$ 15~deg of the GP\@. They also observed that the pseudovectors to the north and south of the central region appear to run parallel to a section of the perimeters of two large HII regions. Figure~\ref{fig:lic_sparo_overlay} illustrates the overlap between the SPARO and BLASTPol map coverages.
 
 % SPARO overlay
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/lic_sparo_overlay}
-\caption[~The CNC intensity map taken by SPARO overlayed on the \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{The CNC intensity map taken by SPARO \citep{li2006results}, with polarization vectors (inset), overlayed on the $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
+\caption[The CNC intensity map taken by SPARO overlayed on the \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{The CNC intensity map taken by SPARO \citep{li2006results}, with polarization vectors (inset), overlayed on the $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
 \label{fig:lic_sparo_overlay}
 \end{figure}
 
@@ -253,7 +253,7 @@ Region \# & Name \\ \midrule
 5 & Southern Pillars (SP) \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~Regions of interest inside the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{Regions of interest inside the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map. These regions correspond to those used in \citet{preibisch2012herschel}.}
+\caption[Regions of interest inside the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{Regions of interest inside the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map. These regions correspond to those used in \citet{preibisch2012herschel}.}
 \label{table:regions}
 \end{table}
 
@@ -272,14 +272,14 @@ The brightest region of the BLASTPol maps is the central region of the CNC, loca
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/msx2_sl}
-\caption[~An overlay of the MSX \macrocapwrap{8~$\upmu$m} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the MSX 8~$\upmu$m CNC map (green) \citep{smith2000large} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
+\caption[An overlay of the MSX \macrocapwrap{8~$\upmu$m} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the MSX 8~$\upmu$m CNC map (green) \citep{smith2000large} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:msx_overplot}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/hstgsc2_250_sl}
-\caption[~An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the GSC2 R-band CNC map (green) \citep{lasker2008second} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
+\caption[An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the GSC2 R-band CNC map (green) \citep{lasker2008second} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:hst_overplot}
 \end{figure}
 
@@ -287,7 +287,7 @@ The brightest region of the BLASTPol maps is the central region of the CNC, loca
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/shassa32_sl}
-\caption[~An overlay of the SHASSA \macrocapwrap{H$\alpha$} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the SHASSA H$\alpha$ CNC map (green) \citep{gaustad2001robotic} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
+\caption[An overlay of the SHASSA \macrocapwrap{H$\alpha$} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the SHASSA H$\alpha$ CNC map (green) \citep{gaustad2001robotic} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:shassa_overplot}
 \end{figure}
 \end{comment}
@@ -295,7 +295,7 @@ The brightest region of the BLASTPol maps is the central region of the CNC, loca
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/chandra_soft_sl}
-\caption[~An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).]{An overlay of the Chandra soft-X-ray CNC map (blue) \citep{townsley2011introduction} and BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
+\caption[An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).]{An overlay of the Chandra soft-X-ray CNC map (blue) \citep{townsley2011introduction} and BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:chandra_overplot}
 \end{figure}
 
@@ -376,21 +376,21 @@ $\Phi$  & 165,000 & 96 & 33 \\
 $S_{\phi}$  & 33,000 & 20 & 26 \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~First and second moments of the \macrocapwrap{\gls{Phi}} and \macrocapwrap{\gls{Sphi}} distribution over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{First and second moments of the \gls{Phi} and \gls{Sphi} distribution over the inner $\sim$1.25~deg$^{2}$ of the CNC\@. $N_{\mathrm{sl}}$ is the number of sightlines reported.}
+\caption[First and second moments of the \macrocapwrap{\gls{Phi}} and \macrocapwrap{\gls{Sphi}} distribution over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{First and second moments of the \gls{Phi} and \gls{Sphi} distribution over the inner $\sim$1.25~deg$^{2}$ of the CNC\@. $N_{\mathrm{sl}}$ is the number of sightlines reported.}
 \label{table:S_and_Phi}
 \end{table}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/S_hist}
-\caption[~A histogram of the dispersion in polarization angle.]{A histogram of \gls{Sphi}, the polarization angle dispersion (deg).}
+\caption[A histogram of the dispersion in polarization angle.]{A histogram of \gls{Sphi}, the polarization angle dispersion (deg).}
 \label{fig:S_hist}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/Phi_hist}
-\caption[~A histogram of the polarization angle.]{A histogram of \gls{Phi} (deg), where 90~deg is parallel to the GP.}
+\caption[A histogram of the polarization angle.]{A histogram of \gls{Phi} (deg), where 90~deg is parallel to the GP.}
 \label{fig:Phi_hist}
 \end{figure}
 
@@ -446,7 +446,7 @@ $\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03   
 \\
 \end{tabular}
 \centering
-\caption[~Estimated map parameters calculated using total intensity maps over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{The mean values of optical depth $\tau_{\nu}$, dust opacity $\kappa_{\nu}$, molecular hydrogen column density \gls{NH2} and total visual extinction \gls{AV} calculated with the $I_{250}$, $I_{350}$ and $I_{500}$ maps for the inner $\sim$1.25~deg$^{2}$ of the CNC.}
+\caption[Estimated map parameters calculated using total intensity maps over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{The mean values of optical depth $\tau_{\nu}$, dust opacity $\kappa_{\nu}$, molecular hydrogen column density \gls{NH2} and total visual extinction \gls{AV} calculated with the $I_{250}$, $I_{350}$ and $I_{500}$ maps for the inner $\sim$1.25~deg$^{2}$ of the CNC.}
 \label{table:NH2_fit}
 \end{table}
 
@@ -454,7 +454,7 @@ $\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03   
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/NH2_hist_500}
-\caption[~A histogram of \macrocapwrap{\gls{NH2}} over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{NH2} over the inner $\sim$1.25~deg$^{2}$ of the CNC.}
+\caption[A histogram of \macrocapwrap{\gls{NH2}} over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{NH2} over the inner $\sim$1.25~deg$^{2}$ of the CNC.}
 \label{fig:NH2_hist}
 \end{figure}
 
@@ -462,7 +462,7 @@ $\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03   
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/nH2_hist_500}
-\caption[~A histogram of \macrocapwrap{\gls{nH2}} in the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{nH2} in the inner $\sim$1.25~deg$^{2}$ of the CNC, shown for an assumed column depth of 5~pc.}
+\caption[A histogram of \macrocapwrap{\gls{nH2}} in the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{nH2} in the inner $\sim$1.25~deg$^{2}$ of the CNC, shown for an assumed column depth of 5~pc.}
 \label{fig:nH2_hist}
 \end{figure}
 
@@ -479,7 +479,7 @@ max \gls{nH2} ($\mathrm{cm}^{-3}$)             & 4,837--48,370 & 3645--36,450 & 
 \\
 \end{tabular}
 \centering
-\caption[~Mean and maximum values of \macrocapwrap{\gls{nH2}} shown for each BLASTPol band.]{Mean and maximum values of \gls{nH2} shown for each BLASTPol band. The lower and upper ranges correspond to column depths $L_{\mathrm{CNC}}$ of 0.5~pc and 5~pc.}
+\caption[Mean and maximum values of \macrocapwrap{\gls{nH2}} shown for each BLASTPol band.]{Mean and maximum values of \gls{nH2} shown for each BLASTPol band. The lower and upper ranges correspond to column depths $L_{\mathrm{CNC}}$ of 0.5~pc and 5~pc.}
 \label{table:nH2}
 \end{table}
 
@@ -494,21 +494,21 @@ Before calculating the velocity dispersion \gls{sigV} from each average line-pro
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/HI_vselect}
-\caption[~An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.]{An overlay of one slice of the ATCA $\mathrm{HI}$ velocity cube with the BLASTPol intensity map. A subset of the regions used to calculate average HI line profiles are highlighted in yellow. The diameter of the regions is $\sim$5$\arcmin$.}
+\caption[An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.]{An overlay of one slice of the ATCA $\mathrm{HI}$ velocity cube with the BLASTPol intensity map. A subset of the regions used to calculate average HI line profiles are highlighted in yellow. The diameter of the regions is $\sim$5$\arcmin$.}
 \label{fig:HI_vselect}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/VLOS_hist}
-\caption[~A histogram of the FWHM velocity line widths computed over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{A histogram of the FWHM velocity line widths (in km/s) computed over the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
+\caption[A histogram of the FWHM velocity line widths computed over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{A histogram of the FWHM velocity line widths (in km/s) computed over the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
 \label{fig:vfwhm_hist}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/VFWHM_vectors}
-\caption[~A map of the FWHM velocity line widths computed from the ATCA HI data cube.]{A map of the FWHM velocity line widths (in km/s) computed from the ATCA $\mathrm{HI}$ data cube. A subset of the \gls{Bpos} pseudovectors (downsampled by 20x) is overplotted in white.}
+\caption[A map of the FWHM velocity line widths computed from the ATCA HI data cube.]{A map of the FWHM velocity line widths (in km/s) computed from the ATCA $\mathrm{HI}$ data cube. A subset of the \gls{Bpos} pseudovectors (downsampled by 20x) is overplotted in white.}
 \label{fig:vfwhm_map}
 \end{figure}
 
@@ -562,7 +562,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \item [1] A sightline near the center of the map.
 \vspace{2mm}
 \end{tablenotes}
-\caption[~Physical parameters estimated using the DCFM, for 8-sightlines through the inner region of the CNC.]{Estimates of \gls{Bpos}, $v_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sight-lines along the CNC, produced using the DCFM\@. The regions in column 6 correspond to those in Table~\ref{table:regions}, and are outlined in Figure~\ref{fig:Bpos_LIC}. The sightlines are shown as red dots in Figure~\ref{fig:Bpos_LIC}.}
+\caption[Physical parameters estimated using the DCFM, for 8 sightlines through the inner region of the CNC.]{Estimates of \gls{Bpos}, $v_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sight-lines along the CNC, produced using the DCFM\@. The regions in column 6 correspond to those in Table~\ref{table:regions}, and are outlined in Figure~\ref{fig:Bpos_LIC}. The sightlines are shown as red dots in Figure~\ref{fig:Bpos_LIC}.}
 \label{table:dcfm params}
 \end{threeparttable}
 \end{table}
@@ -571,7 +571,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/cftHI_5arcmin_500_5p0pc}
-\caption[~The \macrocapwrap{\gls{Bpos}$_{,500}$} map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.]{The \gls{Bpos}$_{,500}$ map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow. The outlined ROIs are defined in Table~\ref{table:regions}. Reference sightlines listed in Table~\ref{table:dcfm params} are shown as red dots.}
+\caption[The \macrocapwrap{\gls{Bpos}$_{,500}$} map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.]{The \gls{Bpos}$_{,500}$ map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow. The outlined ROIs are defined in Table~\ref{table:regions}. Reference sightlines listed in Table~\ref{table:dcfm params} are shown as red dots.}
 \label{fig:DCFM_5_500}
 \end{figure}
 
@@ -579,7 +579,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/B_vectors_500_5p0pc}
-\caption[~The \macrocapwrap{\gls{Bpos}$_{,500}$} map for \macrocapwrap{$L_{\mathrm{CNC}} = 5$}~pc with polarization vectors overplotted in white.]{The \gls{Bpos}$_{,500}$ map for $L_{\mathrm{CNC}} = 5$~pc with polarization vectors overplotted in white. The color scale, in units of~$\upmu$G, is identical to that of Figure~\ref{fig:DCFM_5_500}. Both Galactic and Celestial coordinate frames are labeled, with the Galactic coordinate grid shown in red.}
+\caption[The \macrocapwrap{\gls{Bpos}$_{,500}$} map for \macrocapwrap{$L_{\mathrm{CNC}} = 5$}~pc with polarization vectors overplotted in white.]{The \gls{Bpos}$_{,500}$ map for $L_{\mathrm{CNC}} = 5$~pc with polarization vectors overplotted in white. The color scale, in units of~$\upmu$G, is identical to that of Figure~\ref{fig:DCFM_5_500}. Both Galactic and Celestial coordinate frames are labeled, with the Galactic coordinate grid shown in red.}
 \label{fig:Bpos_vectors}
 \end{figure}
 
@@ -587,7 +587,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/B_lic_500_5p0pc}
-\caption[~The \macrocapwrap{\gls{Bpos}} weighted LIC of the \macrocapwrap{500~$\upmu$m} map.]{The \gls{Bpos}-weighted LIC of the 500~$\upmu$m map. The outlined ROIs are defined in Table~\ref{table:regions}. Reference sightlines listed in Table~\ref{table:dcfm params} are shown as red dots.}
+\caption[The \macrocapwrap{\gls{Bpos}} weighted LIC of the \macrocapwrap{500~$\upmu$m} map.]{The \gls{Bpos}-weighted LIC of the 500~$\upmu$m map. The outlined ROIs are defined in Table~\ref{table:regions}. Reference sightlines listed in Table~\ref{table:dcfm params} are shown as red dots.}
 \label{fig:Bpos_LIC}
 \end{figure}
 
@@ -595,7 +595,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/B_hist_500}
-\caption[~A histogram of \macrocapwrap{\gls{Bpos}$_{,500}$} over the inner regions of the CNC.]{A histogram of \gls{Bpos}$_{,500}$ within the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC field, for an assumed column depth of 5~pc.}
+\caption[A histogram of \macrocapwrap{\gls{Bpos}$_{,500}$} over the inner regions of the CNC.]{A histogram of \gls{Bpos}$_{,500}$ within the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC field, for an assumed column depth of 5~pc.}
 \label{fig:Bpos_hist}
 \end{figure}
 
@@ -660,7 +660,7 @@ The polarized synchrotron emission, which traces the ordered component of galact
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/m51}
-\caption[~A composite radio image of the large-scale B-field in M51.]{The large-scale B-field in M51 (\gls{Phi} pseudovectors), revealed by VLA and Effelsberg measurements taken at 6 cm, with a spatial resolution of 6$\arcsec$. The background optical image is from the Hubble Space Telescope (\citet{fletcher2011magnetic}.}
+\caption[A composite radio image of the large-scale B-field in M51.]{The large-scale B-field in M51 (\gls{Phi} pseudovectors), revealed by VLA and Effelsberg measurements taken at 6 cm, with a spatial resolution of 6$\arcsec$. The background optical image is from the Hubble Space Telescope (\citet{fletcher2011magnetic}.}
 \label{fig:m51}
 \end{figure}
 
@@ -687,7 +687,7 @@ A more recent sub-mm observation of M82 was taken at 53~$\upmu$m and 154~$\upmu$
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/m82_lic_cropped}
-\caption[~A LIC map of M82, taken with the \macrocapwrap{154~$\upmu$m} channel of the HAWC+ instrument on SOFIA.]{A LIC map of M82, taken with the 154~$\upmu$m channel of the HAWC+ instrument on SOFIA \citet{jones2019sofia}.}
+\caption[A LIC map of M82, taken with the \macrocapwrap{154~$\upmu$m} channel of the HAWC+ instrument on SOFIA.]{A LIC map of M82, taken with the 154~$\upmu$m channel of the HAWC+ instrument on SOFIA \citet{jones2019sofia}.}
 \label{fig:m82 lic}
 \end{figure}
 
@@ -782,7 +782,7 @@ $t_{ref}$ (hr) & 17.8 & 6.4 & 0.9 \\
 Beam FWHM ($\arcsec$) & 30 & 41 & 59 \\ \bottomrule
 \\
 \end{tabular}
-\caption[~Reference values for calculating the required target intensity \macrocapwrap{$I_{req}$} and observation time \macrocapwrap{$t_{req}$} to achieve a desired maximum uncertainty on the polarization fraction \macrocapwrap{$\sigma_{p}$}.]{Reference values for calculating the required target intensity $I_{req}$ and observation time $t_{req}$ to achieve a desired maximum uncertainty on the polarization fraction $\sigma_{p}$. The reference intensity $I_{ref}$ (MJy/sr) is the beam-averaged source intensity which is required to measure $\sigma_{p}$ = 0.5\%, after a 5 hr integration over a 1~deg$^{2}$ map. The reference integration time $t_{ref}$ (hr) is the time required to obtain $\sigma_{p} = 0.5$\% for a source with a beam-averaged intensity of 100 MJy/sr. Table values are taken from \url{https://sites.northwestern.edu/blast/}. The beam FWHM for each observation band (in arcsec) is listed in the third row.}
+\caption[Reference values for calculating the required target intensity \macrocapwrap{$I_{req}$} and observation time \macrocapwrap{$t_{req}$} to achieve a desired maximum uncertainty on the polarization fraction \macrocapwrap{$\sigma_{p}$}.]{Reference values for calculating the required target intensity $I_{req}$ and observation time $t_{req}$ to achieve a desired maximum uncertainty on the polarization fraction $\sigma_{p}$. The reference intensity $I_{ref}$ (MJy/sr) is the beam-averaged source intensity which is required to measure $\sigma_{p}$ = 0.5\%, after a 5 hr integration over a 1~deg$^{2}$ map. The reference integration time $t_{ref}$ (hr) is the time required to obtain $\sigma_{p} = 0.5$\% for a source with a beam-averaged intensity of 100 MJy/sr. Table values are taken from \url{https://sites.northwestern.edu/blast/}. The beam FWHM for each observation band (in arcsec) is listed in the third row.}
 \label{table:map speed}
 \end{table}
 
@@ -800,7 +800,7 @@ M83 & 0.5 & 0.5 & 7 & 1,000 \\
 NGC 1808 & 0.5 & 0.5 & 7 & 2,500 \\ \bottomrule
 \\
 \end{tabular}
-\caption[~Key mapping parameters for the BLAST-TNG external galaxy targets.]{Map area $A_{map}$, 1-$\sigma$ polarization fraction $\sigma_{p}$, integration time $t_{req}$, and central beam-averaged intensity from Herschel 250~$\upmu$m maps for each BLAST-TNG galaxy target}
+\caption[Key mapping parameters for the BLAST-TNG external galaxy targets.]{Map area $A_{map}$, 1-$\sigma$ polarization fraction $\sigma_{p}$, integration time $t_{req}$, and central beam-averaged intensity from Herschel 250~$\upmu$m maps for each BLAST-TNG galaxy target}
 \label{table:treq}
 \end{table}
 
@@ -809,35 +809,35 @@ Figures~\ref{fig:ngc4945} to~\ref{fig:ngc1808} show the Herschel 250~$\upmu$m ma
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.35]{figures/carina/ngc4945}
-\caption[~NGC 4945.]{NGC 4945, images from Herschel 250~$\upmu$m.}
+\caption[NGC 4945.]{NGC 4945, images from Herschel 250~$\upmu$m.}
 \label{fig:ngc4945}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.35]{figures/carina/eso9713}
-\caption[~ESO 97-G13.]{ESO 97-G13, images from Herschel 250~$\upmu$m.}
+\caption[ESO 97-G13.]{ESO 97-G13, images from Herschel 250~$\upmu$m.}
 \label{fig:eso9713}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.35]{figures/carina/ngc3621}
-\caption[~NGC 3621.]{NGC 3621, images from Herschel 250~$\upmu$m.}
+\caption[NGC 3621.]{NGC 3621, images from Herschel 250~$\upmu$m.}
 \label{fig:ngc3621}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.35]{figures/carina/m83}
-\caption[~M83.]{M83, images from Herschel 250~$\upmu$m.}
+\caption[M83.]{M83, images from Herschel 250~$\upmu$m.}
 \label{fig:m83}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.35]{figures/carina/ngc1808}
-\caption[~NGC 1808.]{NGC 1808, images from Herschel 250~$\upmu$m.}
+\caption[NGC 1808.]{NGC 1808, images from Herschel 250~$\upmu$m.}
 \label{fig:ngc1808}
 \end{figure}
 

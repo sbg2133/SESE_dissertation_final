@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 03:24
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 12:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1856,25 +1856,24 @@ Underfull \hbox (badness 2393) in paragraph at lines 22--22
 
 [4
 
-] [5] [6] [7] [8]) [9] (./dis.lot [10
-
-]
-Underfull \hbox (badness 1675) in paragraph at lines 31--31
- [][] [][] \EU1/Garamond(0)/m/n/12 Physical Parameters Estimated Using the DCFM
-, for 8-Sightlines 
+] [5] [6] [7] [8]
+Overfull \hbox (1.88434pt too wide) detected at line 139
+\EU1/Garamond(0)/m/n/12 A.6.10 
  []
 
-) [11] (./dis.lof [12
+) [9] (./dis.lot [10
 
-] [13] [14] [15] [16] [17] [18]) [19] (./dis.gls [20
+]) [11] (./dis.lof [12
+
+] [13] [14] [15] [16] [17] [18])
+[19] (./dis.gls [20
 
 
 
 ]
 LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/it' will be
 (Font)              scaled to size 12.99664pt on input line 237.
-
-[21]) [22]
+ [21]) [22]
 \openout2 = `intro.aux'.
 
  (./intro.tex [1
@@ -1891,10 +1890,11 @@ LaTeX Font Info:    Font shape `EU1/Garamond(0)/m/n' will be
 (Font)              scaled to size 7.8312pt on input line 31.
  [3]
 File: figures/intro/Milky_Way_Arch.jpg Graphic file (type QTm)
- <use  "figures/intro/Milky_Way_Arch.jpg" >
-[4]
+
+<use  "figures/intro/Milky_Way_Arch.jpg" > [4]
 File: figures/intro/polspec.png Graphic file (type QTm)
- <use  "figures/intro/polspec.png" > [5]
+
+<use  "figures/intro/polspec.png" > [5]
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no   in font cmr12!
@@ -2195,14 +2195,26 @@ File: figures/blast_data/sweeps/IQ_tone_power_bifurc.pdf Graphic file (type QTm
 
 LaTeX Warning: Float too large for page by 26.79115pt on input line 311.
 
-[147] [148] [149] [150] [151]
-File: figures/blast_data/timestreams/ice_lo_chops.pdf Graphic file (type QTm)
+[147] [148] [149]
 
-<use  "figures/blast_data/timestreams/ice_lo_chops.pdf" > [152] [153]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 317.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 317.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 317.
+
+[150] [151]
+File: figures/blast_data/timestreams/ice_lo_chops.pdf Graphic file (type QTm)
+ <use  "figures/blast_data/timestreams/ice_lo_chops.pdf" > [152]
+[153]
 File: figures/blast_data/timestreams/350_pal_IQgradExample_448.pdf Graphic file
  (type QTm)
-
-<use  "figures/blast_data/timestreams/350_pal_IQgradExample_448.pdf" >
+ <use  "figures/blast_data/timestreams/350_pal_IQgradExample_448.pdf" >
 File: figures/blast_data/timestreams/350_pal_ts_and_df_448.pdf Graphic file (ty
 pe QTm)
 
@@ -2357,7 +2369,7 @@ File: figures/carina/vectors_5.pdf Graphic file (type QTm)
  <use  "figures/carina/vectors_5.pdf" >
 File: figures/carina/vectors_10.pdf Graphic file (type QTm)
 
-<use  "figures/carina/vectors_10.pdf" > [212]
+<use  "figures/carina/vectors_10.pdf" >
 File: figures/carina/vector_sl_21_ds10.pdf Graphic file (type QTm)
 
 <use  "figures/carina/vector_sl_21_ds10.pdf" >
@@ -2372,7 +2384,7 @@ File: figures/carina/lic2_han51.pdf Graphic file (type QTm)
 <use  "figures/carina/lic2_han51.pdf" >
 File: figures/carina/lic_mult.pdf Graphic file (type QTm)
  <use  "figures/carina/lic_mult.pdf" >
-[213] [214] [215] [216] [217] [218] [219] [220
+[212] [213] [214] [215] [216] [217] [218] [219] [220
 
 ]
 File: figures/carina/lic_sparo_overlay.png Graphic file (type QTm)
@@ -2386,26 +2398,68 @@ File: figures/carina/hstgsc2_250_sl.pdf Graphic file (type QTm)
 <use  "figures/carina/hstgsc2_250_sl.pdf" >
 File: figures/carina/chandra_soft_sl.pdf Graphic file (type QTm)
 
-<use  "figures/carina/chandra_soft_sl.pdf" > [225] [226] [227] [228] [229
+<use  "figures/carina/chandra_soft_sl.pdf" > [225] [226] [227] [228]
 
-]
-[230] [231] [232]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 302.
+
+[229
+
+] [230]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Phi' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 344.
+
+[231] [232]
 File: figures/carina/S_hist.pdf Graphic file (type QTm)
  <use  "figures/carina/S_hist.pdf" >
 File: figures/carina/Phi_hist.pdf Graphic file (type QTm)
 
-<use  "figures/carina/Phi_hist.pdf" > [233] [234] [235]
-File: figures/carina/NH2_hist_500.pdf Graphic file (type QTm)
+<use  "figures/carina/Phi_hist.pdf" >
 
-<use  "figures/carina/NH2_hist_500.pdf" >
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 397.
+
+[233] [234] [235]
+File: figures/carina/NH2_hist_500.pdf Graphic file (type QTm)
+ <use  "figures/carina/NH2_hist_500.pdf" >
 File: figures/carina/nH2_hist_500.pdf Graphic file (type QTm)
 
-<use  "figures/carina/nH2_hist_500.pdf" > [236] [237] [238]
-File: figures/carina/HI_vselect.png Graphic file (type QTm)
+<use  "figures/carina/nH2_hist_500.pdf" >
 
-<use  "figures/carina/HI_vselect.png" >
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 486.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\sigma' on input line 486.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 486.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 486.
+
+[236] [237] [238]
+File: figures/carina/HI_vselect.png Graphic file (type QTm)
+ <use  "figures/carina/HI_vselect.png" >
 File: figures/carina/VLOS_hist.pdf Graphic file (type QTm)
- <use  "figures/carina/VLOS_hist.pdf" >
+
+<use  "figures/carina/VLOS_hist.pdf" >
 File: figures/carina/VFWHM_vectors.pdf Graphic file (type QTm)
 
 <use  "figures/carina/VFWHM_vectors.pdf" > [239] [240] [241] [242] [243]
@@ -2420,8 +2474,12 @@ File: figures/carina/B_lic_500_5p0pc.pdf Graphic file (type QTm)
 <use  "figures/carina/B_lic_500_5p0pc.pdf" >
 File: figures/carina/B_hist_500.pdf Graphic file (type QTm)
 
-<use  "figures/carina/B_hist_500.pdf" > [245] [246] [247] [248] [249] [250])
-[251]
+<use  "figures/carina/B_hist_500.pdf" >
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 602.
+
+[245] [246] [247] [248] [249] [250]) [251]
 \openout2 = `galaxies.aux'.
 
  (./galaxies.tex [252
@@ -2430,34 +2488,34 @@ File: figures/carina/B_hist_500.pdf Graphic file (type QTm)
 
 ] [253] [254]
 File: figures/galaxies/m51.png Graphic file (type QTm)
- <use  "figures/galaxies/m51.png" >
-[255] [256] [257] [258]
+
+<use  "figures/galaxies/m51.png" > [255] [256] [257] [258]
 File: figures/galaxies/m82_lic_cropped.jpg Graphic file (type QTm)
- <use  "figures/galaxies/m82_lic_cropped.jpg" > [259]
-[260] [261] [262]
+
+<use  "figures/galaxies/m82_lic_cropped.jpg" > [259] [260] [261] [262]
 File: figures/galaxies/ngc4945.pdf Graphic file (type QTm)
- <use  "figures/galaxies/ngc4945.pdf" >
+
+<use  "figures/galaxies/ngc4945.pdf" >
 File: figures/galaxies/eso9713.pdf Graphic file (type QTm)
-
-<use  "figures/galaxies/eso9713.pdf" >
+ <use  "figures/galaxies/eso9713.pdf" >
 File: figures/galaxies/ngc3621.pdf Graphic file (type QTm)
- <use  "figures/galaxies/ngc3621.pdf" >
-File: figures/galaxies/m83.pdf Graphic file (type QTm)
 
-<use  "figures/galaxies/m83.pdf" >
+<use  "figures/galaxies/ngc3621.pdf" >
+File: figures/galaxies/m83.pdf Graphic file (type QTm)
+ <use  "figures/galaxies/m83.pdf" >
 File: figures/galaxies/ngc1808.pdf Graphic file (type QTm)
- <use  "figures/galaxies/ngc1808.pdf" >
-[263] [264]) [265] [266] [267] [268]
+
+<use  "figures/galaxies/ngc1808.pdf" > [263] [264]) [265] [266] [267] [268]
 \openout2 = `conclusion.aux'.
 
- (./conclusion.tex [269
+
+(./conclusion.tex [269
 
 
 
 ] [270]
 File: figures/conclusion/toltec_slice_2.jpg Graphic file (type QTm)
-
-<use  "figures/conclusion/toltec_slice_2.jpg" >
+ <use  "figures/conclusion/toltec_slice_2.jpg" >
 File: figures/conclusion/single_board.jpg Graphic file (type QTm)
 
 <use  "figures/conclusion/single_board.jpg" >) [271] [272] [273] (./dis.bbl
@@ -2465,105 +2523,110 @@ File: figures/conclusion/single_board.jpg Graphic file (type QTm)
 
 
 ] [275] [276] [277] [278] [279]
-Underfull \hbox (badness 1342) in paragraph at lines 477--480
+Underfull \hbox (badness 1342) in paragraph at lines 479--482
 []\EU1/Garamond(0)/m/n/12 Hall, J. S. (1949).  Observations of the polarized li
 ght from stars.  \EU1/Garamond(0)/m/it/12 Science\EU1/Garamond(0)/m/n/12 ,
  []
 
 [280] [281] [282] [283] [284] [285]
-Underfull \hbox (badness 512) in paragraph at lines 941--945
+Underfull \hbox (badness 512) in paragraph at lines 943--947
 []\EU1/Garamond(0)/m/n/12 Smith, N., Egan, M. P., Carey, S., Price, S. D., Mors
 e, J. A., and Price, P. A.
  []
 
-[286] [287] [288]) [289]
+[286] [287]) [288]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [290
+ (./appendix.tex [289
 
-
-] [291
 
 ]
-Underfull \hbox (badness 1460) in paragraph at lines 42--56
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+[290
+
+]
+Underfull \hbox (badness 1460) in paragraph at lines 41--56
 \EU1/Garamond(0)/bx/n/12 LO\EU1/Garamond(0)/m/n/12 : A variable tone produced b
 y the Valon 5009 Synthesizer, and used to
  []
 
-[292] [293]
-Underfull \hbox (badness 2478) in paragraph at lines 114--120
+[291] [292]
+Underfull \hbox (badness 2478) in paragraph at lines 118--124
 \EU1/Garamond(0)/bx/n/12 ROACH-2\EU1/Garamond(0)/m/n/12 : Reconfigurable Open A
 rchitecture Computing Hardware. The
  []
 
-[294] [295]
-Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[293] [294]
+Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--176
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[296] [297]
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+[295] [296]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
-[298]
-Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[299]
-Underfull \hbox (badness 4846) in paragraph at lines 308--310
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+[297] [298]
+Underfull \hbox (badness 4846) in paragraph at lines 314--316
 []\EU1/Garamond(0)/bx/n/12 Turnaround loop\EU1/Garamond(0)/m/n/12 : See: \EU1/l
 mtt/m/n/12 turnaround_-loop\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 turnaroun
 d_-loop_-all\EU1/Garamond(0)/m/n/12 . The
  []
 
-[300]
-Underfull \hbox (badness 1681) in paragraph at lines 333--334
+[299]
+Underfull \hbox (badness 1681) in paragraph at lines 339--340
 []\EU1/Garamond(0)/bx/n/12 STATE\EU1/Garamond(0)/m/n/12 : One of the following:
  \EU1/lmtt/m/n/12 BOOT\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 CONNECTED\EU1/
 Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 PROGRAMMED\EU1/Garamond(0)/m/n/12 , \EU1/
 lmtt/m/n/12 CONFIGURED\EU1/Garamond(0)/m/n/12 ,
  []
 
-[301] [302] [303] [304]
-Underfull \hbox (badness 5893) in paragraph at lines 462--463
+[300] [301] [302]
+Underfull \hbox (badness 5893) in paragraph at lines 468--469
 []\EU1/Garamond(0)/bx/n/12 QDR_-CAL_-FAIL\EU1/Garamond(0)/m/n/12 : Indicates th
 at the QDR calibration has failed. See:
  []
 
-
-Underfull \hbox (badness 2653) in paragraph at lines 473--474
+[303]
+Underfull \hbox (badness 2653) in paragraph at lines 479--480
 []\EU1/Garamond(0)/bx/n/12 LAST_-DF_-RESPONSE\EU1/Garamond(0)/m/n/12 : See: \EU
 1/lmtt/m/n/12 check_-lamp_-retune\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 che
 ck_-lamp_-retune_-all\EU1/Garamond(0)/m/n/12 .
@@ -2576,39 +2639,39 @@ File: ./figures/software/full_loop.png Graphic file (type QTm)
 <use  "./figures/software/full_loop.png" >
 File: ./figures/software/has_targ_tones.png Graphic file (type QTm)
 
-<use  "./figures/software/has_targ_tones.png" > [305] [306] [307] [308]
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
+<use  "./figures/software/has_targ_tones.png" > [304] [305] [306] [307]
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--521
+Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
-[309] [310] [311] [312] [313] [314] [315]
-Underfull \hbox (badness 10000) in paragraph at lines 864--881
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 864--881
-
- []
-
-[316]
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
+[308] [309] [310] [311] [312] [313]
+Underfull \hbox (badness 10000) in paragraph at lines 866--883
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 897--898
+Underfull \hbox (badness 10000) in paragraph at lines 866--883
 
  []
 
-)
-Package atenddvi Info: Last page = 341.
- [317]
+[314]
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+ []
+
+[315])
+Package atenddvi Info: Last page = 340.
+ [316]
 \tf@toc=\write6
 \openout6 = `dis.toc'.
 
@@ -2618,25 +2681,25 @@ Package atenddvi Info: Last page = 341.
 \tf@lof=\write8
 \openout8 = `dis.lof'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1198.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1198.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1199.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1199.
  (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux)
 (./blast_data.aux) (./carina.aux) (./galaxies.aux) (./conclusion.aux)
 (./appendix.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1198.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1198.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1199.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1199.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41150 strings out of 493591
- 728142 string characters out of 6145590
- 991606 words of memory out of 5000000
- 43780 multiletter control sequences out of 15000+600000
+ 41269 strings out of 493591
+ 728844 string characters out of 6145590
+ 990793 words of memory out of 5000000
+ 43899 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  46i,22n,105p,10384b,33387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dis.pdf (341 pages).
+Output written on dis.pdf (340 pages).

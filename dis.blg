@@ -12,49 +12,47 @@ The style file: apa.bst
 A level-1 auxiliary file: appendix.aux
 Database file #1: dis.bib.bib
 Warning--empty school in benton2015mapping
-Warning--empty journal in planck2014planck
 Warning--there's a number but no series in duffing1918erzwungene
 Warning--empty institution in mazin2005microwave
-Warning--empty journal in stalling1995fast
-You've used 177 entries,
+You've used 176 entries,
             1940 wiz_defined-function locations,
-            1501 strings with 41095 characters,
-and the built_in function-call counts, 85610 in all, are:
-= -- 7772
-> -- 5388
-< -- 98
-+ -- 2037
-- -- 1958
-* -- 8357
-:= -- 15211
-add.period$ -- 543
-call.type$ -- 177
-change.case$ -- 1786
-chr.to.int$ -- 174
-cite$ -- 182
-duplicate$ -- 2682
-empty$ -- 4835
-format.name$ -- 2186
-if$ -- 16053
+            1499 strings with 41125 characters,
+and the built_in function-call counts, 85622 in all, are:
+= -- 7767
+> -- 5420
+< -- 96
++ -- 2051
+- -- 1972
+* -- 8373
+:= -- 15216
+add.period$ -- 542
+call.type$ -- 176
+change.case$ -- 1788
+chr.to.int$ -- 173
+cite$ -- 179
+duplicate$ -- 2670
+empty$ -- 4820
+format.name$ -- 2196
+if$ -- 16050
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 176
-newline$ -- 884
-num.names$ -- 531
-pop$ -- 1518
+missing$ -- 175
+newline$ -- 881
+num.names$ -- 528
+pop$ -- 1516
 preamble$ -- 1
-purify$ -- 1797
+purify$ -- 1799
 quote$ -- 0
-skip$ -- 2121
+skip$ -- 2109
 stack$ -- 0
-substring$ -- 4656
+substring$ -- 4653
 swap$ -- 542
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1046
-warning$ -- 5
-while$ -- 561
+type$ -- 1040
+warning$ -- 3
+while$ -- 560
 width$ -- 0
-write$ -- 2301
-(There were 5 warnings)
+write$ -- 2294
+(There were 3 warnings)

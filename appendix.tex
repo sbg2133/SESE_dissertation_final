@@ -4,7 +4,7 @@ The following sections constitute a manual for the BLAST-TNG readout flight soft
 
 The BLAST-TNG readout consists of five identical electronics slices. With firmware, software and hardware developed by members of the collaboration between 2014--2018, these slices perform all of the digital and analog signal processing which is required to readout large arrays (large, at the time of writing, being $\mathcal{O}(10^{3})$) of microwave kinetic inductance detectors (MKIDs) per slice.
 
-The information contained in this operator’s manual is intended to make the in-flight (or ground-based) operation of the readout system a relatively painless experience for first-time, as well as for more experienced users.
+The information contained in this operator’s manual is intended to make the in-flight (or ground-based) operation of the readout system a relatively painless experience for first-time, as well as for more experienced users.\\
 
 It is organized as follows:
 \begin{itemize}[nosep]
@@ -12,20 +12,20 @@ It is organized as follows:
   \item Section~\ref{data_paths} provides essential system paths and hardware addresses on the flight computers and groundstation.
   \item Section~\ref{normal_mode} describes the normal modes of readout operation during the flight.
   \item Section~\ref{multiloops} describes sequences of actions that can be triggered during both manual and automatic operation of the readout.
-  \item Section~\ref{commands} describes the available set of readout commands, and how and when they should be used (as of January, 2019).
   \item Section~\ref{owl} describes the OWL graphical user interface (created by Javier Romualdez), which will be used to interface with the software during ground-based testing as well as during the flight.
+  \item Section~\ref{commands} describes the available set of readout commands, and how and when they should be used (as of January, 2019).
 \end{itemize}
 
 \section{Glossary of Terms}\label{gloss}
 
 \noindent
-\textbf{1GbE}: One-gigabit-per-second Ethernet interface. Maximum bit rate is significantly less than 1~Gbps.\\
+\textbf{1GbE}: One-gigabit-per-second Ethernet interface. Maximum bit rate is less than 1~Gbps.\\
 \textbf{ADC}: Also: A/D. Analog-to-digital-converter.\\
-\textbf{Attenuator server}: A TCP server running in the background on each Pi. The TCP server is created by a Python script, \texttt{rudat\_server\_boot.py}, which runs in the background on each Pi. MCP is the client for the server (see: \texttt{roach.c}, \texttt{atten\_client()}). See also: RUDAT.\\
-\textbf{Baseband}: Also: Complex baseband. A frequency spectrum centered at 0 Hz. This is also the band which is synthesized/digitized by the digital electronics (MUSIC board and FPGA). It spans -256 to +256~MHz (512~MHz total). Each baseband frequency has a corresponding RF carrier frequency (see: probe tone).\\
+\textbf{Attenuator server}: A TCP server running in the background on each Raspberry Pi 3. The TCP server is created by a Python script, \texttt{rudat\_server\_boot.py}, which runs in the background on each Pi. MCP is the client for the server (see: \texttt{roach.c}, \texttt{atten\_client()}). See also: RUDAT.\\
+\textbf{Baseband}: Also: Complex baseband. A frequency spectrum centered at 0 Hz (DC). This is also the band which is synthesized/digitized by the digital electronics (MUSIC board and FPGA). It spans -256 to +256~MHz (512~MHz total). Each baseband frequency has a corresponding RF carrier frequency (see: probe tone).\\
 \textbf{BORPH}: The Berkeley Operating System for Reprogrammable Hardware. A Linux-based operating system running on the PPCs. See: \href{https://casper.ssl.berkeley.edu/wiki/BORPH}{BORPH}\\
 \textbf{CASPER}: The Collaboration for Astronomical Signal Processing and Electronics Research. See: \href{https://casper.berkeley.edu}{CASPER}\\
-\textbf{Channel}: A unique detector timestream, containing the 32b $I$ and 32b $Q$ values for a single resonator on the array, sampled at 488.28125 Hz. Channel values are saved to disk. Each channel number maps to a single baseband/RF frequency pair. Channel numbers are zero-indexed, and increment in baseband frequency order, i.e., channel 10 corresponds to the 10th baseband frequency in the list of baseband frequencies (e.g., \texttt{bb\_target\_freqs.dat}).\\
+\textbf{Channel}: A unique detector timestream, containing the 32-b $I$ and 32-b $Q$ values for a single resonator on the array, sampled at 488.28125 Hz. Channel values are saved to disk. Each channel number maps to a single baseband/RF frequency pair. Channel numbers are zero-indexed, and increment in baseband frequency order, i.e., channel 10 corresponds to the 10th baseband frequency in the list of baseband frequencies (e.g., \texttt{bb\_target\_freqs.dat}).\\
 \textbf{DAC}: Also: D/A. Digital-to-analog-converter.\\
 \textbf{Demodulator}: Also: Downconverter. Polyphase AD0540B. A quadrature modulator used to downconvert RF/IF to baseband $I$ and $Q$. There is one in each ROACH slice.\\
 Inputs:
@@ -37,8 +37,8 @@ Outputs:
 \setlist[description]{leftmargin=\parindent,labelindent=\parindent,nosep}
 \begin{description}
   \item[$\bullet$] Baseband $I$ and Q.
-  \item[$\bullet$] Power: +5 and -5 VDC, fed by the Vicor DC/DC converter inside the ROACH enclosure.
-\end{description}
+  \end{description}
+Power: +5 and -5 VDC, fed by the Vicor DC/DC converter inside the ROACH enclosure.
 \href{https://polyphasemicrowave.com/media/AD0540B.pdf}{Datasheet: Polyphase AD0540B}\\
 \textbf{df}: ‘delta-f’. The amount in Hz by which a channel’s resonant (not carrier) frequency has drifted. In the ideal, linear operational regime, $df$ is inversely proportional to the amount of absorbed power in a channel.\\
 \textbf{Downconverter}: See Demodulator. \\
@@ -66,9 +66,13 @@ Inputs:
 \begin{description}
   \item[$\bullet$] Baseband $I$ and Q, synthesized by the MUSIC board $I$ and $Q$ DACs.
   \item[$\bullet$] LO signal generated by the Valon 5009 Synthesizer. The default LO frequency is 750~MHz (i.e., on system restart).
-  \item[$\bullet$ ]IF/RF signal which is sent to the cryostat.
-  \item[$\bullet$] Power: +5 and -5 VDC, fed by Vicor DC/DC converter in Roach enclosure.
 \end{description}
+Outputs:
+\setlist[description]{leftmargin=\parindent,labelindent=\parindent,nosep}
+\begin{description}
+  \item[$\bullet$ ]IF/RF signal which is sent to the cryostat.
+\end{description}
+Power: +5 and -5 VDC, fed by Vicor DC/DC converter in Roach enclosure.
 See: \href{https://polyphasemicrowave.com/media/AM0350A_RevA.pdf}{Datasheet: Polyphase AM0350A}\\
 \textbf{MUSIC Board}: A DAC/ADC board originally developed for the MUSIC camera (Multi-color Sub-millimeter Kinetic Inductance Camera). It is a daughter board of the ROACH-2 in each ROACH slice. Each MUSIC board has:
 \setlist[description]{leftmargin=\parindent,labelindent=\parindent,nosep}
@@ -96,8 +100,8 @@ Inputs/Outputs:
 \begin{description}
   \item[$\bullet$] USB-2 $\times$ 3: Control signals for one Valon and two RUDATs.
   \item[$\bullet$] Ethernet: Direct into the inner frame switches. See Hardware Addresses.
-  \item[$\bullet$] Power: USB provided by ROACH-2 board.
 \end{description}
+Power: USB provided by ROACH-2 board.
 If needed, the Pis are accessible by SSH from either the ground stations or FC1/FC2. To SSH:\
 \begin{verbatim}
 > ssh pi@pi<which pi>
@@ -128,6 +132,7 @@ Outputs:
   \item[$\bullet$] 1GbE. UDP packets sent to inner-frame ethernet switches and saved to disk.
   \item[$\bullet$] 1GbE link to the onboard PPC\@.
 \end{description}
+Power: 28~VDC from gondola inner frame.
 See: \href{https://casper.ssl.berkeley.edu/wiki/ROACH-2_Revision_2}{CASPER ROACH-2}\\
 \textbf{RUDAT}: MiniCircuits RUDAT-6000-30. A programmable step-attenuator with 30~dB of dynamic range that can be stepped in 0.5~dB increments. There are two RUDATs in each ROACH slice:
 \setlist[description]{leftmargin=\parindent,labelindent=\parindent,nosep}
@@ -135,10 +140,11 @@ See: \href{https://casper.ssl.berkeley.edu/wiki/ROACH-2_Revision_2}{CASPER ROACH
   \item[$\bullet$] Output atten: The RUDAT located at each ROACH slice’s output (connected to the cryostat input ports).
   \item[$\bullet$] Input atten: The RUDAT located at each ROACH slice’s input (connected to the cryostat output ports).
 \end{description}
+Power: 5~VDC via Raspberry Pi 3 USB\@.
 See: \href{https://www.minicircuits.com/pdfs/RUDAT-6000-30.pdf}{RUDAT-6000-30}\\
 \textbf{Q}: The quadrature (90-deg out-of-phase, sine) component of a quadrature waveform.\\
 \textbf{QDR}: Quad-data-rate RAM\@. This is solid-state RAM on the ROACH board which contains the DAC tone LUTs.\\
-\textbf{S21}: The forward scattering parameter term found in a two-port scattering matrix. Here it’s used to extend the VNA analogy to ROACH readout. $S_{21}V$ (in raw units) is the quantity which is saved to disk, at 488.28125 Hz, for each detector channel.
+\textbf{S21}: The forward scattering parameter term found in a two-port scattering matrix. Here it’s used to extend the VNA analogy to ROACH readout. $S_{21}V_{\mathrm{in}}$ (in raw units) is the quantity which is saved to disk, at 488.28125 Hz, for each detector channel.
 \setlist[description]{leftmargin=\parindent,labelindent=\parindent,nosep}
 \begin{description}
   \item[$\bullet$] $S_{21} = I + jQ$
@@ -158,8 +164,8 @@ Outputs:
 Inputs:
 \begin{description}
   \item[$\bullet$] External Reference: A fixed tone at 10~MHz generated by the OctoClock. This tone is the phase reference for the PLL used by the VCO\@. The RF signal power is +10~dBm.
-  \item[$\bullet$] Power: +6 VDC @ 560 mA when both outputs are enabled (default state). Power for all five Valons is supplied by a single Vicor DC/DC converter attached to the back plate of the ROACH box. Control signals to/from each Valon are routed through a USB link to the Pis.
 \end{description}
+Power: 6 VDC @ 560 mA when both outputs are enabled (default state). Power for all five Valons is supplied by a single Vicor DC/DC converter attached to the back plate of the ROACH box. Control signals to/from each Valon are routed through a USB link to the Pis.
 \href{https://www.valonrf.com/uploads/1/1/7/3/117370920/5009_datasheet_v1.34_20181113_ljr.pdf}{Datasheet: Valon 5009}\\
 \textbf{Valon server}: A TCP server running in the background on each Pi. The TCP server is created by a Python script (\texttt{valon\_server\_boot.py}) running in the background on each Pi. MCP is the client for the server (see: \texttt{roach.c}, \texttt{valon\_client()}).\\
 \textbf{VCO}: Voltage controlled oscillator.\\
@@ -179,7 +185,7 @@ Python analysis scripts are here: \texttt{/home/blast/detectors}\\
 Downlinked tarballs go here: \texttt{/data/etc/downloaded\_files}\\
 
 \noindent Hardware addresses:
-See: \texttt{/etc/hosts} and \texttt{/etc/ethers} on FC1 or FC2
+See: \texttt{/etc/hosts} and \texttt{/etc/ethers} on FC1 or FC2\\
 PowerPC addresses:
 
 \begin{verbatim}
@@ -242,10 +248,10 @@ b8:27:eb:4c:2f:7d pi4
 b8:27:eb:f7:16:a5 pi5
 \end{verbatim}
 
-\section{Normal Operation}
+\section{Normal Operation}\label{normal_mode}
 The detector readout has two primary functions: readout and housekeeping. In this context, readout means to probe each LEKID resonance with a unique carrier tone, demodulate the phase and amplitude modulation which each pixel imprints onto it, and record a continuous timestream of that demodulated signal. Housekeeping means to monitor, as autonomously as possible, the envelope of the changes in resonator responsivity which are due to a combination of optical loading and temperature drift in the cryostat, and to either automatically correct for these changes, or indicate to the user that significant changes have occurred. The readout and housekeeping modes, as well as the user responsibilities pertaining to each, are described below.
 
-\subsection{Readout Mode}\label{normal_mode}
+\subsection{Readout Mode}
 The readout function of the system is performed by the FPGA firmware and ROACH electronics. Therefore, it’s mostly autonomous. When MCP starts, its goal is to get the ROACHs into their idle state as quickly as possible. The idle state is called streaming. To get to the streaming state, the firmware and electronics must progress through a series of initialization states (see: Owl Fields-STATE). In streaming state, the ROACHs continuously probe, demodulate and save data to disk.
 
 On start-up, the sequence of events for each ROACH slice is:
@@ -263,17 +269,17 @@ If all environmental conditions, e.g., optical loading, telescope elevation and 
 \subsection{Housekeeping Mode}
 Housekeeping functions fall under two categories: Automatic and manual.\\
 
-\noindent \textbf{Automatic functions}:\\
+\noindent \textbf{Automatic functions}:
 Once the readout reaches its streaming state, various sequences of events are triggered during an observation. Automatic triggering is enabled by default, but can be disabled by the user.\\
 
 Elevation turnarounds: At elevation turnarounds, the pointing code triggers the turnaround loop. See Multi-command loops.\\
 
 Azimuth turnarounds: At azimuth turnarounds, the pointing code triggers a three-point LO chop. The frequency chop step sizes are 10~kHz for the 500~$\upmu$m array, and 2.5~kHz for all other arrays. The purpose of the LO chop is to imprint a regular calibration metric for $df$ into each of the channel timestreams. If the probe tones are on or very near a channel’s resonant frequency, the steps which occur in the $df$ timestreams should be symmetric around the mean $df$ value for that channel, with an amplitude equaling the frequency chop step size (i.e., 2.5 or 10~kHz). If the channel's resonant frequency has drifted, the chop appearing in the $df$ timestreams will be asymmetric around the mean $df$ value.\\
 
-\noindent \textbf{Manual Functions}:\\
+\noindent \textbf{Manual Functions}:
 There are several sequences of commands which can be used to manually perform housekeeping functions. During normal operation, the multi-command loops (some of which are triggered automatically) should suffice.
 
-\section{Multi-command loops}\label{multiloops}
+\section{Multi-command Loops}\label{multiloops}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -333,7 +339,7 @@ During regular operation of the readout, real-time system status and health info
 \item \textbf{STATE}: One of the following: \texttt{BOOT}, \texttt{CONNECTED}, \texttt{PROGRAMMED}, \texttt{CONFIGURED}, \texttt{STREAMING}. \texttt{STREAMING} is the final state, where the ROACHs should spend 99\% of their time. For most ROACHs, STREAMING should be reached within a minute or so after a cold start. ROACH1’s boot sequence lags behind the others by 30~s to 1~min, so expect it to spend more time in the earlier states during start-up.
 
 \begin{itemize}
-    \item[$-$] \texttt{BOOT}: The start-up state. In \texttt{BOOT} state, the command thread attempts to establish a connection to the KATCP server running on each PPC\@. After several failed connection attempts, \texttt{KATCP\_CONNECT\_ERROR} is set high to alert the operator. The ROACH command thread will then sleep for a few seconds before retrying the connection.\\
+    \item \texttt{BOOT}: The start-up state. In \texttt{BOOT} state, the command thread attempts to establish a connection to the KATCP server running on each PPC\@. After several failed connection attempts, \texttt{KATCP\_CONNECT\_ERROR} is set high to alert the operator. The ROACH command thread will then sleep for a few seconds before retrying the connection.\\
     Troubleshooting:\\
     If a ROACH seems to be stuck in the BOOT state (i.e., a few minutes have passed with no joy), it’s possible that the ROACH is powered down. If able, try the following:
     \begin{enumerate}
@@ -346,11 +352,11 @@ During regular operation of the readout, real-time system status and health info
        If ping fails, it’s likely that the ROACH is down. Try to power cycle the ROACHs with commands: \texttt{roach\_cycle}, \texttt{roaches\_off}, \texttt{roach\_on}.
     \end{enumerate}
 
-\item[$-$] \texttt{CONNECTED}: After successful connection to the KATCP server, the command thread attempts to upload the FPGA firmware (fpg file). If this fails, \texttt{FIRMWARE\_UPLOAD\_FAIL} will go high, and MCP will continue to attempt to upload the fpg file. If it succeeds, \texttt{HAS\_FIRMARE} goes high.\\
+\item \texttt{CONNECTED}: After successful connection to the KATCP server, the command thread attempts to upload the FPGA firmware (fpg file). If this fails, \texttt{FIRMWARE\_UPLOAD\_FAIL} will go high, and MCP will continue to attempt to upload the fpg file. If it succeeds, \texttt{HAS\_FIRMARE} goes high.\\
 Troubleshooting:\\
 It’s uncommon for a firmware upload attempt to fail. If this occurs, we suggest following the troubleshooting protocol for BOOT state. If the flight computers are accessible by SSH, SG and AS have a method of manually uploading the fpg using a Python script located in: \texttt{/data/etc/blast/roachPython}.
 
-\item[$-$] \texttt{PROGRAMMED}: After successful firmware upload, MCP programs the firmware registers and prepares to write the frequency comb. A critical step in this process is the ‘calibration’ of the QDR RAM\@. Calibration is performed by a Python script, called by MCP\@. Successful calibration results in:
+\item \texttt{PROGRAMMED}: After successful firmware upload, MCP programs the firmware registers and prepares to write the frequency comb. A critical step in this process is the ‘calibration’ of the QDR RAM\@. Calibration is performed by a Python script, called by MCP\@. Successful calibration results in:
 \begin{itemize}
   \item \texttt{HAS\_QDR\_CAL} = 1
   \item \texttt{FPGA\_CLOCK\_FREQUENCY} reads between 255--259~MHz (256~MHz is desired).
@@ -367,7 +373,7 @@ QDR calibration failures almost always stem from problems with the 512~MHz clock
 \end{enumerate}
 If none of the above works, contact SG or AS\@.
 
-\item[$-$] \texttt{CONFIGURED}: In this state, MCP creates the VNA comb, uploads it to the FPGA, turns on the DACs, and then checks that the data socket is receiving UDP packets. While tones are being written, \texttt{IS\_WRITING} goes high. Note: Data streaming is automatically triggered within the firmware after tone writing succeeds. If all goes well, you should see that:
+\item \texttt{CONFIGURED}: In this state, MCP creates the VNA comb, uploads it to the FPGA, turns on the DACs, and then checks that the data socket is receiving UDP packets. While tones are being written, \texttt{IS\_WRITING} goes high. Note: Data streaming is automatically triggered within the firmware after tone writing succeeds. If all goes well, you should see that:
 \begin{enumerate}
   \item \texttt{CURRENT\_NTONES} = 1000
   \item \texttt{HAS\_VNA\_TONES} = 1
@@ -387,7 +393,7 @@ If UDP packets are arriving at roach-udp-dest from the ROACH in question, the re
 
 \end{enumerate}
 
-\item[$-$] \texttt{STREAMING}: This is the final state, in which all normal flight-mode readout operations take place. In this state, \texttt{IS\_STREAMING} will remain high, and MCP will continue to monitor the streaming status on 10 second intervals.
+\item \texttt{STREAMING}: This is the final state, in which all normal flight-mode readout operations take place. In this state, \texttt{IS\_STREAMING} will remain high, and MCP will continue to monitor the streaming status on 10 second intervals.
 
 \end{itemize}
 
@@ -497,19 +503,19 @@ See: \texttt{set\_noutofrange\_thresh}.
 
 \begin{sidewaysfigure}[!p]
 \includegraphics[width=\linewidth,keepaspectratio]{./figures/software/roaches_off}
-\caption[~Example OWL screen when the ROACHs are powered down.]{Example \texttt{Owl} screen when the ROACHs are powered down.}
+\caption[Example OWL screen when the ROACHs are powered down.]{Example \texttt{Owl} screen when the ROACHs are powered down.}
 \label{fig:roaches off screen}
 \end{sidewaysfigure}
 
 \begin{sidewaysfigure}[!p]
 \includegraphics[width=\linewidth,keepaspectratio]{./figures/software/full_loop}
-\caption[~Example OWL screen when the ROACHs are performing a full loop.]{Example \texttt{Owl} screen when the ROACHs are performing a full loop.}
+\caption[Example OWL screen when the ROACHs are performing a full loop.]{Example \texttt{Owl} screen when the ROACHs are performing a full loop.}
 \label{fig:doing full loop screen}
 \end{sidewaysfigure}
 
 \begin{sidewaysfigure}[!p]
 \includegraphics[width=\linewidth,keepaspectratio]{./figures/software/has_targ_tones}
-\caption[~Example OWL screen when the ROACHs are streaming, with target tones.]{Example \texttt{Owl} screen when the ROACHs are streaming, with target tones.}
+\caption[Example OWL screen when the ROACHs are streaming, with target tones.]{Example \texttt{Owl} screen when the ROACHs are streaming, with target tones.}
 \label{fig:has targ tones screen}
 \end{sidewaysfigure}
 
@@ -519,7 +525,7 @@ $^{*}$CAUTION--- don’t execute these commands unless you have a plan in mind.\
 $^{**}$EXTRA CAUTION- improper use of these commands will lead to a decrease in the number of future BLAST-TNG science publications. If you think you might need to use one, first try to contact SG or AS\@.\newline\newline
 Note: $<$which roach$>$ is an integer in (1,5).
 
-\subsection{Commands which execute sequences of events}
+\subsection{Commands Which Execute Sequences Of Events}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -588,7 +594,7 @@ Syntax: \texttt{refit\_freqs\_all}
 
 \end{itemize}
 
-\subsection{Commands which are useful for data visualization (KST)}
+\subsection{Commands Which Are Useful For Data Visualization}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -598,7 +604,7 @@ Syntax: \texttt{zero\_dfs}
 
 \end{itemize}
 
-\subsection{Commands that enable triggering of periodic events}
+\subsection{Commands That Enable Triggering Of Periodic Events}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -622,7 +628,7 @@ Syntax: \texttt{roach\_disallow\_scan\_check\_all}
 
 \end{itemize}
 
-\subsection{Tone writing commands}
+\subsection{Tone Writing Commands}
 \begin{itemize}[leftmargin=*,label={}]
 
 \item $^{*}$\textbf{reload\_vna\_all}: Loads/reloads the VNA comb to all ROACHs. Use only when debugging.
@@ -639,7 +645,7 @@ Syntax: \texttt{load\_freqs\_all}
 
 \end{itemize}
 
-\subsection{LO commands}
+\subsection{LO Commands}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -697,7 +703,7 @@ Syntax: \texttt{set\_lo\_MHz <which roach>}
 
 \end{itemize}
 
-\subsection{Tone power/attenuator commands}
+\subsection{Tone Power/Attenuator Commands}
 \begin{itemize}[leftmargin=*,label={}]
 
 \item \textbf{read\_attens}: Reads the current attenuator settings. The result, in dB, will appear in the Owl fields: \texttt{READ\_ATTEN\_OUT}, \texttt{READ\_ATTEN\_IN}.
@@ -737,7 +743,7 @@ Syntax: \texttt{set\_attens\_conserved <which roach> <float output atten, dB>}
 
 \end{itemize}
 
-\subsection{Pi commands}
+\subsection{Pi Commands}
 \begin{itemize}[leftmargin=*,label={}]
 
 \item $^{*}$\textbf{reboot\_pi}: Reboots the specified Pi, by sending \texttt{sudo reboot} to the netcat server listening on ports 12345 or 12346.
@@ -769,7 +775,7 @@ If you have no other option but to use this command, follow this procedure:
 
 \end{itemize}
 
-\subsection{Power state commands}
+\subsection{Power Status Commands}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -791,16 +797,12 @@ Syntax: \texttt{kill\_roach <which roach>}
 
 \end{itemize}
 
-\subsection{Cal lamp commands}
-
+\subsection{Commands That Set Global Parameters}
 \begin{itemize}[leftmargin=*,label={}]
+
 \item \textbf{roach\_has\_lamp\_control}: Gives exclusive control of the cal lamp to the ROACH\@. No other ROACHs will be able to trigger the pulse.
 
 Syntax: \texttt{roach\_has\_lamp\_control <which roach>}
-\end{itemize}
-
-\subsection{Commands that set global parameters}
-\begin{itemize}[leftmargin=*,label={}]
 
 \item $^{*}$\textbf{set\_find\_kids\_params}: Set the KID-finding parameters. On system start-up, these parameters are automatically set to default values. See: KID-finding
 Arguments:
@@ -829,7 +831,7 @@ Syntax: \texttt{set\_min\_nkids <which roach> <min nkids>}
 
 Syntax: \texttt{set\_min\_nkids\_all <min nkids>}
 
-\item \textbf{set\_df\_diff\_retune\_threshold}: See \texttt{DF\_RETUNE\_THRESH}. Sets the threshold for the cal lamp $df$ response (df\_lamp\_on - df\_lamp\_off), in Hz.
+\item \textbf{set\_df\_diff\_retune\_threshold}: See \texttt{DF\_RETUNE\_THRESH}. Sets the threshold for the cal lamp $df$ response ($df_{\mathrm{on}} - df_{\mathrm{off}}$), in Hz.
 
 Syntax: \texttt{set\_df\_diff\_retune\_threshold <which roach> <Hz>}
 
@@ -855,7 +857,7 @@ Syntax: \texttt{set\_default\_tone\_power\_all <power/tone, in dBm>}
 
 \end{itemize}
 
-\subsection{Data handling commands}
+\subsection{  Data Handling Commands}
 
 \begin{itemize}[leftmargin=*,label={}]
 
@@ -881,7 +883,7 @@ Environment variables:\\
 
 \end{itemize}
 
-\section{Data downlinking}
+\section{Data Downlinking}
 
 Several commands result in data being saved on FC1/FC2. Some of the data is overwritten each time it’s created (e.g., the lamp responses in $df$, $I$, and $Q$ (\texttt{lamp\_response.dat})). Other data (e.g., the VNA and target sweep data) is time-stamped and stored on the hard drives as a record of the flight. When data which would be useful to view during the flight is created, MCP automatically creates a tarball of the data for each ROACH, which is overwritten with each consecutive data creation. These tarballs are given unique environment variables corresponding to their data type. These environment variables can be input into \texttt{Cow} to downlink the data. The variables are:
 

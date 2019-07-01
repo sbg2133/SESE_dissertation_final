@@ -81,7 +81,7 @@ Readout Modules            & 3               & 1               & 1  \\ \midrule
 Number of Tones per Module & $\sim$500             & $\sim$700             &  $\sim$300   \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~Detector counts for the three BLAST-TNG wavebands.]{Detector counts for the three BLAST-TNG wavebands. A detailed description of the detector counts is provided in Chapter 4 of this document.}
+\caption[Detector counts for the three BLAST-TNG wavebands.]{Detector counts for the three BLAST-TNG wavebands. A detailed description of the detector counts is provided in Chapter 4 of this document.}
 \label{tab:det counts}
 \end{table}
 
@@ -235,7 +235,7 @@ DACs & 2 & 0.5 \\
 RASPBERRY PI 3 & 1 & 2.5 \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~The power budget for the digital electronics used in each BLAST-TNG readout slice.]{The power budget for the digital electronics used in each BLAST-TNG readout slice.}
+\caption[The power budget for the digital electronics used in each BLAST-TNG readout slice.]{The power budget for the digital electronics used in each BLAST-TNG readout slice.}
 \label{tab:dig power budget}
 \end{table}
 
@@ -287,7 +287,7 @@ RT LNA & 1 & 5 & 30 & 1.5 \\
 Baseband RT Amps & 2 & 5 & 145 & 1.45 \\
  &  &  &  & 18.94 \\ \dbottomrule{}
 \end{tabular}
-\caption[~The power dissipation for the IF electronics used in each BLAST-TNG readout slice]{The power dissipation for the IF electronics used in each BLAST-TNG readout slice}
+\caption[The power dissipation for the IF electronics used in each BLAST-TNG readout slice]{The power dissipation for the IF electronics used in each BLAST-TNG readout slice}
 \label{tab:if power budget}
 \end{table}
 
@@ -325,7 +325,7 @@ Figure~\ref{fig:if slice} is an annotated photograph of one of the five BLAST-TN
 \begin{sidewaysfigure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/hardware/roach_slice_annotated}
-\caption[~An annotated photograph of one of the five BLAST-TNG ROACH2 electronics slices.]{An annotated photograph of one of the five BLAST-TNG ROACH2 electronics slices. Labeled components are: 1) ROACH2 board 2) Raspberry Pi 3 3) FPGA heat pipe assembly 4) MUSIC DAC/ADC board 5) baluns 6) programmable attenuators 7) demodulator 8) RT LNA (not visible) 9) modulator 10) Valon synthesizer (not visible) 11) third-stage amplifiers 12) anti-aliasing filter stack.}
+\caption[An annotated photograph of one of the five BLAST-TNG ROACH2 electronics slices.]{An annotated photograph of one of the five BLAST-TNG ROACH2 electronics slices. Labeled components are: 1) ROACH2 board 2) Raspberry Pi 3 3) FPGA heat pipe assembly 4) MUSIC DAC/ADC board 5) baluns 6) programmable attenuators 7) demodulator 8) RT LNA (not visible) 9) modulator 10) Valon synthesizer (not visible) 11) third-stage amplifiers 12) anti-aliasing filter stack.}
 \label{fig:if slice}
 \end{sidewaysfigure}
 
@@ -333,7 +333,7 @@ Figure~\ref{fig:if slice} is an annotated photograph of one of the five BLAST-TN
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/hardware/roach_motel_open}
-\caption[~A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.]{A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.}
+\caption[A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.]{A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.}
 \label{fig:top roach}
 \end{figure}
 
@@ -416,7 +416,7 @@ The second consequence of the ZOH is that several higher order Nyquist zones are
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/dac_comp}
-\caption[~The DAC frequency response (measured and simulated), with and without anti-aliasing filters.]{The DAC frequency response for a multitone probe comb with $N = 1000$, showing the unfiltered (blue), simulated (orange) and measured filtered (red) response out to 1.5~GHz.}
+\caption[The DAC frequency response (measured and simulated), with and without anti-aliasing filters.]{The DAC frequency response for a multitone probe comb with $N = 1000$, showing the unfiltered (blue), simulated (orange) and measured filtered (red) response out to 1.5~GHz.}
 \label{fig:dac sim}
 \end{figure}
 
@@ -432,7 +432,7 @@ The CF of the waveform can also be measured from a small number of ADC samples, 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/adc}
-\caption[~2,000 \macrocapwrap{$I/Q$} samples of a digitized waveform for a single tone at f = 50.0125~Hz, and 1,000 evenly spaced tones.]{2,000 \macrocapwrap{$I/Q$} samples of a digitized waveform at \macrocapwrap{$f = 50.0125$}~Hz (blue), and for a tone comb consisting of 1,000 evenly spaced tones.}
+\caption[2,000 \macrocapwrap{$I/Q$} samples of a digitized waveform for a single tone at f = 50.0125~Hz, and 1,000 evenly spaced tones.]{2,000 \macrocapwrap{$I/Q$} samples of a digitized waveform at \macrocapwrap{$f = 50.0125$}~Hz (blue), and for a tone comb consisting of 1,000 evenly spaced tones.}
 \label{fig:adc}
 \end{figure}
 
@@ -447,7 +447,7 @@ The PFB-FFT is implemented using the CASPER \texttt{pfb\_fir} and \texttt{biplex
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/pfb_fft_comp}
-\caption[~A 5~MHz section of the transfer function of the firmware PFB-FFT, showing measured (dots) and simulated values (lines).]{A 5~MHz section of the transfer function of the firmware PFB-FFT, showing measured (dots) and simulated values (lines). The PFB has widened the FFT bins so that they overlap at -6~dB. Their FHWM width is 450~kHz.}
+\caption[A 5~MHz section of the transfer function of the firmware PFB-FFT, showing measured (dots) and simulated values (lines).]{A 5~MHz section of the transfer function of the firmware PFB-FFT, showing measured (dots) and simulated values (lines). The PFB has widened the FFT bins so that they overlap at -6~dB. Their FHWM width is 450~kHz.}
 \label{fig:pfb fft zoom}
 \end{figure}
 
@@ -490,14 +490,14 @@ Figure~\ref{fig:ddc1} and~\ref{fig:ddc1000} show frequency domain examples of th
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/ddc_sim_0}
-\caption[~An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of a single tone.]{An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of a single tone.}
+\caption[An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of a single tone.]{An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of a single tone.}
 \label{fig:ddc1}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/ddc_sim_100}
-\caption[~An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 1,000 tones.]{The frequency domain DDC products for one channel of a tone comb consisting of 1,000 probe tones, with measured (blue) and simulated data (red).}
+\caption[An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 1,000 tones.]{The frequency domain DDC products for one channel of a tone comb consisting of 1,000 probe tones, with measured (blue) and simulated data (red).}
 \label{fig:ddc1000}
 \end{figure}
 
@@ -505,7 +505,7 @@ Figure~\ref{fig:ddc1} and~\ref{fig:ddc1000} show frequency domain examples of th
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/ddc_sim_11}
-\caption[~An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 628 tones, with the FIR applied to the DDC output.]{The frequency domain DDC products for one channel of a tone comb consisting of 628 probe tones, with measured (blue) and simulated data (red). An FIR has been applied to the DDC output timestream.}
+\caption[An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 628 tones, with the FIR applied to the DDC output.]{The frequency domain DDC products for one channel of a tone comb consisting of 628 probe tones, with measured (blue) and simulated data (red). An FIR has been applied to the DDC output timestream.}
 \label{fig:ddcFIR}
 \end{figure}
 \end{comment}
@@ -521,7 +521,7 @@ Accumulation is performed using CASPER vector accumulator blocks of length 512. 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/accum_1000_lpf_nolpf}
-\caption[~The transfer function of the accumulator (\macrocapwrap{|S$_{21}$|$^{2}$}), for a tone comb consisting of 1,000 tones, in digital and RF loopback.]{The transfer function of the accumulator (|S$_{21}$|$^{2}$), for a tone comb consisting of 1,000 tones, in digital and RF loopback.}
+\caption[The transfer function of the accumulator (\macrocapwrap{|S$_{21}$|$^{2}$}), for a tone comb consisting of 1,000 tones, in digital and RF loopback.]{The transfer function of the accumulator (|S$_{21}$|$^{2}$), for a tone comb consisting of 1,000 tones, in digital and RF loopback.}
 \label{fig:accum}
 \end{figure}
 
@@ -558,7 +558,7 @@ As described in Section~\ref{timing}, the combination of these values allows for
 \begin{figure}[!htbp]
 \centering
 \includegraphics[scale=0.75]{figures/readout/schematics/roach_packet}
-\caption[~ROACH2 UDP packet structure.]{The structure of a ROACH2 UDP packet}
+\caption[ROACH2 UDP packet structure.]{The structure of a ROACH2 UDP packet}
 \label{fig:data packet}
 \end{figure}
 
@@ -589,7 +589,7 @@ Figure~\ref{fig:psd 1000 fit} shows an example fit (red) using Equation~\ref{eq:
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/c1000_PSD_fit}
-\caption[~A fit of a modified Leeson's equation to the median PSD for a tone comb containing 1,000 evenly spaced tones.]{A fit (red) of a modified Leeson's equation to the median PSD (blue) for a tone comb containing 1,000 evenly spaced tones.}
+\caption[A fit of a modified Leeson's equation to the median PSD for a tone comb containing 1,000 evenly spaced tones.]{A fit (red) of a modified Leeson's equation to the median PSD (blue) for a tone comb containing 1,000 evenly spaced tones.}
 \label{fig:psd 1000 fit}
 \end{figure}
 
@@ -609,14 +609,14 @@ For the single tone comb, the WN level is measured to be $\approx$-143~dBc/Hz, w
   1000 & -105 & -206 & 10 \\ \dbottomrule{}
   \\
 \end{tabular}
-\caption[~Digital loopback noise levels as a function of number of probe tones.]{The digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones. \macrocapwrap{618$_{350\mu m}$} is the tone comb for the 350~\macrocapwrap{$\upmu$m} band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \macrocapwrap{\gls{Sff}} is calculated according to Equation \macrocapwrap{\ref{eq:Sff est}}, with \macrocapwrap{\gls{Qr} = 2.85 $\times$ 10$^{4}$}. The PSDs shown are the median of the PSDs calculated for each \macrocapwrap{$N$} value, from 60~s timestreams. \macrocapwrap{$CF$} is the estimated crest factor, in dB.}
+\caption[Digital loopback noise levels as a function of number of probe tones.]{The digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones. \macrocapwrap{618$_{350\mu m}$} is the tone comb for the 350~\macrocapwrap{$\upmu$m} band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \macrocapwrap{\gls{Sff}} is calculated according to Equation \macrocapwrap{\ref{eq:Sff est}}, with \macrocapwrap{\gls{Qr} = 2.85 $\times$ 10$^{4}$}. The PSDs shown are the median of the PSDs calculated for each \macrocapwrap{$N$} value, from 60~s timestreams. \macrocapwrap{$CF$} is the estimated crest factor, in dB.}
 \label{tab:dig loopback}
 \end{table}
 
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/LB_noise}
-\caption[~Digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones.]{The digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones. \macrocapwrap{618$_{350\mu m}$} is the tone comb for the 350~\macrocapwrap{$\upmu$m} band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \macrocapwrap{\gls{Sff}} is calculated according to Equation \macrocapwrap{\ref{eq:Sff est}}, with \macrocapwrap{\gls{Qr} = 2.85 $\times$ 10$^{4}$}. The PSDs shown are the median of the PSDs calculated for each \macrocapwrap{$N$} value, from 60~s timestreams.}
+\caption[Digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones.]{The digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones. \macrocapwrap{618$_{350\mu m}$} is the tone comb for the 350~\macrocapwrap{$\upmu$m} band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \macrocapwrap{\gls{Sff}} is calculated according to Equation \macrocapwrap{\ref{eq:Sff est}}, with \macrocapwrap{\gls{Qr} = 2.85 $\times$ 10$^{4}$}. The PSDs shown are the median of the PSDs calculated for each \macrocapwrap{$N$} value, from 60~s timestreams.}
 \label{fig:dig loopback noise}
 \end{figure}
 
@@ -627,7 +627,7 @@ The WN level of the single tone is measured as -136~dBc/Hz, and those of the 1,0
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/sim/IF_LB_noise}
-\caption[~The RF loopback WN levels as a function of 1, 618 and 975 tones.]{The RF loopback WN levels as a function of 1, 618 and 975 tones. 618$_{350\mu m}$ is the tone comb for the 350~$\upmu$m band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \gls{Sff} is calculated according to Equation~\ref{eq:Sff est}, with\gls{Qr} = 2.85 $\times$ 10$^{4}$. The PSDs shown are the median of the PSDs calculated for each $N$ value, from 60~s timestreams.}
+\caption[The RF loopback WN levels as a function of 1, 618 and 975 tones.]{The RF loopback WN levels as a function of 1, 618 and 975 tones. 618$_{350\mu m}$ is the tone comb for the 350~$\upmu$m band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \gls{Sff} is calculated according to Equation~\ref{eq:Sff est}, with\gls{Qr} = 2.85 $\times$ 10$^{4}$. The PSDs shown are the median of the PSDs calculated for each $N$ value, from 60~s timestreams.}
 \label{fig:rf loopback noise}
 \end{figure}
 
@@ -643,7 +643,7 @@ N tones & S$_{\phi}$ (dBc/Hz) & S$_{\delta f / f}$ (dB/Hz) & IF Noise (dB) \\ \m
 1000 & -98 & -199 & 5.5 \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~RF loopback noise levels for different numbers of probe tones.]{The RF loopback WN levels as a function of 1, 618 and 975 tones. 618$_{350\mu m}$ is the tone comb for the 350~$\upmu$m band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \gls{Sff} is calculated according to Equation~\ref{eq:Sff est}, with \gls{Qr} = 2.85 $\times$ 10$^{4}$. The PSDs shown are the median of the PSDs calculated for each $N$ value, from 60~s timestreams. The last column is the estimated IF noise, in dB.}
+\caption[RF loopback noise levels for different numbers of probe tones.]{The RF loopback WN levels as a function of 1, 618 and 975 tones. 618$_{350\mu m}$ is the tone comb for the 350~$\upmu$m band tones used during the 2018 Palestine instrument integration for BLAST-TNG\@. \gls{Sff} is calculated according to Equation~\ref{eq:Sff est}, with \gls{Qr} = 2.85 $\times$ 10$^{4}$. The PSDs shown are the median of the PSDs calculated for each $N$ value, from 60~s timestreams. The last column is the estimated IF noise, in dB.}
 \label{tab:rf loopback}
 \end{table}
 
