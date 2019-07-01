@@ -1,3 +1,5 @@
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{ii}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{ii}
 \glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{vii}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{viii}
 \glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{viii}
@@ -45,7 +47,7 @@
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{24}
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{25}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{26}
-\glossaryentry{\ensuremath {T_{c}}?\glossentry{Tc}|setentrycounter[]{page}\glsnumberformat}{27}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{\ensuremath {T_{c}}?\glossentry{Tc}|setentrycounter[]{page}\glsnumberformat}{27}
 \glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{27}
@@ -121,35 +123,35 @@
 \glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{32}
 \glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{32}
-\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{33}
-\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{33}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{34}
 \glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{34}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{34}
+\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {m^{\star }}?\glossentry{mstar}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\tau _{s}}?\glossentry{tau_s}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{d}}?\glossentry{sig_d}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
@@ -185,22 +187,22 @@
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{35}
 \glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {K_{0}}?\glossentry{K0}|setentrycounter[]{page}\glsnumberformat}{35}
-\glossaryentry{\ensuremath {I_{0}}?\glossentry{I0}|setentrycounter[]{page}\glsnumberformat}{35}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{36}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{36}
 \glossaryentry{\ensuremath {\sigma _{1}}?\glossentry{sig1}|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {\sigma _{n}}?\glossentry{sig_n}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {K_{0}}?\glossentry{K0}|setentrycounter[]{page}\glsnumberformat}{37}
+\glossaryentry{\ensuremath {I_{0}}?\glossentry{I0}|setentrycounter[]{page}\glsnumberformat}{37}
 \glossaryentry{\ensuremath {L_{m}}?\glossentry{Lm}|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{\ensuremath {L_{m}}?\glossentry{Lm}|setentrycounter[]{page}\glsnumberformat}{38}
 \glossaryentry{\ensuremath {\alpha }?\glossentry{alphaKI}|setentrycounter[]{page}\glsnumberformat}{38}
@@ -234,626 +236,626 @@
 \glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{40}
 \glossaryentry{\ensuremath {\alpha }?\glossentry{alphaKI}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{\ensuremath {\alpha }?\glossentry{alphaKI}|setentrycounter[]{page}\glsnumberformat}{41}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{42}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{43}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {\alpha }?\glossentry{alphaKI}|setentrycounter[]{page}\glsnumberformat}{42}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{43}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{43}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{44}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{44}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{45}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{45}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{45}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{46}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{46}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{46}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{47}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{47}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{47}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{48}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{48}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{49}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {T_{c}}?\glossentry{Tc}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{50}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{49}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{50}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {T_{c}}?\glossentry{Tc}|setentrycounter[]{page}\glsnumberformat}{51}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{51}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{51}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{52}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{52}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{52}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{52}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{52}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\sigma _{2}}?\glossentry{sig2}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{53}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{54}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{55}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{56}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{53}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {n_{qp}}?\glossentry{nqp}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{54}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{55}
+\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{56}
+\glossaryentry{\ensuremath {\mathcal {L}_{k}}?\glossentry{Lk_per_l}|setentrycounter[]{page}\glsnumberformat}{56}
 \glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{56}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
 \glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{57}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{58}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{59}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{60}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{61}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{61}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{62}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{64}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{65}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{66}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {\Delta _{0}}?\glossentry{Delta}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{57}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{59}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{60}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {gen}}}?\glossentry{gen_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{61}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\Gamma _{\mathrm {rec}}}?\glossentry{rec_rate}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {\tau _{qp}}?\glossentry{tau_qp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{62}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{63}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {T_{\mathrm {base}}}?\glossentry{Tbase}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{64}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{65}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{66}
+\glossaryentry{\ensuremath {N_{qp}}?\glossentry{Nqp}|setentrycounter[]{page}\glsnumberformat}{66}
 \glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{66}
 \glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{67}
 \glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{67}
 \glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{67}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{67}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{68}
+\glossaryentry{\ensuremath {n_{\mathrm {occ}}}?\glossentry{n_occ}|setentrycounter[]{page}\glsnumberformat}{68}
 \glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{69}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{69}
-\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{73}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{74}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{69}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{70}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{71}
+\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{75}
 \glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{75}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{75}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{76}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{77}
 \glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{77}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{79}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{79}
 \glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{79}
-\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{115}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{117}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{80}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{81}
+\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{117}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{117}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{117}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{117}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{118}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{118}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{117}
+\glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{117}
 \glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{119}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{119}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{119}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{119}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{123}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{123}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{124}
-\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{124}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{124}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{120}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{120}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{121}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{121}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{121}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{121}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{125}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{125}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{126}
+\glossaryentry{\ensuremath {\eta _{\mathrm {det}}}?\glossentry{det_eff}|setentrycounter[]{page}\glsnumberformat}{126}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{126}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{127}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{127}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{127}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{132}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{132}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{132}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{133}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{133}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{129}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{129}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{129}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{134}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{143}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{143}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{143}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{144}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{144}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{134}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{134}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{135}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{135}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{136}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{145}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{146}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{147}
 \glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{147}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{148}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{148}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{148}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{149}
 \glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
 \glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
 \glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{149}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{149}
 \glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{149}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{150}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{150}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
 \glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{151}
-\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{152}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{152}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{151}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{153}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{153}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{153}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{153}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{153}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{153}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{154}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{154}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{155}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{155}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{156}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{156}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{153}
+\glossaryentry{\ensuremath {\nabla _{I,Q}}?\glossentry{gradIQ}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{154}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{155}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{155}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{155}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{155}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{155}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{156}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{156}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{157}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{157}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{158}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{158}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{158}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{159}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{159}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{165}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{166}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{166}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{168}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{169}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{158}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{158}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{158}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{158}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{160}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{161}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{161}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{167}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{168}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{168}
 \glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{170}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{170}
 \glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{170}
-\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{170}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{171}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{172}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{174}
-\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{174}
-\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{174}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{170}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{170}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{170}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{171}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{172}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{172}
+\glossaryentry{\ensuremath {\Delta f}?\glossentry{df}|setentrycounter[]{page}\glsnumberformat}{172}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{173}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{173}
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{174}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{175}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{175}
+\glossaryentry{\ensuremath {S_{\mathrm {YY}}}?\glossentry{Syy}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{174}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{176}
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{176}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {R_{P}}?\glossentry{Ropt}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{177}
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{177}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{177}
-\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{177}
+\glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {Q_{c}}?\glossentry{Qc}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {Q_{i}}?\glossentry{Qi}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {a}}}?\glossentry{asym}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {N_{0}}?\glossentry{N0}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{178}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{178}
 \glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{179}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{180}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {P_{\mathrm {opt}}}?\glossentry{Popt}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{179}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{180}
+\glossaryentry{\ensuremath {P_{\mathrm {abs}}}?\glossentry{Pabs}|setentrycounter[]{page}\glsnumberformat}{180}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {opt}}}?\glossentry{opt_eff}|setentrycounter[]{page}\glsnumberformat}{180}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{180}
-\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{181}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{189}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{190}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{190}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{181}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\ensuremath {R_{T}}?\glossentry{Rtemp}|setentrycounter[]{page}\glsnumberformat}{182}
+\glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{183}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{191}
-\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{191}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{191}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{192}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
+\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{193}
 \glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{193}
 \glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{193}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{197}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{197}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{198}
-\glossaryentry{\ensuremath {\Psi }?\glossentry{Psi}|setentrycounter[]{page}\glsnumberformat}{200}
+\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\mathbf {S}(\theta )}?\glossentry{Spol}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {Xpol}}}?\glossentry{xpol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {\epsilon _{\mathrm {pol}}}?\glossentry{pol_eff}|setentrycounter[]{page}\glsnumberformat}{195}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{199}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{199}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{200}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{203}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{204}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{207}
-\glossaryentry{\ensuremath {\boldsymbol {v}_{i}}?\glossentry{vpol}|setentrycounter[]{page}\glsnumberformat}{208}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{208}
-\glossaryentry{\ensuremath {\boldsymbol {v}_{i}}?\glossentry{vpol}|setentrycounter[]{page}\glsnumberformat}{208}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{208}
+\glossaryentry{\ensuremath {\Psi }?\glossentry{Psi}|setentrycounter[]{page}\glsnumberformat}{202}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{202}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{205}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{206}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{209}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{215}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{215}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{218}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{218}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{218}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{218}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {v_{A}}?\glossentry{vA}|setentrycounter[]{page}\glsnumberformat}{222}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{223}
-\glossaryentry{\ensuremath {v_{A}}?\glossentry{vA}|setentrycounter[]{page}\glsnumberformat}{223}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{224}
-\glossaryentry{\ensuremath {\sigma _{v}}?\glossentry{sigV}|setentrycounter[]{page}\glsnumberformat}{224}
+\glossaryentry{\ensuremath {\boldsymbol {v}_{i}}?\glossentry{vpol}|setentrycounter[]{page}\glsnumberformat}{210}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{210}
+\glossaryentry{\ensuremath {\boldsymbol {v}_{i}}?\glossentry{vpol}|setentrycounter[]{page}\glsnumberformat}{210}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{210}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{211}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{217}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{217}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{220}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{220}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{220}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{220}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
-\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{225}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{225}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{225}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{224}
+\glossaryentry{\ensuremath {v_{A}}?\glossentry{vA}|setentrycounter[]{page}\glsnumberformat}{224}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{225}
-\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{225}
-\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{226}
+\glossaryentry{\ensuremath {v_{A}}?\glossentry{vA}|setentrycounter[]{page}\glsnumberformat}{225}
 \glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{226}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{226}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{226}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{226}
+\glossaryentry{\ensuremath {\sigma _{v}}?\glossentry{sigV}|setentrycounter[]{page}\glsnumberformat}{226}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{226}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{226}
 \glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{227}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{227}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{227}
-\glossaryentry{\ensuremath {\kappa _{\nu }}?\glossentry{kappa}|setentrycounter[]{page}\glsnumberformat}{227}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{228}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{227}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{227}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{227}
+\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{227}
+\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{228}
+\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{229}
 \glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{229}
 \glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{229}
-\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{229}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{229}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{230}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{230}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{230}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{230}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{230}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {\sigma _{v}}?\glossentry{sigV}|setentrycounter[]{page}\glsnumberformat}{231}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {\kappa _{\nu }}?\glossentry{kappa}|setentrycounter[]{page}\glsnumberformat}{229}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{230}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{231}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{231}
+\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{231}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{231}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{232}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{233}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{233}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{233}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{233}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{233}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{233}
+\glossaryentry{\ensuremath {\sigma _{v}}?\glossentry{sigV}|setentrycounter[]{page}\glsnumberformat}{233}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{234}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{234}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{235}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{235}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{235}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{235}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{236}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{237}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{237}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{237}
 \glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{237}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{237}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{237}
 \glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {N(\mathrm {H_{2}})}?\glossentry{NH2}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {A_{V}}?\glossentry{AV}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{237}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
-\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{238}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{239}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{239}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{239}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{239}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{239}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{239}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{239}
+\glossaryentry{\ensuremath {S_{\Phi }}?\glossentry{Sphi}|setentrycounter[]{page}\glsnumberformat}{239}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{240}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{240}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{240}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{240}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{240}
+\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{240}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{241}
-\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{241}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{241}
-\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{242}
-\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{242}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{241}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{241}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{242}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{243}
+\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{243}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{243}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{243}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{243}
+\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{244}
+\glossaryentry{\ensuremath {n(\mathrm {H_{2}})}?\glossentry{nH2}|setentrycounter[]{page}\glsnumberformat}{244}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{245}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{245}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{245}
-\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{247}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{245}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{247}
 \glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{247}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{248}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{248}
-\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{249}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{251}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{251}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{252}
-\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{252}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{247}
+\glossaryentry{\ensuremath {B_{\mathrm {LOS}}}?\glossentry{Blos}|setentrycounter[]{page}\glsnumberformat}{249}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{249}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{249}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{250}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{250}
+\glossaryentry{\ensuremath {\Phi }?\glossentry{Phi}|setentrycounter[]{page}\glsnumberformat}{251}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{253}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{253}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{254}
+\glossaryentry{\ensuremath {B_{\mathrm {POS}}}?\glossentry{Bpos}|setentrycounter[]{page}\glsnumberformat}{254}
