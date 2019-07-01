@@ -1,8 +1,8 @@
 \chapter{Magnetic field Morphology of the Carina Nebula Complex}\label{carina}
 
-In the following sections, we describe the preliminary data reduction and analysis of BLASTPol 2012 \citep{galitzki2014balloon} observations of the Carina Nebula Complex (NGC 3372, hereafter CNC). These BLASTPol maps have the highest spatial resolution of any polarized sub-mm map of the CNC to date ($\sim$2.5$\arcmin$). Recently, \citet{shariff2015polarimetry} used the same data set to produce the CNC's dust polarization spectrum. The authors calculated the polarization ratio $p_\lambda/p_{350\upmu m}$ along 314 sightlines, and found it to be flat within $\pm 15\%$ over the three BLASTPol wavebands (250, 350 and 500~$\upmu$m). While the flatness of the spectrum agrees with other BLASTPol observations of molecular clouds (MCs) (e.g., \citet{ashton2018first,gandilo2016submillimeter}), it is in stark contrast to existing sub-mm/FIR polarization spectra of MCs (see, e.g., \citet{vaillancourt2012submillimeter}), which show V-shaped spectra (negative slope towards the FIR, positive towards the millimeter, with minima near 350~$\upmu$m.
+In the following sections, we describe the preliminary data reduction and analysis of BLASTPol 2012 \citep{galitzki2014balloon} observations of the Carina Nebula Complex (NGC 3372, hereafter CNC). These BLASTPol maps have the highest spatial resolution of any polarized sub-mm map of the CNC to date ($\sim$2.5$\arcmin$). Recently, \citet{shariff2015polarimetry} used the same data set to produce the CNC's dust polarization spectrum. The authors calculated the polarization ratio $p_\lambda/p_{350\upmu m}$ along 314 sightlines, and found it to be flat within $\pm 15\%$ over the three BLASTPol wavebands (250, 350 and 500~$\upmu$m). While the flatness of the spectrum agrees with other BLASTPol observations of molecular clouds (MCs) (e.g., \citet{ashton2018first,gandilo2016submillimeter}), it is in stark contrast to existing sub-mm/FIR polarization spectra of MCs (see, e.g., \citet{vaillancourt2012submillimeter}), which show V-shaped spectra with a negative slope towards the FIR, a positive slope towards the millimeter, and minima near 350~$\upmu$m.
 
-The goal of the data analysis presented in this work is to describe the morphology of the magnetic field (B-field) in the plane-of-the-sky (POS) \gls{Bpos} in the CNC as revealed by the BLASTPol data, compare it to previous observations, and to provide what are possibly the first estimates of the magnitude of \gls{Bpos} along various sightlines through the cloud. To aid in visualizing the field, we apply a vector field visualization technique called Line-Integral-Convolution (LIC). The chapter is organized as follows:
+The goal of the data analysis presented in this work is to describe the morphology of the magnetic field (B-field) in the plane-of-the-sky (POS) \gls{Bpos} in the CNC as revealed by the BLASTPol data, compare it to previous observations, and to provide what are possibly the first estimates of the magnitude of \gls{Bpos} along various sightlines through the cloud. To aid in visualizing the field, we apply a vector field visualization technique called line-integral-convolution (LIC). This chapter is organized as follows:
 
 \begin{itemize}[nosep]
   \item Section~\ref{observations} introduces the BLASTPol CNC map and describes its acquisition and calibration.
@@ -13,13 +13,13 @@ The goal of the data analysis presented in this work is to describe the morpholo
 
 \section{BLASTPol Observations of Carina}\label{observations}
 The BLASTPol telescope (\citet{galitzki2014balloon}) launched from McMurdo Station, Antarctica, during the summer 2012/2013 season, and observed several targets over the course of $\sim$12.5 days. Its camera incorporated 139, 88 and 43 pixels in 30$\%$ bands centered at 250~$\upmu$m, 350~$\upmu$m and 500~$\upmu$m. The detectors were superconducting spiderweb bolometers (SWBs) based on those used in Herschel SPIRE \citep{griffin2003spire}.
-The BLASTPol telescope had a 1.8~m primary mirror, which provided nominal diffraction limited resolutions in the three bands of 30$\arcsec$, 42$\arcsec$ and 60$\arcsec$. However, deformations in the telescope optics introduced a non-Gaussianity to the point spread function (PSF) (see \citet{fissel2016balloon}). After correcting for the warped PSF, the resulting resolution is $\sim$2.5$\arcmin$.
+The BLASTPol telescope had a 1.8~m primary mirror, which provided nominal diffraction limited resolutions in the three bands of 30$\arcsec$, 42$\arcsec$ and 60$\arcsec$. However, deformations in the telescope optics introduced a non-Gaussianity to the point spread function (PSF) (see \citet{fissel2016balloon}). After correcting for the warped PSF, the resulting resolution of the maps is $\sim$2.5$\arcmin$.
 
-BLASTPol observed the CNC for 4.2 hours, and the resulting map is $\sim$2.5~deg$^{2}$ in area. The target coverage was chosen to overlap with previous observations taken at 450~$\upmu$m by the Submillimeter Polarimeter for Antarctic Remote Observations (SPARO, (\citet{li2006results,li2006results}). As discussed in \citet{benton2015mapping}, the detector timestreams during the CNC mapping were contaminated by interference from the Tracking and Data Relay Satellite System (TDRSS) traffic. The loss of data made it difficult for the map maker to converge to a solution, and some artifacts are present in the resulting maps. The maps were created with the Time-Ordered Astrophysics Scalable Tools (TOAST)\footnote{\url{https://github.com/tskisner/TOAST}} package. TOAST produces a (3 $\times$ 3) $I$, $Q$, $U$ covariance matrix for each pixel (where $I$, $Q$, and $U$ are the Stokes parameters). Raw analog-to-digital-converter (ADC) detector counts were calibrated into beam-averaged flux density ($\mathrm{MJy}/\mathrm{sr}$) using the Planck all-sky thermal dust model \citep{ade2015planck}.
+BLASTPol observed the CNC for 4.2 hours, and the resulting map is $\sim$2.5~deg$^{2}$ in area. The target coverage was chosen to overlap with previous observations taken at 450~$\upmu$m by the Submillimeter Polarimeter for Antarctic Remote Observations (SPARO, \citep{li2006results}). As discussed in \citet{benton2015mapping}, the detector timestreams taken during the CNC mapping were contaminated by interference from the Tracking and Data Relay Satellite System (TDRSS) traffic. The loss of data made it difficult for the map maker to converge to a solution, and some artifacts are present in the resulting maps. The maps were created with the Time-Ordered Astrophysics Scalable Tools (TOAST)\footnote{\url{https://github.com/tskisner/TOAST}} package. TOAST produces a (3 $\times$ 3) $I$, $Q$, $U$ covariance matrix for each pixel (where $I$, $Q$, and $U$ are the Stokes parameters). Raw analog-to-digital-converter (ADC) detector counts were calibrated into beam-averaged flux density ($\mathrm{MJy}/\mathrm{sr}$) using the Planck all-sky thermal dust model \citep{ade2015planck}.
 
 \subsection{Data parameterization}
 
-The map for each BLASTPol band are parameterized in terms of the first three Stokes Parameters, $I$, $Q$ and $U$. The Stokes parameters describe the polarization state of measured light. In this work, they have been calibrated into units of $\mathrm{MJy}/\mathrm{sr}$. Each Stokes parameter can be written as either the sum or the difference between the squared magnitudes of electric field (E-field) magnitudes $E$ which are oriented along different axes of a Cartesian coordinate system (for a detailed description of the Stokes parameters, see \citet{hecht2002optics}). The coordinate system can be parameterized in terms of Jones Vectors, which form three orthogonal bases: $x$ and $y$, $a$ and $b$ (rotated 45$^{\degree}$ with respect to the $x-y$ plane), $l$ and $r$ ($\hat{l} = (\hat{x} + j\hat{y})/\sqrt{2}$, $\hat{r} = (\hat{x} - j\hat{y})/\sqrt{2}$).
+The map for each BLASTPol band are parameterized in terms of the first three Stokes Parameters, $I$, $Q$ and $U$. The Stokes parameters describe the polarization state of measured light. In this work, they have been calibrated into units of $\mathrm{MJy}/\mathrm{sr}$. Each Stokes parameter can be written as either the sum or the difference between the squared magnitudes of electric field (E-field) vectors which are oriented along different axes of a Cartesian coordinate system (for a detailed description of the Stokes parameters, see \citet{hecht2002optics}). The coordinate system can be parameterized in terms of Jones Vectors, which form three orthogonal bases: $x$ and $y$, $a$ and $b$ (rotated 45$^{\degree}$ with respect to the $x-y$ plane), $l$ and $r$ ($\hat{l} = (\hat{x} + j\hat{y})/\sqrt{2}$, $\hat{r} = (\hat{x} - j\hat{y})/\sqrt{2}$).
 
 Using these bases, the Stokes parameters can be written as:
 
@@ -41,7 +41,7 @@ where $V = 0$ in the case of linearly polarized light, and the inequality become
 with:
 
 \begin{equation}
-  Q + jU = Pe^{j2\Psi} = p \times I \times e^{j2\Psi}
+  Q + jU = Pe^{j2\Psi} = p I e^{j2\Psi}
 \end{equation}
 
 where $P = \sqrt{Q + U}$ is the total intensity of linearly polarized light, and \gls{Psi} is the polarization angle
@@ -60,7 +60,7 @@ The polarization fraction is defined as:
 
 \subsection{Data Calibration}\label{data_cal}
 
-In this work, the resolution of the CNC Stokes maps are smoothed to 5$\arcmin$ full-width-half-max (FWHM) to match that of the 353~GHz (850~$\upmu$m) Planck maps. This is done so that the Planck and Carina data can be combined to produce estimates of $\boldsymbol{B}_{pos}$ using the DCFM (see Section~\ref{DCFM}). The smoothing is performed using Lucy-Richardson iterative deconvolution (\citet{lucy1974iterative,richardson1972bayesian}). After smoothing, the steps taken to further clean the data are similar to those described in \citet{shariff2015polarimetry}. First, a background subtraction is applied to the map data. This is done to remove the brightness contribution from the diffuse Galactic background. The background subtraction is performed by first selecting a region near the edge of the map, where the average flux density is close to the minimum of the map. The average flux density in this region is then subtracted from each map pixel.
+In this work, the resolution of the CNC Stokes maps are smoothed to 5$\arcmin$ full-width-half-max (FWHM) to match that of the 353~GHz (850~$\upmu$m) Planck maps. This is done so that the Planck and Carina data can be combined to produce estimates of \gls{Bpos} using the DCFM (see Section~\ref{DCFM}). The smoothing is performed using Lucy-Richardson iterative deconvolution (\citet{lucy1974iterative,richardson1972bayesian}). After smoothing, the steps taken to further clean the data are similar to those described in \citet{shariff2015polarimetry}. First, a background subtraction is applied to the map data. This is done to remove the brightness contribution from the diffuse Galactic background. The background subtraction is performed by first selecting a region near the edge of the map, where the average flux density is close to the minimum of the map. The average flux density in this region is then subtracted from each map pixel.
 
 After background subtraction, the polarization fraction values $p$ are debiased. The debiased polarization fraction $p_{db}$ is calculated as:
 
@@ -75,13 +75,13 @@ In the following analysis, all calculations use the debiased polarization fracti
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/carina_I250}
-\caption[~The background-subtracted BLASTPol 2012 \macrocapwrap{$I_{250}$} map of the CNC.]{The background-subtracted BLASTPol 2012 $I_{250}$ map of the CNC. The color scale has units of $\mathrm{MJy}/\mathrm{sr}$.}
+\caption[~The background-subtracted BLASTPol 2012 \macrocapwrap{$I_{250}$} map of the CNC.]{The background-subtracted BLASTPol 2012 $I_{250}$ map of the CNC\@. The color scale has units of $\mathrm{MJy}/\mathrm{sr}$.}
 \label{fig:I250}
 \end{figure}
 
 \section{Line-Integral-Convolution}\label{LIC}
 
-LIC is a data visualization technique which is useful for representing dense vector fields, in either two or three dimensions \citep{cabral1993imaging}. The visual effect that it produces is akin to that of dropping ink into flowing water. The resulting images provide a visual sense of the direction and uniformity of the vector field, allowing the eye to notice features such as sources, sinks and loops. The LIC does not, however, indicate the direction of the vector field.
+LIC is a data visualization technique which is useful for representing dense vector fields, in either two or three dimensions \citep{cabral1993imaging}. The visual effect that it produces is akin to that of dropping ink into flowing water. The resulting images provide a visual sense of the direction and uniformity of the vector field, allowing the eye to notice features such as sources, sinks and loops. The LIC does not, however, indicate the magnitude of the vector field.
 
 The LIC technique has previously been applied to maps of \gls{Bpos} (see, e.g., \citet{ade2016planck}). In the following, we present an original software implementation of LIC which has been written in \texttt{C/Python}. Although fast, computationally efficient algorithms for LIC exist (e.g., \citet{stalling1995fast}), the main priorities for this particular implementation were simplicity and flexibility. To that end, the basic skeleton of the code is based on a bare bones LIC algorithm, which is described in \citet{ma1996texture}.
 
@@ -104,7 +104,7 @@ The method of LIC is to advect a streamline from each pixel which follows the di
 
 The first step in creating an LIC image is to launch, or advect, a streamline $\sigma(s)$ from each pixel in the map image, $\mathcal{M}$. At any point in $\mathcal{M}$, the direction of the streamline is tangent to the vector at that point: $\frac{ d\boldsymbol{\sigma(s)}}{ds} = \boldsymbol{ \frac{ v(\sigma(s)) }{\lvert v(\sigma(s)) \rvert} }$. The entire vector field for the CNC is shown in Figures~\ref{fig:vectors_5} and~\ref{fig:vectors_10}, where the vectors have been rotated by 90$^{\degree}$ to correspond to the direction of \gls{Bpos}, and decimated by a factors of 5x and 10x, respectively. The streamlines extend forwards and backwards along their starting vectors, into each adjacent pixel. This process continues until it is terminated by a break condition.
 
-One common break condition is when a streamline enters into a pixel containing a null vector. In this case, the streamline may simply be terminated, or some non-zero value may be substituted for the null vector in order to attempt to continue the streamline. Another common break condition is when a streamline encounters the edge of the map. Discontinuities occur when a streamline enters an adjacent pixel whose vector forms an angle with the first one which exceeds some critical value (e.g., in the range of of 120--180$^{\degree}$. There are several ways of dealing with each case, each of which results in a slightly different LIC image.
+One common break condition is when a streamline enters into a pixel containing a null vector. In this case, the streamline may simply be terminated, or some non-zero value may be substituted for the null vector in order to attempt to continue the streamline. Another common break condition is when a streamline encounters the edge of the map. Discontinuities occur when a streamline enters an adjacent pixel whose vector forms an angle with the first one which exceeds some critical value (e.g., in the range of of 120--180$^{\degree}$). There are several ways of dealing with each case, each of which results in a slightly different LIC image.
 
 In the CNC code, streamline advection is achieved using Eulerian advection, as in \citet{cabral1993imaging}. In this method, each streamline consists of a series of points $P[i]$ which are calculated recursively as:
 
@@ -163,29 +163,29 @@ The superscripts in Equation~\ref{eq:lic value} indicate backwards ($-$) advecti
 
 \subsection{Visualizing Magnetic Fields with LIC}\label{LIC maps}
 
-The LIC method described in the previous sections can produce a wide variety of images, which differ according to the parameters which are used to generate the streamlines and convolution values. The resulting images are most sensitive to the length of streamlines which are used $L_{sl}$, and the length of the convolution kernel $L_{k}$. Larger values of these parameters produce a smearing effect, where parallel streamlines which are close together appear to combine into larger streamlines which are stretched out in the direction of the bulk flow (they are more correlated). Smaller values of $L_{sl}$ and $L_{k}$ produce images in which individual streamlines are visible (they are more independent). In this work, we choose a moderate value for $L_{sl}$ and $L_{sl}$ of 50 (with a hanning kernel). Streamlines which could not be advected through 50 pixels are truncated, but still included in the final images.
+The LIC method described in the previous sections can produce a wide variety of images, which differ according to the parameters which are used to generate the streamlines and convolution values. The resulting images are most sensitive to the length of streamlines which are used $L_{\mathrm{sl}}$, and the length of the convolution kernel $L_{k}$. Larger values of these parameters produce a smearing effect, where parallel streamlines which are close together appear to combine into larger streamlines which are stretched out in the direction of the bulk flow (they are more correlated). Smaller values of $L_{\mathrm{sl}}$ and $L_{k}$ produce images in which individual streamlines are visible (they are more independent). In this work, we choose a moderate value for $L_{\mathrm{sl}}$ and $L_{\mathrm{k}}$ of 50 (with a Hanning kernel). Streamlines which could not be advected through 50 pixels are truncated, but still included in the final images.
 
-Out of many possible ways of displaying the LIC images, we find that two representations are particularly useful. These are the intensity overlay and the intensity-weighted LIC. An example of the intensity overlay is shown in Figure~\ref{fig:lic_han_51}. To create this type of image, the LIC map is superimposed onto the $I$ intensity map as a transparent overlay. The intensity-weighted LIC is created by multiplying the LIC map with the intensity map, and then stretching the image to highlight different intensity regions. An intensity-weighted LIC with an aggressive stretch is shown in Figure~\ref{fig:lic2_han51}. A less aggressive stretch is shown in Figure~\ref{fig:lic_map}. The numbered regions in Figure~\ref{fig:lic_map} are key features of the CNC which are labeled in Table~\ref{table:regions} and discussed in Section~\ref{multiband comp}.
+Out of many possible ways of displaying the LIC images, we find that two representations are particularly useful. These are the intensity overlay and the intensity-weighted LIC\@. An example of the intensity overlay is shown in Figure~\ref{fig:lic_han_51}. To create this type of image, the LIC map is superimposed onto the $I$ intensity map as a transparent overlay. The intensity-weighted LIC is created by multiplying the LIC map with the intensity map, and then stretching the image to highlight different intensity regions. An intensity-weighted LIC with an aggressive stretch is shown in Figure~\ref{fig:lic2_han51}. A less aggressive stretch is shown in Figure~\ref{fig:lic_map}. The numbered regions in Figure~\ref{fig:lic_map} are key features of the CNC which are labeled in Table~\ref{table:regions} and discussed in Section~\ref{multiband comp}.
 
 The structures in \gls{Bpos} which are revealed by the LIC maps are discussed in the following sections.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/vectors_5}
+\includegraphics[width=\textwidth]{figures/carina/vectors_5}
 \caption[~The CNC polarization vector map, decimated by 5x.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 5x.}
 \label{fig:vectors_5}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/vectors_10}
+\includegraphics[width=\textwidth]{figures/carina/vectors_10}
 \caption[~The CNC polarization vector map, decimated by 10x.]{The CNC polarization vector map, with \gls{vpol} following \gls{Bpos} and decimated by 10x.}
 \label{fig:vectors_10}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/vector_sl_21_ds10}
+\includegraphics[width=\textwidth]{figures/carina/vector_sl_21_ds10}
 \caption[~The CNC polarization-streamline map, with streamlines decimated by 10x.]{A CNC polarization streamline map, with the streamlines following \gls{Bpos} and decimated by 10x.}
 \label{fig:vector_sl_21_ds10}
 \end{figure}
@@ -214,7 +214,7 @@ The structures in \gls{Bpos} which are revealed by the LIC maps are discussed in
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/lic_mult}
-\caption[~A less aggressive stretch of the intensity-weighted \macrocapwrap{LIC$_{500}$}.]{A less aggressive stretch of the intensity-weighted LIC$_{500}$. The numbered regions are listed in Table~\ref{table:regions}, and are discussed in Section~\ref{multiband comp}}.
+\caption[~A less aggressive stretch of the intensity-weighted \macrocapwrap{LIC$_{500}$}.]{A less aggressive stretch of the intensity-weighted LIC$_{500}$. The numbered regions are listed in Table~\ref{table:regions}, and discussed in Section~\ref{multiband comp}}.
 \label{fig:lic_map}
 \end{figure}
 
@@ -224,61 +224,61 @@ The CNC (10h 45m 08.5s -59$^{\circ}$ 52$\arcmin$ 04$\arcsec$) is a bright Galact
 
 First discovered in 1752, the CNC has been well studied across the electromagnetic spectrum (see e.g., \citet{smith2008carina}). It is estimated to contain $\sim$25,000 M$_{\odot}$ of material, which includes part of the Carina OB1 association. The inner region of the CNC contains the Homunculus and Keyhole nebulas, as well as two massive open clusters, Trumpler 16 (Tr~16) and Trumpler 14 (Tr~14). Tr~16, the more evolved of the two clusters, is host to two of the brightest star systems in the Milky Way: $\eta$ Car, a binary system which is known for its strong wind-wind interactions, and WR 25. Tr~14 is thought to be just 0.5~Myr old \citep{preibisch2011hawk}.
 
-The ionizing stellar winds which are driven by large OB associations have carved out several conspicuous bubbles throughout the CNC. The most prominent of these is the GUM 31 nebula, to the northwest of Tr~16. Smaller groups of bubbles are visible to the north and south of Tr~16. The variety of high energy processes occurring within the CNC make it an ideal laboratory for the study of stellar feedback and triggered star formation.
+Ionizing stellar winds which are driven by large OB associations have carved out several conspicuous bubbles throughout the CNC\@. The most prominent of these is the GUM 31 nebula, to the northwest of Tr~16. Smaller groups of bubbles are visible to the north and south of Tr~16. The variety of high energy processes occurring within the CNC make it an ideal laboratory for the study of stellar feedback and triggered star formation.
 
-The CNC has been observed in the sub-mm/FIR by ground-based (LABOCA, \citep{preibisch2011laboca}, SPARO \citep{li2006results}, balloon-borne (BLASTPol, \citep{shariff2019submillimeter} and space-based telescopes (e.g., Planck, \citep{planck2014planck}, Herschel, (\citet{preibisch2012herschel,gaczkowski2013herschel,roccatagliata2013herschel})). Spectral data in the submillimeter has also been obtained \citep{oberst2006detection}. The authors of \citet{li2006results} presented the first maps of \gls{Bpos} pseudovectors in the inner region of the CNC. In their analysis of $\sim$30 pseudovectors within the inner 1~deg$^{2}$ of the CNC, they found that the mean position angle of \gls{Bpos} is within $\approx$ 15~deg of the GP. They also observed that the pseudovectors to the north and south of the central region appear to run parallel to a section of the perimeters of two large HII regions. Figure~\ref{fig:lic_sparo_overlay} illustrates the overlap between the SPARO and BLASTPol map coverages.
+The CNC has been observed in the sub-mm/FIR/mm-wave by ground-based (LABOCA, \citep{preibisch2011laboca}, SPARO \citep{li2006results}), balloon-borne (BLASTPol, \citep{shariff2019submillimeter} and space-based telescopes (e.g., Planck, \citep{planck2014planck}, Herschel, (\citet{preibisch2012herschel,gaczkowski2013herschel,roccatagliata2013herschel})). Spectral data in the submillimeter has also been obtained \citep{oberst2006detection}. The authors of \citet{li2006results} presented the first maps of \gls{Bpos} pseudovectors in the inner region of the CNC\@. In their analysis of $\sim$30 pseudovectors within the inner 1~deg$^{2}$ of the CNC, they found that the mean position angle of \gls{Bpos} is within $\approx$ 15~deg of the GP\@. They also observed that the pseudovectors to the north and south of the central region appear to run parallel to a section of the perimeters of two large HII regions. Figure~\ref{fig:lic_sparo_overlay} illustrates the overlap between the SPARO and BLASTPol map coverages.
 
 % SPARO overlay
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/lic_sparo_overlay}
+\includegraphics[width=\textwidth]{figures/carina/lic_sparo_overlay}
 \caption[~The CNC intensity map taken by SPARO overlayed on the \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{The CNC intensity map taken by SPARO \citep{li2006results}, with polarization vectors (inset), overlayed on the $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
 \label{fig:lic_sparo_overlay}
 \end{figure}
 
-Besides BLASTPol and SPARO, the multi-band Planck data constitutes the only polarized sub-mm observations of the CNC. In this work, only the Planck 353~GHz (850~$\upmu$m) maps are used as part of the quantitative analysis.
+Besides BLASTPol and SPARO, the multi-band Planck data constitutes the only polarized sub-mm observations of the CNC to date. In this work, only the Planck 353~GHz (850~$\upmu$m) maps are used as part of the quantitative analysis.
 
-The Herschel maps constitute the highest resolution FIR maps of the CNC, revealing physical structures in the dust on spatial scales of 0.1--0.4~pc. This spatial scale is thought to correspond to the upper size limit of the filamentary structures which thread the CNC, and which are observed in other MCs. In this analysis, the smoothed resolution of 5$\arcmin$ corresponds to a physical scale of $\sim$3.5~pc, which is well above the scale of individual filaments. However, this physical resolution is sufficient to gain insight into the larger scale structures seen in the CNC.
+The Herschel maps constitute the highest resolution FIR maps of the CNC, revealing physical structures in the dust on spatial scales of 0.1--0.4~pc. This spatial scale is thought to correspond to the upper size limit of the filamentary structures which thread the CNC, and which are observed in other MCs. In this analysis, the smoothed resolution of 5$\arcmin$ corresponds to a physical scale of $\sim$3.5~pc, which is well above the scale of individual filaments. However, this physical resolution is sufficient to gain insight into the larger scale structures seen in the CNC\@.
 
 % Regions table
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}ll@{}}
-\dtoprule
+\dtoprule{}
 Region \# & Name \\ \midrule
 1 & Southern Bubble (SB) \\
 2 & Tr~14 \\
 3 & Tr~16 \\
 4 & Northern Bubbles (NB) \\
-5 & Southern Pillars (SP) \\ \bottomrule
+5 & Southern Pillars (SP) \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption[~Regions of interest inside the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{Regions of interest inside the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map. These regions correspond to those used in \citet{preibisch2012herschel}.}
 \label{table:regions}
 \end{table}
 
-The most visible structures revealed in the Herschel maps are discussed in detail in \citet{preibisch2012herschel}. The main features which occur in the inner $\sim$1~deg$^{2}$ of the CNC (and which are visible in the BLASTPol maps) are briefly described below. These features are listed in Table~\ref{table:regions}. Figures~\ref{fig:msx_overplot} through \ref{fig:chandra_overplot} show semi-transparent overlays of the BLASTPol $I_{250}$ dust maps (in red) with maps in the near-infrared (NIR) (8~$\upmu$m, Midcourse Space Experiment (MSX, \citet{smith2000large}), R-band (Guide Star Catalog II (GSC2), Palomar and UK Schmidt telescopes \citep{lasker2008second}) and soft X-ray (Chandra Carina Complex Project \citep{townsley2011introduction}). The B-field streamlines produced using Eulerian advection (see Section~\ref{LIC}) are overplotted in yellow.
+The most visible structures revealed in the Herschel maps are discussed in detail in \citet{preibisch2012herschel}. The main features which occur in the inner $\sim$1~deg$^{2}$ of the CNC (and which are visible in the BLASTPol maps) are briefly described below. These features are listed in Table~\ref{table:regions}. Figures~\ref{fig:msx_overplot} through~\ref{fig:chandra_overplot} show semi-transparent overlays of the BLASTPol $I_{250}$ dust maps (in red) with maps in the near-infrared (NIR) (8~$\upmu$m, Midcourse Space Experiment (MSX, \citet{smith2000large}), R-band (Guide Star Catalog II (GSC2), Palomar and UK Schmidt telescopes \citep{lasker2008second}) and soft X-ray (Chandra Carina Complex Project \citep{townsley2011introduction}). The B-field streamlines produced using Eulerian advection (see Section~\ref{LIC}) are overplotted in yellow.
 
-The most prominent features in the sub-mm/FIR maps of the CNC are the voids, or bubbles, to the north and south of Tr~14 and Tr~16. Following \citet{preibisch2012herschel}, we denote these as the Northern Bubbles (NB) and the Southern Bubble (SB). The SB appears as an elongated void to the southwest of Tr~16, with its long axis spanning $\sim$30~pc. Although the southern extent of the bubble is not visible in the BLASTPol map, in the Herschel map a clear, rounded boundary can be seen. The authors of \citet{preibisch2012herschel} identify three early-type stars which are potentially located inside the bubble. They point out that the three stars alone most likely do not constitute an energy source which is sufficient enough to have created the SB by way of stellar winds and ionizing radiation. They offer two possible explanations for its origin: 1) That the bubble could be the result of gas which has been forced out of the central part of the CNC, and 2) that the bubble might be the lower lobe of a bipolar jet formed by stars in the Tr~16 cluster.
+The most prominent features in the sub-mm/FIR maps of the CNC are the voids, or bubbles, to the north and south of Tr~14 and Tr~16. Following \citet{preibisch2012herschel}, we denote these as the Northern Bubbles (NB) and the Southern Bubble (SB). The SB appears as an elongated void to the southwest of Tr~16, with its long axis spanning $\sim$30~pc. Although the southern extent of the bubble is not visible in the BLASTPol map, a clear, rounded boundary can be seen in the Herschel map. The authors of \citet{preibisch2012herschel} identify three early-type stars which are potentially located inside the bubble. They point out that the three stars alone most likely do not constitute an energy source which is sufficient enough to have created the SB by way of stellar winds and ionizing radiation. They offer two possible explanations for its origin: 1) That the bubble could be the result of gas which has been forced out of the central part of the CNC, and 2) that the bubble might be the lower lobe of a bipolar jet formed by stars in the Tr~16 cluster.
 
-The multiband overlay maps support the hypothesis that the Southern Bubble is an enclosed, three-dimensional void. Its edges are well defined by ionized gas which is visible in the R-band map. The Chandra map reveals that the bubble is in fact filled with hot, diffuse gas (T $\geq$ 10$^{4}$~K). At 8~$\upmu$, the emission is from polycyclic aromatic hydrocarbons (PAHs) which have been vibrationally energized by the absorption of far-UV photons. As discussed in \citet{li2006results}, the intensity of the 3--11~$\upmu$m PAH spectrum depends on the ratio of the intensity of the far-UV radiation field to the electron density. Whereas the electron density changes abruptly across the edges of HII regions, the intensity of the illuminating radiation field does not. Therefore, PAH emission is an excellent tracer of the boundaries of HII regions. This effect is visible in the 8~$\upmu$m overlay, shown in Figure~\ref{fig:msx_overplot}.
+The multiband overlay maps support the hypothesis that the Southern Bubble is an enclosed, three-dimensional void. Its edges are well defined by ionized gas which is visible in the R-band map. The Chandra map reveals that the bubble is in fact filled with hot, diffuse gas (T $\geq$ 10$^{4}$~K). At 8~$\upmu$m, the emission is from polycyclic aromatic hydrocarbons (PAHs) which have been vibrationally energized by the absorption of far-UV photons. As discussed in \citet{li2006results}, the intensity of the 3--11~$\upmu$m PAH spectrum depends on the ratio of the intensity of the far-UV radiation field to the electron density. Whereas the electron density changes abruptly across the edges of HII regions, the intensity of the illuminating radiation field does not. Therefore, PAH emission is an excellent tracer of the boundaries of HII regions. This effect is visible in the 8~$\upmu$m overlay, shown in Figure~\ref{fig:msx_overplot}.
 
-The direction of the \gls{Bpos} streamlines shown in the overlay images appear to be well correlated with the edges of the SB. Along the boundaries of the SB, \gls{Bpos} is largely parallel to the bubble edges (particularly along the western boundary), which is the expected behavior under the conditions of B-field flux-freezing \citep{li2006results} (see below).
+The direction of the \gls{Bpos} streamlines shown in the overlay images appear to be well correlated with the edges of the SB\@. Along the boundaries of the SB, \gls{Bpos} is largely parallel to the bubble edges (particularly along the western boundary), which is the expected behavior under the conditions of B-field flux-freezing \citep{li2006results} (see below).
 
-Unlike the SB, the NB does not appear to be a single HII region. The Herschel maps show it to be a combination of several smaller HII regions which have merged, forming dust clouds and pillars at their intersections. In the multi-band images, then boundaries of individual voids within the NB region are less defined than those of the SB, with the Chandra map showing a more diffuse concentration of ionized gas. However, as with the SB, the \gls{Bpos} streamlines in the NB region do appear to trace out the shape of a large, semi-spherical bubble. This is especially true for the southern boundary of the NB.
+Unlike the SB, the NB does not appear to be a single HII region. The Herschel maps show it to be a combination of several smaller HII regions which have merged, forming dust clouds and pillars at their intersections. In the multi-band images, then boundaries of individual voids within the NB region are less defined than those of the SB, with the Chandra map showing a more diffuse concentration of ionized gas. However, as with the SB, the \gls{Bpos} streamlines in the NB region do appear to trace out the shape of a large, semi-spherical bubble. This is especially true for the southern boundary of the NB\@.
 
 The brightest region of the BLASTPol maps is the central region of the CNC, located between Tr~16 and Tr~14. The eastern edge of Tr~14 is a well-studied photon dominated region (PDR) (see, e.g., \citet{kramer2008clumpy}). The edge of the PDR is loosely defined by the \gls{Bpos} streamlines. The region around Tr~16 is also well defined, with the streamlines appearing to trace out a bubble. The bubble's diameter is $\sim$3~pc, which is small in comparison to the SB and NB, with a diameter of $\sim$3~pc. Below this bubble is the region which \citet{preibisch2012herschel} denotes as the Southern Pillars (SP). This region of pillars is a site of active star formation, and has been shown to contain many compact IR sources \citep{smith2010spitzer}.
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/msx2_sl}
+\includegraphics[width=\textwidth]{figures/carina/msx2_sl}
 \caption[~An overlay of the MSX \macrocapwrap{8~$\upmu$m} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the MSX 8~$\upmu$m CNC map (green) \citep{smith2000large} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:msx_overplot}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/hstgsc2_250_sl}
+\includegraphics[width=\textwidth]{figures/carina/hstgsc2_250_sl}
 \caption[~An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the GSC2 R-band CNC map (green) \citep{lasker2008second} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:hst_overplot}
 \end{figure}
@@ -286,7 +286,7 @@ The brightest region of the BLASTPol maps is the central region of the CNC, loca
 \begin{comment}
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/shassa32_sl}
+\includegraphics[width=\textwidth]{figures/carina/shassa32_sl}
 \caption[~An overlay of the SHASSA \macrocapwrap{H$\alpha$} CNC map (green) with a BLASTPol intensity map (red).]{An overlay of the SHASSA H$\alpha$ CNC map (green) \citep{gaustad2001robotic} with a BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:shassa_overplot}
 \end{figure}
@@ -294,27 +294,27 @@ The brightest region of the BLASTPol maps is the central region of the CNC, loca
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/chandra_soft_sl}
+\includegraphics[width=\textwidth]{figures/carina/chandra_soft_sl}
 \caption[~An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).]{An overlay of the Chandra soft-X-ray CNC map (blue) \citep{townsley2011introduction} and BLASTPol intensity map (red). A subset of polarization vector streamlines are overplotted in yellow.}
 \label{fig:chandra_overplot}
 \end{figure}
 
 \section{Estimating \macrocapwrap{\gls{Bpos}} using the DCFM}\label{DCFM}
 
-In this section we apply a modified version of the Davis-Chandrasekhar-Fermi Method (DCFM) to the BLASTPol CNC map in order to estimate \gls{Bpos} along various sightlines through the complex. The DCFM is a technique which was first used by Chandrasekhar and Fermi to estimate \gls{Bpos} in the Orion spiral arm of the Milky Way (\citet{davis1951strength,chandrasekhar1953magnetic}). Using their method, they accurately estimated \gls{Bpos} at a level of a few~$\upmu$G. Although the estimates of \gls{Bpos} which are produced by the DCFM are known to carry inherent uncertainties of at least a factor of 2 (see Section~\ref{DCFM limitations}), it represents the most practical method of gaining insight into \gls{Bpos}, as it requires only a map of polarization vectors, and a map of the line-of-sight (LOS) velocity dispersion in an optically thin emission line.
+In this section we apply a modified version of the Davis-Chandrasekhar-Fermi Method (DCFM) to the BLASTPol CNC map in order to estimate \gls{Bpos} along various sightlines through the complex. The DCFM is a technique which was first used by Chandrasekhar and Fermi to estimate \gls{Bpos} in the Orion spiral arm of the Milky Way (\citet{davis1951strength,chandrasekhar1953magnetic}). Using their method, they accurately estimated \gls{Bpos} at a level of a few~$\upmu$G. Although the estimates of \gls{Bpos} which are produced by the DCFM are known to carry inherent uncertainties of at least a factor of 2 (see Section~\ref{DCFM limitations}), it represents the most practical method of gaining insight into \gls{Bpos}, as it requires only a map of polarization vectors, and a map of the LOS velocity dispersion in an optically thin emission line.
 
 \subsection{Description of the DCFM}
 
-A magnetized plasma, such as that found throughout the ISM, supports transerve magnetohydrodynamic (MHD) waves known as Alfv$\acute{e}$n waves. Alfv$\acute{e}$n waves are  oscillations in the plasma which is frozen into the B-field. They're driven by the restorative force associated with the magnetic tension, $B^{2}/4\pi$ ($B^{2}/mu_{0}$, in SI units), and propagate with a phase velocity (the Alfv$\acute{e}$n velocity) of:
+A magnetized plasma, such as that found throughout the ISM, supports transerve magnetohydrodynamic (MHD) waves known as Alfv$\acute{e}$n waves. Alfv$\acute{e}$n waves are  oscillations in the plasma which is frozen into the B-field. They're driven by the restorative force associated with the magnetic tension, $B^{2}/4\pi$ ($B^{2}/\mu_{0}$, in SI units), and propagate with a phase velocity (the Alfv$\acute{e}$n velocity) of:
 
 \begin{equation}\label{eq:Alfven velocity}
   \gls{vA} = \frac{B}{\sqrt{4 \pi \rho}}
 \end{equation}
 
-where $\rho$ is the mass density of ionized material, and Equation~\ref{eq:Alfven velocity} is in CGS units. If $\rho$ can be estimated along a sightline of interest where there is a uniform B-field of magnitude $B_{0}$, then all that is needed to estimate $B_{0}$ is knowledge of $v_{A}$. To estimate $v_{A}$ using the DCFM relies on the assumption that the gas (ionized and neutral) and dust along the sightline are flux-frozen into $B_{0}$, so that any transverse spatial deviation of the material from the direction of $\boldsymbol{B_{0}}$ can be attributed to an Alfv$\acute{e}$n wave. Ultimately, the spatial deviation is quantified using the dispersion of E-field polarization angles (see below). For $B_{0}$ oriented along the $z$-axis, and the LOS being the $x$-direction, the spatial deviation along the $y$-axis, is:
+where $\rho$ is the mass density of ionized material, and Equation~\ref{eq:Alfven velocity} is in CGS units. If $\rho$ can be estimated along a sightline of interest where there is a uniform B-field of magnitude $B_{0}$, then all that is needed to estimate $B_{0}$ is knowledge of $v_{A}$. To estimate $v_{A}$ using the DCFM relies on the assumption that the gas (ionized and neutral) and dust along the sightline are flux-frozen into $B_{0}$, so that any transverse spatial deviation of the material from the direction of $B_{0}$ can be attributed to an Alfv$\acute{e}$n wave. Ultimately, the spatial deviation is quantified using the dispersion of E-field polarization angles (see below). For $B_{0}$ oriented along the $z$-axis, and the LOS being the $x$-direction, the spatial deviation along the $y$-axis, is:
 
 \begin{equation}\label{eq:y DCFM}
-  y(x,t) \propto \mathrm{\cos}({\left( k(x - v_{A}t) \right)}
+  y(x,t) \propto \mathrm{\cos}{\left( k(x - v_{A}t) \right)}
 \end{equation}
 
 This assumption is not completely valid in cases where there are significant dynamical forces at play besides the B-field, such as supernovae shocks and ionization fronts associated with HII regions, or strong turbulence. Here, we must assume that the turbulence is sub-Alfv$\acute{e}$nic. Despite this shortcoming of the DCFM, it is still useful as a method of obtaining rough upper limits on \gls{Bpos}.
@@ -325,7 +325,7 @@ Taking Equation~\ref{eq:y DCFM} as valid, \gls{vA} and $y(x, t)$ can be written 
   v_{A}^{2} \bigg \langle \frac{dy}{dx}  \bigg \rangle ^{2} = \bigg \langle \frac{dy}{dt}  \bigg \rangle ^{2}
 \end{equation}
 
-It then remains to estimate $dy/dx$ and $dy/dt$. The DCFM approach to doing so is to assume that the total B-field in the region is the sum of both the ordered component $B_{0}$ and a turbulent component $B_{t}$ ($B_{\mathrm{tot}} = B_{0} + B_{t}$). The turbulent field represents disorder which is caused by turbulent motions in the gas and dust. If the gas pressure is sub-dominant to the magnetic pressure, then following \citet{hildebrand2009dispersion}, $B_{t} \ll B_{0}$, and $ \frac{\langle B_{t}^{2} \rangle ^{1/2}}{ B_{0} } \approx \frac{ \delta B }{ B_{0} }$.
+It then remains to estimate $dy/dx$ and $dy/dt$. The DCFM approach to doing so is to assume that the total B-field in the region is the sum of both the ordered component $B_{0}$ and a turbulent component $B_{t}$ ($B_{\mathrm{tot}} = B_{0} + B_{t}$). The turbulent field represents disorder which is caused by turbulent motions in the gas and dust. If the gas pressure is sub-dominant to magnetic pressure, then following \citet{hildebrand2009dispersion}, $B_{t} \ll B_{0}$, and $ \frac{\langle B_{t}^{2} \rangle ^{1/2}}{ B_{0} } \approx \frac{ \delta B }{ B_{0} }$.
 
 The ratio $\delta B/ B_{0}$ is proportional to both $dy/dx$ and $dy/dt$. In the DCFM model, the former term can be empirically determined by measuring the dispersion in E-field polarization angles \gls{Sphi}. The second term is determined by measuring the LOS velocity dispersion \gls{sigV} in an optically thin emission line. Substituting $S_{\Phi}$ and $\sigma_{v}$ for $dy/dx$ and $dy/dt$ in Equation~\ref{eq:wave equation}, and then solving for $B$ yields the principle DCFM equation:
 
@@ -335,15 +335,15 @@ The ratio $\delta B/ B_{0}$ is proportional to both $dy/dx$ and $dy/dt$. In the 
 
 where $Q$ is a scale factor which accounts for uncertainties in the measured quantities, as well as the assumptions upon which the method is based. $Q$ is generally set equal to 0.5, although in this work, we choose $Q = 0.1$ (see Section~\ref{DCFM limitations}).
 
-More recent users of the DCFM have made slight modifications to Equation~\ref{eq:DCFM 1}. In this work we adopt the expression derived by \citet{hildebrand2009dispersion}, which is also applied by \citet{crutcher2004scuba,franco2015tracing}. Parameterizing the polarization angle dispersion as $b \approx \sqrt{2 S^{2}_{\Phi}}$ \citep{houde2009dispersion}, and calculating the FWHM of the LOS velocity line as $\Delta V_{LOS} = \sqrt{8 ln 2} \sigma_{V}$, the DCFM equation can be expressed as:
+More recent users of the DCFM have made slight modifications to Equation~\ref{eq:DCFM 1}. In this work we adopt the expression derived by \citet{hildebrand2009dispersion}, which is also applied by \citet{crutcher2004scuba} and \citet{franco2015tracing}. Parameterizing the polarization angle dispersion as $b \approx \sqrt{2 S^{2}_{\Phi}}$ \citep{houde2009dispersion}, and calculating the FWHM of the LOS velocity line as $\Delta V_{LOS} = \sqrt{8 \ln 2} \sigma_{V}$, the DCFM equation can be expressed as:
 
  \begin{equation}\label{eq:DCFM 2}
-    \gls{Bpos} = 9.3 \left( \frac{2n(H_{2})}{\text{cm}^{-3}}  \right)^{1/2} \left( \frac{\Delta V_{{LOS}}}{\text{km s}^{-1}} \right)  \left(  \frac{b}{1^{\degree}}\right)^{-1} \qquad \left[ \upmu G \right]
+    \gls{Bpos} = 9.3 \left( \frac{2\gls{nH2}}{\text{cm}^{-3}}  \right)^{1/2} \left( \frac{\Delta V_{\mathrm{LOS}}}{\text{km s}^{-1}} \right)  \left(  \frac{b}{1^{\degree}}\right)^{-1} \qquad \left[ \upmu G \right]
  \end{equation}
 
 \subsection{Determining \macrocapwrap{$S_{\Phi}$}}\label{pol disp}
 
-The dispersion in polarization angles $S_{\Phi}$ is calculated according to the method described in \citet{ade2015planck}. This method has been applied in a recent study of BLASTPol 2012 map of the Vela~C MC \citep{fissel2016balloon}. The calculation of $S_{\Phi}$ is as follows.
+The dispersion in polarization angles $S_{\Phi}$ is calculated according to the method described in \citet{ade2015planck}. This method has been applied in a recent study of BLASTPol 2012 map of the Vela-C MC \citep{fissel2016balloon}. The calculation of $S_{\Phi}$ is as follows.
 
 For every $N$ pixels in the polarization angle map the $\Phi$ value at that pixel is compared to that of $P$ pixels which surround it in an annular radius of $R$ pixels. For this work, $N = 3$, $P = 12$ and $R = 15$ (corresponding to a diameter of 5$\arcmin$). For the $ith$ pixel, the first step in the calculation is to compare its polarization angle, $\Phi[i]$, with those of the pixels which surround it at a radius of $R$ pixels. The polarization dispersion between each pair of pixels is:
 
@@ -360,36 +360,36 @@ After calculating $S^{2}_{\Phi}[i,R]$ for each pair of pixels, the final polariz
 Following \citet{fissel2016balloon}, the values of $S$ which are used in the final DCFM calculations are debiased by subtracting the variance of $S^{2}_{\Phi}[i]$:
 
 \begin{equation}\label{eq:ADF}
-  S_{\Phi,db} = \sqrt{S_{\Phi}^{2} - \sigma^{2}_{S_\Phi}}
+  S_{\Phi,\mathrm{db}} = \sqrt{S_{\Phi}^{2} - \sigma^{2}_{S_\Phi}}
 \end{equation}
 
-A histogram of \gls{Phi} calculated along $\sim$165,000 sightlines corresponding to the inner $\sim$1.25~deg$^{2}$ of the CNC is shown in Figure~\ref{fig:S_hist}, and a histogram of \gls{Sphi} for $\sim$33,000 sightlines within the same region are shown in Figure~\ref{fig:S_hist}. First and second moments for both quantities are reported in Table~\ref{table:S_and_Phi}. We find that in the inner region of the CNC, $\langle \gls{Sphi} \rangle \approx 20$~deg.
+A histogram of \gls{Phi} calculated along $\sim$165,000 sightlines corresponding to the inner $\sim$1.25~deg$^{2}$ of the CNC is shown in Figure~\ref{fig:S_hist}, and a histogram of \gls{Sphi} for $\sim$33,000 sightlines within the same region is shown in Figure~\ref{fig:S_hist}. First and second moments for both quantities are reported in Table~\ref{table:S_and_Phi}. We find that in the inner region of the CNC, $\langle \gls{Sphi} \rangle \approx 20$~deg.
 
-In Figure~\ref{fig:Phi_hist}, the polarization angles are reported relative to Galactic coordinates, where 90~deg corresponds to \gls{Bpos} parallel to the GP. We find that $\langle \gls{Phi} \rangle = 96$~deg, and that 50\% of the B-field polarization angles are within $\pm$ 23~deg of the GP. This finding agrees with \citet{li2006results}, who reported $\langle \Phi \rangle \leq 15$~deg of the GP for three GMCs, including the CNC.
+In Figure~\ref{fig:Phi_hist}, the polarization angles are reported relative to Galactic coordinates, where 90~deg corresponds to \gls{Bpos} parallel to the GP\@. We find that $\langle \gls{Phi} \rangle = 96$~deg, and that 50\% of the B-field polarization angles are within $\pm$ 23~deg of the GP\@. This finding agrees with \citet{li2006results}, which reports $\langle \Phi \rangle \leq 15$~deg of the GP for three GMCs, including the CNC\@.
 
 \begin{table}[!htbp]
 \centering
 \begin{tabular}{@{}llll@{}}
-\dtoprule
- & N$_{sl}$ & Mean (deg) & $\sigma$ (deg) \\ \midrule
+\dtoprule{}
+ & N$_{\mathrm{sl}}$ & Mean (deg) & $\sigma$ (deg) \\ \midrule
 $\Phi$  & 165,000 & 96 & 33 \\
-$S_{\phi}$  & 33,000 & 20 & 26 \\ \bottomrule
+$S_{\phi}$  & 33,000 & 20 & 26 \\ \dbottomrule{}
 \\
 \end{tabular}
-\caption[~First and second moments of the \macrocapwrap{\gls{Phi}} and \macrocapwrap{\gls{Sphi}} distribution over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{First and second moments of the \gls{Phi} and \gls{Sphi} distribution over the inner $\sim$1.25~deg$^{2}$ of the CNC. $N_{sl}$ is the number of sightlines reported.}
+\caption[~First and second moments of the \macrocapwrap{\gls{Phi}} and \macrocapwrap{\gls{Sphi}} distribution over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{First and second moments of the \gls{Phi} and \gls{Sphi} distribution over the inner $\sim$1.25~deg$^{2}$ of the CNC\@. $N_{\mathrm{sl}}$ is the number of sightlines reported.}
 \label{table:S_and_Phi}
 \end{table}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/S_hist}
+\includegraphics[width=\textwidth]{figures/carina/S_hist}
 \caption[~A histogram of the dispersion in polarization angle.]{A histogram of \gls{Sphi}, the polarization angle dispersion (deg).}
 \label{fig:S_hist}
 \end{figure}
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/Phi_hist}
+\includegraphics[width=\textwidth]{figures/carina/Phi_hist}
 \caption[~A histogram of the polarization angle.]{A histogram of \gls{Phi} (deg), where 90~deg is parallel to the GP.}
 \label{fig:Phi_hist}
 \end{figure}
@@ -399,7 +399,7 @@ $S_{\phi}$  & 33,000 & 20 & 26 \\ \bottomrule
 To determine the number density of molecular hydrogen \gls{nH2} which is needed to compute \gls{Bpos} using Equation~\ref{eq:DCFM 2}, we first calculate the column density of molecular hydrogen \gls{NH2}. The column density can be computed from the total intensity maps at each of the three BLASTPol bands as:
 
 \begin{equation}\label{eq:NH2}
-  \gls{NH2} = \frac{N(H_{2})}{2} = \frac{ \tau_{\nu} R}{\kappa_{\nu} m_{H_2}} \qquad \left[ \text{cm}^{-2} \right]
+  \gls{NH2} = 2\frac{ \tau_{\nu} R}{\kappa_{\nu} m_{H_2}} \qquad \left[ \text{cm}^{-2} \right]
 \end{equation}
 
 where:
@@ -419,7 +419,7 @@ The FIR dust opacity \gls{kappa} is calculated using the empirical relation foun
 and the optical depth at frequency $\nu$ is:
 
 \begin{align}\label{eq:tau}
-  \tau_{\nu} &= \frac{F_{\nu}\Omega_{beam}}{B_{\nu}(T_{d})} \\
+  \tau_{\nu} &= \frac{F_{\nu}\Omega_{\mathrm{beam}}}{B_{\nu}(T_{d})} \\
           &= \frac{I_{\nu}}{B_{\nu}(T_{d})} \\
 \end{align}
 
@@ -431,18 +431,18 @@ Once \gls{NH2} is known, the total visual extinction \gls{AV} can be calculated 
 A_{V} = \frac{ 9.4 \times 10^{20}}{\gls{NH2}} \qquad \left[ \mathrm{mag} \right]
 \end{equation}
 
-Mean values for optical depth $\tau_{\nu}$, dust opacity $\kappa_{\nu}$, molecular hydrogen column density \gls{NH2}, and total visual extinction \gls{AV} are listed in Table~\ref{table:NH2_fit} for the inner $\sim$1.25~deg$^{2}$ of the CNC. The quantities are calculated for each of the three BLASTPol bands. A histogram of \gls{NH2}, taken over the same region, is shown in Figure~\ref{fig:NH2_hist}. The values for \gls{NH2} and \gls{AV} agree with those presented in \citet{preibisch2012herschel}. It should be noted that the dust opacities (Equation~\ref{eq:kappa}) carry an uncertainty of a factor of $\sim$2, which translates into an uncertainty in \gls{NH2}.
+Mean values for optical depth $\tau_{\nu}$, dust opacity $\kappa_{\nu}$, molecular hydrogen column density \gls{NH2}, and total visual extinction \gls{AV} are listed in Table~\ref{table:NH2_fit} for the inner $\sim$1.25~deg$^{2}$ of the CNC\@. The quantities are calculated for each of the three BLASTPol bands. A histogram of \gls{NH2}, taken over the same region, is shown in Figure~\ref{fig:NH2_hist}. The values for \gls{NH2} and \gls{AV} agree with those presented in \citet{preibisch2012herschel}. It should be noted that the dust opacities (Equation~\ref{eq:kappa}) carry an uncertainty of a factor of $\sim$2, which translates into an uncertainty in \gls{NH2}.
 
 
 \begin{table}[!htbp]
   \centering
 \begin{tabular}{@{}llll@{}}
-\dtoprule
+\dtoprule{}
       & 250~$\upmu$m                              & 350~$\upmu$m       & 500~$\upmu$m              \\ \midrule
 $\langle \tau_{\nu}  \rangle$  & 2.09 $\times$ 10$^{-3}$ & 2.06 $\times$ 10$^{-4}$ & 3.1 $\times$ 10$^{-3}$  \\
 $\kappa_{\nu}$ ($\mathrm{cm}^{2}/\mathrm{g}$)    & 13.16             & 4.06     & 3.29                    \\
 $\langle \gls{NH2}  \rangle$  ($\mathrm{cm}^{-2}$) & 2.09 $\times$ 10$^{21}$                 & 4.5 $\times$ 10$^{21}$                 & 2.88 $\times$ 10$^{21}$ \\
-$\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03                   & 2.06                   & 1.03                    \\ \bottomrule
+$\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03                   & 2.06                   & 1.03                    \\ \dbottomrule{}
 \\
 \end{tabular}
 \centering
@@ -453,7 +453,7 @@ $\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03   
 % NH2 histogram
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/NH2_hist_500}
+\includegraphics[width=\textwidth]{figures/carina/NH2_hist_500}
 \caption[~A histogram of \macrocapwrap{\gls{NH2}} over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{NH2} over the inner $\sim$1.25~deg$^{2}$ of the CNC.}
 \label{fig:NH2_hist}
 \end{figure}
@@ -461,25 +461,25 @@ $\langle A_{V} \rangle$  ($\mathrm{mag}$)                              & 3.03   
 % nH2 histogram
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/nH2_hist_500}
+\includegraphics[width=\textwidth]{figures/carina/nH2_hist_500}
 \caption[~A histogram of \macrocapwrap{\gls{nH2}} in the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the CNC.]{A histogram of \gls{nH2} in the inner $\sim$1.25~deg$^{2}$ of the CNC, shown for an assumed column depth of 5~pc.}
 \label{fig:nH2_hist}
 \end{figure}
 
-To calculate \gls{nH2}, we must assume a column depth through the CNC. The complex morphology of the region makes it infeasible to assign a single column depth to the entire map. Instead, we examine a range of \gls{nH2}, which extends over an order of magnitude: $0.5 \text{~pc} \leq L_{CNC} \leq 5 \text{~pc}$. The mean and maximum values of \gls{nH2} corresponding to these two limits are listed in Table~\ref{table:nH2}, for the each of the three BLASTPol bands. A histogram of the \gls{nH2} values corresponding to $L_{CNC} = 5$~pc is shown in Figure~\ref{fig:nH2_hist}.
+To calculate \gls{nH2}, we must assume a column depth through the CNC\@. The complex morphology of the region makes it infeasible to assign a single column depth to the entire map. Instead, we examine a range of \gls{nH2}, which extends over an order of magnitude: $0.5 \text{~pc} \leq L_{\mathrm{CNC}} \leq 5 \text{~pc}$. The mean and maximum values of \gls{nH2} corresponding to these two limits are listed in Table~\ref{table:nH2}, for the each of the three BLASTPol bands. A histogram of the \gls{nH2} values corresponding to $L_{\mathrm{CNC}} = 5$~pc is shown in Figure~\ref{fig:nH2_hist}.
 
 \begin{table}[hbtp]
   \centering
 \begin{tabular}{@{}llll@{}}
-\dtoprule
+\dtoprule{}
                             & 250~$\upmu$m     & 350~$\upmu$m     & 500~$\upmu$m     \\ \midrule
 $\langle \gls{nH2} \rangle$ ($\mathrm{cm}^{-3}$) & 93--930      & 94--941      & 133--1330    \\
 max \gls{nH2} ($\mathrm{cm}^{-3}$)             & 4,837--48,370 & 3645--36,450 & 4,008--40,080
-\\ \bottomrule
+\\ \dbottomrule{}
 \\
 \end{tabular}
 \centering
-\caption[~Mean and maximum values of \macrocapwrap{\gls{nH2}} shown for each BLASTPol band.]{Mean and maximum values of \gls{nH2} shown for each BLASTPol band. The lower and upper ranges correspond to column depths $L_{CNC}$ of 0.5~pc and 5~pc.}
+\caption[~Mean and maximum values of \macrocapwrap{\gls{nH2}} shown for each BLASTPol band.]{Mean and maximum values of \gls{nH2} shown for each BLASTPol band. The lower and upper ranges correspond to column depths $L_{\mathrm{CNC}}$ of 0.5~pc and 5~pc.}
 \label{table:nH2}
 \end{table}
 
@@ -500,7 +500,7 @@ Before calculating the velocity dispersion \gls{sigV} from each average line-pro
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/VLOS_hist}
+\includegraphics[width=\textwidth]{figures/carina/VLOS_hist}
 \caption[~A histogram of the FWHM velocity line widths computed over the inner \macrocapwrap{$\sim$1.25~deg$^{2}$} of the BLASTPol CNC map.]{A histogram of the FWHM velocity line widths (in km/s) computed over the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC map.}
 \label{fig:vfwhm_hist}
 \end{figure}
@@ -516,12 +516,12 @@ Before calculating the velocity dispersion \gls{sigV} from each average line-pro
 
 For any object, the values of \gls{Bpos} which are produced using Equation~\ref{eq:DCFM 2} carry uncertainties which are important to address. Firstly, the DCFM relies on the assumption that flux-freezing applies in the ROI, and that gravity, turbulence and the B-field together account for the dominant energy densities. For the case of a MC, where the DCFM is typically applied, this assumption may hold true to the extent that any uncertainties it introduces into \gls{Bpos} are sub-dominant to other sources of error. Relative to a single MC, the CNC is complex, containing many $\mathrm{HII}$ regions and powerful sources of energy injection such as the ongoing star formation in Tr~16 and Tr~14. These dynamical processes, along with the aforementioned ones, have conspired together to produce the complex morphology of the CNC that we now observe. Given this disclaimer, the estimates of \gls{Bpos} provided in this work should be taken as preliminary.
 
-The second type of uncertainty carried by the DCFM pertains to $S_{\Phi}$ and $\sigma_{v}$. Because the velocity dispersion is only calculated along the LOS, the method implicitly assumes that the turbulence is isotropic, which is not necessarily the case. Additional uncertainty, represented by the scale factor $Q$ in Equations~\ref{eq:DCFM 1} and~\ref{eq:DCFM 2}, pertain to the relation of the spatial resolution of the polarization and velocity maps to the driving scale of the turbulence in each ROI. Several studies have performed MHD simulations of the turbulent environment commonly found in MCs in order to estimate $Q$, and have shown that the B-field estimates produced by the DCFM are sensitive to the level of spatial smoothing which is applied to the maps (see, e.g., \citet{ostriker2001density,padoan2001theoretical,heitsch2001magnetic,kudoh2003nonlinear}).
+The second type of uncertainty carried by the DCFM pertains to $S_{\Phi}$ and $\sigma_{v}$. Because the velocity dispersion is only calculated along the LOS, the method implicitly assumes that the turbulence is isotropic, which is not necessarily the case. Additional uncertainty, represented by the scale factor $Q$ in Equations~\ref{eq:DCFM 1} and~\ref{eq:DCFM 2}, pertain to the relation of the spatial resolution of the polarization and velocity maps to the driving scale of the turbulence in each ROI\@. Several studies have performed MHD simulations of the turbulent environment commonly found in MCs in order to estimate $Q$, and have shown that the B-field estimates produced by the DCFM are sensitive to the level of spatial smoothing which is applied to the maps (see, e.g., \citet{ostriker2001density,padoan2001theoretical,heitsch2001magnetic,kudoh2003nonlinear}).
 
 
 If \gls{Sphi} is produced by averaging over a region which is larger than the driving scale of turbulence, then \gls{Sphi} will be underestimated, and \gls{Bpos} will be be overestimated (\citet{cho2016technique}). The studies referenced above have shown that $Q$ can range from 0.1--0.7, where the lower limit applies to heavy smoothing, and in the case of a strong B-field with minimal smoothing, $Q$ is usually taken to be 0.5 \citep{houde2004evaluating}. Further uncertainties in \gls{Sphi} and $\sigma_{v}$ are added due to smoothing over inhomogeneities in the gas and dust structures, and confusion between LOS and POS features. In this work, the maps have been smoothed to a physical scale of $\sim$3.5~pc, which is likely to be at least an order of magnitude above the driving scale of turbulence for filaments within the CNC, which are of $\mathcal{O}(0.1)$~pc wide \citep{preibisch2012herschel}. We therefore adopt a conservative value of 0.1 for $Q$, which reduces the $Q$ value of 9.3 in Equation~\ref{eq:DCFM 2} to $Q = 1.86$.
 
-In this work, uncertainty in \gls{nH2} is likely to be the dominant source of error. \gls{NH2}, which is calculated using the Planck \gls{AV} map and canonical relation found in \citet{bohlin224savage}, carries an uncertainty which is sub-dominant to the other measured parameters which factor into the DCFM estimates. However, in order to calculate \gls{nH2}, we have had to assume a column depth for the cloud. The variety of physical configurations present in the ROIs discussed in Section~\ref{multiband comp} require the use of a range of column depths, $L_{CNC}$. For simplicity's sake, the results shown in the following are produced using $L_{CNC} = 5$~pc.
+In this work, uncertainty in \gls{nH2} is likely to be the dominant source of error. \gls{NH2}, which is calculated using the Planck \gls{AV} map and canonical relation found in \citet{bohlin224savage}, carries an uncertainty which is sub-dominant to the other measured parameters which factor into the DCFM estimates. However, in order to calculate \gls{nH2}, we have had to assume a column depth for the cloud. The variety of physical configurations present in the ROIs discussed in Section~\ref{multiband comp} require the use of a range of column depths, $L_{\mathrm{CNC}}$. For simplicity's sake, the results shown in the following are produced using $L_{\mathrm{CNC}} = 5$~pc.
 
 \begin{comment}
 \begin{equation}
@@ -535,19 +535,19 @@ In this work, uncertainty in \gls{nH2} is likely to be the dominant source of er
 
 \subsection{Results of DCFM Applied to the CNC}\label{Bpos estimates}
 
-The \gls{Bpos} maps of the CNC which have been produced using the DCFM include 19,000 sightlines along the inner $\sim$1.25~deg$^{2}$ of the BLASTPol map (they are decimated by a factor of 3 relative to the Stokes maps). Table~\ref{table:dcfm params} lists the estimated values for \gls{Bpos}, v$_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sightlines chosen from the regions defined in Table~\ref{table:regions}. All results presented in this section were produced using the BLASTPol 500~$\upmu$m Stokes maps, and assuming a uniform column depth $L_{CNC} = 5$~pc.
+The \gls{Bpos} maps of the CNC which have been produced using the DCFM include 19,000 sightlines along the inner $\sim$1.25~deg$^{2}$ of the BLASTPol map (they are decimated by a factor of 3 relative to the Stokes maps). Table~\ref{table:dcfm params} lists the estimated values for \gls{Bpos}, v$_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sightlines chosen from the regions defined in Table~\ref{table:regions}. All results presented in this section were produced using the BLASTPol 500~$\upmu$m Stokes maps, and assuming a uniform column depth $L_{\mathrm{CNC}} = 5$~pc.
 
-The results are displayed in several figures included in this section: Figure~\ref{fig:DCFM_5_500} shows the interpolated \gls{Bpos} map with polarization streamlines overplotted in yellow. The ROIs which are defined in Table~\ref{table:regions} are outlined in white, and the reference sightlines from Table~\ref{table:dcfm params} are shown as red dots (the location of $\eta$ Car is shown as a green dot). Figure~\ref{fig:Bpos_LIC} shows the \gls{Bpos}-weighted LIC (LIC$_{500} \times \gls{Bpos}$), with overlays as in Figure~\ref{fig:DCFM_5_500}. Figure~\ref{fig:Bpos_vectors} shows the raw \gls{Bpos} map with a subset of \gls{Bpos} polarization vectors overplotted in white. The Galactic coordinate grid is overplotted in red to illustrate the alignment between \gls{Bpos} and the GP. Figure~\ref{fig:Bpos_hist} shows a histogram of \gls{Bpos} over the inner region of the CNC map.
+The results are displayed in several figures included in this section: Figure~\ref{fig:DCFM_5_500} shows the interpolated \gls{Bpos} map with polarization streamlines overplotted in yellow. The ROIs which are defined in Table~\ref{table:regions} are outlined in white, and the reference sightlines from Table~\ref{table:dcfm params} are shown as red dots (the location of $\eta$ Car is shown as a green dot). Figure~\ref{fig:Bpos_LIC} shows the \gls{Bpos}-weighted LIC (LIC$_{500} \times \gls{Bpos}$), with overlays as in Figure~\ref{fig:DCFM_5_500}. Figure~\ref{fig:Bpos_vectors} shows the raw \gls{Bpos} map with a subset of \gls{Bpos} polarization vectors overplotted in white. The Galactic coordinate grid is overplotted in red to illustrate the alignment between \gls{Bpos} and the GP\@. Figure~\ref{fig:Bpos_hist} shows a histogram of \gls{Bpos} over the inner region of the CNC map.
 
-We find that $\langle \gls{Bpos} \rangle = 96$~$\upmu$G and $\sigma_{B} = 100$~$\upmu$G. The maximum value of \gls{Bpos} is 1.2~mG, and the minimum value is close to zero. An idea of the relationship between cloud morphology and \gls{Bpos} can be gleaned from examining Figures~\ref{fig:DCFM_5_500},~\ref{fig:Bpos_LIC} and~\ref{fig:Bpos_vectors}. The highest values of \gls{Bpos} are found in the PDR along the western edge of Tr~14, the lower portion of the NB region (slightly north of Tr~14), around the SP region, and along the eastern edge of the SB. There is a concentrated region of high field strength along the southwestern edge of the SB. The outlines of several voids other than the SB can clearly be seen in the \gls{Bpos} maps. These are particurly visible in Tr~16, where there is an apparent bubble centered at the approximate location of $\eta$ Car. Others are visible in the NB, and in the region between the SB and SP.
+We find that $\langle \gls{Bpos} \rangle = 96$~$\upmu$G and $\sigma_{B} = 100$~$\upmu$G. The maximum value of \gls{Bpos} is 1.2~mG, and the minimum value is close to zero. An idea of the relationship between cloud morphology and \gls{Bpos} can be gleaned from examining Figures~\ref{fig:DCFM_5_500},~\ref{fig:Bpos_LIC} and~\ref{fig:Bpos_vectors}. The highest values of \gls{Bpos} are found in the PDR along the western edge of Tr~14, the lower portion of the NB region (slightly north of Tr~14), around the SP region, and along the eastern edge of the SB\@. There is a concentrated region of high field strength along the southwestern edge of the SB\@. The outlines of several voids other than the SB can clearly be seen in the \gls{Bpos} maps. These are particurly visible in Tr~16, where there is an apparent bubble centered at the approximate location of $\eta$ Car. Others are visible in the NB, and in the region between the SB and SP\@.
 
-Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features within the CNC are aligned with the GP. As observed by \citet{li2006results}, the central region of the CNC is in close alignment. The western edge of the SB is largely orthogonal to the GP, as is the region of the SP which contains the highest values of \gls{Bpos}. In Section~\ref{interpreting Bpos}, we discuss these findings in the context of other studies of B-field morphology inside GMCs and HII regions.
+Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features within the CNC are aligned with the GP\@. As observed by \citet{li2006results}, the central region of the CNC is in close alignment. The western edge of the SB is largely orthogonal to the GP, as is the region of the SP which contains the highest values of \gls{Bpos}. In Section~\ref{interpreting Bpos}, we discuss these findings in the context of other studies of B-field morphology inside GMCs and HII regions.
 
 \begin{table}[!htbp]
   \centering
 \begin{threeparttable}
 \begin{tabular}{@{}llllll@{}}
-\dtoprule
+\dtoprule{}
 \begin{tabular}[c]{@{}l@{}} RA, DEC \\ (deg J2000) \end{tabular} & \begin{tabular}[c]{@{}l@{}} \gls{Bpos} \\ ($\mathrm{\upmu G}$) \end{tabular} & \begin{tabular}[c]{@{}l@{}} v$_{\mathrm{FWHM}}$ \\ ($\mathrm{km/s}$) \end{tabular} & \begin{tabular}[c]{@{}l@{}} \gls{nH2} \\ ($\mathrm{cm}^{-3}$) \end{tabular} & \begin{tabular}[c]{@{}l@{}} \gls{Sphi} \\ ($\mathrm{deg}$) \end{tabular} & Region \\ \midrule
 160.37, -59.78 & 563.85 & 44.68 & 94.59 & 1.43 & 1 \\
 160.56, -59.42 & 199.25 & 43.36 & 271.16 & 6.66 & 4 \\
@@ -556,13 +556,13 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 160.87, -59.75 & 181.29 & 43.66 & 111.54 & 4.73 & 1 \\
 160.95, -59.55 & 149.98 & 24.87 & 1550.56 & 12.15 & 2 \\
 161.40, -59.73 & 121.11 & 35.87 & 314.25 & 9.77 & 3 \\
-161.76, -60.01 & 297.11 & 41.74 & 401.03 & 5.23 & 5 \\ \bottomrule
+161.76, -60.01 & 297.11 & 41.74 & 401.03 & 5.23 & 5 \\ \dbottomrule{}
 \end{tabular}
 \begin{tablenotes}
 \item [1] A sightline near the center of the map.
 \vspace{2mm}
 \end{tablenotes}
-\caption[~Physical parameters estimated using the DCFM, for 8-sightlines through the inner region of the CNC.]{Estimates of \gls{Bpos}, $v_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sight-lines along the CNC, produced using the DCFM. The regions in column 6 correspond to those in Table~\ref{table:regions}, and are outlined in Figure~\ref{fig:Bpos_LIC}. The sightlines are shown as red dots in Figure~\ref{fig:Bpos_LIC}.}
+\caption[~Physical parameters estimated using the DCFM, for 8-sightlines through the inner region of the CNC.]{Estimates of \gls{Bpos}, $v_{\mathrm{FWHM}}$, \gls{nH2} and \gls{Sphi} for 8 sight-lines along the CNC, produced using the DCFM\@. The regions in column 6 correspond to those in Table~\ref{table:regions}, and are outlined in Figure~\ref{fig:Bpos_LIC}. The sightlines are shown as red dots in Figure~\ref{fig:Bpos_LIC}.}
 \label{table:dcfm params}
 \end{threeparttable}
 \end{table}
@@ -579,7 +579,7 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/carina/B_vectors_500_5p0pc}
-\caption[~The \macrocapwrap{\gls{Bpos}$_{,500}$} map for \macrocapwrap{$L_{CNC} = 5$}~pc with polarization vectors overplotted in white.]{The \gls{Bpos}$_{,500}$ map for $L_{CNC} = 5$~pc with polarization vectors overplotted in white. The colorscale, in units of~$\upmu$G, is identical to that of Figure~\ref{fig:DCFM_5_500}. Both Galactic and Celestial coordinate frames are labeled, with the Galactic coordinate grid shown in red.}
+\caption[~The \macrocapwrap{\gls{Bpos}$_{,500}$} map for \macrocapwrap{$L_{\mathrm{CNC}} = 5$}~pc with polarization vectors overplotted in white.]{The \gls{Bpos}$_{,500}$ map for $L_{\mathrm{CNC}} = 5$~pc with polarization vectors overplotted in white. The color scale, in units of~$\upmu$G, is identical to that of Figure~\ref{fig:DCFM_5_500}. Both Galactic and Celestial coordinate frames are labeled, with the Galactic coordinate grid shown in red.}
 \label{fig:Bpos_vectors}
 \end{figure}
 
@@ -594,20 +594,20 @@ Figure~\ref{fig:Bpos_vectors} reveals the extent to which various features withi
 % B hist 5~pc and 0.5~pc
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.8\textwidth]{figures/carina/B_hist_500}
+\includegraphics[width=\textwidth]{figures/carina/B_hist_500}
 \caption[~A histogram of \macrocapwrap{\gls{Bpos}$_{,500}$} over the inner regions of the CNC.]{A histogram of \gls{Bpos}$_{,500}$ within the inner $\sim$1.25~deg$^{2}$ of the BLASTPol CNC field, for an assumed column depth of 5~pc.}
 \label{fig:Bpos_hist}
 \end{figure}
 
 \subsection{Interpretation of \macrocapwrap{\gls{Bpos}}}\label{interpreting Bpos}
 
-The magnitude of the estimates for \gls{Bpos} in the CNC produced using the DCFM is comparable to estimates which have been made in other GMCs using the same method. \citet{franco2015tracing} applied the DCFM to the Lupus I MC, and found that at large scales \gls{Bpos} is of $\mathcal{O}$(10$^{2}$)~$\upmu$G. In \citet{soler2018magnetic}, the authors applied the DCFM to Planck maps of the Orion-Eridanus superbubble, providing estimates of \gls{Bpos} in the southern edge of the bubble of tens of~$\upmu$G, which were compared to estimates of \gls{Blos} obtained from Zeeman splitting of HI. The relationship between \gls{Bpos} and the material at sub-filament scales ($\lesssim$0.1~pc) is of particular interest. MHD simulations of magnetized filaments have predict that there is a critical density, such that \gls{Bpos} is perpendicular to regions of the filament which are above it, and parallel to regions which are below it \citep{soler2013imprint}. The predictions of these simulations have since been verified observationally (see, e.g., \citet{ade2016planck,soler2017relation,fissel2018relative}).
+The magnitude of the estimates for \gls{Bpos} in the CNC produced using the DCFM is comparable to estimates which have been made in other GMCs using the same method. \citet{franco2015tracing} applied the DCFM to the Lupus I MC, and found that at large scales \gls{Bpos} is of $\mathcal{O}$(10$^{2}$)~$\upmu$G. In \citet{soler2018magnetic}, the authors applied the DCFM to Planck maps of the Orion-Eridanus superbubble, providing estimates of \gls{Bpos} in the southern edge of the bubble of tens of~$\upmu$G, which were compared to estimates of \gls{Blos} obtained from Zeeman splitting of HI\@. The relationship between \gls{Bpos} and the material at sub-filament scales ($\lesssim$0.1~pc) is of particular interest. MHD simulations of magnetized filaments have predict that there is a critical density, such that \gls{Bpos} is perpendicular to regions of the filament which are above it, and parallel to regions which are below it \citep{soler2013imprint}. The predictions of these simulations have since been verified observationally (see, e.g., \citet{ade2016planck,soler2017relation,fissel2018relative}).
 
 The maps of the CNC used in this analysis do not possess the requisite spatial resolution needed to probe \gls{Bpos} on the scale of sub-parsec filaments (especially after they have been smoothed to the Planck 353~GHz resolution of $\sim$5$\arcsec$). However, their resolution is sufficient enough to allow for an examination of the B-field morphology on the scale of the prominent features listed in Table~\ref{table:regions}.
 
 The question of whether or not B-fields play a significant role in determining the morphologies of Galactic HII regions-- or if the structure of the B-field is shaped by the expanding ionization front, is an active area of research (see, e.g., \citet{churchwell2006bubbling,gendelev2012evolution,anderson2012dust,pavel2012h,tremblin2014age,pellegrini2007magnetically}). As a young HII region expands into the surrounding ISM, the ram pressure of the ionization front encounters resistance from dust and gas which is flux-frozen into the large-scale Galactic B-field. Rather than expand spherically, the shell of the HII region becomes elliptical, with the semi-major axis being parallel to the large-scale direction of the B-field. The B-field then becomes amplified along the long axis of the shell, as parallel lines of flux which are tangential to the expansion direction are forced closer together.
 
-Eventually, the B-field dissipates through magnetic diffusion and mass loading, and the ram pressure of the expanding shell overcomes the resistance from the magnetic pressure \citep{pavel2012h}. If measurements of \gls{Blos} can be obtaine1d via Zeeman splitting or rotation measures, they can be combined with estimates of \gls{Bpos} to formulate a 3D model of the HII region (see, e.g., \citet{aghanim2016planck}). Barring any knowledge of \gls{Blos}, a rough lower limit can be assigned to $B_{\mathrm{\mathrm{tot}}}$ using a simple geometric argument.
+Eventually, the B-field dissipates through magnetic diffusion and mass loading, and the ram pressure of the expanding shell overcomes the resistance from the magnetic pressure \citep{pavel2012h}. If measurements of \gls{Blos} can be obtained via Zeeman splitting or rotation measures, they can be combined with estimates of \gls{Bpos} to formulate a 3D model of the HII region (see, e.g., \citet{aghanim2016planck}). Barring any knowledge of \gls{Blos}, a rough lower limit can be assigned to $B_{\mathrm{\mathrm{tot}}}$ using a simple geometric argument.
 
 Given an HII region with some ellipticity, if all of the ellipticity is assumed to be due to the balance between ram pressure and magnetic pressure, a rough estimate of a lower limit of $B_{\mathrm{\mathrm{tot}}}$ along the edges of the expansion shell. In doing this analysis, bias effects which are due to the inclination angle of the bubble must be considered, as viewing angles which increase the ellipticity of the bubble will produce higher estimates of $B_{\mathrm{\mathrm{tot}}}$. This estimation technique has been applied to ensembles of Galactic HII regions (\citet{churchwell2006bubbling,pavel2012h}). Following \citet{pavel2012h}, we examine the SB region of the CNC (region 1 in Figures~\ref{fig:DCFM_5_500} and~\ref{fig:Bpos_LIC}).
 
@@ -634,7 +634,7 @@ Using Equation~\ref{eq:rho rat}, we find $\rho_{\mathrm{shell}} = 1.22 \rho_{\ma
 
 where $u_{s} \approx 10$ km/s is the assumed expansion velocity of the shell, and $\eta = 0.29$ is an efficiency factor calculated in \citet{pavel2012h} which accounts for the inclination angle bias mentioned above. Using Equation~\ref{eq:B_est} to calculate $B_{\mathrm{\mathrm{tot}}}$, we find $B_{\mathrm{\mathrm{tot}}} = 22$~$\upmu$G for $\eta = 1$, and $B_{\mathrm{\mathrm{tot}}} = 12$~$\upmu$G for $\eta = 0.29$. These values are roughly an order of magnitude below the largest values for \gls{Bpos} estimated for the western edge of the shell using the DCFM (first row of Table~\ref{table:dcfm params}). However, they are comparable to the mean value of \gls{Bpos}, $\langle \gls{Bpos} \rangle = 96$~$\upmu$G.
 
-At present, the literature on this subject contains evidence which boths supports and refutes the idea that B-fields may play a significant role in the evolution of HII regions. As noted in \citet{tremblin2014age}, B-fields of $\mathcal{O}$(10$^2$--10$^{3}$) may have sufficient influence over dense gas at small scales, but will likely not influence the morphology of diffuse nebulae on large scales. Additionally, recent MHD simulations of HII region evolution have found that although magnetic pressure may dominate in the atomic gas component of the region, at large scales the radiation pressure plays a more significant role in shaping the bubble \citep{rahner2017winds}. In contrast to the aforementioned findings, in a recent examination of a magnetized PDR in the Galactic HII region M17, \citet{pellegrini2007magnetically} present evidence that the PDR and MC are supported by a B-field with $\langle B \rangle \sim$ 100--600~$\upmu$G (inferred from $boldsymbol{B}_{{LOS}}$ measurements).
+At present, the literature on this subject contains evidence which boths supports and refutes the idea that B-fields may play a significant role in the evolution of HII regions. As noted in \citet{tremblin2014age}, B-fields of $\mathcal{O}$(10$^2$--10$^{3}$) may have sufficient influence over dense gas at small scales, but will likely not influence the morphology of diffuse nebulae on large scales. Additionally, recent MHD simulations of HII region evolution have found that although magnetic pressure may dominate in the atomic gas component of the region, at large scales the radiation pressure plays a more significant role in shaping the bubble \citep{rahner2017winds}. In contrast to the aforementioned findings, in a recent examination of a magnetized PDR in the Galactic HII region M17, \citet{pellegrini2007magnetically} present evidence that the PDR and MC are supported by a B-field with $\langle B \rangle \sim$ 100--600~$\upmu$G (inferred from \gls{Blos} measurements).
 
 These preliminary estimates of \gls{Bpos} in the innermost regions of the CNC are perhaps calculated at too low of a spatial resolution to draw solid conclusions on the significance, if any, which the B-field plays in shaping the various structures within the cloud. Certainly, at large scales, it is likely that they are subdominant to turbulence and ionizing radiation pressure from the many nascent star clusters embedded within the nebula. Future, higher resolution sub-mm observations of the CNC, such as those which are planned to be undertaken by BLAST-TNG in 2019/2020, will hopefully shed more light on the issue.
 
@@ -659,7 +659,7 @@ The polarized synchrotron emission, which traces the ordered component of galact
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/carina/m51}
+\includegraphics[width=\textwidth]{figures/carina/m51}
 \caption[~A composite radio image of the large-scale B-field in M51.]{The large-scale B-field in M51 (\gls{Phi} pseudovectors), revealed by VLA and Effelsberg measurements taken at 6 cm, with a spatial resolution of 6$\arcsec$. The background optical image is from the Hubble Space Telescope (\citet{fletcher2011magnetic}.}
 \label{fig:m51}
 \end{figure}
@@ -686,7 +686,7 @@ A more recent sub-mm observation of M82 was taken at 53~$\upmu$m and 154~$\upmu$
 
 \begin{figure}[!htbp]
 \centering
-\includegraphics[width=0.7\textwidth]{figures/carina/m82_lic_cropped}
+\includegraphics[width=\textwidth]{figures/carina/m82_lic_cropped}
 \caption[~A LIC map of M82, taken with the \macrocapwrap{154~$\upmu$m} channel of the HAWC+ instrument on SOFIA.]{A LIC map of M82, taken with the 154~$\upmu$m channel of the HAWC+ instrument on SOFIA \citet{jones2019sofia}.}
 \label{fig:m82 lic}
 \end{figure}

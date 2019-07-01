@@ -24,14 +24,14 @@
 \contentsline {table}{\numberline {20}{\ignorespaces Coefficients used in nonlinearity correction of interferograms.}}{191}{table.4.20}
 \contentsline {table}{\numberline {21}{\ignorespaces Polarization efficiency {\bgroup \bgroup {{\gls {pol_eff}}}\egroup \egroup } and cross-pol efficiency {\bgroup \bgroup {{\gls {xpol_eff}}}\egroup \egroup } for three BLAST-TNG detector arrays: 250U, 250W, and 350\nobreakspace {}$\upmu $m.}}{198}{table.4.21}
 \addvspace {0pt}
-\contentsline {table}{\numberline {22}{\ignorespaces \nobreakspace {}Regions of interest inside the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{221}{table.5.22}
-\contentsline {table}{\numberline {23}{\ignorespaces \nobreakspace {}First and second moments of the {\bgroup \bgroup {{\gls {Phi}}}\egroup \egroup } and {\bgroup \bgroup {{\gls {Sphi}}}\egroup \egroup } distribution over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{231}{table.5.23}
-\contentsline {table}{\numberline {24}{\ignorespaces \nobreakspace {}Estimated map parameters calculated using total intensity maps over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{234}{table.5.24}
-\contentsline {table}{\numberline {25}{\ignorespaces \nobreakspace {}Mean and maximum values of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } shown for each BLASTPol band.}}{236}{table.5.25}
-\contentsline {table}{\numberline {26}{\ignorespaces \nobreakspace {}Physical parameters estimated using the DCFM, for 8-sightlines through the inner region of the CNC.}}{242}{table.5.26}
+\contentsline {table}{\numberline {22}{\ignorespaces \nobreakspace {}Regions of interest inside the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{223}{table.5.22}
+\contentsline {table}{\numberline {23}{\ignorespaces \nobreakspace {}First and second moments of the {\bgroup \bgroup {{\gls {Phi}}}\egroup \egroup } and {\bgroup \bgroup {{\gls {Sphi}}}\egroup \egroup } distribution over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{233}{table.5.23}
+\contentsline {table}{\numberline {24}{\ignorespaces \nobreakspace {}Estimated map parameters calculated using total intensity maps over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{236}{table.5.24}
+\contentsline {table}{\numberline {25}{\ignorespaces \nobreakspace {}Mean and maximum values of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } shown for each BLASTPol band.}}{237}{table.5.25}
+\contentsline {table}{\numberline {26}{\ignorespaces \nobreakspace {}Physical parameters estimated using the DCFM, for 8-sightlines through the inner region of the CNC.}}{245}{table.5.26}
 \addvspace {0pt}
-\contentsline {table}{\numberline {27}{\ignorespaces A summary of the five nearby galaxy targets selected for observation by BLAST-TNG, listed in order of their distance.}}{259}{table.6.27}
-\contentsline {table}{\numberline {28}{\ignorespaces \nobreakspace {}Reference values for calculating the required target intensity {\bgroup \bgroup {{$I_{\mathrm {req}}$}}\egroup \egroup } and observation time {\bgroup \bgroup {{$t_{\mathrm {req}}$}}\egroup \egroup } to achieve a desired maximum uncertainty on the polarization-fraction {\bgroup \bgroup {{$\sigma _{p}$}}\egroup \egroup }.}}{261}{table.6.28}
-\contentsline {table}{\numberline {29}{\ignorespaces \nobreakspace {}Key mapping parameters for the BLAST-TNG external galaxy targets.}}{262}{table.6.29}
+\contentsline {table}{\numberline {27}{\ignorespaces A summary of the five nearby galaxy targets selected for observation by BLAST-TNG, listed in order of their distance.}}{261}{table.6.27}
+\contentsline {table}{\numberline {28}{\ignorespaces \nobreakspace {}Reference values for calculating the required target intensity {\bgroup \bgroup {{$I_{\mathrm {req}}$}}\egroup \egroup } and observation time {\bgroup \bgroup {{$t_{\mathrm {req}}$}}\egroup \egroup } to achieve a desired maximum uncertainty on the polarization-fraction {\bgroup \bgroup {{$\sigma _{p}$}}\egroup \egroup }.}}{263}{table.6.28}
+\contentsline {table}{\numberline {29}{\ignorespaces \nobreakspace {}Key mapping parameters for the BLAST-TNG external galaxy targets.}}{264}{table.6.29}
 \addvspace {0pt}
 \addvspace {0pt}

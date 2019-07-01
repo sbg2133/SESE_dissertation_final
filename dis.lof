@@ -100,39 +100,39 @@
 \addvspace {0pt}
 \contentsline {figure}{\numberline {96}{\ignorespaces \nobreakspace {}The background-subtracted BLASTPol 2012 {\bgroup \bgroup {{$I_{250}$}}\egroup \egroup } map of the CNC.}}{207}{figure.5.96}
 \contentsline {figure}{\numberline {97}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 5x.}}{213}{figure.5.97}
-\contentsline {figure}{\numberline {98}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 10x.}}{213}{figure.5.98}
-\contentsline {figure}{\numberline {99}{\ignorespaces \nobreakspace {}The CNC polarization-streamline map, with streamlines decimated by 10x.}}{214}{figure.5.99}
-\contentsline {figure}{\numberline {100}{\ignorespaces \nobreakspace {}A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}}{215}{figure.5.100}
-\contentsline {figure}{\numberline {101}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed as a transparent overlay on the {\bgroup \bgroup {{$I_{500}$}}\egroup \egroup } map.}}{216}{figure.5.101}
-\contentsline {figure}{\numberline {102}{\ignorespaces \nobreakspace {}An intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed with an aggressive intensity stretch.}}{217}{figure.5.102}
-\contentsline {figure}{\numberline {103}{\ignorespaces \nobreakspace {}A less aggressive stretch of the intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup }.}}{218}{figure.5.103}
-\contentsline {figure}{\numberline {104}{\ignorespaces \nobreakspace {}The CNC intensity map taken by SPARO overlayed on the {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{221}{figure.5.104}
-\contentsline {figure}{\numberline {105}{\ignorespaces \nobreakspace {}An overlay of the MSX {\bgroup \bgroup {{8\nobreakspace {}$\upmu $m}}\egroup \egroup } CNC map (green) with a BLASTPol intensity map (red).}}{224}{figure.5.105}
-\contentsline {figure}{\numberline {106}{\ignorespaces \nobreakspace {}An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).}}{225}{figure.5.106}
-\contentsline {figure}{\numberline {107}{\ignorespaces \nobreakspace {}An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).}}{226}{figure.5.107}
-\contentsline {figure}{\numberline {108}{\ignorespaces \nobreakspace {}A histogram of the dispersion in polarization angle.}}{231}{figure.5.108}
-\contentsline {figure}{\numberline {109}{\ignorespaces \nobreakspace {}A histogram of the polarization angle.}}{232}{figure.5.109}
-\contentsline {figure}{\numberline {110}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {NH2}}}\egroup \egroup } over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{234}{figure.5.110}
-\contentsline {figure}{\numberline {111}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } in the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{235}{figure.5.111}
-\contentsline {figure}{\numberline {112}{\ignorespaces \nobreakspace {}An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.}}{237}{figure.5.112}
-\contentsline {figure}{\numberline {113}{\ignorespaces \nobreakspace {}A histogram of the FWHM velocity line widths computed over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{238}{figure.5.113}
-\contentsline {figure}{\numberline {114}{\ignorespaces \nobreakspace {}A map of the FWHM velocity line widths computed from the ATCA HI data cube.}}{239}{figure.5.114}
-\contentsline {figure}{\numberline {115}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.}}{243}{figure.5.115}
-\contentsline {figure}{\numberline {116}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map for {\bgroup \bgroup {{$L_{CNC} = 5$}}\egroup \egroup }\nobreakspace {}pc with polarization vectors overplotted in white.}}{244}{figure.5.116}
-\contentsline {figure}{\numberline {117}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } weighted LIC of the {\bgroup \bgroup {{500\nobreakspace {}$\upmu $m}}\egroup \egroup } map.}}{245}{figure.5.117}
-\contentsline {figure}{\numberline {118}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } over the inner regions of the CNC.}}{246}{figure.5.118}
+\contentsline {figure}{\numberline {98}{\ignorespaces \nobreakspace {}The CNC polarization vector map, decimated by 10x.}}{214}{figure.5.98}
+\contentsline {figure}{\numberline {99}{\ignorespaces \nobreakspace {}The CNC polarization-streamline map, with streamlines decimated by 10x.}}{215}{figure.5.99}
+\contentsline {figure}{\numberline {100}{\ignorespaces \nobreakspace {}A zoom-in of a region of the vector-streamline map where the polarization angles are very uniform.}}{216}{figure.5.100}
+\contentsline {figure}{\numberline {101}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed as a transparent overlay on the {\bgroup \bgroup {{$I_{500}$}}\egroup \egroup } map.}}{217}{figure.5.101}
+\contentsline {figure}{\numberline {102}{\ignorespaces \nobreakspace {}An intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup } map, displayed with an aggressive intensity stretch.}}{218}{figure.5.102}
+\contentsline {figure}{\numberline {103}{\ignorespaces \nobreakspace {}A less aggressive stretch of the intensity-weighted {\bgroup \bgroup {{LIC$_{500}$}}\egroup \egroup }.}}{219}{figure.5.103}
+\contentsline {figure}{\numberline {104}{\ignorespaces \nobreakspace {}The CNC intensity map taken by SPARO overlayed on the {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{222}{figure.5.104}
+\contentsline {figure}{\numberline {105}{\ignorespaces \nobreakspace {}An overlay of the MSX {\bgroup \bgroup {{8\nobreakspace {}$\upmu $m}}\egroup \egroup } CNC map (green) with a BLASTPol intensity map (red).}}{226}{figure.5.105}
+\contentsline {figure}{\numberline {106}{\ignorespaces \nobreakspace {}An overlay of the GSC2 R-band CNC map (green) with a BLASTPol intensity map (red).}}{227}{figure.5.106}
+\contentsline {figure}{\numberline {107}{\ignorespaces \nobreakspace {}An overlay of the Chandra soft-X-ray CNC map (blue) and BLASTPol intensity map (red).}}{228}{figure.5.107}
+\contentsline {figure}{\numberline {108}{\ignorespaces \nobreakspace {}A histogram of the dispersion in polarization angle.}}{233}{figure.5.108}
+\contentsline {figure}{\numberline {109}{\ignorespaces \nobreakspace {}A histogram of the polarization angle.}}{234}{figure.5.109}
+\contentsline {figure}{\numberline {110}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {NH2}}}\egroup \egroup } over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{237}{figure.5.110}
+\contentsline {figure}{\numberline {111}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {nH2}}}\egroup \egroup } in the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the CNC.}}{238}{figure.5.111}
+\contentsline {figure}{\numberline {112}{\ignorespaces \nobreakspace {}An overlay of one slice of the ATCA HI velocity cube with the BLASTPol intensity map.}}{240}{figure.5.112}
+\contentsline {figure}{\numberline {113}{\ignorespaces \nobreakspace {}A histogram of the FWHM velocity line widths computed over the inner {\bgroup \bgroup {{$\sim $1.25\nobreakspace {}deg$^{2}$}}\egroup \egroup } of the BLASTPol CNC map.}}{241}{figure.5.113}
+\contentsline {figure}{\numberline {114}{\ignorespaces \nobreakspace {}A map of the FWHM velocity line widths computed from the ATCA HI data cube.}}{242}{figure.5.114}
+\contentsline {figure}{\numberline {115}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map (every 3rd pixel interpolated) with polarization streamlines overplotted in yellow.}}{246}{figure.5.115}
+\contentsline {figure}{\numberline {116}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } map for {\bgroup \bgroup {{$L_{\mathrm {CNC}} = 5$}}\egroup \egroup }\nobreakspace {}pc with polarization vectors overplotted in white.}}{247}{figure.5.116}
+\contentsline {figure}{\numberline {117}{\ignorespaces \nobreakspace {}The {\bgroup \bgroup {{\gls {Bpos}}}\egroup \egroup } weighted LIC of the {\bgroup \bgroup {{500\nobreakspace {}$\upmu $m}}\egroup \egroup } map.}}{248}{figure.5.117}
+\contentsline {figure}{\numberline {118}{\ignorespaces \nobreakspace {}A histogram of {\bgroup \bgroup {{\gls {Bpos}$_{,500}$}}\egroup \egroup } over the inner regions of the CNC.}}{249}{figure.5.118}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {119}{\ignorespaces \nobreakspace {}A composite radio image of the large-scale B-field in M51.}}{254}{figure.6.119}
-\contentsline {figure}{\numberline {120}{\ignorespaces \nobreakspace {}A LIC map of M82, taken with the {\bgroup \bgroup {{154\nobreakspace {}$\upmu $m}}\egroup \egroup } channel of the HAWC+ instrument on SOFIA.}}{257}{figure.6.120}
-\contentsline {figure}{\numberline {121}{\ignorespaces \nobreakspace {}NGC 4945.}}{262}{figure.6.121}
-\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}ESO 97-G13 required mapping time.}}{263}{figure.6.122}
-\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}NGC 3621 required mapping time.}}{264}{figure.6.123}
-\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}M83 required mapping time.}}{265}{figure.6.124}
-\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}NGC 1808 required mapping time.}}{266}{figure.6.125}
+\contentsline {figure}{\numberline {119}{\ignorespaces \nobreakspace {}A composite radio image of the large-scale B-field in M51.}}{256}{figure.6.119}
+\contentsline {figure}{\numberline {120}{\ignorespaces \nobreakspace {}A LIC map of M82, taken with the {\bgroup \bgroup {{154\nobreakspace {}$\upmu $m}}\egroup \egroup } channel of the HAWC+ instrument on SOFIA.}}{259}{figure.6.120}
+\contentsline {figure}{\numberline {121}{\ignorespaces \nobreakspace {}NGC 4945.}}{264}{figure.6.121}
+\contentsline {figure}{\numberline {122}{\ignorespaces \nobreakspace {}ESO 97-G13 required mapping time.}}{265}{figure.6.122}
+\contentsline {figure}{\numberline {123}{\ignorespaces \nobreakspace {}NGC 3621 required mapping time.}}{266}{figure.6.123}
+\contentsline {figure}{\numberline {124}{\ignorespaces \nobreakspace {}M83 required mapping time.}}{267}{figure.6.124}
+\contentsline {figure}{\numberline {125}{\ignorespaces \nobreakspace {}NGC 1808 required mapping time.}}{268}{figure.6.125}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{270}{figure.7.126}
-\contentsline {figure}{\numberline {127}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{271}{figure.7.127}
+\contentsline {figure}{\numberline {126}{\ignorespaces \nobreakspace {}An IF electronics slice for TolTEC.}}{272}{figure.7.126}
+\contentsline {figure}{\numberline {127}{\ignorespaces \nobreakspace {}A single-board board implementation of the TolTEC IF electronics.}}{273}{figure.7.127}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {128}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{304}{figure.A.128}
-\contentsline {figure}{\numberline {129}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{305}{figure.A.129}
-\contentsline {figure}{\numberline {130}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{306}{figure.A.130}
+\contentsline {figure}{\numberline {128}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are powered down.}}{306}{figure.A.128}
+\contentsline {figure}{\numberline {129}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are performing a full loop.}}{307}{figure.A.129}
+\contentsline {figure}{\numberline {130}{\ignorespaces \nobreakspace {}OWL screen when the ROACHs are streaming, with target tones.}}{308}{figure.A.130}
