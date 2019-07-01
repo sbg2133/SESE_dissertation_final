@@ -35,14 +35,14 @@
 \contentsline {figure}{\numberline {32}{\ignorespaces \nobreakspace {}A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.}}{97}{figure.3.32}
 \contentsline {figure}{\numberline {33}{\ignorespaces A schematic of the firmware DSP chain.}}{99}{figure.3.33}
 \contentsline {figure}{\numberline {34}{\ignorespaces \nobreakspace {}The DAC frequency response (measured and simulated), with and without anti-aliasing filters.}}{103}{figure.3.34}
-\contentsline {figure}{\numberline {35}{\ignorespaces \nobreakspace {}2,000 {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } samples of a digitized waveform for a single tone at f = 50.0125\nobreakspace {}Hz, and 1000 evenly spaced tones.}}{104}{figure.3.35}
+\contentsline {figure}{\numberline {35}{\ignorespaces \nobreakspace {}2,000 {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } samples of a digitized waveform for a single tone at f = 50.0125\nobreakspace {}Hz, and 1,000 evenly spaced tones.}}{104}{figure.3.35}
 \contentsline {figure}{\numberline {36}{\ignorespaces \nobreakspace {}A 5\nobreakspace {}MHz section of the transfer function of the firmware PFB-FFT, showing measured (dots) and simulated values (lines).}}{106}{figure.3.36}
 \contentsline {figure}{\numberline {37}{\ignorespaces \nobreakspace {}An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of a single tone.}}{111}{figure.3.37}
-\contentsline {figure}{\numberline {38}{\ignorespaces \nobreakspace {}An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 1000 tones.}}{112}{figure.3.38}
-\contentsline {figure}{\numberline {39}{\ignorespaces \nobreakspace {}The transfer function of the accumulator ({\bgroup \bgroup {{|S$_{21}$|$^{2}$}}\egroup \egroup }), for a tone comb consisting of 1000 tones, in digital and RF loopback.}}{114}{figure.3.39}
+\contentsline {figure}{\numberline {38}{\ignorespaces \nobreakspace {}An example of the frequency domain DDC products (measured and simulated) for one channel of a tone comb consisting of 1,000 tones.}}{112}{figure.3.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces \nobreakspace {}The transfer function of the accumulator ({\bgroup \bgroup {{|S$_{21}$|$^{2}$}}\egroup \egroup }), for a tone comb consisting of 1,000 tones, in digital and RF loopback.}}{114}{figure.3.39}
 \contentsline {figure}{\numberline {40}{\ignorespaces \nobreakspace {}ROACH2 UDP packet structure.}}{116}{figure.3.40}
-\contentsline {figure}{\numberline {41}{\ignorespaces \nobreakspace {}A fit of a modified Leeson's equation to the median PSD for a tone comb containing 1000 evenly spaced tones.}}{118}{figure.3.41}
-\contentsline {figure}{\numberline {42}{\ignorespaces \nobreakspace {}Digital loopback WN levels as a function of 1, 100, 500, 618 and 1000 tones.}}{120}{figure.3.42}
+\contentsline {figure}{\numberline {41}{\ignorespaces \nobreakspace {}A fit of a modified Leeson's equation to the median PSD for a tone comb containing 1,000 evenly spaced tones.}}{118}{figure.3.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces \nobreakspace {}Digital loopback WN levels as a function of 1, 100, 500, 618 and 1,000 tones.}}{120}{figure.3.42}
 \contentsline {figure}{\numberline {43}{\ignorespaces \nobreakspace {}The RF loopback WN levels as a function of 1, 618 and 975 tones.}}{121}{figure.3.43}
 \addvspace {0pt}
 \contentsline {figure}{\numberline {44}{\ignorespaces \nobreakspace {}Comparison between raw and corrected wide-sweeps of the {\bgroup \bgroup {{350\nobreakspace {}$\upmu $m}}\egroup \egroup } array.}}{127}{figure.4.44}

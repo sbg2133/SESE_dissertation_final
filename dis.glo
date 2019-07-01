@@ -455,9 +455,10 @@
 \glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{75}
 \glossaryentry{\ensuremath {S_{21}}?\glossentry{S21}|setentrycounter[]{page}\glsnumberformat}{75}
 \glossaryentry{\ensuremath {Q_{r}}?\glossentry{Qr}|setentrycounter[]{page}\glsnumberformat}{76}
+\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{77}
 \glossaryentry{\ensuremath {f_{c}}?\glossentry{fc}|setentrycounter[]{page}\glsnumberformat}{77}
 \glossaryentry{\ensuremath {\phi _{I/Q}}?\glossentry{phiIQ}|setentrycounter[]{page}\glsnumberformat}{78}
-\glossaryentry{\ensuremath {S_{\mathrm {XX}}}?\glossentry{Sxx}|setentrycounter[]{page}\glsnumberformat}{78}
+\glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{78}
 \glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{78}
 \glossaryentry{\ensuremath {S_{\phi }}?\glossentry{Sphase}|setentrycounter[]{page}\glsnumberformat}{78}
 \glossaryentry{\ensuremath {S_{\delta f / f}}?\glossentry{Sff}|setentrycounter[]{page}\glsnumberformat}{78}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  30 JUN 2019 21:02
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  30 JUN 2019 22:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2000,7 +2000,7 @@ File: figures/kid_model/NEP.pdf Graphic file (type QTm)
 
 ]
 [74] [75]
-Underfull \hbox (badness 4328) in paragraph at lines 60--61
+Underfull \hbox (badness 4328) in paragraph at lines 58--59
 []\EU1/Garamond(0)/m/n/12 Downconvert the modulated tone comb from RF to baseba
 nd, am-
  []
@@ -2010,23 +2010,26 @@ File: figures/readout/schematics/readoutHardwareDefense.pdf Graphic file (type
 QTm)
 
 <use  "figures/readout/schematics/readoutHardwareDefense.pdf" > [87] [88]
-[89] [90]
+[89] [90] [91]
 File: figures/readout/hardware/roach_sunset.JPG Graphic file (type QTm)
- <use  "figures/readout/hardware/roach_sunset.JPG" > [91] [92]
+ <use  "figures/readout/hardware/roach_sunset.JPG" > [92]
 File: figures/readout/hardware/installing_roaches.jpeg Graphic file (type QTm)
 
-<use  "figures/readout/hardware/installing_roaches.jpeg" > [93] [94]
+<use  "figures/readout/hardware/installing_roaches.jpeg" >
+
+LaTeX Warning: Float too large for page by 10.52277pt on input line 314.
+
+[93] [94]
 File: figures/readout/hardware/roach_slice_annotated.pdf Graphic file (type QTm
 )
-
-<use  "figures/readout/hardware/roach_slice_annotated.pdf" >
+ <use  "figures/readout/hardware/roach_slice_annotated.pdf" >
 File: figures/readout/hardware/roach_motel_open.jpeg Graphic file (type QTm)
 
 <use  "figures/readout/hardware/roach_motel_open.jpeg" > [95] [96] [97]
 File: figures/readout/schematics/readoutDSPdiagram.pdf Graphic file (type QTm)
 
 <use  "figures/readout/schematics/readoutDSPdiagram.pdf" >
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 397
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 395
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
@@ -2578,10 +2581,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41119 strings out of 493591
- 727700 string characters out of 6145590
- 990010 words of memory out of 5000000
- 43749 multiletter control sequences out of 15000+600000
+ 41120 strings out of 493591
+ 727714 string characters out of 6145590
+ 991186 words of memory out of 5000000
+ 43750 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  46i,22n,105p,10384b,33387s stack positions out of 5000i,500n,10000p,200000b,80000s
