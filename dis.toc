@@ -122,19 +122,20 @@
 \contentsline {section}{\numberline {A.1}Glossary of Terms}{291}{section.A.1}
 \contentsline {section}{\numberline {A.2}Data Paths and Hardware Addresses}{296}{section.A.2}
 \contentsline {section}{\numberline {A.3}Normal Operation}{297}{section.A.3}
-\contentsline {subsection}{\numberline {A.3.1}Readout Mode}{297}{subsection.A.3.1}
+\contentsline {subsection}{\numberline {A.3.1}Readout Mode}{298}{subsection.A.3.1}
 \contentsline {subsection}{\numberline {A.3.2}Housekeeping Mode}{298}{subsection.A.3.2}
 \contentsline {section}{\numberline {A.4}Multi-command loops}{299}{section.A.4}
-\contentsline {section}{\numberline {A.5}Owl Frontend}{300}{section.A.5}
+\contentsline {section}{\numberline {A.5}Owl Frontend}{301}{section.A.5}
 \contentsline {section}{\numberline {A.6}Commands}{309}{section.A.6}
-\contentsline {subsection}{\numberline {A.6.1}Commands which are useful for data visualization (KST)}{310}{subsection.A.6.1}
-\contentsline {subsection}{\numberline {A.6.2}Commands that enable triggering of periodic events}{310}{subsection.A.6.2}
-\contentsline {subsection}{\numberline {A.6.3}Tone writing commands}{311}{subsection.A.6.3}
-\contentsline {subsection}{\numberline {A.6.4}LO commands}{311}{subsection.A.6.4}
-\contentsline {subsection}{\numberline {A.6.5}Tone power/attenuator commands}{312}{subsection.A.6.5}
-\contentsline {subsection}{\numberline {A.6.6}Pi commands}{313}{subsection.A.6.6}
-\contentsline {subsection}{\numberline {A.6.7}Power state commands}{314}{subsection.A.6.7}
-\contentsline {subsection}{\numberline {A.6.8}Cal lamp commands}{314}{subsection.A.6.8}
-\contentsline {subsection}{\numberline {A.6.9}Commands that set global parameters}{314}{subsection.A.6.9}
-\contentsline {subsection}{\numberline {A.6.10}Data handling commands}{315}{subsection.A.6.10}
+\contentsline {subsection}{\numberline {A.6.1}Commands which execute sequences of events}{309}{subsection.A.6.1}
+\contentsline {subsection}{\numberline {A.6.2}Commands which are useful for data visualization (KST)}{310}{subsection.A.6.2}
+\contentsline {subsection}{\numberline {A.6.3}Commands that enable triggering of periodic events}{310}{subsection.A.6.3}
+\contentsline {subsection}{\numberline {A.6.4}Tone writing commands}{311}{subsection.A.6.4}
+\contentsline {subsection}{\numberline {A.6.5}LO commands}{311}{subsection.A.6.5}
+\contentsline {subsection}{\numberline {A.6.6}Tone power/attenuator commands}{312}{subsection.A.6.6}
+\contentsline {subsection}{\numberline {A.6.7}Pi commands}{313}{subsection.A.6.7}
+\contentsline {subsection}{\numberline {A.6.8}Power state commands}{314}{subsection.A.6.8}
+\contentsline {subsection}{\numberline {A.6.9}Cal lamp commands}{314}{subsection.A.6.9}
+\contentsline {subsection}{\numberline {A.6.10}Commands that set global parameters}{315}{subsection.A.6.10}
+\contentsline {subsection}{\numberline {A.6.11}Data handling commands}{316}{subsection.A.6.11}
 \contentsline {section}{\numberline {A.7}Data downlinking}{316}{section.A.7}

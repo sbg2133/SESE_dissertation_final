@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 01:45
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 03:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2485,66 +2485,128 @@ e, J. A., and Price, P. A.
 ] [291
 
 ]
-Underfull \hbox (badness 7256) in paragraph at lines 43--57
+Underfull \hbox (badness 1460) in paragraph at lines 42--56
 \EU1/Garamond(0)/bx/n/12 LO\EU1/Garamond(0)/m/n/12 : A variable tone produced b
-y the Valon Synthesizer, and used to
+y the Valon 5009 Synthesizer, and used to
  []
 
 [292] [293]
-Underfull \hbox (badness 2478) in paragraph at lines 112--119
+Underfull \hbox (badness 2478) in paragraph at lines 114--120
 \EU1/Garamond(0)/bx/n/12 ROACH-2\EU1/Garamond(0)/m/n/12 : Reconfigurable Open A
 rchitecture Computing Hardware. The
  []
 
 [294] [295]
-Underfull \hbox (badness 10000) in paragraph at lines 171--180
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--176
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 [296] [297]
-Overfull \hbox (1.04128pt too wide) in paragraph at lines 258--265
-\EU1/Garamond(0)/m/n/12 events are triggered during an observation. Automatic t
-riggering is enabled by default,
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
  []
 
-[298] [299]
-Underfull \hbox (badness 4846) in paragraph at lines 297--299
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--270
+
+ []
+
+[298]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+[299]
+Underfull \hbox (badness 4846) in paragraph at lines 308--310
 []\EU1/Garamond(0)/bx/n/12 Turnaround loop\EU1/Garamond(0)/m/n/12 : See: \EU1/l
 mtt/m/n/12 turnaround_-loop\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 turnaroun
 d_-loop_-all\EU1/Garamond(0)/m/n/12 . The
  []
 
-
-Underfull \hbox (badness 1681) in paragraph at lines 321--322
+[300]
+Underfull \hbox (badness 1681) in paragraph at lines 333--334
 []\EU1/Garamond(0)/bx/n/12 STATE\EU1/Garamond(0)/m/n/12 : One of the following:
  \EU1/lmtt/m/n/12 BOOT\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 CONNECTED\EU1/
 Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 PROGRAMMED\EU1/Garamond(0)/m/n/12 , \EU1/
 lmtt/m/n/12 CONFIGURED\EU1/Garamond(0)/m/n/12 ,
  []
 
-[300] [301] [302] [303]
-Underfull \hbox (badness 5893) in paragraph at lines 450--451
+[301] [302] [303] [304]
+Underfull \hbox (badness 5893) in paragraph at lines 462--463
 []\EU1/Garamond(0)/bx/n/12 QDR_-CAL_-FAIL\EU1/Garamond(0)/m/n/12 : Indicates th
 at the QDR calibration has failed. See:
  []
 
 
-Underfull \hbox (badness 2653) in paragraph at lines 461--462
+Underfull \hbox (badness 2653) in paragraph at lines 473--474
 []\EU1/Garamond(0)/bx/n/12 LAST_-DF_-RESPONSE\EU1/Garamond(0)/m/n/12 : See: \EU
 1/lmtt/m/n/12 check_-lamp_-retune\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 che
 ck_-lamp_-retune_-all\EU1/Garamond(0)/m/n/12 .
  []
 
-[304]
 File: ./figures/software/roaches_off.png Graphic file (type QTm)
- <use  "./figures/software/roaches_off.png" >
+<use  "./figures/software/roaches_off.png" >
 File: ./figures/software/full_loop.png Graphic file (type QTm)
 
 <use  "./figures/software/full_loop.png" >
 File: ./figures/software/has_targ_tones.png Graphic file (type QTm)
 
 <use  "./figures/software/has_targ_tones.png" > [305] [306] [307] [308]
-[309] [310] [311] [312] [313] [314] [315] [316])
+Underfull \hbox (badness 10000) in paragraph at lines 517--521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--521
+
+ []
+
+[309] [310] [311] [312] [313] [314] [315]
+Underfull \hbox (badness 10000) in paragraph at lines 864--881
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 864--881
+
+ []
+
+[316]
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 897--898
+
+ []
+
+)
 Package atenddvi Info: Last page = 341.
  [317]
 \tf@toc=\write6
@@ -2558,9 +2620,9 @@ Package atenddvi Info: Last page = 341.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1198.
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 1198.
- (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux) (./blast_data.aux) 
-(./carina.aux)
-(./galaxies.aux) (./conclusion.aux) (./appendix.aux))
+ (./dis.aux (./intro.aux) (./kid_model.aux) (./readout.aux)
+(./blast_data.aux) (./carina.aux) (./galaxies.aux) (./conclusion.aux)
+(./appendix.aux))
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1198.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1198.
 
@@ -2571,7 +2633,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  41150 strings out of 493591
  728142 string characters out of 6145590
- 991558 words of memory out of 5000000
+ 991606 words of memory out of 5000000
  43780 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
