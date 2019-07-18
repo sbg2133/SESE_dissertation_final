@@ -14,45 +14,45 @@ Database file #1: dis.bib.bib
 Warning--empty school in benton2015mapping
 Warning--there's a number but no series in duffing1918erzwungene
 Warning--empty institution in mazin2005microwave
-You've used 176 entries,
+You've used 179 entries,
             1940 wiz_defined-function locations,
-            1499 strings with 41125 characters,
-and the built_in function-call counts, 85622 in all, are:
-= -- 7767
-> -- 5420
+            1514 strings with 41960 characters,
+and the built_in function-call counts, 87491 in all, are:
+= -- 7926
+> -- 5574
 < -- 96
-+ -- 2051
-- -- 1972
-* -- 8373
-:= -- 15216
-add.period$ -- 542
-call.type$ -- 176
-change.case$ -- 1788
-chr.to.int$ -- 173
-cite$ -- 179
-duplicate$ -- 2670
-empty$ -- 4820
-format.name$ -- 2196
-if$ -- 16050
++ -- 2109
+- -- 2030
+* -- 8577
+:= -- 15554
+add.period$ -- 551
+call.type$ -- 179
+change.case$ -- 1831
+chr.to.int$ -- 176
+cite$ -- 182
+duplicate$ -- 2712
+empty$ -- 4908
+format.name$ -- 2257
+if$ -- 16388
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 175
-newline$ -- 881
-num.names$ -- 528
-pop$ -- 1516
+missing$ -- 178
+newline$ -- 896
+num.names$ -- 537
+pop$ -- 1553
 preamble$ -- 1
-purify$ -- 1799
+purify$ -- 1842
 quote$ -- 0
-skip$ -- 2109
+skip$ -- 2140
 stack$ -- 0
-substring$ -- 4653
-swap$ -- 542
+substring$ -- 4750
+swap$ -- 548
 text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1040
+type$ -- 1058
 warning$ -- 3
-while$ -- 560
+while$ -- 570
 width$ -- 0
-write$ -- 2294
+write$ -- 2333
 (There were 3 warnings)

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  1 JUL 2019 12:52
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016/Debian) (preloaded format=xelatex 2019.4.22)  17 JUL 2019 22:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1906,7 +1906,7 @@ File: figures/intro/cob_cib.png Graphic file (type QTm)
 File: figures/intro/velac_lic.jpg Graphic file (type QTm)
 
 <use  "figures/intro/velac_lic.jpg" > [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 1424) in paragraph at lines 163--164
+Underfull \hbox (badness 1424) in paragraph at lines 165--166
 \EU1/Garamond(0)/m/n/12 experiment to feature large-format (kilopixel scale) ar
 rays of LEKIDs, along
  []
@@ -2017,7 +2017,7 @@ File: figures/readout/hardware/installing_roaches.jpeg Graphic file (type QTm)
 
 <use  "figures/readout/hardware/installing_roaches.jpeg" >
 
-LaTeX Warning: Float too large for page by 10.52277pt on input line 314.
+LaTeX Warning: Float too large for page by 10.52277pt on input line 315.
 
 [93] [94]
 File: figures/readout/hardware/roach_slice_annotated.pdf Graphic file (type QTm
@@ -2029,7 +2029,7 @@ File: figures/readout/hardware/roach_motel_open.jpeg Graphic file (type QTm)
 File: figures/readout/schematics/readoutDSPdiagram.pdf Graphic file (type QTm)
 
 <use  "figures/readout/schematics/readoutDSPdiagram.pdf" >
-LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 395
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 396
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/euenc/eu1lmtt.fd
@@ -2523,21 +2523,21 @@ File: figures/conclusion/single_board.jpg Graphic file (type QTm)
 
 
 ] [275] [276] [277] [278] [279]
-Underfull \hbox (badness 1342) in paragraph at lines 479--482
+Underfull \hbox (badness 1342) in paragraph at lines 499--502
 []\EU1/Garamond(0)/m/n/12 Hall, J. S. (1949).  Observations of the polarized li
 ght from stars.  \EU1/Garamond(0)/m/it/12 Science\EU1/Garamond(0)/m/n/12 ,
  []
 
 [280] [281] [282] [283] [284] [285]
-Underfull \hbox (badness 512) in paragraph at lines 943--947
+Underfull \hbox (badness 512) in paragraph at lines 963--967
 []\EU1/Garamond(0)/m/n/12 Smith, N., Egan, M. P., Carey, S., Price, S. D., Mors
 e, J. A., and Price, P. A.
  []
 
-[286] [287]) [288]
+[286] [287] [288]) [289]
 \openout2 = `appendix.aux'.
 
- (./appendix.tex [289
+ (./appendix.tex [290
 
 
 ]
@@ -2545,7 +2545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[290
+[291
 
 ]
 Underfull \hbox (badness 1460) in paragraph at lines 41--56
@@ -2553,13 +2553,13 @@ Underfull \hbox (badness 1460) in paragraph at lines 41--56
 y the Valon 5009 Synthesizer, and used to
  []
 
-[291] [292]
+[292] [293]
 Underfull \hbox (badness 2478) in paragraph at lines 118--124
 \EU1/Garamond(0)/bx/n/12 ROACH-2\EU1/Garamond(0)/m/n/12 : Reconfigurable Open A
 rchitecture Computing Hardware. The
  []
 
-[293] [294]
+[294] [295]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
@@ -2584,7 +2584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
-[295] [296]
+[296] [297]
 Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
@@ -2604,14 +2604,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-[297] [298]
+[298] [299]
 Underfull \hbox (badness 4846) in paragraph at lines 314--316
 []\EU1/Garamond(0)/bx/n/12 Turnaround loop\EU1/Garamond(0)/m/n/12 : See: \EU1/l
 mtt/m/n/12 turnaround_-loop\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 turnaroun
 d_-loop_-all\EU1/Garamond(0)/m/n/12 . The
  []
 
-[299]
+[300]
 Underfull \hbox (badness 1681) in paragraph at lines 339--340
 []\EU1/Garamond(0)/bx/n/12 STATE\EU1/Garamond(0)/m/n/12 : One of the following:
  \EU1/lmtt/m/n/12 BOOT\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 CONNECTED\EU1/
@@ -2619,13 +2619,13 @@ Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 PROGRAMMED\EU1/Garamond(0)/m/n/12 , \EU1/
 lmtt/m/n/12 CONFIGURED\EU1/Garamond(0)/m/n/12 ,
  []
 
-[300] [301] [302]
+[301] [302] [303]
 Underfull \hbox (badness 5893) in paragraph at lines 468--469
 []\EU1/Garamond(0)/bx/n/12 QDR_-CAL_-FAIL\EU1/Garamond(0)/m/n/12 : Indicates th
 at the QDR calibration has failed. See:
  []
 
-[303]
+[304]
 Underfull \hbox (badness 2653) in paragraph at lines 479--480
 []\EU1/Garamond(0)/bx/n/12 LAST_-DF_-RESPONSE\EU1/Garamond(0)/m/n/12 : See: \EU
 1/lmtt/m/n/12 check_-lamp_-retune\EU1/Garamond(0)/m/n/12 , \EU1/lmtt/m/n/12 che
@@ -2639,7 +2639,7 @@ File: ./figures/software/full_loop.png Graphic file (type QTm)
 <use  "./figures/software/full_loop.png" >
 File: ./figures/software/has_targ_tones.png Graphic file (type QTm)
 
-<use  "./figures/software/has_targ_tones.png" > [304] [305] [306] [307]
+<use  "./figures/software/has_targ_tones.png" > [305] [306] [307] [308]
 Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
@@ -2649,7 +2649,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--527
 
  []
 
-[308] [309] [310] [311] [312] [313]
+[309] [310] [311] [312] [313] [314]
 Underfull \hbox (badness 10000) in paragraph at lines 866--883
 
  []
@@ -2659,7 +2659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 866--883
 
  []
 
-[314]
+[315]
 Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
@@ -2669,9 +2669,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 899--900
 
  []
 
-[315])
-Package atenddvi Info: Last page = 340.
- [316]
+[316])
+Package atenddvi Info: Last page = 341.
+ [317]
 \tf@toc=\write6
 \openout6 = `dis.toc'.
 
@@ -2694,12 +2694,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41269 strings out of 493591
- 728844 string characters out of 6145590
- 990793 words of memory out of 5000000
- 43899 multiletter control sequences out of 15000+600000
+ 41278 strings out of 493591
+ 729069 string characters out of 6145590
+ 989895 words of memory out of 5000000
+ 43908 multiletter control sequences out of 15000+600000
  25495 words of font info for 118 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  46i,22n,105p,10384b,33387s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on dis.pdf (340 pages).
+Output written on dis.pdf (341 pages).

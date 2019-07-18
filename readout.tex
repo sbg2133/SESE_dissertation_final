@@ -18,7 +18,7 @@ In the following sections, we describe the design and verification of the LEKID 
 
 \section{System Requirements}\label{sys reqs}
 
-The core system requirements for a KID readout system fall under categories of multiplexing factor, data rate, noise performance, size, weight, power and cost (SWaP-C) and timing synchronization. The readout system must be able to read out the required number of LEKID detectors at a rate determined by the telescope scan speed while contributing less noise than the detectors and cryogenic low-noise amplifiers (LNAs). To facilitate map mapping, the detector data packets must be timestamped in such a way that makes it possible to later align them with the timing information provided by the pointing system.
+The core system requirements for a KID readout system fall under categories of multiplexing factor, data rate, noise performance, size, weight, power and cost (SWaP-C) and timing synchronization. The readout system must be able to read out the required number of LEKID detectors at a rate determined by the telescope scan speed while contributing less noise than the detectors and cryogenic low-noise amplifiers (LNAs). To facilitate map making, the detector data packets must be timestamped in such a way that makes it possible to later align them with the timing information provided by the pointing system.
 
 It is important to note that the requirements which are discussed here pertain primarily to sub-mm/FIR/mm-wave KID cameras. O/NIR systems have slightly different requirements (see Section~\ref{onir_systems}). The following sections discuss the motivation behind each system requirement. The requirements are listed in Table~\ref{tab:sys reqs}. We begin with an overview of the system.
 
@@ -31,7 +31,7 @@ RF bandwidth (MHz) & 512 \\
 \gls{Sphase} / chan (dBc/Hz) & $\lesssim$ -95 \\
 1/f corner \gls{fc} (Hz) & $\lesssim$ 0.5 \\
 Data rate (Hz) & 200--500 \\
-Power dissipation (W) & $\lesssim$ 60 \\
+Power dissipation (W) & $\lesssim$ 65 \\
 Time stamp precision (ms) & $\lesssim$ 1 \\
 DAC Tone Resolution (Hz) & $\leq$ 1000 \\
 Multiplexing Factor & $\gtrsim$ 500 \\ \dbottomrule{}
@@ -162,7 +162,7 @@ where $f_{\mathrm{scan}}$ is determind by the telescope scan speed and a spatial
   P_{\mathrm{source}} = I_{\mathrm{source}} A_{\mathrm{prim}} B_{\mathrm{opt}} \gls{opt_eff} p
 \end{equation}
 
-where $A_{\mathrm{prime}}$ is the collecting area of the primary telescope ($\approx$~2.5~m$^{2}$, for BLAST-TNG), $B_{\mathrm{opt}}$ is the optical bandwidth ($\approx 0.3 \nu_{\mathrm{center}}$), \gls{opt_eff} is the system optical efficiency ($\approx$~30\%), and $p$ is the polarization fraction of the source ($\approx$~2\%). Using these approximate values as examples, a source with $I = 200$~$\mathrm{MJy}/\mathrm{sr}$ imaged in the BLAST-TNG 250~$\upmu$m band corresponds to $\gls{Popt} \approx 2.58 \times 10^{-16}$~W.
+where $A_{\mathrm{prime}}$ is the collecting area of the primary telescope ($\approx$~4.5~m$^{2}$, for BLAST-TNG), $B_{\mathrm{opt}}$ is the optical bandwidth ($\approx 0.3 \nu_{\mathrm{center}}$), \gls{opt_eff} is the system optical efficiency ($\approx$~30\%), and $p$ is the polarization fraction of the source ($\approx$~2\%). Using these approximate values as examples, a source with $I = 200$~$\mathrm{MJy}/\mathrm{sr}$ imaged in the BLAST-TNG 250~$\upmu$m band corresponds to $\gls{Popt} \approx 2.58 \times 10^{-16}$~W.
 
 Assuming the detectors are photon noise limited, the time required to map an area of $A_{\mathrm{map}}$ with a root-mean-square (RMS) uncertainty on the polarization fraction $\sigma_{p}$ is (for a single pixel):
 
@@ -200,7 +200,7 @@ To timestamp the ROACH2 data packets, the GPS-disciplined PPS is input into the 
 
 Given an unlimited power supply, the primary requirement regarding power dissipation is that the readout system must be able to operate without melting itself, or any other subsystem. However, from a SWaP-C standpoint it is desirable to minimize the power-per pixel to as low a level as possible. On a space-based or balloon-borne platform, the electronics must be able to passively cool.
 
-By virtue of flying during the Antarctic summer, the BLAST-TNG gondola is provided with 24~hr sunlight. Its total power budget is $\sim$1~kW. Using a thermal model of the BLAST-TNG gondola (see \citet{gordon2016}) it was determined that each readout slice should dissipate $\lesssim{60}$~W. This places the power-per pixel at $\sim$60~mW/pixel.
+By virtue of flying during the Antarctic summer, the BLAST-TNG gondola is provided with 24~hr sunlight. Its total power budget is $\sim$1~kW. Using a thermal model of the BLAST-TNG gondola (see \citet{gordon2016}) it was determined that each readout slice should dissipate $\lesssim{65}$~W. This places the power-per pixel at $\sim$65~mW/pixel.
 
 \section{Readout Electronics}\label{hardware and elec}
 
@@ -218,7 +218,7 @@ OctoClock CDA-2990\footnote{Ettus Research: \url{https://www.ettus.com}}. The Oc
 
 To allow for control of the Valon synthesizer and programmable attenuators (see Section~\ref{if electronics}), the BLAST-TNG electronics incorporate a Raspberry Pi 3\footnote{Raspberry Pi:\url{https://www.raspberrypi.org}} single-board computer in each readout slice. The programmable attenuators are also powered via USB through the Pis. Having a Pi in each readout slice reduces the amount of cable routing which is required between the electronics and DAQ/FC\@.
 
-Table~\ref{tab:dig power budget} lists the measured power dissipation of major components on the ROACH2 and MUSIC board with the firmware loaded and running (values taken from \citet{gordon2016}). At 30~W, the FPGA is the dominant power consumer in the readout system. The total power dissipation for the digital electronics is $\approx$47.5~W.
+Table~\ref{tab:dig power budget} lists the measured power dissipation of major components on the ROACH2 and MUSIC board with the firmware loaded and running (values taken from \citet{gordon2016}). At 30~W, the FPGA is the dominant power consumer in the readout system. The total power dissipation for the digital electronics is $\approx$47.8~W.
 
 \begin{table}[!htbp]
 \centering
@@ -232,7 +232,8 @@ ADCs & 2 & 2.6 \\
 QDR & 4 & 1.8 \\
 PHY & 2 & 1.0 \\
 DACs & 2 & 0.5 \\
-RASPBERRY PI 3 & 1 & 2.5 \\ \dbottomrule{}
+Raspberry Pi 3 & 1 & 2.5 \\ \midrule{}
+Total & & 47.8 \\ \dbottomrule{}
 \\
 \end{tabular}
 \caption[The power budget for the digital electronics used in each BLAST-TNG readout slice.]{The power budget for the digital electronics used in each BLAST-TNG readout slice.}
@@ -272,7 +273,7 @@ A schematic of the digital and IF electronics signal processing chain is shown i
 
 \textit{Downconversion chain:} The downconversion chain begins when the signal exits the cryostat. It is first low-pass filtered (cutoff frequency at $\sim$1~GHz) to remove any signal above $\sim$1~GHz which was amplified by the high gain of the cryogenic LNA\@. The signal then enters a second-stage amplifier, which for BLAST-TNG is a RT LNA which has been modified to operate on  5~VDC\@. The second-stage amplifier is followed by the programmable input attenuator, which feeds the demodulator. The demodulator splits the signal back into quadratures, which are passed through a third-stage of amplification that provides $\sim$20~dB of gain. The purpose of the third-stage amplifiers is to ensure that enough signal power enters the ADC when the probe tones are on resonance. The amplified quadratures are then low-pass filtered through the second pair of 1--256~MHz anti-aliasing filters, and input to the $I$ and $Q$ ADCs.
 
-The power dissipation for each of the active IF components is listed in Table~\ref{tab:if power budget}. Their total power dissipation is $\approx$~19~W. Adding this value to the $\approx$~45~W which are dissipated by the digital electronics (Section~\ref{digital electronics}) gives a total power dissipation of $\approx$~66~W. This per-readout slice power dissipation is within acceptable range of the BLAST-TNG power requirement of $\lesssim$60~W per slice.
+The power dissipation for each of the active IF components is listed in Table~\ref{tab:if power budget}. Their total power dissipation is $\approx$~26.7~W. Adding this value to the $\approx$~48.7~W which are dissipated by the digital electronics (Section~\ref{digital electronics}) gives a total power dissipation of $\approx$~74.5~W. This per-readout slice power dissipation is within acceptable range of the BLAST-TNG power requirement of $\lesssim$65~W per slice.
 
 \begin{table}[!htbp]
 \centering
@@ -284,8 +285,8 @@ RUDAT 6000-30 & 2 & 5 & 60 & 6 \\
 Polyphase AM0350A & 1 & +5/-5 & 250/30 & 2.75 \\
 Polyphase AD0540B & 1 & +5/-5 & 290/50 & 3.95 \\
 RT LNA & 1 & 5 & 30 & 1.5 \\
-Baseband RT Amps & 2 & 5 & 145 & 1.45 \\
- &  &  &  & 18.94 \\ \dbottomrule{}
+Baseband RT Amps & 2 & 5 & 145 & 1.45 \\ \midrule
+Total  &  &  &  & 26.7 \\ \dbottomrule{}
 \end{tabular}
 \caption[The power dissipation for the IF electronics used in each BLAST-TNG readout slice]{The power dissipation for the IF electronics used in each BLAST-TNG readout slice}
 \label{tab:if power budget}
@@ -333,7 +334,7 @@ Figure~\ref{fig:if slice} is an annotated photograph of one of the five BLAST-TN
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/readout/hardware/roach_motel_open}
-\caption[A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.]{A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.}
+\caption[A top view of the BLAST-TNG ROACH2 Motel with the lid removed.]{A top view of the BLAST-TNG ROACH2 Motel with the lid removed.}
 \label{fig:top roach}
 \end{figure}
 

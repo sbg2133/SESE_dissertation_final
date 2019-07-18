@@ -274,13 +274,7 @@ The KI can also be understood by considering the impedance. Because CPs are coll
 Therefore, the KI per unit length is
 
 \begin{equation}
-  \gls{Lk_per_l}(\omega) = \frac{1}{\gls{sig2}\omega t}
-\end{equation}
-
-and the KI per square is
-
-\begin{equation}
-  \gls{Lk_per_sq}(\omega) = \frac{1}{\gls{sig2}\omega t}
+  \gls{Lk_per_l}(\omega) = \frac{1}{\omega \gls{sig2} A}
 \end{equation}
 
 The impedance of the superconducting film can be written as a function of the conductivity:
@@ -383,7 +377,7 @@ where \gls{Qi} is the internal quality factor \citep{mauskopf2018transition}. Th
   \gls{Qi} = \frac{\Im(Z_{r})}{\Re(Z_{r})} = \frac{\omega_{c}L_{\mathrm{tot}}}{R_{\mathrm{eff}}} = \frac{\omega_{c} E_{r}}{P_{\mathrm{diss}}}
 \end{equation}
 
-where $E_{r}$ is the stored (internal) energy of the resonator, and $P_{\mathrm{diss}}$ is the dissipated power, or energy dissipated per cycle of the carrier tone at frequency $\omega_{c}$. The couping quality factor is (see \citet{barry2014development}):
+where $E_{r}$ is the stored (internal) energy of the resonator, and $P_{\mathrm{diss}}$ is the dissipated power, or energy dissipated per cycle of the carrier tone at frequency $\omega_{c}$. The coupling quality factor is (see \citet{barry2014development}):
 
 \begin{equation} \label{eq:Qc}
   \gls{Qc} = \frac{2(C_{r} + C_{c})}{\omega_{0}C_{c}^{2}Z_{0}}

@@ -158,6 +158,19 @@ Bohlin, R. (1978).
 \newblock Savage. bd, \& drake, jf 1978.
 \newblock {\em ApJ}, 224:132.
 
+\bibitem[\protect\astroncite{Bourrion et~al.}{2016}]{bourrion2016nikel_amc}
+Bourrion, O., Benoit, A., Bouly, J., Bouvier, J., Bosson, G., Calvo, M.,
+  Catalano, A., Goupy, J., Li, C., Macias-Perez, J., et~al. (2016).
+\newblock Nikel\_amc: Readout electronics for the nika2 experiment.
+\newblock {\em Journal of Instrumentation}, 11(11):P11001.
+
+\bibitem[\protect\astroncite{Bourrion et~al.}{2013}]{bourrion2013high}
+Bourrion, O., Vescovi, C., Catalano, A., Calvo, M., D'Addabbo, A., Goupy, J.,
+  Boudou, N., Macias-Perez, J., and Monfardini, A. (2013).
+\newblock High speed readout electronics development for frequency-multiplexed
+  kinetic inductance detector design optimization.
+\newblock {\em Journal of Instrumentation}, 8(12):C12006.
+
 \bibitem[\protect\astroncite{Boyd}{1986}]{boyd1986multitone}
 Boyd, S. (1986).
 \newblock Multitone signals with low crest factor.
@@ -336,6 +349,13 @@ Elmouttie, M., Haynes, R., Jones, K., Sadler, E., and Ehle, M. (1998).
 \newblock Radio continuum evidence for nuclear outflow in the circinus galaxy.
 \newblock {\em Monthly Notices of the Royal Astronomical Society},
   297(4):1202--1218.
+
+\bibitem[\protect\astroncite{Endo et~al.}{2012}]{endo2012design}
+Endo, A., Van~der Werf, P., Janssen, R., De~Visser, P., Klapwijk, T.,
+  Baselmans, J., Ferrari, L., Baryshev, A., and Yates, S. (2012).
+\newblock Design of an integrated filterbank for deshima: On-chip submillimeter
+  imaging spectrograph based on superconducting resonators.
+\newblock {\em Journal of Low Temperature Physics}, 167(3-4):341--346.
 
 \bibitem[\protect\astroncite{Fendt et~al.}{1998}]{fendt1998spiral}
 Fendt, C., Beck, R., and Neininger, N. (1998).

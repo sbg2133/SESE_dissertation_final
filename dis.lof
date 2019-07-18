@@ -32,7 +32,7 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces The BLAST-TNG ROACH2 Motel, fully assembled and taking in the sunset in Palestine, Texas, USA.}}{92}{figure.3.29}
 \contentsline {figure}{\numberline {30}{\ignorespaces The `Roach Boys' installing the Roach2 Motel on the BLAST-TNG gondola in Palestine, Texas, USA (July, 2018).}}{94}{figure.3.30}
 \contentsline {figure}{\numberline {31}{\ignorespaces An annotated photograph of one of the five BLAST-TNG ROACH2 electronics slices.}}{96}{figure.3.31}
-\contentsline {figure}{\numberline {32}{\ignorespaces A top view of the BLAST-TNG ROACH2 Motel, with the lid removed.}}{97}{figure.3.32}
+\contentsline {figure}{\numberline {32}{\ignorespaces A top view of the BLAST-TNG ROACH2 Motel with the lid removed.}}{97}{figure.3.32}
 \contentsline {figure}{\numberline {33}{\ignorespaces A schematic of the firmware DSP chain.}}{99}{figure.3.33}
 \contentsline {figure}{\numberline {34}{\ignorespaces The DAC frequency response (measured and simulated), with and without anti-aliasing filters.}}{103}{figure.3.34}
 \contentsline {figure}{\numberline {35}{\ignorespaces 2,000 {\bgroup \bgroup {{$I/Q$}}\egroup \egroup } samples of a digitized waveform for a single tone at f = 50.0125\nobreakspace {}Hz, and 1,000 evenly spaced tones.}}{104}{figure.3.35}
@@ -133,6 +133,6 @@
 \contentsline {figure}{\numberline {126}{\ignorespaces An IF electronics slice for TolTEC.}}{272}{figure.7.126}
 \contentsline {figure}{\numberline {127}{\ignorespaces A single-board board implementation of the TolTEC IF electronics.}}{273}{figure.7.127}
 \addvspace {0pt}
-\contentsline {figure}{\numberline {128}{\ignorespaces Example OWL screen when the ROACHs are powered down.}}{305}{figure.A.128}
-\contentsline {figure}{\numberline {129}{\ignorespaces Example OWL screen when the ROACHs are performing a full loop.}}{306}{figure.A.129}
-\contentsline {figure}{\numberline {130}{\ignorespaces Example OWL screen when the ROACHs are streaming, with target tones.}}{307}{figure.A.130}
+\contentsline {figure}{\numberline {128}{\ignorespaces Example OWL screen when the ROACHs are powered down.}}{306}{figure.A.128}
+\contentsline {figure}{\numberline {129}{\ignorespaces Example OWL screen when the ROACHs are performing a full loop.}}{307}{figure.A.129}
+\contentsline {figure}{\numberline {130}{\ignorespaces Example OWL screen when the ROACHs are streaming, with target tones.}}{308}{figure.A.130}
