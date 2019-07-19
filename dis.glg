@@ -1,7 +1,7 @@
 This is makeindex, version 2.15 [TeX Live 2016] (kpathsea + Thai support).
 Scanning style file ./dis.ist.............................done (29 attributes redefined, 0 ignored).
-Scanning input file dis.glo....done (879 entries accepted, 0 rejected).
-Sorting entries..........done (9991 comparisons).
-Generating output file dis.gls....done (349 lines written, 0 warnings).
+Scanning input file dis.glo....done (880 entries accepted, 0 rejected).
+Sorting entries..........done (10126 comparisons).
+Generating output file dis.gls....done (351 lines written, 0 warnings).
 Output written in dis.gls.
 Transcript written in dis.glg.

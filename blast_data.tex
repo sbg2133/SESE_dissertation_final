@@ -26,7 +26,7 @@ Every test of the detectors begins with a frequency sweep of the full 512~MHz RF
 
 \subsection{The Wide-sweep Frequency Response}\label{freq response}
 
-Figures~\ref{fig:350 wide sweep} and Figures~\ref{fig:350 zoom} show an overlay of two example sweeps of the 350~$\upmu$m array. The blue sweep was taken in May, 2018, and the orange trace was taken in July, 2018. The blue sweep shows the raw (uncorrected) frequency response of the readout system and detector chain, whereas the orange trace was produced by applying several corrections to the readout probe tone amplitudes. The transfer function correction is described in Section~\ref{TRF}. Both sweeps were taken with the cryostat window exposed to the $\sim$300~K thermal radiation of the highbay. A (2.85\%) 4\% neutral-density filter (NDF) inside the receiver's cold-optics limits the optical power which reaches the detectors (after accounting for an optical efficiency \gls{opt_eff} of $\sim$30, and a detector efficiency \gls{det_eff} of $\sim$80\%) to $\sim$10~pW.
+Figures~\ref{fig:350 wide sweep} and Figures~\ref{fig:350 zoom} show an overlay of two example sweeps of the 350~$\upmu$m array. The blue sweep was taken in May, 2018, and the orange trace was taken in July, 2018. The blue sweep shows the raw (uncorrected) frequency response of the readout system and detector chain, whereas the orange trace was produced by applying several corrections to the readout probe tone amplitudes. The transfer function correction is described in Section~\ref{TRF}. Both sweeps were taken with the cryostat window exposed to the $\sim$300~K thermal radiation of the highbay. A (2.85\%) 4\% neutral-density filter (NDF) inside the receiver's cold-optics limits the optical power which reaches the detectors (after accounting for an instrumental optical efficiency \gls{opt_eff} of $\sim$30\%, and a detector efficiency \gls{det_eff} of $\sim$80\%) to $\sim$10~pW.
 
 The frequency response (or transfer function) of the system contains information about the frequency response of every element in the detector chain. The primary contributors are the ROACH2 electronics, input and output side intermediate-frequency (IF) electronics, room-temperature as well as cryogenic cabling, the cryogenic low-noise amplifier (LNA) and the detector arrays themselves. In the frequency domain, the total system response is the product of the transfer function for each of the individual elements.
 
@@ -284,9 +284,9 @@ An example of a 350~$\upmu$m target sweep, taken at CSBF, is shown in Figure~\re
 
 \subsection{Readout Power Optimization}\label{readout power}
 
-The readout probe tones have an effect on resonator frequencies and quality factors. These effects, and their relation to the nonlinear kinetic inductance, are discussed in Chapter~\ref{kid_model}. Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} show the effects of varying the readout power for two different resonators on one of the 250~$\upmu$m arrays. In this example, the readout power was increased in six increments of 3~dB by decreasing the output attenuation in the ROACH2 IF electronics, producing a range of $\sim$ -90 to -72 dBm. The output attenuator settings, in dB, are listed in the figure legends.
+The readout probe tones have an effect on resonator frequencies and quality factors. These effects, and their relation to the nonlinear kinetic inductance, are discussed in Chapter~\ref{kid_model}. Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} show the effects of varying the readout power for two different resonators on one of the 250~$\upmu$m arrays. In this example, the readout power was increased in six increments of 3~dB by decreasing the warm output attenuation in the ROACH2 IF electronics, producing a range of tone powers from $\sim$ -90 to -72 dBm. The output attenuator settings, in dB, are listed in the figure legends.
 
-The data shown in Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} are overlays of target sweeps taken at each readout power. In each figure, the top panel shows $\left| \gls{S21} \right|^{2}$, the middle panel shows the phase of \gls{S21}, \gls{phiIQ}, and the bottom panel shows the $I/Q$ circle in the complex plane, in scaled raw units. It can be seen in both figures that above a certain readout power, the resonator frequency detuning and Q degradation becomes nonlinear (due to the nonlinear kinetic inductance). For both channels, the resonator detuning reaches $\sim$1 linewidth before the nonlinearity sets in. For the resonator in Figure~\ref{fig:may out atten bifurc}, bifurcation sets in before the last 6~dB of tone power stepping. The bifurcation is visible as a sharp discontinuity in each panel.
+The data shown in Figures~\ref{fig:may out atten} and~\ref{fig:may out atten bifurc} are overlays of target sweeps taken at each readout power. In each figure, the top panel shows $\left| \gls{S21} \right|^{2}$, the middle panel shows the phase of \gls{S21}, \gls{phiIQ}, and the bottom panel shows the $I/Q$ circle in the complex plane, in scaled raw units, for $\gls{S21}V_{\mathrm{readout}}$. It can be seen in both figures that above a certain readout power, the resonator frequency detuning and Q degradation becomes nonlinear (due to the nonlinear kinetic inductance). For both channels, the resonator detuning reaches $\sim$1~linewidth before the nonlinearity sets in. For the resonator in Figure~\ref{fig:may out atten bifurc}, bifurcation sets in before the last 6~dB of tone power stepping. The bifurcation is visible as a sharp discontinuity in each panel.
 
 At lower readout powers, the effects seen in $\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and in the $I/Q$ circle are similar to what would be observed from either optical or thermal loading. As tone power increases, the slope of the phase decreases, and the $I/Q$ circles become more elliptical.
 
@@ -294,7 +294,7 @@ In practice, the optical responsivity of each resonator is maximized at a slight
 
 \begin{figure}[!ptbh]
 \centering
-\caption[~Sweeps at different tone powers for a single resonator.]{$\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and $I/Q$ loops for target sweeps of a single 250~$\upmu$m channel over a range of readout powers.}
+\caption[~Sweeps at different tone powers for a single resonator.]{$\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and $I/Q$ loops for target sweeps of a single 250~$\upmu$m channel for a range of warm output attenuator settings.}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/mag_tone_power_may}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/phase_tone_power_may}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/IQ_tone_power_may}
@@ -303,7 +303,7 @@ In practice, the optical responsivity of each resonator is maximized at a slight
 
 \begin{figure}[!ptbh]
 \centering
-\caption[~Sweeps at different tone powers for a single resonator, showing bifurcation.]{$\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and $I/Q$ loops for a range of tone powers, showing bifurcation.}
+\caption[~Sweeps at different tone powers for a single resonator, showing bifurcation.]{$\left| \gls{S21} \right|^{2}$, \gls{phiIQ} and $I/Q$ loops for a range of warm output attenuator settings, showing bifurcation.}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/mag_tone_power_bifurc}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/phase_tone_power_bifurc}
 \includegraphics[width=0.68\textwidth]{figures/blast_data/sweeps/IQ_tone_power_bifurc}
@@ -422,7 +422,7 @@ Using the example channel values for $f_{0}$, \gls{Qr} and \gls{Qc} from Table~\
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/timestreams/350_pal_Sxx_hist_448}
-\caption[~A histogram of frequency and dissipation noise for the 350~\macrocapwrap{$\upmu$m} array, in Palestine.]{A histogram of \gls{Sxx} and \gls{Syy} for the 350~$\upmu$m array,in Palestine.}
+\caption[~A histogram of frequency and dissipation noise for the 350~\macrocapwrap{$\upmu$m} array, as measured in Palestine, TX.]{A histogram of \gls{Sxx} and \gls{Syy} for the 350~$\upmu$m array, as measured in Palestine, TX.}
 \label{fig:350 freq diss}
 \end{figure}
 
@@ -457,7 +457,7 @@ Because there are over 2,500 BLAST-TNG detectors, it would be impractical to pre
 \gls{Qr}/\gls{Qc} & 0.073 & 0.28 & 0.56 & 0.24 & 0.22 \\
 Depth (dB) & -0.74 & -3.22 & -7.81 & -2.52 & -2.28 \\
 \gls{Sxx} (1/Hz) & 28 $\times$ 10$^{-17}$ & 30 $\times$ 10$^{-17}$ & 0.34 $\times$ 10$^{-17}$ & 3.5 $\times$ 10$^{-17}$ & 4 $\times$ 10$^{-17}$ \\
-\gls{Syy} (1/Hz) & 25 $\times$ 10$^{-17}$ & 27 $\times$ 10$^{-17}$ & 0.21 $\times$ 10$^{-17}$ & 2.4 $\times$ 10$^{-17}$ & 25 $\times$ 10$^{-17}$ \\
+\gls{Syy} (1/Hz) & 25 $\times$ 10$^{-17}$ & 27 $\times$ 10$^{-17}$ & 0.21 $\times$ 10$^{-17}$ & 2.4 $\times$ 10$^{-17}$ & 2.5 $\times$ 10$^{-17}$ \\
 NEP$_{\mathrm{freq}}$ W/$\sqrt{\mathrm{Hz}}$ & 10 $\times$ 10$^{-17}$ & 100 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 35 $\times$ 10$^{-17}$ & 37 $\times$ 10$^{-17}$ \\ \dbottomrule{}
 \\
 \end{tabular}
@@ -508,7 +508,7 @@ NEP$_{\mathrm{freq}}$ W/$\sqrt{\mathrm{Hz}}$ & 10 $\times$ 10$^{-17}$ & 100 $\ti
 \begin{figure}[!htbp]
 \centering
 \includegraphics[width=\textwidth]{figures/blast_data/hist/PAL_NEP_hist_R2}
-\caption[~Histogram of \macrocapwrap{NEP$_{\mathrm{freq}}$} for the 250U array, measured at CSBF.]{Histogram of NEP$_{\mathrm{freq}}$ for the 250U array, measured at CSBF.}
+\caption[~Histogram of \macrocapwrap{NEP$_{\mathrm{freq}}$} for the 250V array, measured at CSBF.]{Histogram of NEP$_{\mathrm{freq}}$ for the 250V array, measured at CSBF.}
 \label{fig:pal nep 250V}
 
 \end{figure}
@@ -639,7 +639,7 @@ If the optical responsivity is known or assumed, the NEP can be calculated as:
 
 Because $e_{f}$ is complex, Equations~\ref{eq:NET freq} and~\ref{eq:NEP} allow for the NET and NEP in both the phase and dissipation quadratures to be calculated.
 
-The thermal source chop in Figure~\ref{fig:T chop} was produced with $\Delta T \simeq 15$~K. At the time of the measurement there was a 2.85\% NDF inside the cryostat. Using Equation~\ref{eq:NET freq}, and multiplying by the loss from the NDF gives $NET_{\mathrm{tot}} = 825$~$\upmu$K/$\sqrt{\mathrm{Hz}}$. Assuming a 30\% passband width, this value corresponds to $NEP_{\mathrm{freq,tot}} = 5.55 \times 10^{-16}$~W/$\sqrt{\mathrm{Hz}}$. Assuming the \gls{Ropt} value for the 350~$\upmu$m array in Table~\ref{table:responsivities}, the optical efficiency for this channel is found to $\sim$20\%. For this particular channel, the frequency noise in the dissipation quadrature was found to be slightly less than half of the noise in the phase quadrature. This indicates that the channel is close to being photon noise limited ($NEP_{\mathrm{phot}} > NEP_{\mathrm{diss}}$). Values for the NET and NEP in the two quadratures are listed in Table~\ref{table:NET NEP example}.
+The thermal source chop in Figure~\ref{fig:T chop} was produced with $\Delta T \simeq 15$~K. At the time of the measurement there was a 2.85\% NDF inside the cryostat. Using Equation~\ref{eq:NET freq}, and multiplying by the loss from the NDF gives $NET_{\mathrm{tot}} = 825$~$\upmu$K/$\sqrt{\mathrm{Hz}}$. Assuming a 30\% passband width, this value corresponds to $NEP_{\mathrm{freq,tot}} = 5.55 \times 10^{-16}$~W/$\sqrt{\mathrm{Hz}}$. Assuming the \gls{Ropt} value for the 350~$\upmu$m array in Table~\ref{table:responsivities}, the optical efficiency for this channel is found to $\sim$20\%. For this particular channel, the frequency noise in the dissipation quadrature was found to be slightly less than half of the noise in the phase quadrature. This indicates that the channel is close to being photon noise limited ($NEP_{\mathrm{phot}} > NEP_{\mathrm{diss}}$, where $NEP_{\mathrm{diss}}$ is calculated using the noise in the dissipation quadrature and the frequency responsivity). Values for the NET and NEP in the two quadratures are listed in Table~\ref{table:NET NEP example}.
 
 % NEP, thermal source chops
 
@@ -700,7 +700,7 @@ $I_{\mathrm{min}}$ MJy/sr & 78.16 & 49.46 & 10.19 \\ \dbottomrule{}
 
 The measured electrical NEP values from Palestine are slightly higher than the estimated values in the proposal, but comparable to those given for the photon noise NEPs in the proposal. During the measurement when the electrical NEPs were calculated, it is possible that many of the detectors were photon noise limited. However, they were not optimally biased in terms of readout power, which causes the NEP in the dissipation direction to contribute more to the total NEP\@. The values for NEP$_{\mathrm{freq}}$ given in the proposal assume that the dissipation quadrature contributes $\sim$33\% to the total. In the Palestine measurements, the dissipation quadrature constitutes $\sim$65\% of the total.
 
-Despite the slightly higher NEPs, the estimated NEFDs and map noise are almost an order of magnitude higher than those reported for BLAST 2006 \citep{marsden2009blast}. This bodes well for the planned 2019/2020 flight of BLAST-TNG\@.
+Despite the slightly higher NEPs, the NEFDs are lower than in BLAST 2006 and the corresponding mapping speed is an order of magnitude higher \citep{marsden2009blast}. This bodes well for the planned 2019/2020 flight of BLAST-TNG\@.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Model fitting
